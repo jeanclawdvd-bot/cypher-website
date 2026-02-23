@@ -6,6 +6,7 @@
   flex-direction: column;
   gap: 5rem;
   font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  overflow: hidden;
 }
 
 /* ============================================================================
@@ -20,7 +21,7 @@
 
 .eyebrow {
   font-size: 0.6875rem;
-  font-weight: 600;
+  font-weight: 450;
   letter-spacing: 0.15em;
   color: #969696;
   font-family: var(--font-mono), 'Fira Code', monospace;
@@ -50,10 +51,11 @@
    ============================================================================ */
 
 .heroCarousel {
-  --carousel-slide-width: min(900px, 70vw);
-  --carousel-aspect-ratio: 16 / 10;
-  width: calc(100% + (100vw - 100%) / 2);
-  max-width: none;
+  --carousel-slide-width: 100%;
+  --carousel-aspect-ratio: 16 / 9;
+  --carousel-track-gap: 0px;
+  --carousel-track-padding-right: 0px;
+  width: 100%;
 }
 
 /* ============================================================================
@@ -71,22 +73,22 @@
 .pillars {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1px;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  width: min(900px, 70vw);
+  gap: 2.5rem;
+  background: transparent;
+  border: none;
+  width: 100%;
 }
 
 .pillarCard {
   display: flex;
   flex-direction: column;
-  padding: 2rem 1.75rem 2.25rem;
-  background: #0a0a0a;
+  padding: 0;
+  background: transparent;
 }
 
 .pillarFig {
   font-size: 0.6875rem;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.1em;
   color: rgba(255, 255, 255, 0.25);
   font-family: var(--font-mono), 'Fira Code', monospace;
@@ -105,7 +107,7 @@
 
 .pillarTitle {
   font-size: 0.9375rem;
-  font-weight: 600;
+  font-weight: 450;
   color: #f0f0ec;
   margin-bottom: 0.5rem;
 }
@@ -161,10 +163,22 @@
 }
 
 .carouselBleed {
-  width: calc(100% + (100vw - 100%) / 2 - 2rem);
-  max-width: none;
-  overflow: visible;
+  width: 100%;
+  overflow: hidden;
   margin-top: 0.5rem;
+  position: relative;
+}
+
+.carouselBleed::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 6rem;
+  height: 100%;
+  background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.7) 75%, #000 100%);
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* ============================================================================
@@ -219,21 +233,20 @@
 
 .capabilityIcon {
   flex-shrink: 0;
-  width: 36px;
-  height: 36px;
+  width: 46px;
+  height: 46px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 0;
-  background: rgba(255, 255, 255, 0.04);
+  background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.08);
   color: #f0f0ec;
-  margin-top: 2px;
 }
 
 .capabilityTitle {
   font-size: 0.9375rem;
-  font-weight: 600;
+  font-weight: 450;
   color: #f0f0ec;
   margin-bottom: 0.25rem;
 }
@@ -279,11 +292,9 @@
 }
 
 .trustLabel {
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
+  font-size: 0.9375rem;
+  font-weight: 450;
   color: #f0f0ec;
-  font-family: var(--font-mono), 'Fira Code', monospace;
 }
 
 .trustDesc {
@@ -320,7 +331,7 @@
 
 .deployLabel {
   font-size: 0.6875rem;
-  font-weight: 600;
+  font-weight: 450;
   letter-spacing: 0.12em;
   color: #f0f0ec;
   font-family: var(--font-mono), 'Fira Code', monospace;
@@ -357,7 +368,7 @@
 
 .shiftOld {
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.06em;
   color: #969696;
   padding: 0.375rem 0.875rem;
@@ -373,7 +384,7 @@
 
 .shiftNew {
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 450;
   letter-spacing: 0.06em;
   color: #f0f0ec;
   padding: 0.375rem 0.875rem;
@@ -406,7 +417,7 @@
 
 .shiftTo {
   font-size: 0.8125rem;
-  font-weight: 500;
+  font-weight: 400;
   color: #f0f0ec;
   line-height: 1.5;
 }
@@ -438,7 +449,7 @@
 .desktopFeature {
   padding: 0.375rem 0.875rem;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.04em;
   color: #f0f0ec;
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -503,7 +514,7 @@
 
 .startCoda {
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 400;
   color: #969696;
   margin-top: 0.25rem;
 }
@@ -547,17 +558,11 @@
   }
 
   .heroCarousel {
-    --carousel-slide-width: 85vw;
-    width: calc(100% + 1.25rem);
-  }
-
-  .carouselBleed {
-    width: calc(100% + 1.25rem);
+    --carousel-slide-width: 100%;
   }
 
   .pillars {
     grid-template-columns: 1fr;
-    width: 85vw;
   }
 
   .trustGrid {

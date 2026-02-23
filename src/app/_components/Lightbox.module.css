@@ -15,7 +15,7 @@
 
 .image {
   position: fixed;
-  object-fit: cover;
+  object-fit: contain;
   transition:
     left 400ms cubic-bezier(0.4, 0, 0.2, 1),
     top 400ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -24,4 +24,15 @@
     transform 400ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 400ms cubic-bezier(0.4, 0, 0.2, 1);
   will-change: left, top, width, height, transform;
+}
+
+.imageExiting {
+  opacity: 0;
+  transition:
+    left 400ms cubic-bezier(0.4, 0, 0.2, 1),
+    top 400ms cubic-bezier(0.4, 0, 0.2, 1),
+    width 400ms cubic-bezier(0.4, 0, 0.2, 1),
+    height 400ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 400ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 300ms cubic-bezier(0.4, 0, 0.2, 1) 100ms;
 }

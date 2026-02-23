@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { Topbar } from '@cypher-asi/zui';
 import { ArrowUpRight, ChevronRight } from 'lucide-react';
 import { TypewriterText } from './TypewriterText';
@@ -24,7 +24,16 @@ interface NavSection {
 }
 
 const sections: NavSection[] = [
-  { id: 'zero', label: 'ZERO', href: '/zero' },
+  {
+    id: 'zero',
+    label: 'ZERO',
+    subItems: [
+      { id: 'zero-os', label: 'ZERO OS', href: '/zero' },
+      { id: 'zero-id', label: 'ZERO ID', href: '/zero/id' },
+      { id: 'zero-chat', label: 'ZERO CHAT', href: '/zero/chat' },
+      { id: 'zero-vault', label: 'ZERO VAULT', href: '/zero/vault' },
+    ],
+  },
   {
     id: 'agents',
     label: 'AGENTS',
@@ -134,8 +143,17 @@ export function Nav() {
   const pathname = usePathname();
   const [openSectionId, setOpenSectionId] = useState<string | null>(null);
 
+  const router = useRouter();
+
   const handleToggle = (id: string) => {
-    setOpenSectionId((prev) => (prev === id ? null : id));
+    if (openSectionId === id) {
+      setOpenSectionId(null);
+      return;
+    }
+    setOpenSectionId(id);
+    const section = sections.find((s) => s.id === id);
+    const firstHref = section?.subItems?.[0]?.href;
+    if (firstHref) router.push(firstHref);
   };
 
   const titleSegments: TypewriterSegment[] = useMemo(

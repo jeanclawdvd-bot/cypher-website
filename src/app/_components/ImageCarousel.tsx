@@ -15,15 +15,18 @@ export interface CarouselSlide {
 interface ImageCarouselProps {
   slides: CarouselSlide[];
   className?: string;
+  sizes?: string;
+  unoptimized?: boolean;
 }
 
 interface LightboxState {
   src: string;
   alt: string;
   rect: DOMRect;
+  originEl: HTMLElement;
 }
 
-export function ImageCarousel({ slides, className }: ImageCarouselProps) {
+export function ImageCarousel({ slides, className, sizes, unoptimized }: ImageCarouselProps) {
   const trackRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
@@ -188,8 +191,9 @@ export function ImageCarousel({ slides, className }: ImageCarouselProps) {
               className={`${styles.imageWrap} ${slide.src ? styles.imageClickable : ''}`}
               onClick={(e) => {
                 if (!slide.src) return;
-                const rect = e.currentTarget.getBoundingClientRect();
-                setLightbox({ src: slide.src, alt: slide.alt ?? '', rect });
+                const el = e.currentTarget as HTMLElement;
+                const rect = el.getBoundingClientRect();
+                setLightbox({ src: slide.src, alt: slide.alt ?? '', rect, originEl: el });
               }}
             >
               {slide.src ? (
@@ -197,7 +201,9 @@ export function ImageCarousel({ slides, className }: ImageCarouselProps) {
                   src={slide.src}
                   alt={slide.alt ?? ''}
                   fill
-                  sizes="(max-width: 640px) 80vw, 340px"
+                  sizes={sizes ?? '(max-width: 640px) 80vw, 340px'}
+                  quality={100}
+                  unoptimized={unoptimized}
                   className={styles.image}
                 />
               ) : (
@@ -220,9 +226,9 @@ export function ImageCarousel({ slides, className }: ImageCarouselProps) {
         ))}
       </div>
 
-      {canScrollLeft && (
+      <div className={styles.arrows}>
         <button
-          className={`${styles.arrow} ${styles.arrowLeft}`}
+          className={`${styles.arrow} ${!canScrollLeft ? styles.arrowDisabled : ''}`}
           onClick={() => scroll('left')}
           aria-label="Scroll left"
           tabIndex={-1}
@@ -231,11 +237,8 @@ export function ImageCarousel({ slides, className }: ImageCarouselProps) {
             <path d="M10 3L5 8L10 13" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>
-      )}
-
-      {canScrollRight && (
         <button
-          className={`${styles.arrow} ${styles.arrowRight}`}
+          className={`${styles.arrow} ${!canScrollRight ? styles.arrowDisabled : ''}`}
           onClick={() => scroll('right')}
           aria-label="Scroll right"
           tabIndex={-1}
@@ -244,13 +247,14 @@ export function ImageCarousel({ slides, className }: ImageCarouselProps) {
             <path d="M6 3L11 8L6 13" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>
-      )}
+      </div>
 
       {lightbox && (
         <Lightbox
           src={lightbox.src}
           alt={lightbox.alt}
           originRect={lightbox.rect}
+          originEl={lightbox.originEl}
           onClose={() => setLightbox(null)}
         />
       )}

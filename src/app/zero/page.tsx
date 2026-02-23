@@ -3,42 +3,43 @@ import { ImageCarousel } from '../_components/ImageCarousel';
 import type { CarouselSlide } from '../_components/ImageCarousel';
 import { FAQ } from '../_components/FAQ';
 import type { FAQItem } from '../_components/FAQ';
+import zeroOs1 from './assets/zero-os-1.png';
 
 const heroSlides: CarouselSlide[] = [
-  { src: '/images/zero/zero-os-hero.jpg', alt: 'ZERO OS interface' },
-  { src: '/images/zero/Films_Ex_Machina_M_018.jpg', alt: 'ZERO OS concept' },
+  { src: zeroOs1.src, alt: 'ZERO OS interface' },
+  { src: '/images/zero/Films_Ex_Machina_M_018.jpg', alt: 'ZERO OS concept art' },
 ];
 
 const faqItems: FAQItem[] = [
   {
     question: 'What is ZERO OS?',
     answer:
-      'ZERO is a modern operating system built for a world where computing is distributed, AI-driven, and constantly connected. It creates a single trusted environment that moves with you—wherever it runs.',
+      'ZERO OS is a modern operating system built for a world where computing is distributed, AI-driven, and constantly connected. It creates a single trusted environment that moves with you—wherever it runs.',
   },
   {
-    question: 'How does ZERO handle security?',
+    question: 'How does ZERO OS handle security?',
     answer:
       'Security is built in at every layer using post-quantum cryptography. All files, communications, financial transactions, and identity are protected by default—not as an add-on or plugin.',
   },
   {
     question: 'What does "agent-first" mean?',
     answer:
-      'In ZERO, AI agents are first-class citizens. You can launch secure agents that execute tasks, coordinate across systems, and operate autonomously—all within your cryptographic trust boundary.',
+      'In ZERO OS, AI agents are first-class citizens. You can launch secure agents that execute tasks, coordinate across systems, and operate autonomously—all within your cryptographic trust boundary.',
   },
   {
-    question: 'Can I run ZERO on my existing hardware?',
+    question: 'Can I run ZERO OS on my existing hardware?',
     answer:
-      'Yes. ZERO runs anywhere—in a web browser for instant access, inside a virtual machine for isolated workloads, or directly on bare metal for maximum performance. The experience and security guarantees remain identical across all deployment targets.',
+      'Yes. ZERO OS runs anywhere—in a web browser for instant access, inside a virtual machine for isolated workloads, or directly on bare metal for maximum performance. The experience and security guarantees remain identical across all deployment targets.',
   },
   {
     question: 'Do I have to replace my current OS?',
     answer:
-      'No. ZERO can coexist with your existing setup. Start in the browser or a VM with no commitment. Expand as needed—your environment remains consistent across all modes.',
+      'No. ZERO OS can coexist with your existing setup. Start in the browser or a VM with no commitment. Expand as needed—your environment remains consistent across all modes.',
   },
   {
-    question: 'Is ZERO open source?',
+    question: 'Is ZERO OS open source?',
     answer:
-      'Core components of the ZERO ecosystem are being developed in the open. The architecture emphasizes determinism, minimalism, and inspectability so behavior can be trusted—not assumed.',
+      'Core components of the ZERO OS ecosystem are being developed in the open. The architecture emphasizes determinism, minimalism, and inspectability so behavior can be trusted—not assumed.',
   },
 ];
 
@@ -76,7 +77,7 @@ const featureSlides: CarouselSlide[] = [
   {
     title: 'Browser runtime.',
     description:
-      'Access ZERO instantly from any modern web browser—no install required.',
+      'Access ZERO OS instantly from any modern web browser—no install required.',
   },
   {
     title: 'Portable identity.',
@@ -90,19 +91,19 @@ export default function ZeroPage() {
     <div className={styles.page}>
       {/* 1. The Promise */}
       <header id="hero" className={styles.hero}>
-        <p className={styles.eyebrow}>ZERO</p>
+        <p className={styles.eyebrow}>ZERO OS</p>
         <h1 className={styles.heading}>
           A Secure OS
           <br />
           <span className={styles.accent}>for an Agentic World.</span>
         </h1>
         <p className={styles.subtitle}>
-        ZERO is a new operating system that unifies your devices, data, and intelligence into one secure environment that goes wherever you do.
+        ZERO OS is a new operating system that unifies your devices, data, and AI into one secure environment that goes wherever you do.
         </p>
       </header>
 
       <div className={styles.heroCarousel}>
-        <ImageCarousel slides={heroSlides} />
+        <ImageCarousel slides={heroSlides} unoptimized />
       </div>
 
       <p className={styles.pillarsLead}>
@@ -111,7 +112,6 @@ export default function ZeroPage() {
 
       <section className={styles.pillars}>
         <div className={styles.pillarCard}>
-          <span className={styles.pillarFig}>FIG 0.1</span>
           <div className={styles.pillarIllustration}>
             <svg width="260" height="230" viewBox="0 0 260 230" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g stroke="rgba(255,255,255,0.32)" strokeWidth="0.75">
@@ -127,12 +127,11 @@ export default function ZeroPage() {
           </div>
           <p className={styles.pillarTitle}>Built for security</p>
           <p className={styles.pillarDesc}>
-            ZERO is built from the ground up with post-quantum cryptography and verifiability at every layer.
+            ZERO OS is built from the ground up with post-quantum cryptography and verifiability at every layer.
           </p>
         </div>
 
         <div className={styles.pillarCard}>
-          <span className={styles.pillarFig}>FIG 0.2</span>
           <div className={styles.pillarIllustration}>
             <svg width="260" height="230" viewBox="0 0 260 230" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g stroke="rgba(255,255,255,0.32)" strokeWidth="0.75">
@@ -165,7 +164,6 @@ export default function ZeroPage() {
         </div>
 
         <div className={styles.pillarCard}>
-          <span className={styles.pillarFig}>FIG 0.3</span>
           <div className={styles.pillarIllustration}>
             <svg width="260" height="230" viewBox="0 0 260 230" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g stroke="rgba(255,255,255,0.32)" strokeWidth="0.75">
@@ -196,7 +194,7 @@ export default function ZeroPage() {
           AI tools all operate under different trust models.
         </p>
         <p className={styles.promiseBody}>
-          ZERO unifies them into one cryptographically secure desktop where your
+          ZERO OS unifies them into one cryptographically secure desktop where your
           identity, data, and automation live together—not scattered across
           platforms. You don&apos;t log into environments. You carry your
           environment with you.
@@ -422,7 +420,7 @@ export default function ZeroPage() {
           </h2>
         </div>
         <p className={styles.body}>
-          ZERO is open and auditable by design. Its architecture emphasizes
+          ZERO OS is open and auditable by design. Its architecture emphasizes
           determinism, minimalism, and inspectability so behavior can be trusted—not
           assumed.
         </p>
@@ -435,7 +433,7 @@ export default function ZeroPage() {
         <div className={styles.sectionHeader}>
           <p className={styles.eyebrow}>GET STARTED</p>
           <h2 className={styles.heading}>
-            Try ZERO.
+            Try ZERO OS.
           </h2>
         </div>
         <div className={styles.startActions}>

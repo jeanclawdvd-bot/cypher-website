@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   z-index: 100;
-  backdrop-filter: blur(16px);
+  backdrop-filter: none;
   border-bottom: none;
   background: transparent !important;
   height: auto;

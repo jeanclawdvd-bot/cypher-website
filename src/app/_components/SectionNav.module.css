@@ -1,57 +1,49 @@
-/* Fixed overlay centered in the topbar row */
+/* Fixed vertical nav on the right side of the page */
 .wrapper {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 101;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 24px;
+  z-index: 100;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 52px;
   pointer-events: none;
 }
 
 .sectionNav {
   display: flex;
-  align-items: center;
-  gap: 1px;
+  flex-direction: column;
+  gap: 2px;
   pointer-events: auto;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 2px;
-  padding: 2px;
 }
 
 .item {
   all: unset;
-  padding: 5px 12px;
-  font-size: 10px;
+  padding: 6px 2px;
+  font-size: 12.5px;
   font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0.02em;
   color: #969696;
   cursor: pointer;
-  border-radius: 1px;
+  border-radius: 4px;
   transition:
     color 200ms ease,
     background 200ms ease;
-  font-family: var(--font-mono), 'JetBrains Mono', monospace;
+  font-family: inherit;
   white-space: nowrap;
+  text-align: right;
 }
 
 .item:hover {
   color: #969696;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .active {
   color: #f0f0ec;
-  background: rgba(255, 255, 255, 0.06);
 }
 
-/* Hide on narrow viewports where topbar is tight */
-@media (max-width: 768px) {
+/* Hide when right margin is too narrow */
+@media (max-width: 1200px) {
   .wrapper {
     display: none;
   }

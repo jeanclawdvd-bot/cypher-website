@@ -8,6 +8,7 @@ interface LightboxProps {
   src: string;
   alt: string;
   originRect: DOMRect;
+  originEl?: HTMLElement;
   onClose: () => void;
 }
 
@@ -15,22 +16,27 @@ const WHEEL_DISMISS_THRESHOLD = 150;
 const TOUCH_DISMISS_THRESHOLD = 100;
 const SNAP_BACK_DELAY = 300;
 
-export function Lightbox({ src, alt, originRect, onClose }: LightboxProps) {
+function dragProgress(absDrag: number, threshold: number) {
+  const t = Math.min(absDrag / threshold, 1);
+  return { scale: 1 - t * 0.12, bgOpacity: 0.92 * (1 - t * 0.5) };
+}
+
+export function Lightbox({ src, alt, originRect, originEl, onClose }: LightboxProps) {
   const [phase, setPhase] = useState<'enter' | 'open' | 'exit'>('enter');
   const imgRef = useRef<HTMLImageElement>(null);
   const overlayRef = useRef<HTMLDivElement>(null);
   const dragY = useRef(0);
-  const dismissing = useRef(false);
-  const savedScrollY = useRef(0);
+  const closingRef = useRef(false);
   const snapBackTimer = useRef<ReturnType<typeof setTimeout>>();
   const onCloseRef = useRef(onClose);
   onCloseRef.current = onClose;
 
   const close = useCallback(() => {
-    if (phase === 'exit' || dismissing.current) return;
+    if (closingRef.current) return;
+    closingRef.current = true;
     dragY.current = 0;
     setPhase('exit');
-  }, [phase]);
+  }, []);
 
   useEffect(() => {
     if (phase === 'enter') {
@@ -40,61 +46,58 @@ export function Lightbox({ src, alt, originRect, onClose }: LightboxProps) {
     }
   }, [phase]);
 
-  // When entering exit phase, clear any gesture-applied inline styles
-  // so the CSS class-based transitions can animate cleanly to origin
+  const exitRectRef = useRef<DOMRect>(originRect);
+
+  // Clear gesture inline styles so CSS transitions drive the exit animation
   useLayoutEffect(() => {
-    if (phase === 'exit') {
-      const img = imgRef.current;
-      const overlay = overlayRef.current;
-      if (img) {
-        img.style.transition = '';
-        img.style.transform = '';
-        img.style.opacity = '';
-      }
-      if (overlay) {
-        overlay.style.transition = '';
-        overlay.style.background = '';
-      }
+    if (phase !== 'exit') return;
+    if (originEl) {
+      exitRectRef.current = originEl.getBoundingClientRect();
     }
-  }, [phase]);
+    const img = imgRef.current;
+    const overlay = overlayRef.current;
+    if (img) {
+      img.style.transition = '';
+      img.style.transform = '';
+    }
+    if (overlay) {
+      overlay.style.transition = '';
+      overlay.style.background = '';
+    }
+  }, [phase, originEl]);
 
   useEffect(() => {
-    savedScrollY.current = window.scrollY;
-    document.body.style.position = 'fixed';
-    document.body.style.top = `-${savedScrollY.current}px`;
-    document.body.style.width = '100%';
-    document.body.style.overflow = 'hidden';
-    document.documentElement.style.overflow = 'hidden';
-
-    return () => {
-      document.body.style.removeProperty('position');
-      document.body.style.removeProperty('top');
-      document.body.style.removeProperty('width');
-      document.body.style.removeProperty('overflow');
-      document.body.style.removeProperty('overflow-x');
-      document.body.style.removeProperty('overflow-y');
-      document.documentElement.style.removeProperty('overflow');
-      window.scrollTo(0, savedScrollY.current);
-    };
-  }, []);
-
-  useEffect(() => {
+    const SCROLL_KEYS = new Set(['Space', 'PageUp', 'PageDown', 'Home', 'End', 'ArrowUp', 'ArrowDown']);
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') close();
+      if (SCROLL_KEYS.has(e.code)) e.preventDefault();
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [close]);
 
   useEffect(() => {
-    if (phase === 'exit') {
-      const timer = setTimeout(() => onCloseRef.current(), 500);
-      return () => clearTimeout(timer);
-    }
+    if (phase !== 'exit') return;
+    const timer = setTimeout(() => onCloseRef.current(), 500);
+    return () => clearTimeout(timer);
   }, [phase]);
 
+  const applyDrag = useCallback((dy: number, threshold: number) => {
+    const img = imgRef.current;
+    const overlay = overlayRef.current;
+    if (!img || !overlay) return;
+
+    img.style.transition = 'none';
+    overlay.style.transition = 'none';
+
+    const { scale, bgOpacity } = dragProgress(Math.abs(dy), threshold);
+    img.style.transform = `translateY(${dy}px) scale(${scale})`;
+    overlay.style.background = `rgba(0, 0, 0, ${bgOpacity})`;
+  }, []);
+
   const gestureDismiss = useCallback((direction: number) => {
-    dismissing.current = true;
+    if (closingRef.current) return;
+    closingRef.current = true;
     clearTimeout(snapBackTimer.current);
 
     const img = imgRef.current;
@@ -117,7 +120,7 @@ export function Lightbox({ src, alt, originRect, onClose }: LightboxProps) {
   }, []);
 
   const snapBack = useCallback(() => {
-    if (dismissing.current) return;
+    if (closingRef.current) return;
     const img = imgRef.current;
     const overlay = overlayRef.current;
     if (!img || !overlay) return;
@@ -127,40 +130,25 @@ export function Lightbox({ src, alt, originRect, onClose }: LightboxProps) {
     img.style.transform = '';
     overlay.style.background = '';
 
-    const cleanup = () => {
+    img.addEventListener('transitionend', () => {
       img.style.transition = '';
       overlay.style.transition = '';
-    };
-    img.addEventListener('transitionend', cleanup, { once: true });
+    }, { once: true });
     dragY.current = 0;
   }, []);
 
+  // Wheel: block background scroll + dismiss gesture when open
   useEffect(() => {
-    if (phase !== 'open') return;
-
     const onWheel = (e: WheelEvent) => {
       e.preventDefault();
-      if (dismissing.current) return;
+      if (phase !== 'open' || closingRef.current) return;
 
       clearTimeout(snapBackTimer.current);
       dragY.current += e.deltaY;
 
-      const img = imgRef.current;
-      const overlay = overlayRef.current;
-      if (!img || !overlay) return;
+      applyDrag(dragY.current, WHEEL_DISMISS_THRESHOLD);
 
-      img.style.transition = 'none';
-      overlay.style.transition = 'none';
-
-      const absDrag = Math.abs(dragY.current);
-      const progress = Math.min(absDrag / WHEEL_DISMISS_THRESHOLD, 1);
-      const scale = 1 - progress * 0.12;
-      const bgOpacity = 0.92 * (1 - progress * 0.5);
-
-      img.style.transform = `translateY(${dragY.current}px) scale(${scale})`;
-      overlay.style.background = `rgba(0, 0, 0, ${bgOpacity})`;
-
-      if (absDrag > WHEEL_DISMISS_THRESHOLD) {
+      if (Math.abs(dragY.current) > WHEEL_DISMISS_THRESHOLD) {
         gestureDismiss(dragY.current > 0 ? 1 : -1);
       } else {
         snapBackTimer.current = setTimeout(snapBack, SNAP_BACK_DELAY);
@@ -172,43 +160,29 @@ export function Lightbox({ src, alt, originRect, onClose }: LightboxProps) {
       window.removeEventListener('wheel', onWheel);
       clearTimeout(snapBackTimer.current);
     };
-  }, [phase, gestureDismiss, snapBack]);
+  }, [phase, applyDrag, gestureDismiss, snapBack]);
 
+  // Touch dismiss gesture
   useEffect(() => {
     if (phase !== 'open') return;
 
     let touchStartY = 0;
 
     const onTouchStart = (e: TouchEvent) => {
-      if (dismissing.current) return;
+      if (closingRef.current) return;
       touchStartY = e.touches[0].clientY;
       dragY.current = 0;
     };
 
     const onTouchMove = (e: TouchEvent) => {
-      if (dismissing.current) return;
+      if (closingRef.current) return;
       e.preventDefault();
       dragY.current = e.touches[0].clientY - touchStartY;
-
-      const img = imgRef.current;
-      const overlay = overlayRef.current;
-      if (!img || !overlay) return;
-
-      img.style.transition = 'none';
-      overlay.style.transition = 'none';
-
-      const absDrag = Math.abs(dragY.current);
-      const progress = Math.min(absDrag / TOUCH_DISMISS_THRESHOLD, 1);
-      const scale = 1 - progress * 0.12;
-      const bgOpacity = 0.92 * (1 - progress * 0.5);
-
-      img.style.transform = `translateY(${dragY.current}px) scale(${scale})`;
-      overlay.style.background = `rgba(0, 0, 0, ${bgOpacity})`;
+      applyDrag(dragY.current, TOUCH_DISMISS_THRESHOLD);
     };
 
     const onTouchEnd = () => {
-      if (dismissing.current) return;
-
+      if (closingRef.current) return;
       if (Math.abs(dragY.current) > TOUCH_DISMISS_THRESHOLD) {
         gestureDismiss(dragY.current > 0 ? 1 : -1);
       } else {
@@ -224,7 +198,7 @@ export function Lightbox({ src, alt, originRect, onClose }: LightboxProps) {
       window.removeEventListener('touchmove', onTouchMove);
       window.removeEventListener('touchend', onTouchEnd);
     };
-  }, [phase, gestureDismiss, snapBack]);
+  }, [phase, applyDrag, gestureDismiss, snapBack]);
 
   const handleTransitionEnd = (e: React.TransitionEvent) => {
     if (phase === 'exit' && e.target === overlayRef.current) {
@@ -232,15 +206,8 @@ export function Lightbox({ src, alt, originRect, onClose }: LightboxProps) {
     }
   };
 
-  const vw = typeof window !== 'undefined' ? window.innerWidth : 0;
-  const vh = typeof window !== 'undefined' ? window.innerHeight : 0;
-
-  const originStyle = {
-    left: originRect.left,
-    top: originRect.top,
-    width: originRect.width,
-    height: originRect.height,
-  };
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
 
   const padding = 40;
   const maxW = vw - padding * 2;
@@ -264,7 +231,12 @@ export function Lightbox({ src, alt, originRect, onClose }: LightboxProps) {
     height: finalH,
   };
 
-  const imgStyle = phase === 'enter' || phase === 'exit' ? originStyle : openStyle;
+  const exitRect = exitRectRef.current;
+  const targetRect = phase === 'exit' ? exitRect : originRect;
+
+  const imgStyle = phase === 'open'
+    ? openStyle
+    : { left: targetRect.left, top: targetRect.top, width: targetRect.width, height: targetRect.height };
 
   return createPortal(
     <div
@@ -278,7 +250,7 @@ export function Lightbox({ src, alt, originRect, onClose }: LightboxProps) {
         ref={imgRef}
         src={src}
         alt={alt}
-        className={styles.image}
+        className={`${styles.image} ${phase === 'exit' ? styles.imageExiting : ''}`}
         style={{
           left: imgStyle.left,
           top: imgStyle.top,

@@ -6,7 +6,7 @@
 
 .title {
   font-size: clamp(1.5rem, 4vw, 2rem);
-  font-weight: 700;
+  font-weight: 450;
   letter-spacing: -0.02em;
   color: #f0f0ec;
 }
@@ -45,7 +45,7 @@
 
 .question {
   font-size: 0.9375rem;
-  font-weight: 600;
+  font-weight: 450;
   line-height: 1.4;
   color: #f0f0ec;
 }

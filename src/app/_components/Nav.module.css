@@ -1,14 +1,14 @@
 .siteTopbar {
   position: fixed;
-  top: 0;
+  top: 15px;
   left: 0;
   right: 0;
   z-index: 100;
   backdrop-filter: none;
-  border-bottom: none;
+  border-bottom: none !important;
   background: transparent !important;
   height: auto;
-  padding: 16px;
+  padding: 28px 16px 16px;
 }
 
 /* ============================================================================
@@ -17,7 +17,7 @@
 
 .devButton {
   --corner-len: 10px;
-  --corner-color: #969696;
+  --corner-color: var(--color-text-secondary);
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -25,7 +25,7 @@
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.06em;
-  color: #f0f0ec;
+  color: var(--color-text-primary);
   border: none;
   border-radius: 0;
   text-decoration: none;
@@ -43,7 +43,7 @@
 }
 
 .devButton:hover {
-  --corner-color: rgba(255, 255, 255, 0.5);
+  --corner-color: var(--color-inverse-muted);
 }
 
 /* ============================================================================
@@ -52,13 +52,25 @@
 
 .sideNav {
   position: fixed;
-  bottom: 24px;
+  bottom: 80px;
   left: 24px;
   z-index: 100;
   display: flex;
   flex-direction: column;
   gap: 2px;
   width: 140px;
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+  transition:
+    opacity 250ms ease,
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sideNavCollapsed {
+  opacity: 0;
+  transform: translateX(-16px);
+  pointer-events: none;
 }
 
 .titleLink {
@@ -77,14 +89,14 @@
 
 .sectionLink {
   text-decoration: none;
-  color: #969696;
+  color: var(--color-text-secondary);
 }
 
 .sectionButton {
   padding-inline: 2px;
   font-size: 12.5px;
   min-width: 115px !important;
-  color: #969696 !important;
+  color: var(--color-text-secondary) !important;
   justify-content: flex-start;
 }
 
@@ -99,20 +111,18 @@
   font-weight: 500;
   font-family: inherit;
   letter-spacing: 0.02em;
-  color: #969696;
+  color: var(--color-text-secondary);
   cursor: pointer;
   border-radius: 4px;
-  transition:
-    color 300ms ease,
-    background 150ms ease;
+  transition: color 300ms ease;
 }
 
 .sectionTrigger:hover {
-  background: rgba(255, 255, 255, 0.06);
+  color: var(--color-text-primary);
 }
 
 .sectionTriggerOpen {
-  color: #969696;
+  color: var(--color-text-secondary);
 }
 
 /* ============================================================================
@@ -161,17 +171,21 @@
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 0.04em;
-  color: #707070;
+  color: var(--color-text-muted);
   text-decoration: none;
   border-radius: 3px;
-  transition:
-    color 300ms ease,
-    background 150ms ease;
+  transition: color 300ms ease;
 }
 
 .subItemLink:hover {
-  color: #969696;
-  background: rgba(255, 255, 255, 0.04);
+  color: var(--color-text-secondary);
+}
+
+.externalIcon {
+  display: inline-block;
+  margin-left: 4px;
+  vertical-align: middle;
+  opacity: 0.5;
 }
 
 /* ============================================================================
@@ -179,5 +193,159 @@
    ============================================================================ */
 
 .active {
-  color: #f0f0ec !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* ============================================================================
+   Hamburger button (mobile only)
+   ============================================================================ */
+
+.hamburger {
+  all: unset;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  color: var(--color-text-secondary);
+  transition: color 200ms ease;
+}
+
+.hamburger:hover {
+  color: var(--color-text-primary);
+}
+
+/* ============================================================================
+   Mobile drawer overlay
+   ============================================================================ */
+
+.overlay {
+  display: none;
+}
+
+.drawer {
+  display: none;
+}
+
+/* ============================================================================
+   Mobile breakpoint
+   ============================================================================ */
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .devButton {
+    display: none;
+  }
+
+  .sideNav {
+    display: none;
+  }
+
+  .siteTopbar {
+    padding: 16px 12px 12px;
+  }
+
+  .overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 199;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease;
+  }
+
+  .overlayOpen {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .drawer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 200;
+    width: 260px;
+    max-width: 80vw;
+    background: var(--site-bg-from, #0c0c0c);
+    border-right: 1px solid var(--color-overlay-medium);
+    transform: translateX(-100%);
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow-y: auto;
+    padding: 24px 20px 32px;
+  }
+
+  .drawerOpen {
+    transform: translateX(0);
+  }
+
+  .drawerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+
+  .drawerTitle {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--color-text-secondary);
+  }
+
+  .drawerClose {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    color: var(--color-text-secondary);
+    transition: color 200ms ease;
+  }
+
+  .drawerClose:hover {
+    color: var(--color-text-primary);
+  }
+
+  .drawerNav {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+  }
+
+  .drawerFooter {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-top: 32px;
+    border-top: 1px solid var(--color-overlay-medium);
+    padding-top: 16px;
+  }
+
+  .drawerIconBtn {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    color: var(--color-text-secondary);
+    transition: color 200ms ease;
+  }
+
+  .drawerIconBtn:hover {
+    color: var(--color-text-primary);
+  }
 }

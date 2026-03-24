@@ -27,12 +27,12 @@
   font-weight: 300;
   letter-spacing: -0.02em;
   line-height: 1.2;
-  color: var(--color-text-primary, #fff);
+  color: var(--color-text-primary);
   text-align: center;
 }
 
 .headlineMuted {
-  color: #969696;
+  color: var(--color-text-secondary);
 }
 
 .fadeIn {
@@ -65,4 +65,23 @@
 
 .bottomSpacer {
   display: none;
+}
+
+/* ============================================================================
+   Responsive
+   ============================================================================ */
+
+@media (max-width: 768px) {
+  .headlineWrap {
+    height: max(calc((100vh - clamp(180px, 40vh, 320px)) / 2), 56px);
+  }
+
+  .headline {
+    font-size: clamp(1rem, 4.5vw, 1.5rem);
+  }
+
+  .asciiPanel {
+    width: 100vw;
+    height: clamp(250px, 55vh, 400px);
+  }
 }

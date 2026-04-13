@@ -32,20 +32,10 @@ const sections: NavSection[] = [
     label: 'NETWORKS',
     subItems: [
       { id: 'aura', label: 'AURA', href: 'https://aura.ai', external: true },
-      { id: 'the-grid', label: 'THE GRID', href: 'https://thegrid.com', external: true },
+      { id: 'the-grid', label: 'THE GRID', href: 'https://github.com/cypher-asi/the-grid', external: true },
       { id: 'wilder-world', label: 'WILDER WORLD', href: 'https://wilderworld.com', external: true },
       { id: 'z-chain', label: 'Z CHAIN', href: 'https://zchain.org', external: true },
       { id: 'zero', label: 'ZERO', href: 'https://zero.tech', external: true },
-    ],
-  },
-  {
-    id: 'protocols',
-    label: 'PROTOCOLS',
-    subItems: [
-      { id: 'zid', label: 'ZID', href: '/protocols/zid' },
-      { id: 'zns', label: 'ZNS', href: '/protocols/zns' },
-      { id: 'aura-os', label: 'AURA OS', href: '/protocols/aura-os' },
-      { id: 'the-grid', label: 'THE GRID', href: '/protocols/the-grid' },
     ],
   },
   { id: 'mission', label: 'MISSION', href: '/vision' },
@@ -56,10 +46,12 @@ function AccordionSection({
   section,
   isOpen,
   onToggle,
+  onNavigate,
 }: {
   section: NavSection;
   isOpen: boolean;
   onToggle: () => void;
+  onNavigate?: () => void;
 }) {
   const hasChildren = section.subItems && section.subItems.length > 0;
 
@@ -80,7 +72,7 @@ function AccordionSection({
     }
     return (
       <div className={styles.section}>
-        <Link href={section.href!} className={styles.sectionTrigger}>
+        <Link href={section.href!} className={styles.sectionTrigger} onClick={onNavigate}>
           <span>{section.label}</span>
         </Link>
       </div>
@@ -231,7 +223,7 @@ export function Nav() {
       />
       <div className={`${styles.drawer} ${mobileOpen ? styles.drawerOpen : ''}`}>
         <div className={styles.drawerHeader}>
-          <span className={styles.drawerTitle}>/CYPHER</span>
+          <Link href="/" className={styles.drawerTitle} onClick={() => setMobileOpen(false)}>/CYPHER</Link>
           <button
             className={styles.drawerClose}
             onClick={() => setMobileOpen(false)}
@@ -247,6 +239,7 @@ export function Nav() {
               section={section}
               isOpen={openSectionId === section.id}
               onToggle={() => handleToggle(section.id)}
+              onNavigate={() => setMobileOpen(false)}
             />
           ))}
         </div>
@@ -268,7 +261,7 @@ export function Nav() {
             <GithubIcon size={15} />
           </a>
           <a
-            href="https://x.com/cyaborgs"
+            href="https://x.com/aura_asi"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.drawerIconBtn}

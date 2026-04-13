@@ -103,6 +103,13 @@
   max-width: 680px;
 }
 
+.quoteAttribution {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  font-style: normal;
+  color: var(--color-text-secondary);
+}
+
 /* ============================================================================
    Responsive
    ============================================================================ */

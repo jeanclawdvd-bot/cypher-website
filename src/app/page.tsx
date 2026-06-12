@@ -7,7 +7,15 @@ export default function Home() {
     <>
       <Headline />
       <div className={styles.page}>
-        <AsciiCube className={styles.asciiPanel} />
+        <div className={styles.stage}>
+          <div className={styles.frame}>
+            <span className={`${styles.corner} ${styles.cornerTL}`} />
+            <span className={`${styles.corner} ${styles.cornerTR}`} />
+            <span className={`${styles.corner} ${styles.cornerBL}`} />
+            <span className={`${styles.corner} ${styles.cornerBR}`} />
+            <AsciiCube className={styles.asciiPanel} forceLight />
+          </div>
+        </div>
         <div className={styles.bottomSpacer} />
       </div>
     </>

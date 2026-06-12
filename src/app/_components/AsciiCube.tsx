@@ -8,7 +8,7 @@ type CubeEvent =
   | { kind: 'pulse'; face: number; x0: number; y0: number; x1: number; y1: number; t0: number; dur: number; width: number; strength: number }
   | { kind: 'burst'; face: number; cx: number; cy: number; r: number; t0: number; dur: number; strength: number };
 
-type Options = { className?: string };
+type Options = { className?: string; forceLight?: boolean };
 
 const FACE_COLS = 40;
 const ROW_SECTIONS = 5;
@@ -471,3 +471,4 @@ export function AsciiCube({ className }: Options) {
     />
   );
 }
+

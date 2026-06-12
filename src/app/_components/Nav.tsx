@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback, useEffect } from 'react';
+import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { useTheme } from './ThemeContext';
 import { ArrowUpRight, ChevronRight, Menu, X, Sun, Moon, AudioLines } from 'lucide-react';
@@ -14,105 +14,64 @@ import styles from './Nav.module.css';
 interface SubItem {
   id: string;
   label: string;
-  href?: string;
+  description?: string;
+  href: string;
   external?: boolean;
 }
 
 interface NavSection {
   id: string;
   label: string;
-  href?: string;
+  href: string;
   external?: boolean;
+  blurb?: string;
   subItems?: SubItem[];
 }
 
 const sections: NavSection[] = [
   {
-    id: 'projects',
-    label: 'NETWORKS',
+    id: 'products',
+    label: 'Products',
+    href: 'https://aura.ai',
+    external: true,
+    blurb: 'Software and agents built for the machine age.',
     subItems: [
-      { id: 'aura', label: 'AURA', href: 'https://aura.ai', external: true },
-      { id: 'the-grid', label: 'THE GRID', href: 'https://github.com/cypher-asi/the-grid', external: true },
-      { id: 'wilder-world', label: 'WILDER WORLD', href: 'https://wilderworld.com', external: true },
-      { id: 'z-chain', label: 'Z CHAIN', href: 'https://zchain.org', external: true },
-      { id: 'zero', label: 'ZERO', href: 'https://zero.tech', external: true },
+      { id: 'aura', label: 'Aura', description: 'Autonomous engineering agents', href: 'https://aura.ai', external: true },
+      { id: 'the-grid', label: 'The Grid', description: 'Distributed compute fabric', href: 'https://github.com/cypher-asi/the-grid', external: true },
+      { id: 'zero', label: 'Zero', description: 'Private, verifiable workspace', href: 'https://zero.tech', external: true },
     ],
   },
-  { id: 'mission', label: 'MISSION', href: '/vision' },
-  { id: 'news', label: 'NEWS', href: 'https://zine.live', external: true },
+  {
+    id: 'research',
+    label: 'Research',
+    href: 'https://github.com/cypher-asi',
+    external: true,
+    blurb: 'Open work on intelligence, systems, and protocols.',
+    subItems: [
+      { id: 'z-chain', label: 'Z Chain', description: 'Trust layer for autonomous systems', href: 'https://zchain.org', external: true },
+      { id: 'papers', label: 'Publications', description: 'Notes, papers, and experiments', href: 'https://github.com/cypher-asi', external: true },
+    ],
+  },
+  {
+    id: 'mission',
+    label: 'Mission',
+    href: '/vision',
+    blurb: 'Why we build, and where we are going.',
+    subItems: [
+      { id: 'vision', label: 'Vision', description: 'The case for tools that build themselves', href: '/vision' },
+    ],
+  },
+  {
+    id: 'news',
+    label: 'News',
+    href: 'https://zine.live',
+    external: true,
+    blurb: 'Dispatches from across the network.',
+    subItems: [
+      { id: 'zine', label: 'Zine', description: 'Stories from the network', href: 'https://zine.live', external: true },
+    ],
+  },
 ];
-
-function AccordionSection({
-  section,
-  isOpen,
-  onToggle,
-  onNavigate,
-}: {
-  section: NavSection;
-  isOpen: boolean;
-  onToggle: () => void;
-  onNavigate?: () => void;
-}) {
-  const hasChildren = section.subItems && section.subItems.length > 0;
-
-  if (!hasChildren) {
-    if (section.external) {
-      return (
-        <div className={styles.section}>
-          <a
-            href={section.href!}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.sectionTrigger}
-          >
-            <span>{section.label}</span>
-          </a>
-        </div>
-      );
-    }
-    return (
-      <div className={styles.section}>
-        <Link href={section.href!} className={styles.sectionTrigger} onClick={onNavigate}>
-          <span>{section.label}</span>
-        </Link>
-      </div>
-    );
-  }
-
-  return (
-    <div className={styles.section}>
-      <button
-        className={`${styles.sectionTrigger} ${isOpen ? styles.sectionTriggerOpen : ''}`}
-        onClick={onToggle}
-        aria-expanded={isOpen}
-      >
-        <span>{section.label}</span>
-        <ChevronRight
-          size={12}
-          className={`${styles.chevron} ${isOpen ? styles.chevronOpen : ''}`}
-        />
-      </button>
-      <div
-        className={`${styles.accordionContent} ${isOpen ? styles.accordionContentOpen : ''}`}
-      >
-        <div className={styles.accordionInner}>
-          {section.subItems!.map((item) => (
-            <a
-              key={item.id}
-              href={item.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.subItemLink}
-            >
-              {item.label}
-              {item.external && <ArrowUpRight size={10} className={styles.externalIcon} />}
-            </a>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
 
 function GithubIcon({ size = 13 }: { size?: number }) {
   return (
@@ -130,12 +89,84 @@ function XIcon({ size = 12 }: { size?: number }) {
   );
 }
 
+/* ----------------------------------------------------------------------------
+   Mobile accordion section
+   ---------------------------------------------------------------------------- */
+function AccordionSection({
+  section,
+  isOpen,
+  onToggle,
+  onNavigate,
+}: {
+  section: NavSection;
+  isOpen: boolean;
+  onToggle: () => void;
+  onNavigate?: () => void;
+}) {
+  const hasChildren = section.subItems && section.subItems.length > 0;
+
+  if (!hasChildren) {
+    if (section.external) {
+      return (
+        <div className={styles.section}>
+          <a href={section.href} target="_blank" rel="noopener noreferrer" className={styles.sectionTrigger}>
+            <span>{section.label}</span>
+          </a>
+        </div>
+      );
+    }
+    return (
+      <div className={styles.section}>
+        <Link href={section.href} className={styles.sectionTrigger} onClick={onNavigate}>
+          <span>{section.label}</span>
+        </Link>
+      </div>
+    );
+  }
+
+  return (
+    <div className={styles.section}>
+      <button
+        className={`${styles.sectionTrigger} ${isOpen ? styles.sectionTriggerOpen : ''}`}
+        onClick={onToggle}
+        aria-expanded={isOpen}
+      >
+        <span>{section.label}</span>
+        <ChevronRight size={12} className={`${styles.chevron} ${isOpen ? styles.chevronOpen : ''}`} />
+      </button>
+      <div className={`${styles.accordionContent} ${isOpen ? styles.accordionContentOpen : ''}`}>
+        <div className={styles.accordionInner}>
+          {section.subItems!.map((item) =>
+            item.external ? (
+              <a
+                key={item.id}
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.subItemLink}
+              >
+                {item.label}
+                <ArrowUpRight size={10} className={styles.externalIcon} />
+              </a>
+            ) : (
+              <Link key={item.id} href={item.href} className={styles.subItemLink} onClick={onNavigate}>
+                {item.label}
+              </Link>
+            )
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export function Nav() {
-  const [openSectionId, setOpenSectionId] = useState<string | null>('projects');
-  const [sideCollapsed, setSideCollapsed] = useState(false);
+  const [openSectionId, setOpenSectionId] = useState<string | null>('products');
+  const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
   const { resolvedTheme, setTheme } = useTheme();
   const { isPlaying, toggle: toggleMusic } = useMusic();
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     if (mobileOpen) {
@@ -150,12 +181,14 @@ export function Nav() {
     setOpenSectionId((prev) => (prev === id ? null : id));
   };
 
-  const toggleSideNav = useCallback(() => {
-    setSideCollapsed((prev) => {
-      const next = !prev;
-      document.documentElement.toggleAttribute('data-nav-collapsed', next);
-      return next;
-    });
+  const openPanel = useCallback((id: string) => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    setHoveredId(id);
+  }, []);
+
+  const scheduleClose = useCallback(() => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    closeTimer.current = setTimeout(() => setHoveredId(null), 140);
   }, []);
 
   const expandedSegments: TypewriterSegment[] = useMemo(
@@ -166,31 +199,70 @@ export function Nav() {
     []
   );
 
-  const collapsedSegments: TypewriterSegment[] = useMemo(
-    () => [
-      { text: '/', style: { color: 'var(--color-text-secondary)' } },
-      { text: 'C' },
-    ],
-    []
-  );
+  const activeSection = sections.find((s) => s.id === hoveredId) ?? null;
 
   return (
     <>
-      <header className={styles.siteTopbar}>
-        <div className={styles.topbarLeft}>
-          <Link href="/" className={styles.titleLink}>
-            <TypewriterText
-              key={sideCollapsed ? 'collapsed' : 'expanded'}
-              segments={sideCollapsed ? collapsedSegments : expandedSegments}
-              speed={80}
-            />
-          </Link>
-        </div>
-        <div className={styles.topbarActions}>
-          <a href="https://aura.ai" target="_blank" rel="noopener noreferrer" className={styles.devButton}>
-            DEPLOY AGENTS
-            <ArrowUpRight size={14} style={{ color: 'var(--color-text-secondary)' }} />
-          </a>
+      <header className={styles.siteTopbar} onMouseLeave={scheduleClose}>
+        <div className={styles.topbarInner}>
+          <div className={styles.topbarLeft}>
+            <Link href="/" className={styles.titleLink}>
+              <TypewriterText
+                segments={expandedSegments}
+                speed={80}
+                className={styles.brand}
+              />
+            </Link>
+            <a
+              href="https://aura.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.launchButton}
+            >
+              Launch Agents
+              <ArrowUpRight size={14} style={{ color: 'var(--color-text-secondary)' }} />
+            </a>
+          </div>
+
+          <nav className={styles.topNav}>
+            {sections.map((section) => {
+              const inner = (
+                <>
+                  <span>{section.label}</span>
+                  {section.external && (
+                    <ArrowUpRight size={12} className={styles.topNavExternal} />
+                  )}
+                </>
+              );
+              return (
+                <div
+                  key={section.id}
+                  className={styles.topNavItem}
+                  onMouseEnter={() => openPanel(section.id)}
+                  onFocus={() => openPanel(section.id)}
+                >
+                  {section.external ? (
+                    <a
+                      href={section.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`${styles.topNavLink} ${hoveredId === section.id ? styles.topNavLinkActive : ''}`}
+                    >
+                      {inner}
+                    </a>
+                  ) : (
+                    <Link
+                      href={section.href}
+                      className={`${styles.topNavLink} ${hoveredId === section.id ? styles.topNavLinkActive : ''}`}
+                    >
+                      {inner}
+                    </Link>
+                  )}
+                </div>
+              );
+            })}
+          </nav>
+
           <button
             className={styles.hamburger}
             onClick={() => setMobileOpen(true)}
@@ -199,19 +271,58 @@ export function Nav() {
             <Menu size={20} />
           </button>
         </div>
+
+        {/* Hover mega-panel that animates down */}
+        <div
+          className={`${styles.megaPanel} ${activeSection ? styles.megaPanelOpen : ''}`}
+          onMouseEnter={() => activeSection && openPanel(activeSection.id)}
+          onMouseLeave={scheduleClose}
+        >
+          <div className={styles.megaInner}>
+            {activeSection && (
+              <>
+                <div className={styles.megaLead}>
+                  <span className={styles.megaTitle}>{activeSection.label}</span>
+                  {activeSection.blurb && (
+                    <span className={styles.megaBlurb}>{activeSection.blurb}</span>
+                  )}
+                </div>
+                <div className={styles.megaItems}>
+                  {activeSection.subItems?.map((item) =>
+                    item.external ? (
+                      <a
+                        key={item.id}
+                        href={item.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.megaItem}
+                      >
+                        <span className={styles.megaItemLabel}>
+                          {item.label}
+                          <ArrowUpRight size={12} className={styles.megaItemIcon} />
+                        </span>
+                        {item.description && (
+                          <span className={styles.megaItemDesc}>{item.description}</span>
+                        )}
+                      </a>
+                    ) : (
+                      <Link key={item.id} href={item.href} className={styles.megaItem}>
+                        <span className={styles.megaItemLabel}>{item.label}</span>
+                        {item.description && (
+                          <span className={styles.megaItemDesc}>{item.description}</span>
+                        )}
+                      </Link>
+                    )
+                  )}
+                </div>
+              </>
+            )}
+          </div>
+        </div>
       </header>
+
       <SectionNav />
-      <nav className={`${styles.sideNav} ${sideCollapsed ? styles.sideNavCollapsed : ''}`}>
-        {sections.map((section) => (
-          <AccordionSection
-            key={section.id}
-            section={section}
-            isOpen={openSectionId === section.id}
-            onToggle={() => handleToggle(section.id)}
-          />
-        ))}
-      </nav>
-      <BottomWidget collapsed={sideCollapsed} onToggle={toggleSideNav} />
+      <BottomWidget collapsed={false} onToggle={() => {}} />
 
       {/* Mobile drawer */}
       <div
@@ -229,6 +340,16 @@ export function Nav() {
             <X size={18} />
           </button>
         </div>
+        <a
+          href="https://aura.ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.drawerLaunch}
+          onClick={() => setMobileOpen(false)}
+        >
+          Launch Agents
+          <ArrowUpRight size={14} />
+        </a>
         <div className={styles.drawerNav}>
           {sections.map((section) => (
             <AccordionSection

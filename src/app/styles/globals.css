@@ -430,9 +430,3 @@ code {
   pointer-events: none;
   user-select: none;
 }
-
-@media (prefers-reduced-motion: reduce) {
-  #page-main {
-    transition-duration: 1ms;
-  }
-}

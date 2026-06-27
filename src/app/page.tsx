@@ -137,7 +137,13 @@ function CardInner({ product, index }: { product: Product; index: number }) {
         />
       )}
       {product.logo ? (
-        <img className={styles.cardLogo} src={product.logo} alt={product.name} aria-hidden />
+        <img
+          className={styles.cardLogo}
+          src={product.logo}
+          alt={product.name}
+          data-logo-id={product.id}
+          aria-hidden
+        />
       ) : (
         <span className={styles.cardLogoPlaceholder} aria-hidden>
           {product.name}

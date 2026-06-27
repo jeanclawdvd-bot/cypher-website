@@ -93,6 +93,7 @@
   width: max-content;
   height: max-content;
   opacity: 0.92;
+  transform: scale(var(--logo-scale, 1));
   transition:
     opacity var(--transition-normal),
     transform var(--transition-normal);
@@ -107,6 +108,13 @@
   max-width: 88%;
   object-fit: contain;
   filter: brightness(0) invert(0.9);
+}
+
+/* These marks read large relative to the others; trim them 20%. */
+.cardLogo[data-logo-id='aura'],
+.cardLogo[data-logo-id='zode'],
+.cardLogo[data-logo-id='z-chain'] {
+  --logo-scale: 0.8;
 }
 
 .cardLogoPlaceholder {
@@ -125,7 +133,7 @@
 .card:hover .cardLogoPlaceholder,
 .card:focus-visible .cardLogoPlaceholder {
   opacity: 0;
-  transform: scale(0.96);
+  transform: scale(calc(var(--logo-scale, 1) * 0.96));
 }
 
 /* On the light theme, drop the marks to a uniform off-black instead. */

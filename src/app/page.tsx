@@ -101,7 +101,6 @@ function CardInner({ product, index }: { product: Product; index: number }) {
           aria-hidden
         />
       )}
-      <span className={styles.cardGrid} aria-hidden />
       {product.logo ? (
         <img className={styles.cardLogo} src={product.logo} alt={product.name} aria-hidden />
       ) : (

@@ -49,9 +49,7 @@
   display: flex;
   overflow: hidden;
   padding: clamp(1rem, 1.6vw, 1.5rem);
-  background:
-    radial-gradient(120% 120% at 100% 0%, var(--color-accent-muted) 0%, transparent 55%),
-    linear-gradient(160deg, var(--color-surface) 0%, var(--color-bg) 100%);
+  background: #000;
   border: 1px solid var(--color-border);
   color: var(--color-text-primary);
   isolation: isolate;
@@ -133,25 +131,6 @@
 /* On the light theme, drop the marks to a uniform off-black instead. */
 :global([data-theme='light']) .cardLogo {
   filter: brightness(0) invert(0.15);
-}
-
-/* Faint line-grid motif behind the content */
-.cardGrid {
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background-image:
-    linear-gradient(var(--site-illustration-stroke) 1px, transparent 1px),
-    linear-gradient(90deg, var(--site-illustration-stroke) 1px, transparent 1px);
-  background-size: 32px 32px;
-  opacity: 0.12;
-  mask-image: radial-gradient(120% 100% at 0% 100%, #000 10%, transparent 70%);
-  -webkit-mask-image: radial-gradient(120% 100% at 0% 100%, #000 10%, transparent 70%);
-  transition: opacity var(--transition-slow);
-}
-
-.card:hover .cardGrid {
-  opacity: 0.22;
 }
 
 .cardArrow {

@@ -3,56 +3,25 @@
    ============================================================================ */
 
 .page {
-  min-height: 100vh;
+  height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: clamp(1.5rem, 4vh, 2.75rem);
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: clamp(6rem, 12vh, 8rem) clamp(1rem, 4vw, 2.5rem) clamp(2rem, 6vh, 3.5rem);
+  padding: calc(72px + clamp(0.75rem, 2vh, 1.5rem)) clamp(0.75rem, 2vw, 1.5rem)
+    clamp(0.75rem, 2vh, 1.5rem);
   font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
 }
 
 /* ----------------------------------------------------------------------------
-   Intro
-   ---------------------------------------------------------------------------- */
-
-.intro {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  animation: fadeIn 700ms ease-out both;
-}
-
-.eyebrow {
-  font-size: 0.6875rem;
-  font-weight: 450;
-  letter-spacing: 0.18em;
-  color: var(--color-text-secondary);
-  font-family: var(--font-mono), 'Fira Code', monospace;
-}
-
-.headline {
-  font-size: clamp(1.75rem, 4.5vw, 3rem);
-  font-weight: 300;
-  letter-spacing: -0.02em;
-  line-height: 1.1;
-  color: var(--color-text-primary);
-}
-
-.headlineMuted {
-  color: var(--color-text-secondary);
-}
-
-/* ----------------------------------------------------------------------------
-   Bento grid
+   Bento grid – fills the full available width and height
    ---------------------------------------------------------------------------- */
 
 .grid {
+  flex: 1;
+  min-height: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(170px, 1fr);
+  grid-template-rows: repeat(3, minmax(0, 1fr));
   gap: clamp(0.625rem, 1.4vw, 1rem);
 }
 
@@ -66,10 +35,9 @@
   grid-column: span 2;
 }
 
-/* ZNS – full-width banner along the bottom */
-.banner {
-  grid-column: 1 / -1;
-  min-height: 150px;
+/* Wilder World – wide card spanning three columns */
+.wide3 {
+  grid-column: span 3;
 }
 
 /* ----------------------------------------------------------------------------
@@ -95,13 +63,72 @@
 }
 
 .card:hover {
-  border-color: var(--site-border-action-hover);
   transform: translateY(-3px);
   box-shadow: var(--shadow-lg);
 }
 
-.card:focus-visible {
-  border-color: var(--color-accent);
+/* Optional background image: hidden while idle, revealed on hover/focus */
+.cardImage {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity var(--transition-slow);
+}
+
+.card:hover .cardImage,
+.card:focus-visible .cardImage {
+  opacity: 1;
+}
+
+/* Centered company logo shown while the card is idle; fades out on hover so
+   the background image (when present) can take over. */
+.cardLogo,
+.cardLogoPlaceholder {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  height: max-content;
+  max-width: 52%;
+  max-height: 38%;
+  opacity: 0.92;
+  transition:
+    opacity var(--transition-normal),
+    transform var(--transition-normal);
+}
+
+.cardLogo {
+  object-fit: contain;
+}
+
+.cardLogoPlaceholder {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-style: italic;
+  font-size: clamp(1.05rem, 1.6vw, 1.4rem);
+  letter-spacing: -0.01em;
+  color: var(--color-text-muted);
+}
+
+.card:hover .cardLogo,
+.card:focus-visible .cardLogo,
+.card:hover .cardLogoPlaceholder,
+.card:focus-visible .cardLogoPlaceholder {
+  opacity: 0;
+  transform: scale(0.96);
+}
+
+/* Logos are light marks tuned for the dark theme; flip lightness (while
+   preserving hue) so they stay legible on the light-theme surfaces. */
+:global([data-theme='light']) .cardLogo {
+  filter: invert(1) hue-rotate(180deg);
 }
 
 /* Faint line-grid motif behind the content */
@@ -152,7 +179,6 @@
   margin-top: auto;
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
 }
 
 .cardName {
@@ -160,13 +186,43 @@
   font-weight: 400;
   letter-spacing: -0.01em;
   color: var(--color-text-primary);
+  opacity: 0;
+  transform: translateY(8px);
+  transition:
+    opacity var(--transition-slow),
+    transform var(--transition-slow);
 }
 
+.card:hover .cardName,
+.card:focus-visible .cardName {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hidden by default; slides up + fades in on hover/focus of just this card */
 .cardTagline {
   font-size: 0.8125rem;
   line-height: 1.4;
   color: var(--color-text-secondary);
   max-width: 32ch;
+  max-height: 0;
+  margin-top: 0;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(10px);
+  transition:
+    max-height var(--transition-slow),
+    margin-top var(--transition-slow),
+    opacity var(--transition-slow),
+    transform var(--transition-slow);
+}
+
+.card:hover .cardTagline,
+.card:focus-visible .cardTagline {
+  max-height: 6rem;
+  margin-top: 0.4rem;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* ----------------------------------------------------------------------------
@@ -174,13 +230,19 @@
    ---------------------------------------------------------------------------- */
 
 @media (max-width: 900px) {
+  .page {
+    height: auto;
+    min-height: 100dvh;
+  }
+
   .grid {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: none;
     grid-auto-rows: minmax(150px, 1fr);
   }
 
   .wide,
-  .banner {
+  .wide3 {
     grid-column: 1 / -1;
   }
 
@@ -195,7 +257,7 @@
   }
 
   .wide,
-  .banner,
+  .wide3,
   .tall {
     grid-column: auto;
     grid-row: auto;
@@ -228,7 +290,6 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .intro,
   .card {
     animation: none;
   }

@@ -104,7 +104,7 @@
 .cardLogo {
   width: auto;
   height: clamp(2.75rem, 4.5vw, 4rem);
-  max-width: 68%;
+  max-width: 88%;
   object-fit: contain;
   filter: brightness(0) invert(0.9);
 }

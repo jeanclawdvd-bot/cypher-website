@@ -21,13 +21,15 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 180px;
+  /* Fade completes by the bottom of the 84px bar so it never dims the tops of
+     the page content (e.g. the product cards) sitting just below. */
+  height: 84px;
   z-index: -1;
   pointer-events: none;
   background: linear-gradient(
     180deg,
     var(--site-fade-to) 0%,
-    var(--site-fade-to) 28%,
+    var(--site-fade-to) 45%,
     transparent 100%
   );
 }

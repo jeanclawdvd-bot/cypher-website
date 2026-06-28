@@ -107,14 +107,14 @@
   pointer-events: none;
 }
 
-/* Company logo lives in its own dedicated section on the far right of the
-   footer (see .cardLogoSection); hidden at rest, revealed on hover/focus. */
+/* Company logo (see .cardLogoSection) replaces the product name at the top-left
+   of the text block on hover/focus. */
 .cardLogo,
 .cardLogoPlaceholder {
-  z-index: 1;
   opacity: 0;
   pointer-events: none;
-  transform: scale(var(--logo-scale, 1)) translateY(6px);
+  transform: scale(var(--logo-scale, 1));
+  transform-origin: left center;
   transition:
     opacity var(--transition-normal),
     transform var(--transition-normal);
@@ -125,7 +125,6 @@
 .card:hover .cardLogoPlaceholder,
 .card:focus-visible .cardLogoPlaceholder {
   opacity: 0.92;
-  transform: scale(var(--logo-scale, 1)) translateY(0);
 }
 
 /* All logos are normalized to a single height (matching the ZERO mark) and a
@@ -133,10 +132,10 @@
    silhouette while preserving alpha, then invert() lifts it to off-white. */
 .cardLogo {
   width: auto;
-  height: clamp(1.75rem, 3vw, 2.75rem);
+  height: clamp(1.4rem, 2.2vw, 2rem);
   max-width: 100%;
   object-fit: contain;
-  object-position: right center;
+  object-position: left center;
   filter: brightness(0) invert(0.9);
 }
 
@@ -155,7 +154,7 @@
 .cardLogoPlaceholder {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   font-family: var(--font-sans), system-ui, sans-serif;
   font-style: italic;
   font-size: clamp(0.85rem, 1.2vw, 1.05rem);
@@ -201,45 +200,54 @@
   color: var(--color-text-muted);
 }
 
-/* Footer row pinned to the bottom of the card: text on the left, the logo in
-   its own dedicated section on the right. */
+/* Footer block pinned to the bottom of the card. */
 .cardFooter {
   position: relative;
   width: 100%;
   margin-top: auto;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: clamp(0.75rem, 1.5vw, 1.25rem);
 }
 
 .cardBody {
-  flex: 1;
   min-width: 0;
   display: flex;
   flex-direction: column;
 }
 
-/* Dedicated logo section pinned to the far right of the card, vertically
-   centered within the footer text block. */
+/* Top line of the text block: the product name (at rest) and the logo (on
+   hover) share this slot, with the logo overlaid on the left so it replaces
+   the name. */
+.cardHeadline {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: clamp(1.6rem, 2.4vw, 2.1rem);
+}
+
 .cardLogoSection {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0;
+  left: 0;
   z-index: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   pointer-events: none;
 }
 
-/* Product name is always visible. */
+/* Product name shows at rest and fades out on hover so the logo can take its
+   place. */
 .cardName {
   font-size: clamp(1.05rem, 1.6vw, 1.4rem);
   font-weight: 400;
   letter-spacing: -0.01em;
   color: var(--color-text-primary);
+  transition: opacity var(--transition-normal);
+}
+
+.card:hover .cardName,
+.card:focus-visible .cardName {
+  opacity: 0;
 }
 
 /* Hidden by default; slides up + fades in on hover/focus of just this card */

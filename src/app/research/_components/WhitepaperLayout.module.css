@@ -1,0 +1,197 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 9rem 2rem 6rem;
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+}
+
+/* ============================================================================
+   Hero
+   ============================================================================ */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--color-overlay-medium);
+}
+
+.eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+}
+
+.heading {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--color-text-primary);
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.metaItem {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+  font-family: var(--font-mono), monospace;
+  border: 1px solid var(--color-overlay-medium);
+  padding: 0.25rem 0.6rem;
+}
+
+.lead {
+  max-width: 680px;
+  margin-top: 0.75rem;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--color-text-secondary);
+}
+
+/* ============================================================================
+   Body: sidebar + content
+   ============================================================================ */
+
+.body {
+  display: grid;
+  grid-template-columns: 232px minmax(0, 1fr);
+  gap: 3.5rem;
+  align-items: start;
+}
+
+.sidebar {
+  position: relative;
+}
+
+.tocSticky {
+  position: sticky;
+  top: 7rem;
+  max-height: calc(100vh - 9rem);
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.tocTitle {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.9rem;
+}
+
+.tocList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.tocLink {
+  display: block;
+  padding: 0.4rem 0 0.4rem 0.85rem;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  border-left: 1px solid var(--color-overlay-medium);
+  transition: color 0.18s ease, border-color 0.18s ease;
+}
+
+.tocLink:hover {
+  color: var(--color-text-primary);
+  border-left-color: var(--color-text-secondary);
+}
+
+.tocChild {
+  padding-left: 1.75rem;
+  font-size: 0.78125rem;
+}
+
+.tocLinkActive {
+  color: var(--color-success);
+  border-left-color: var(--color-success);
+}
+
+/* ============================================================================
+   Mobile contents disclosure (hidden on desktop)
+   ============================================================================ */
+
+.mobileToc {
+  display: none;
+}
+
+.mobileTocToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0 1rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--color-text-primary);
+  background: var(--color-surface);
+  border: 1px solid var(--color-overlay-medium);
+  cursor: pointer;
+}
+
+.mobileTocPanel {
+  margin-top: 0.75rem;
+  padding: 0.5rem 0;
+  border: 1px solid var(--color-overlay-medium);
+  background: var(--color-surface);
+}
+
+.mobileTocPanel .tocLink {
+  border-left: none;
+  padding: 0.6rem 1rem;
+}
+
+.mobileTocPanel .tocChild {
+  padding-left: 2rem;
+}
+
+/* ============================================================================
+   Content column
+   ============================================================================ */
+
+.content {
+  min-width: 0;
+}
+
+@media (max-width: 880px) {
+  .page {
+    padding: 7rem 1.25rem 4rem;
+  }
+
+  .body {
+    display: block;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .mobileToc {
+    display: block;
+    position: sticky;
+    top: 5.25rem;
+    z-index: 5;
+    margin-bottom: 2rem;
+  }
+}

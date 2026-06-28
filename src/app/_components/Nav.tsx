@@ -6,6 +6,7 @@ import { ArrowDown, ArrowUpRight, ChevronRight, Menu, X } from 'lucide-react';
 import { TypewriterText } from './TypewriterText';
 import type { TypewriterSegment } from './TypewriterText';
 import { SectionNav } from './SectionNav';
+import { scrollToSection } from './scrollToSection';
 import styles from './Nav.module.css';
 
 interface SubItem {
@@ -43,22 +44,13 @@ const sections: NavSection[] = [
   {
     id: 'research',
     label: 'Research',
-    href: 'https://github.com/cypher-asi',
-    external: true,
+    href: '/research',
     blurb: 'Open work on intelligence, systems, and protocols.',
     subItems: [
-      { id: 'z-chain', label: 'Z Chain', description: 'Trust layer for autonomous systems', href: 'https://zchain.org', external: true },
-      { id: 'papers', label: 'Publications', description: 'Notes, papers, and experiments', href: 'https://github.com/cypher-asi', external: true },
-    ],
-  },
-  {
-    id: 'mission',
-    label: 'Mission',
-    href: '/vision',
-    blurb: 'Why we build, and where we are going.',
-    noPanel: true,
-    subItems: [
-      { id: 'vision', label: 'Vision', description: 'The case for tools that build themselves', href: '/vision' },
+      { id: 'the-grid', label: 'The Grid', description: 'Distributed compute fabric', href: '/research/the-grid' },
+      { id: 'aura-harness', label: 'AURA Harness', description: 'Evaluating autonomous agents', href: '/research/aura-harness' },
+      { id: 'zns', label: 'ZNS', description: 'Naming and trust layer', href: '/research/zns' },
+      { id: 'zero-os', label: 'ZERO OS', description: 'A social operating system', href: '/research/zero-os' },
     ],
   },
   {
@@ -283,19 +275,6 @@ export function Nav() {
     setPanelOpen(false);
   }, []);
 
-  const scrollToWhatWeDo = useCallback(() => {
-    const section = document.getElementById('what-we-do');
-    if (!section) return;
-    // Land the first row's content just below the fixed header, rather than the
-    // section wrapper (whose large top padding would otherwise leave a visible
-    // gap under the header).
-    const target = section.querySelector('article') ?? section;
-    const header = document.querySelector('header');
-    const headerOffset = header ? header.getBoundingClientRect().height : 84;
-    const top = target.getBoundingClientRect().top + window.scrollY - headerOffset;
-    window.scrollTo({ top, behavior: 'smooth' });
-  }, []);
-
   // Measure and apply the panel height whenever the displayed section or open
   // state changes. On open we hold the current height for two animation frames
   // (forcing the browser to paint the starting height) and then set the measured
@@ -456,9 +435,9 @@ export function Nav() {
             <button
               type="button"
               className={styles.launchButton}
-              onClick={scrollToWhatWeDo}
+              onClick={() => scrollToSection('what-we-do')}
             >
-              Learn More
+              Mission
               <ArrowDown size={14} style={{ color: 'var(--color-text-secondary)' }} />
             </button>
             <button
@@ -487,7 +466,13 @@ export function Nav() {
               {displayedSection && (
                 <>
                   <div className={styles.megaLead}>
-                    <span className={styles.megaTitle}>{displayedSection.label}</span>
+                    {displayedSection.external || displayedSection.noPanel ? (
+                      <span className={styles.megaTitle}>{displayedSection.label}</span>
+                    ) : (
+                      <Link href={displayedSection.href} className={styles.megaTitle}>
+                        {displayedSection.label}
+                      </Link>
+                    )}
                     {displayedSection.blurb && (
                       <span className={styles.megaBlurb}>{displayedSection.blurb}</span>
                     )}
@@ -550,10 +535,10 @@ export function Nav() {
           className={styles.drawerLaunch}
           onClick={() => {
             setMobileOpen(false);
-            scrollToWhatWeDo();
+            scrollToSection('what-we-do');
           }}
         >
-          Learn More
+          Mission
           <ArrowDown size={14} />
         </button>
         <div className={styles.drawerNav}>

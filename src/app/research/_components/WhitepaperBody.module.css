@@ -1,0 +1,82 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+  color: var(--color-text-secondary);
+}
+
+.heading {
+  scroll-margin-top: 7rem;
+  color: var(--color-text-primary);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.h2 {
+  font-size: clamp(1.5rem, 3.2vw, 2rem);
+  margin-top: 2.75rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid var(--color-overlay-medium);
+}
+
+.body > .h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.h3 {
+  font-size: clamp(1.125rem, 2.4vw, 1.375rem);
+  margin-top: 1.5rem;
+}
+
+.headingNum {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-success);
+  font-family: var(--font-mono), monospace;
+}
+
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding-left: 1.4rem;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.list li {
+  padding-left: 0.25rem;
+}
+
+.figure {
+  margin: 1.25rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.figureImg {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--color-overlay-medium);
+  background: var(--color-surface);
+}
+
+.figcaption {
+  font-size: 0.8125rem;
+  font-style: italic;
+  color: var(--color-text-secondary);
+  text-align: center;
+}

@@ -1,11 +1,19 @@
+'use client';
+
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
+import { scrollToSection } from './scrollToSection';
 import styles from './Footer.module.css';
 
 interface FooterLink {
   label: string;
   href: string;
   external?: boolean;
+  // When set, clicking smooth-scrolls to the element with this id on the
+  // current page instead of navigating to `href`.
+  scrollTo?: string;
+  // Optional year shown as a small date tick next to the label.
+  year?: string;
 }
 
 interface FooterColumn {
@@ -18,40 +26,26 @@ const columns: FooterColumn[] = [
     heading: 'Companies',
     links: [
       { label: 'AURA', href: 'https://aura.ai', external: true },
-      { label: 'ZERO', href: '/zero' },
-      { label: 'ZNS', href: '#' },
-      { label: 'Z Chain', href: 'https://zchain.org', external: true },
-      { label: 'ZODE', href: '/zode' },
+      { label: 'ZERO', href: 'https://zero.tech', external: true },
       { label: 'Wilder World', href: 'https://wilderworld.com', external: true },
-      { label: 'The GRID', href: 'https://github.com/cypher-asi/the-grid', external: true },
+      { label: 'Z Chain', href: 'https://zchain.org', external: true },
+      { label: 'ZODE', href: 'https://zode.org', external: true },
     ],
   },
   {
     heading: 'Research',
     links: [
-      { label: 'The GRID', href: '#' },
-      { label: 'AURA OS', href: '#' },
-      { label: 'AURA Harness', href: '#' },
-      { label: 'ZERO Name Service', href: '#' },
-      { label: 'ZERO Protocol', href: '#' },
-    ],
-  },
-  {
-    heading: 'Social',
-    links: [
-      { label: 'ZINE', href: 'https://zine.live', external: true },
-      { label: 'AURA', href: 'https://x.com/aura_asi', external: true },
-      { label: 'ZERO', href: 'https://x.com/zero_app', external: true },
-      { label: 'ZODE', href: 'https://x.com/zode_org', external: true },
-      { label: 'Z Chain', href: 'https://x.com/zchain_org', external: true },
-      { label: 'Wilder World', href: 'https://x.com/wilderworld', external: true },
+      { label: 'THE GRID', href: '/research/the-grid', year: '2026' },
+      { label: 'AURA Harness', href: '/research/aura-harness', year: '2025' },
+      { label: 'ZNS', href: '/research/zns', year: '2022' },
+      { label: 'ZERO OS', href: '/research/zero-os', year: '2020' },
     ],
   },
   {
     heading: 'Company',
     links: [
-      { label: 'Mission', href: '/vision' },
-      { label: 'About', href: '#' },
+      { label: 'Mission', href: '/vision', scrollTo: 'what-we-do' },
+      { label: 'News', href: 'https://zine.live', external: true },
       { label: 'Privacy Policy', href: '#' },
       { label: 'Terms', href: '#' },
       { label: 'Contact', href: '#' },
@@ -84,25 +78,41 @@ export function Footer() {
             <div key={column.heading} className={styles.column}>
               <h2 className={styles.heading}>{column.heading}</h2>
               <ul className={styles.links}>
-                {column.links.map((link) => (
-                  <li key={`${column.heading}-${link.label}`}>
-                    {link.external ? (
-                      <a
-                        className={styles.link}
-                        href={link.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {link.label}
-                        <ArrowUpRight size={12} className={styles.externalIcon} />
-                      </a>
-                    ) : (
-                      <Link className={styles.link} href={link.href}>
-                        {link.label}
-                      </Link>
-                    )}
-                  </li>
-                ))}
+                {column.links.map((link) => {
+                  const tick = link.year ? (
+                    <span className={styles.yearTick}>{link.year}</span>
+                  ) : null;
+                  return (
+                    <li key={`${column.heading}-${link.label}`}>
+                      {link.scrollTo ? (
+                        <button
+                          type="button"
+                          className={styles.link}
+                          onClick={() => scrollToSection(link.scrollTo!)}
+                        >
+                          {link.label}
+                          {tick}
+                        </button>
+                      ) : link.external ? (
+                        <a
+                          className={styles.link}
+                          href={link.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {link.label}
+                          <ArrowUpRight size={12} className={styles.externalIcon} />
+                          {tick}
+                        </a>
+                      ) : (
+                        <Link className={styles.link} href={link.href}>
+                          {link.label}
+                          {tick}
+                        </Link>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}
@@ -133,10 +143,7 @@ export function Footer() {
         </div>
 
         <div className={styles.brandWrap}>
-          <span className={styles.brand}>
-            <span className={styles.brandSlash}>/</span>
-            <span className={styles.brandLetters}>CYPHER</span>
-          </span>
+          <img className={styles.brandImage} src="/images/brand/cypher-wordmark.png" alt="/CYPHER" />
         </div>
       </div>
     </footer>

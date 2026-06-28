@@ -203,6 +203,13 @@
   font-size: 0.6875rem;
   letter-spacing: 0.12em;
   color: var(--color-text-muted);
+  transition: opacity var(--transition-normal);
+}
+
+/* The index number cedes the top-left corner to the logo on hover. */
+.card:hover .cardMeta,
+.card:focus-visible .cardMeta {
+  opacity: 0;
 }
 
 /* Footer block pinned to the bottom of the card. */
@@ -218,11 +225,12 @@
   flex-direction: column;
 }
 
-/* Logo sits high in the card's top-left (open image area, just below the index
-   number) and is revealed on hover, well clear of the bottom text block. */
+/* Logo sits at the very top-left of the card (the open image area) and is
+   revealed on hover, well clear of the bottom text block. The index number
+   fades out on hover so the mark can occupy this corner cleanly. */
 .cardLogoSection {
   position: absolute;
-  top: calc(clamp(1rem, 1.6vw, 1.5rem) + 1.5rem);
+  top: clamp(0.5rem, 1vw, 0.75rem);
   left: clamp(1rem, 1.6vw, 1.5rem);
   z-index: 1;
   display: flex;

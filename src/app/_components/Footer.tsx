@@ -26,10 +26,10 @@ const columns: FooterColumn[] = [
     heading: 'Companies',
     links: [
       { label: 'AURA', href: 'https://aura.ai', external: true },
-      { label: 'ZERO', href: 'https://zero.tech', external: true },
+      { label: 'ZODE', href: 'https://zode.org', external: true },
       { label: 'Wilder World', href: 'https://wilderworld.com', external: true },
       { label: 'Z Chain', href: 'https://zchain.org', external: true },
-      { label: 'ZODE', href: 'https://zode.org', external: true },
+      { label: 'ZERO', href: 'https://zero.tech', external: true },
     ],
   },
   {
@@ -46,9 +46,9 @@ const columns: FooterColumn[] = [
     links: [
       { label: 'Mission', href: '/vision', scrollTo: 'what-we-do' },
       { label: 'News', href: 'https://zine.live', external: true },
-      { label: 'Privacy Policy', href: '#' },
-      { label: 'Terms', href: '#' },
-      { label: 'Contact', href: '#' },
+      { label: 'Privacy Policy', href: '/privacy' },
+      { label: 'Terms', href: '/terms' },
+      { label: 'Contact', href: '/contact' },
     ],
   },
 ];

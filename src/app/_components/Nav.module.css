@@ -11,6 +11,27 @@
   transition: background 220ms ease, opacity 300ms ease, transform 300ms ease;
 }
 
+/* Gradient scrim beneath the topbar: solid page-background at the very top,
+   fading to transparent so page content dissolves into "infinity" as it
+   scrolls up under the bar. Lives behind the topbar content and fades out
+   together with the bar (it is part of the header, which fades on scroll). */
+.siteTopbar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 180px;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    var(--site-fade-to) 0%,
+    var(--site-fade-to) 28%,
+    transparent 100%
+  );
+}
+
 /* Hidden state while scrolling down: slides up and fades out. */
 .siteTopbarHidden {
   opacity: 0;

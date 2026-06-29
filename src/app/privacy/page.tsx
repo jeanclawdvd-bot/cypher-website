@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { LegalDocument, type LegalSection } from '../_components/LegalDocument';
+import { LegalDocument, type LegalSection } from '@/components/LegalDocument';
 
 const COMPANY = 'Cypher, Inc.';
 const EMAIL = 'hello@cypher.net';

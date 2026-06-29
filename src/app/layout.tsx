@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import { Inter, JetBrains_Mono } from 'next/font/google';
 import './styles/globals.css';
-import { Nav } from './_components/Nav';
-import { Footer } from './_components/Footer';
-import { ThemeWrapper } from './_components/ThemeWrapper';
-import { MusicProvider } from './_components/MusicContext';
-import { CustomScrollbar } from './_components/CustomScrollbar';
+import { Nav } from '@/components/Nav';
+import { Footer } from '@/components/Footer';
+import { ThemeWrapper } from '@/components/ThemeWrapper';
+import { MusicProvider } from '@/components/MusicContext';
+import { CustomScrollbar } from '@/components/CustomScrollbar';
 import { getCurrentCompany } from '@/lib/companies/current';
 
 const inter = Inter({
@@ -47,6 +47,8 @@ export default async function RootLayout({
             <CustomScrollbar />
             <Nav
               wordmark={company.wordmark}
+              wordmarkLogo={company.wordmarkLogo}
+              cta={company.cta}
               sections={company.nav}
               pageSections={company.pageSections}
             />

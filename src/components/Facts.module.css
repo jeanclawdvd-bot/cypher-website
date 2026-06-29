@@ -1,0 +1,334 @@
+.facts {
+  /* Warm tan band (reference). Scope dark text + border tokens here so all
+     children read correctly against the light background in either theme. */
+  --color-text-primary: #1a1814;
+  --color-text-secondary: #44403a;
+  --color-text-muted: #6b6456;
+  --color-border: rgba(0, 0, 0, 0.18);
+
+  background: #b4a68f;
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  padding: clamp(3rem, 8vh, 7rem) clamp(1.5rem, 4vw, 3rem) clamp(4rem, 10vh, 8rem);
+  scroll-margin-top: 0;
+}
+
+.inner {
+  width: 100%;
+}
+
+/* ----------------------------------------------------------------------------
+   Two-column row: mono eyebrow label on the left, content on the right,
+   separated by a thin top rule (reference style).
+   ---------------------------------------------------------------------------- */
+
+.row {
+  display: grid;
+  grid-template-columns: minmax(0, 0.45fr) minmax(0, 0.55fr);
+  gap: clamp(1.5rem, 4vw, 4rem);
+  padding: clamp(2rem, 4vh, 3.25rem) 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.row:first-child {
+  border-top: none;
+}
+
+/* Key Facts: full-bleed black band matching the footer. Cancel the section's
+   horizontal + bottom padding so the band reaches the edges and meets the
+   footer seamlessly, then re-add it as inner padding so content stays aligned.
+   Flip the token set to light values for legibility on the dark background. */
+.rowFacts {
+  --color-text-primary: #f5f3ee;
+  --color-text-secondary: #b8b2a6;
+  --color-text-muted: #8a8478;
+  --color-border: rgba(255, 255, 255, 0.16);
+
+  background: #000;
+  border-top: none;
+  margin: 0 calc(-1 * clamp(1.5rem, 4vw, 3rem)) calc(-1 * clamp(4rem, 10vh, 8rem));
+  padding: clamp(3rem, 6vh, 5rem) clamp(1.5rem, 4vw, 3rem) clamp(4rem, 10vh, 8rem);
+}
+
+.eyebrow {
+  font-family: var(--font-mono), 'Fira Code', monospace;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.heading {
+  font-size: clamp(1.6rem, 3.2vw, 2.5rem);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--color-text-primary);
+  max-width: 28ch;
+  text-wrap: balance;
+}
+
+.body {
+  max-width: 48ch;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+}
+
+/* ----------------------------------------------------------------------------
+   Principles
+   ---------------------------------------------------------------------------- */
+
+.principles {
+  display: flex;
+  flex-direction: column;
+}
+
+.principle {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.principle:first-child {
+  padding-top: 0;
+}
+
+.principle:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.principleNum {
+  font-family: var(--font-mono), 'Fira Code', monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+}
+
+.principleName {
+  font-size: clamp(1.05rem, 1.6vw, 1.35rem);
+  font-weight: 300;
+  letter-spacing: -0.01em;
+  color: var(--color-text-primary);
+}
+
+/* ----------------------------------------------------------------------------
+   Vertical Integration stack – numbered list laid out in two columns
+   ---------------------------------------------------------------------------- */
+
+.stack {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(5, auto);
+  grid-auto-flow: column;
+  column-gap: clamp(1.5rem, 3vw, 3rem);
+}
+
+.stackItem {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.stackNum {
+  font-family: var(--font-mono), 'Fira Code', monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+}
+
+.stackName {
+  font-size: clamp(0.95rem, 1.3vw, 1.1rem);
+  font-weight: 300;
+  letter-spacing: -0.01em;
+  color: var(--color-text-primary);
+}
+
+.stackTags {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3rem;
+}
+
+.stackTagLine {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.3rem;
+}
+
+.stackTag {
+  padding: 0.1rem 0.4rem;
+  font-family: var(--font-mono), 'Fira Code', monospace;
+  font-size: 0.625rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  color: var(--color-text-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+}
+
+/* ----------------------------------------------------------------------------
+   Key Facts table
+   ---------------------------------------------------------------------------- */
+
+.factTable {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--color-border);
+}
+
+.factRow {
+  display: grid;
+  grid-template-columns: minmax(0, 0.5fr) minmax(0, 0.5fr);
+  gap: 1.5rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.factLabel {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+}
+
+.factValue {
+  font-size: 0.875rem;
+  color: var(--color-text-primary);
+}
+
+.factLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--color-text-primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-border);
+  transition: color 150ms ease, border-color 150ms ease;
+}
+
+.factLink:hover {
+  color: var(--color-link-hover, #fff);
+  border-bottom-color: currentColor;
+}
+
+.itemYear {
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text-secondary);
+}
+
+.productGroups {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.productGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.productGroupName {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+.productList {
+  padding-left: 0.25rem;
+}
+
+.productItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.productItem::before {
+  content: '–';
+  color: var(--color-text-secondary);
+  opacity: 0.6;
+}
+
+.downloads {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.downloadLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-secondary);
+  transition: color 150ms ease, transform 150ms ease;
+}
+
+.downloadLink:hover {
+  color: var(--color-link-hover, #fff);
+  transform: translateY(-1px);
+}
+
+.factList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.factList li {
+  position: relative;
+  padding-left: 1.1rem;
+}
+
+.factList li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 4px;
+  height: 4px;
+  background: var(--color-text-muted);
+}
+
+/* ----------------------------------------------------------------------------
+   Responsive – collapse to a single column, eyebrow stacked above content
+   ---------------------------------------------------------------------------- */
+
+@media (max-width: 720px) {
+  .row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .factRow {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+
+  .stack {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-auto-flow: row;
+  }
+}

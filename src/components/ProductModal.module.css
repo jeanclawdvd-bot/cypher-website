@@ -1,0 +1,259 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(1rem, 4vw, 2.5rem);
+  background: var(--color-backdrop);
+  animation: overlayIn 200ms ease-out;
+}
+
+/* Default (mobile / no grid rect): a padded, near-viewport panel. On desktop
+   an inline style overrides position/size to exactly match the bento grid. */
+.panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: min(100%, 880px);
+  max-height: 100%;
+  overflow: hidden;
+  background: #000;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-primary);
+  box-shadow: var(--shadow-lg);
+  animation: panelIn 220ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.close {
+  position: absolute;
+  top: clamp(0.75rem, 1.4vw, 1.1rem);
+  right: clamp(0.75rem, 1.4vw, 1.1rem);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  background: var(--color-backdrop-medium);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition:
+    color var(--transition-normal),
+    border-color var(--transition-normal),
+    background var(--transition-normal);
+}
+
+.close:hover {
+  color: var(--color-text-primary);
+  border-color: var(--color-border-light);
+}
+
+/* Main image fills the upper portion of the panel. */
+.media {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 38%;
+  background-color: #000;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Logo fallback for image-less products: centered on the black field. */
+.mediaLogo {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: auto;
+  height: clamp(2.5rem, 6vw, 4.5rem);
+  max-width: 60%;
+  object-fit: contain;
+  filter: brightness(0) invert(0.9);
+}
+
+.mediaLogo[data-logo-id='zns'] {
+  filter: brightness(0.92);
+}
+
+:global([data-theme='light']) .mediaLogo {
+  filter: brightness(0) invert(0.15);
+}
+
+.body {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  padding: clamp(1.25rem, 2.4vw, 2rem);
+  border-top: 1px solid var(--color-border);
+  overflow-y: auto;
+}
+
+/* Left column: title + description. */
+.bodyMain {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.85rem, 1.6vw, 1.25rem);
+}
+
+.name {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+}
+
+/* Right column: the info sheet, set off by a divider. */
+.meta {
+  flex: 0 0 auto;
+  width: clamp(13rem, 30%, 20rem);
+  margin: 0;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: clamp(0.75rem, 2vw, 1.5rem);
+  row-gap: 0.6rem;
+  align-content: start;
+  padding-left: clamp(1.5rem, 4vw, 3rem);
+  border-left: 1px solid var(--color-border);
+}
+
+.metaRow {
+  display: contents;
+}
+
+.metaLabel {
+  font-family: var(--font-mono), 'Fira Code', monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  align-self: center;
+}
+
+.metaValue {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  font-size: 0.9rem;
+  /* Match the brighter gray the card stats use when a card is active */
+  color: #d1d5db;
+}
+
+/* Icons follow their value's text color so they read at the same brightness */
+.metaValue svg {
+  flex-shrink: 0;
+  color: inherit;
+}
+
+.metaLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #d1d5db;
+  text-decoration: none;
+  transition: color var(--transition-normal);
+}
+
+.metaLink:hover {
+  color: var(--color-text-primary);
+}
+
+.description {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  max-width: 60ch;
+}
+
+/* Prominent call-to-action that opens the product's site in a new tab. */
+.launch {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+  padding: 0.6rem 1.1rem;
+  font-family: var(--font-mono), 'Fira Code', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-accent-contrast);
+  background: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  cursor: pointer;
+  transition:
+    background var(--transition-normal),
+    border-color var(--transition-normal),
+    transform var(--transition-fast),
+    box-shadow var(--transition-normal);
+}
+
+.launch svg {
+  flex-shrink: 0;
+  transition: transform var(--transition-fast);
+}
+
+.launch:hover {
+  background: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
+  box-shadow: 0 0 18px var(--color-accent-muted);
+}
+
+.launch:hover svg {
+  transform: translate(2px, -2px);
+}
+
+@keyframes overlayIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes panelIn {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Stack the two columns on narrow panels; the divider moves to the top. */
+@media (max-width: 760px) {
+  .body {
+    flex-direction: column;
+    gap: clamp(1rem, 4vw, 1.5rem);
+  }
+
+  .meta {
+    width: 100%;
+    padding-left: 0;
+    border-left: none;
+    padding-top: clamp(1rem, 4vw, 1.5rem);
+    border-top: 1px solid var(--color-border);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overlay,
+  .panel {
+    animation: none;
+  }
+}

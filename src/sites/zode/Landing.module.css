@@ -1,0 +1,432 @@
+/* ============================================================================
+   Page – natural document scroll, full-viewport sections
+   ============================================================================ */
+
+.page {
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+}
+
+/* ============================================================================
+   Section – full-viewport with centered content
+   ============================================================================ */
+
+.section {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2rem 3rem;
+}
+
+/* ============================================================================
+   Section inner containers
+   ============================================================================ */
+
+.howItWorks,
+.features,
+.security,
+.start,
+.faqSection {
+  max-width: 980px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ============================================================================
+   Shared typography
+   ============================================================================ */
+
+.eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 450;
+  letter-spacing: 0.15em;
+  color: var(--color-text-secondary);
+  font-family: var(--font-mono), 'Fira Code', monospace;
+}
+
+.heading {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--color-text-primary);
+}
+
+.accent {
+  color: var(--color-text-secondary);
+}
+
+.subtitle {
+  max-width: 620px;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+}
+
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.body {
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  color: var(--color-text-secondary);
+  max-width: 680px;
+}
+
+/* ============================================================================
+   Hero – Codex-style centered layout with breakout image
+   ============================================================================ */
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8rem;
+  padding-bottom: 0;
+  min-height: auto;
+  overflow: visible;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 680px;
+  padding: 0 2rem;
+  gap: 1.25rem;
+}
+
+.appIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.appIconImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.heroTitle {
+  font-size: clamp(2.75rem, 7vw, 4.5rem);
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--color-text-primary);
+}
+
+.heroDesc {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  max-width: 520px;
+}
+
+.heroCtas {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.ctaPrimary {
+  --corner-len: 10px;
+  --corner-color: var(--color-text-secondary);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--color-text-primary);
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 200ms ease;
+  background:
+    linear-gradient(var(--corner-color), var(--corner-color)) no-repeat top left / var(--corner-len) 1px,
+    linear-gradient(var(--corner-color), var(--corner-color)) no-repeat top left / 1px var(--corner-len),
+    linear-gradient(var(--corner-color), var(--corner-color)) no-repeat top right / var(--corner-len) 1px,
+    linear-gradient(var(--corner-color), var(--corner-color)) no-repeat top right / 1px var(--corner-len),
+    linear-gradient(var(--corner-color), var(--corner-color)) no-repeat bottom left / var(--corner-len) 1px,
+    linear-gradient(var(--corner-color), var(--corner-color)) no-repeat bottom left / 1px var(--corner-len),
+    linear-gradient(var(--corner-color), var(--corner-color)) no-repeat bottom right / var(--corner-len) 1px,
+    linear-gradient(var(--corner-color), var(--corner-color)) no-repeat bottom right / 1px var(--corner-len);
+}
+
+.ctaPrimary:hover {
+  --corner-color: var(--color-inverse-muted);
+}
+
+.ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 8px 14px;
+  font-size: 0.8125rem;
+  font-weight: 450;
+  letter-spacing: 0.02em;
+  color: var(--color-text-secondary);
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.ctaSecondary:hover {
+  color: var(--color-text-primary);
+}
+
+.heroImageWrap {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 3.5rem;
+  padding: 0 2rem;
+}
+
+.screenshot {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--color-overlay-medium);
+  border-radius: 8px;
+}
+
+/* ============================================================================
+   How It Works (numbered steps)
+   ============================================================================ */
+
+.howItWorks {
+  gap: 1.25rem;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 0.5rem;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--color-overlay-light);
+}
+
+.step:first-child {
+  padding-top: 0;
+}
+
+.step:last-child {
+  border-bottom: none;
+}
+
+.stepNumber {
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  font-weight: 450;
+  font-family: var(--font-mono), 'Fira Code', monospace;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+  width: 2rem;
+  padding-top: 0.15rem;
+}
+
+.stepTitle {
+  font-size: 0.9375rem;
+  font-weight: 450;
+  color: var(--color-text-primary);
+  margin-bottom: 0.35rem;
+}
+
+.stepDesc {
+  font-size: 0.8125rem;
+  line-height: 1.65;
+  color: var(--color-text-secondary);
+}
+
+/* ============================================================================
+   Features (2×2 grid)
+   ============================================================================ */
+
+.features {
+  gap: 1.25rem;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--color-overlay-medium);
+  border: 1px solid var(--color-overlay-medium);
+  margin-top: 0.5rem;
+}
+
+.featureCard {
+  padding: 2rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  background: var(--color-bg);
+}
+
+.featureTitle {
+  font-size: 0.9375rem;
+  font-weight: 450;
+  color: var(--color-text-primary);
+}
+
+.featureDesc {
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+}
+
+/* ============================================================================
+   Security
+   ============================================================================ */
+
+.security {
+  gap: 1rem;
+}
+
+.securityPoints {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 0.5rem;
+}
+
+.securityPoint {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-overlay-light);
+  font-size: 0.9375rem;
+  color: var(--color-text-primary);
+}
+
+.securityPoint:last-child {
+  border-bottom: none;
+}
+
+.securityDot {
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-overlay-focus);
+}
+
+/* ============================================================================
+   Get Started
+   ============================================================================ */
+
+.start {
+  gap: 1rem;
+}
+
+.startActions {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 0.25rem;
+}
+
+.startAction {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.875rem 0;
+  border-bottom: 1px solid var(--color-overlay-light);
+  font-size: 0.9375rem;
+  color: var(--color-text-primary);
+}
+
+.startAction:last-child {
+  border-bottom: none;
+}
+
+.startDot {
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-overlay-focus);
+}
+
+.startCoda {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--color-text-secondary);
+  margin-top: 0.25rem;
+}
+
+.closingQuote {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  border-left: 2px solid var(--site-border-quote);
+  padding-left: 1.5rem;
+  max-width: 680px;
+  margin-top: 1.5rem;
+}
+
+/* ============================================================================
+   FAQ
+   ============================================================================ */
+
+.faqSection {
+  gap: 1rem;
+}
+
+/* ============================================================================
+   Responsive
+   ============================================================================ */
+
+@media (max-width: 640px) {
+  .heroSection {
+    padding-top: 6rem;
+  }
+
+  .heroContent {
+    padding: 0 1.25rem;
+  }
+
+  .heroImageWrap {
+    padding: 0 1.25rem;
+    margin-top: 2.5rem;
+  }
+
+  .heroCtas {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ctaPrimary,
+  .ctaSecondary {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .section {
+    padding: 4rem 1.25rem 2rem;
+  }
+
+  .featureGrid {
+    grid-template-columns: 1fr;
+  }
+}

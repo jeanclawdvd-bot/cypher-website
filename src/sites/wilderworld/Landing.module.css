@@ -1,0 +1,118 @@
+/* ============================================================================
+   Wilder World – video hero
+   Reuses the Cypher shell: the fixed nav on top + a padded frame with a
+   1px near-black border around the hero, matching the homepage bento grid.
+   ============================================================================ */
+
+.page {
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  padding: calc(72px + clamp(0.75rem, 2vh, 1.5rem)) clamp(0.75rem, 2vw, 1.5rem)
+    clamp(0.75rem, 2vh, 1.5rem);
+}
+
+.frame {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  background: #000;
+  border: 1px solid var(--color-border);
+  isolation: isolate;
+}
+
+.video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* Bottom-up scrim keeping the headline + buttons legible over the footage. */
+.scrim {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.45) 28%,
+    rgba(0, 0, 0, 0) 60%
+  );
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 2.5vh, 1.75rem);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  max-width: 40rem;
+}
+
+.heading {
+  font-size: clamp(2rem, 5.5vw, 4rem);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  color: #fff;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.primary,
+.secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  border-radius: 0;
+  cursor: pointer;
+  transition:
+    background var(--transition-normal),
+    border-color var(--transition-normal),
+    color var(--transition-normal);
+}
+
+.primary {
+  background: #ff6b00;
+  color: #000;
+  border: 1px solid #ff6b00;
+}
+
+.primary:hover {
+  background: #ff8124;
+  border-color: #ff8124;
+}
+
+.secondary {
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  border: 1px solid var(--site-border-action, rgba(255, 255, 255, 0.16));
+  backdrop-filter: blur(6px);
+}
+
+.secondary:hover {
+  border-color: var(--site-border-action-hover, rgba(255, 255, 255, 0.36));
+  background: rgba(0, 0, 0, 0.5);
+}

@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
 import { List, X } from 'lucide-react';
 import { TableOfContents } from './TableOfContents';
-import { CustomScrollbar } from '../../_components/CustomScrollbar';
+import { CustomScrollbar } from '@/components/CustomScrollbar';
 import { flattenToc, type TocNode } from './toc';
 import styles from './WhitepaperLayout.module.css';
 

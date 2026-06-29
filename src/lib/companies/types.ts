@@ -1,4 +1,4 @@
-export type CompanyKey = 'cypher' | 'zode' | 'zero' | 'wilder' | 'z';
+export type CompanyKey = 'cypher' | 'zode' | 'zero' | 'wilderworld' | 'zchain';
 
 export type Theme = 'dark' | 'light' | 'system';
 export type AccentColor = 'cyan' | 'blue' | 'purple' | 'green' | 'orange' | 'rose';
@@ -88,6 +88,10 @@ export interface CompanyConfig {
   name: string;
   /** Nav wordmark text, e.g. "CYPHER". */
   wordmark: string;
+  /** Optional image wordmark shown in the nav top-left instead of the text wordmark. */
+  wordmarkLogo?: { src: string; alt: string };
+  /** Optional nav CTA that replaces the default "Mission" button when present. */
+  cta?: { label: string; href: string; external?: boolean };
   /** Canonical production domain. */
   domain: string;
   accent: AccentColor;

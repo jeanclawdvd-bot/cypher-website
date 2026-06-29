@@ -239,10 +239,19 @@ export const COMPANIES: Record<CompanyKey, CompanyConfig> = {
     footer: footer('Zero'),
     pageSections: zeroSections,
   },
-  wilder: {
-    key: 'wilder',
+  wilderworld: {
+    key: 'wilderworld',
     name: 'Wilder World',
     wordmark: 'WILDER',
+    wordmarkLogo: {
+      src: '/images/wilder-world/wilder-world-logo-orange.svg',
+      alt: 'Wilder World',
+    },
+    cta: {
+      label: 'Early Access',
+      href: 'https://store.epicgames.com/p/wilder-world-wilder-world-alpha-b4ccf8?lang=en-US',
+      external: true,
+    },
     domain: 'wilderworld.com',
     accent: 'purple',
     defaultTheme: 'dark',
@@ -254,8 +263,8 @@ export const COMPANIES: Record<CompanyKey, CompanyConfig> = {
     footer: footer('Wilder World'),
     pageSections: [],
   },
-  z: {
-    key: 'z',
+  zchain: {
+    key: 'zchain',
     name: 'Z Chain',
     wordmark: 'Z',
     domain: 'zchain.org',
@@ -281,10 +290,10 @@ export const DOMAIN_TO_COMPANY: Record<string, CompanyKey> = {
   'www.zode.org': 'zode',
   'zero.tech': 'zero',
   'www.zero.tech': 'zero',
-  'wilderworld.com': 'wilder',
-  'www.wilderworld.com': 'wilder',
-  'zchain.org': 'z',
-  'www.zchain.org': 'z',
+  'wilderworld.com': 'wilderworld',
+  'www.wilderworld.com': 'wilderworld',
+  'zchain.org': 'zchain',
+  'www.zchain.org': 'zchain',
 };
 
 export const DEFAULT_COMPANY: CompanyKey = 'cypher';

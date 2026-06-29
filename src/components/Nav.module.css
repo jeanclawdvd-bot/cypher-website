@@ -107,7 +107,7 @@
 
 /* Image wordmark (used in place of the text wordmark, e.g. Wilder World). */
 .brandLogo {
-  height: 30px;
+  height: 46px;
   width: auto;
   display: block;
 }
@@ -719,6 +719,11 @@
     background: none;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .drawerCta {
+    align-self: flex-start;
+    margin-bottom: 28px;
   }
 
   .drawerNav {

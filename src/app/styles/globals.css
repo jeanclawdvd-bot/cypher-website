@@ -452,3 +452,48 @@ code {
   pointer-events: none;
   user-select: none;
 }
+
+/* ============================================================================
+   Sci-fi CTA button (shared by the Wilder World hero + nav Early Access)
+   Short, near-square corners (1px radius) with a 45deg cut on the bottom-left.
+   ============================================================================ */
+.sci-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 1.15rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 1px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 11px 100%, 0 calc(100% - 11px));
+  transition:
+    background var(--transition-normal),
+    color var(--transition-normal),
+    opacity var(--transition-normal);
+}
+
+.sci-btn-primary {
+  background: #ff6434;
+  color: #000;
+}
+
+.sci-btn-primary:hover {
+  background: #ff7d55;
+}
+
+/* Borderless ghost variant (e.g. Watch Trailer over the hero video). */
+.sci-btn-ghost {
+  background: transparent;
+  color: #fff;
+  clip-path: none;
+  padding-left: 0.5rem;
+}
+
+.sci-btn-ghost:hover {
+  color: #ff6434;
+}

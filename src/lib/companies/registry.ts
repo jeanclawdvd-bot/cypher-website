@@ -120,6 +120,15 @@ const sharedNav: NavSection[] = [
   },
 ];
 
+/* Wilder World runs its own product-site nav (not the ecosystem chrome). */
+const wilderNav: NavSection[] = [
+  { id: 'gameplay', label: 'Gameplay', href: '#gameplay', noPanel: true },
+  { id: 'city', label: 'City', href: '#city', noPanel: true },
+  { id: 'industries', label: 'Industries', href: '#industries', noPanel: true },
+  { id: 'economy', label: 'Economy', href: '#economy', noPanel: true },
+  { id: 'news', label: 'News', href: 'https://zine.live', external: true, noPanel: true },
+];
+
 const sharedFooterColumns: FooterColumn[] = [
   {
     heading: 'Companies',
@@ -259,7 +268,7 @@ export const COMPANIES: Record<CompanyKey, CompanyConfig> = {
       title: 'Wilder World',
       description: 'A photorealistic, immersive virtual simulation.',
     },
-    nav: sharedNav,
+    nav: wilderNav,
     footer: footer('Wilder World'),
     pageSections: [],
   },

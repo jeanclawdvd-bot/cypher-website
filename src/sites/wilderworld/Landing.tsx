@@ -24,7 +24,7 @@ export default function WilderworldLanding() {
             <h1 className={styles.heading}>A virtual metropolis.</h1>
             <div className={styles.actions}>
               <a
-                className={styles.primary}
+                className="sci-btn sci-btn-primary"
                 href={EARLY_ACCESS_URL}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ export default function WilderworldLanding() {
                 <ArrowUpRight size={16} />
               </a>
               <a
-                className={styles.secondary}
+                className="sci-btn sci-btn-ghost"
                 href={TRAILER_URL}
                 target="_blank"
                 rel="noopener noreferrer"

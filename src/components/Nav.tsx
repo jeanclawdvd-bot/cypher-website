@@ -425,10 +425,10 @@ export function Nav({
                 href={cta.href}
                 target={cta.external ? '_blank' : undefined}
                 rel={cta.external ? 'noopener noreferrer' : undefined}
-                className={styles.launchButton}
+                className="sci-btn sci-btn-primary"
               >
                 {cta.label}
-                <ArrowUpRight size={14} style={{ color: 'var(--color-text-secondary)' }} />
+                <ArrowUpRight size={14} />
               </a>
             ) : (
               <button
@@ -593,7 +593,7 @@ export function Nav({
             href={cta.href}
             target={cta.external ? '_blank' : undefined}
             rel={cta.external ? 'noopener noreferrer' : undefined}
-            className={styles.drawerLaunch}
+            className={`sci-btn sci-btn-primary ${styles.drawerCta}`}
             onClick={() => setMobileOpen(false)}
           >
             {cta.label}

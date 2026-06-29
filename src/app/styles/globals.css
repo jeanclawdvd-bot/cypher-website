@@ -35,9 +35,14 @@
   --radius-xl: 0;
   --radius-full: 0;
 
-  /* Typography */
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  /* Typography
+     Loader variables (--font-inter / --font-jetbrains / --font-ddin) are
+     attached to <html> in layout.tsx. Semantic tokens below default to Inter
+     and can be remapped per brand via the company config (see CompanyFonts). */
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-jetbrains), 'Fira Code', monospace;
+  /* Headings / display face. Defaults to the body sans; brands can override. */
+  --font-display: var(--font-sans);
 
   --text-2xs: 10px;
   --text-xs: 12px;
@@ -350,6 +355,15 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display), system-ui, -apple-system, sans-serif;
 }
 
 /* ============================================================================

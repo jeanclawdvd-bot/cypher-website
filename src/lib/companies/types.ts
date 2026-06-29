@@ -80,6 +80,19 @@ export interface PageSection {
 }
 
 /* ---------------------------------------------------------------------------
+   Typography (per-brand font overrides)
+   Values are CSS font-family values, typically pointing at a loader variable
+   (e.g. 'var(--font-ddin)'). Omitted fields fall back to the Inter defaults
+   defined in globals.css.
+   --------------------------------------------------------------------------- */
+export interface CompanyFonts {
+  /** Body / UI font, overrides --font-sans. */
+  sans?: string;
+  /** Headings / display font, overrides --font-display. */
+  display?: string;
+}
+
+/* ---------------------------------------------------------------------------
    Company (one per domain)
    --------------------------------------------------------------------------- */
 export interface CompanyConfig {
@@ -104,4 +117,6 @@ export interface CompanyConfig {
   footer: FooterConfig;
   /** Sections for the in-page scroll-spy nav on this company's landing. */
   pageSections: PageSection[];
+  /** Optional per-brand font overrides. Defaults to Inter when omitted. */
+  fonts?: CompanyFonts;
 }

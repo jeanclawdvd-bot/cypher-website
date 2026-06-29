@@ -271,6 +271,10 @@ export const COMPANIES: Record<CompanyKey, CompanyConfig> = {
     nav: wilderNav,
     footer: footer('Wilder World'),
     pageSections: [],
+    fonts: {
+      sans: 'var(--font-ddin)',
+      display: 'var(--font-ddin)',
+    },
   },
   zchain: {
     key: 'zchain',

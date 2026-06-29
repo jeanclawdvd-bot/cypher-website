@@ -65,6 +65,11 @@
    ============================================================================ */
 :root,
 [data-theme='dark'] {
+  /* Tells the browser to paint UA-controlled surfaces (the backdrop shown in
+     newly-exposed areas while resizing, overscroll regions, form controls)
+     dark, preventing a white flash along the edges during window resize. */
+  color-scheme: dark;
+
   --color-bg: #09090b;
   --color-surface: #0e0e10;
   --color-elevated: #131316;
@@ -121,6 +126,8 @@
    Light Theme
    ============================================================================ */
 [data-theme='light'] {
+  color-scheme: light;
+
   --color-bg: #ffffff;
   --color-surface: #f8f9fa;
   --color-elevated: #ffffff;

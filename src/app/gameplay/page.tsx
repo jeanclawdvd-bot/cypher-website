@@ -75,6 +75,7 @@ const RACE_FEATURES: Feature[] = [
     title: '100+ Vehicles',
     description:
       'Collect and drive a roster of 100+ vehicles, each with its own feel.',
+    image: '/images/wilder-world/race_100_vehicles.png',
   },
 ];
 

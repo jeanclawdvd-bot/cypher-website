@@ -35,6 +35,7 @@ const FIGHT_FEATURES: Feature[] = [
     title: 'Climb the Season Ranks',
     description:
       'Every season is a new race for status and loot. Gain ranks, XP, limited-time gear, faction rewards, and leaderboard prizes.',
+    image: '/images/wilder-world/trinity_sniper.png',
   },
 ];
 

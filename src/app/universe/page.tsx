@@ -114,18 +114,6 @@ const SECTIONS: Section[] = [
       },
     ],
   },
-  {
-    id: 'setting',
-    title: 'Setting',
-    image: '/images/wilder-world/wilder-world-hover.png',
-    blocks: [
-      {
-        kind: 'p',
-        text:
-          'The stage where the war for Earth\u2019s consciousness plays out, from the surveilled streets of the lower city to the pocket universe beyond The GATE. Details coming soon.',
-      },
-    ],
-  },
 ];
 
 export default function UniversePage() {

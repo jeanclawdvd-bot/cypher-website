@@ -134,8 +134,7 @@ export default function UniversePage() {
         <p className={styles.eyebrow}>The Universe</p>
         <h1 className={styles.pageTitle}>The War for Reality</h1>
         <p className={styles.pageSubtitle}>
-          A clandestine struggle spanning dimensions, machines, and minds, and
-          the Wilders who refuse to be harvested.
+          A clandestine struggle spanning dimensions, machines, and minds.
         </p>
       </header>
 

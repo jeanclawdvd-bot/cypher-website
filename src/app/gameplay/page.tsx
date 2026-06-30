@@ -20,6 +20,7 @@ const FIGHT_FEATURES: Feature[] = [
     title: 'Customize Every Weapon',
     description:
       'Weapons are a major progression system. Modify barrels, optics, magazines, ammo, grips, skins, energy cores, and rare exotic parts.',
+    image: '/images/wilder-world/weapon_dmg.png',
   },
   {
     title: 'Build Rare Loadouts',

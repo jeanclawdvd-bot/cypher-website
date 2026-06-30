@@ -1,6 +1,7 @@
 'use client';
 
 import { useRef } from 'react';
+import Link from 'next/link';
 import styles from './Landing.module.css';
 
 export type GameplayCardProps = {
@@ -8,6 +9,7 @@ export type GameplayCardProps = {
   description: string;
   video?: string;
   image?: string;
+  href?: string;
 };
 
 export default function GameplayCard({
@@ -15,6 +17,7 @@ export default function GameplayCard({
   description,
   video,
   image,
+  href,
 }: GameplayCardProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -30,12 +33,8 @@ export default function GameplayCard({
     el.pause();
   };
 
-  return (
-    <article
-      className={styles.gameplayCard}
-      onMouseEnter={handleEnter}
-      onMouseLeave={handleLeave}
-    >
+  const inner = (
+    <>
       {video ? (
         <video
           ref={videoRef}
@@ -54,6 +53,29 @@ export default function GameplayCard({
       <div className={styles.gameplayDescWrap}>
         <p className={styles.gameplayDesc}>{description}</p>
       </div>
+    </>
+  );
+
+  if (href) {
+    return (
+      <Link
+        href={href}
+        className={styles.gameplayCard}
+        onMouseEnter={handleEnter}
+        onMouseLeave={handleLeave}
+      >
+        {inner}
+      </Link>
+    );
+  }
+
+  return (
+    <article
+      className={styles.gameplayCard}
+      onMouseEnter={handleEnter}
+      onMouseLeave={handleLeave}
+    >
+      {inner}
     </article>
   );
 }

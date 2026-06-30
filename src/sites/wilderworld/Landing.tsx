@@ -25,21 +25,25 @@ const GAMEPLAY_MODES: GameplayCardProps[] = [
     title: 'Race',
     description: 'Tear through the streets in high-speed races across Wiami.',
     video: '/videos/wiami-race.mp4',
+    href: '/gameplay#race',
   },
   {
     title: 'Fight',
     description: 'Take the fight street-level in intense FPS battles.',
     video: '/videos/wiami-fight.mp4',
+    href: '/gameplay#fight',
   },
   {
     title: 'Explore',
     description: 'Roam a massive open world driven by RPG missions.',
-    image: '/images/wilder-world/meow.png',
+    video: '/images/wilder-world/meow_craft.mp4',
+    href: '/gameplay#explore',
   },
   {
     title: 'Build',
     description: 'Own and build everything from land to vehicles.',
     image: '/images/wilder-world/mining.png',
+    href: '/gameplay#build',
   },
 ];
 
@@ -254,10 +258,10 @@ export default function WilderworldLanding() {
         <div className={styles.gameplayInner}>
           <SectionHeader
             eyebrow="News"
-            title="What's New"
+            title="From The Wire"
             subtitle={
               <>
-                The latest dispatches from Wiami&mdash;drops, updates and
+                The latest dispatches from Wiami. Drops, updates and
                 announcements straight from the Wilder World zine.
               </>
             }

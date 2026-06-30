@@ -124,7 +124,7 @@ const sharedNav: NavSection[] = [
 /* Wilder World runs its own product-site nav (not the ecosystem chrome). */
 const wilderNav: NavSection[] = [
   { id: 'universe', label: 'Universe', href: '/universe', noPanel: true },
-  { id: 'gameplay', label: 'Gameplay', href: '#gameplay', noPanel: true },
+  { id: 'gameplay', label: 'Gameplay', href: '/gameplay', noPanel: true },
   { id: 'city', label: 'City', href: '#city', noPanel: true },
   { id: 'industries', label: 'Industries', href: '#industries', noPanel: true },
   { id: 'economy', label: 'Economy', href: '#economy', noPanel: true },
@@ -216,8 +216,9 @@ const wilderFooter: FooterConfig = {
       links: [
         { label: 'Overview', href: '/' },
         { label: 'Universe', href: '/universe' },
-        { label: 'Gameplay', href: '/#gameplay' },
+        { label: 'Gameplay', href: '/gameplay' },
         { label: 'City', href: '/#city' },
+        { label: 'Economy', href: '/#economy' },
       ],
     },
     {

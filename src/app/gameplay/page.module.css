@@ -1,0 +1,198 @@
+/* ============================================================================
+   Gameplay – mode sections (Fight detailed, Race/Explore/Build placeholders).
+   Container width and gaps mirror the Wilder World landing so the page reads
+   consistently with the rest of the site.
+   ============================================================================ */
+
+.page {
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  padding-inline: clamp(0.75rem, 2vw, 1.5rem);
+  padding-bottom: clamp(4rem, 10vh, 8rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.modeSection {
+  display: flex;
+  flex-direction: column;
+  padding-block-end: clamp(2.5rem, 7vh, 5rem);
+}
+
+/* ----------------------------------------------------------------------------
+   Mode hero media (video / image).
+   --------------------------------------------------------------------------- */
+.media {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+}
+
+.mediaVideo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ----------------------------------------------------------------------------
+   Features sub-header.
+   --------------------------------------------------------------------------- */
+.featuresHead {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-block: clamp(2rem, 5vh, 3.5rem) clamp(1rem, 3vh, 1.75rem);
+}
+
+.featuresEyebrow {
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #f97316;
+  margin: 0;
+}
+
+.featuresTitle {
+  font-family: var(--font-display), system-ui, -apple-system, sans-serif;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1.05;
+  text-transform: uppercase;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+/* ----------------------------------------------------------------------------
+   Feature cards – rows of 3, with a hover reveal mirroring the landing's
+   gameplay cards: title sits at rest, description slides up on hover.
+   --------------------------------------------------------------------------- */
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(0.75rem, 1.5vw, 1.25rem);
+}
+
+.featureCard {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: clamp(1.25rem, 2.5vw, 1.75rem);
+  background:
+    radial-gradient(120% 120% at 0% 100%, rgba(249, 115, 22, 0.18) 0%, rgba(249, 115, 22, 0) 55%),
+    #0a0a0a;
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+  min-height: 0;
+  transition: border-color 0.25s ease;
+}
+
+.featureCard:hover {
+  border-color: #f97316;
+}
+
+.featureTitle,
+.featureDescWrap {
+  position: relative;
+  z-index: 2;
+}
+
+/* Description is collapsed at rest (title only). On hover it expands, pushing
+   the title up, and the copy fades in. */
+.featureDescWrap {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.featureCard:hover .featureDescWrap {
+  grid-template-rows: 1fr;
+}
+
+.featureTitle {
+  font-family: var(--font-display), system-ui, -apple-system, sans-serif;
+  font-size: clamp(1.125rem, 1.8vw, 1.5rem);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+.featureDesc {
+  overflow: hidden;
+  min-height: 0;
+  opacity: 0;
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  font-size: clamp(0.875rem, 1.05vw, 0.9375rem);
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.72);
+  margin: 0;
+  transition: opacity 0.3s ease;
+}
+
+.featureCard:hover .featureDesc {
+  opacity: 1;
+}
+
+/* ----------------------------------------------------------------------------
+   Placeholder "Coming Soon" panel for Race / Explore / Build.
+   --------------------------------------------------------------------------- */
+.comingSoon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 5;
+  background: #0a0a0a;
+  border: 1px dashed var(--color-border);
+}
+
+.comingSoonLabel {
+  font-family: var(--font-display), system-ui, -apple-system, sans-serif;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 900px) {
+  .featureGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  .page {
+    padding: calc(72px + 2rem) 1.25rem 4rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .featureGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .featureCard {
+    aspect-ratio: auto;
+    min-height: 9rem;
+  }
+
+  /* On touch, where there is no hover, always show the description. */
+  .featureDescWrap {
+    grid-template-rows: 1fr;
+  }
+
+  .featureDesc {
+    opacity: 1;
+  }
+}

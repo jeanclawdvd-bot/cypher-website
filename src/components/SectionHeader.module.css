@@ -7,7 +7,7 @@
   max-width: 44rem;
   margin-inline: auto;
   /* Standardized top/bottom breathing room shared across sections. */
-  padding-block: clamp(9rem, 27vh, 18rem);
+  padding-block: clamp(7.2rem, 21.6vh, 14.4rem);
 }
 
 .eyebrow {
@@ -29,6 +29,7 @@
   text-transform: uppercase;
   color: var(--color-text-primary);
   margin: 0;
+  text-wrap: balance;
 }
 
 .subtitle {
@@ -37,6 +38,6 @@
   line-height: 1.6;
   color: var(--color-text-secondary);
   margin: 0;
-  /* Greedy fill keeps the first line a bit longer than the last. */
-  text-wrap: pretty;
+  /* Even out line lengths so multi-line copy reads as a balanced block. */
+  text-wrap: balance;
 }

@@ -202,7 +202,7 @@ const WILDER_EARLY_ACCESS_URL =
 
 const wilderFooter: FooterConfig = {
   copyrightName: 'Wilder World',
-  wordmarkSrc: '/images/wilder-world/wilder-world-wordmark.png',
+  wordmarkSrc: '/images/wilder-world/wilder-world-wordmark.svg',
   wordmarkAlt: 'Wilder World',
   social: {},
   cta: {

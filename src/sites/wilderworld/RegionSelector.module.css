@@ -26,9 +26,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* Fixed crop centered on the landmass so the map never moves between
-     selections; the tall frame shows the same slice for every territory. */
-  object-position: 45% 50%;
+  /* Fixed crop centered on the island's concentric circle so the map never
+     moves between selections; the tall frame shows the same slice for every
+     territory. */
+  object-position: 49% 49%;
   z-index: 1;
 }
 
@@ -40,7 +41,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 45% 50%;
+  object-position: 49% 49%;
   z-index: 2;
   mix-blend-mode: screen;
   animation: highlightIn 0.45s ease;

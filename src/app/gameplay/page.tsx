@@ -33,6 +33,7 @@ const FIGHT_FEATURES: Feature[] = [
     title: 'Trade & Earn',
     description:
       'Trade, sell, buy, and rent gear, cosmetics, vehicles, and rare resources in an open, player-driven marketplace.',
+    image: '/images/wilder-world/wild_gold_gray.png',
   },
   {
     title: 'Climb the Season Ranks',

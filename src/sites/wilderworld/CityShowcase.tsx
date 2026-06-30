@@ -1,12 +1,11 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { Moon, Sun, Sunset } from 'lucide-react';
+import { Moon, Sun } from 'lucide-react';
 import styles from './CityShowcase.module.css';
 
 const BACKDROPS = [
   { id: 'day', label: 'Day', Icon: Sun, src: '/videos/midday.mp4' },
-  { id: 'sunset', label: 'Sunset', Icon: Sunset, src: '/videos/sunset.mp4' },
   { id: 'night', label: 'Night', Icon: Moon, src: '/videos/night.mp4' },
 ] as const;
 

@@ -1,5 +1,6 @@
 'use client';
 
+import { useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 import { scrollToSection } from './scrollToSection';
@@ -34,6 +35,23 @@ export function Footer({ footer }: { footer: FooterConfig }) {
     parentCompany,
   } = footer;
   const hasSocial = Boolean(social.x || social.github);
+
+  // Preserve the active `?company=` dev override on internal links so the
+  // footer keeps the current brand (e.g. Wilder World) instead of falling back
+  // to the default company. On real domains there is no param and links stay
+  // bare (the host resolves the brand).
+  const [companyParam, setCompanyParam] = useState<string | null>(null);
+  useEffect(() => {
+    setCompanyParam(new URLSearchParams(window.location.search).get('company'));
+  }, []);
+  const withCompany = useCallback(
+    (href: string) => {
+      if (!companyParam || !href.startsWith('/')) return href;
+      return `${href}${href.includes('?') ? '&' : '?'}company=${companyParam}`;
+    },
+    [companyParam]
+  );
+
   return (
     <footer className={styles.footer} aria-label="Site footer">
       <div className={styles.inner}>
@@ -85,7 +103,7 @@ export function Footer({ footer }: { footer: FooterConfig }) {
                           {tick}
                         </a>
                       ) : (
-                        <Link className={styles.link} href={link.href}>
+                        <Link className={styles.link} href={withCompany(link.href)}>
                           {link.label}
                           {tick}
                         </Link>

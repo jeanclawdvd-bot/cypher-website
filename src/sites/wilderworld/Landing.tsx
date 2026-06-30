@@ -5,6 +5,7 @@ import { ArrowUpRight, Moon, Play, Sun, Sunset } from 'lucide-react';
 import { SectionHeader } from '@/components/SectionHeader';
 import GameplayCard, { type GameplayCardProps } from './GameplayCard';
 import FactionSelector from './FactionSelector';
+import NewsCarousel from './NewsCarousel';
 import styles from './Landing.module.css';
 
 const EARLY_ACCESS_URL =
@@ -246,6 +247,22 @@ export default function WilderworldLanding() {
               aria-hidden
             />
           </div>
+        </div>
+      </section>
+
+      <section id="news" className={styles.gameplaySection}>
+        <div className={styles.gameplayInner}>
+          <SectionHeader
+            eyebrow="News"
+            title="What's New"
+            subtitle={
+              <>
+                The latest dispatches from Wiami&mdash;drops, updates and
+                announcements straight from the Wilder World zine.
+              </>
+            }
+          />
+          <NewsCarousel />
         </div>
       </section>
     </div>

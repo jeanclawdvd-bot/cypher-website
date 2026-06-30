@@ -145,6 +145,34 @@ export default function WilderworldLanding() {
         </div>
       </section>
 
+      <section id="city" className={styles.gameplaySection}>
+        <div className={styles.gameplayInner}>
+          <SectionHeader
+            eyebrow="City"
+            title="Welcome to Wiami"
+            subtitle={
+              <>
+                Wiami is a massive virtual metropolis with residential areas,
+                commercial hubs, industrial zones and legendary landmarks. More
+                than just an open world, it&rsquo;s a city built for endless
+                gameplay, exploration and discovery.
+              </>
+            }
+          />
+          <div className={styles.cityMap}>
+            <video
+              className={styles.cityMapVideo}
+              src="/videos/wiami-map.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              aria-hidden
+            />
+          </div>
+        </div>
+      </section>
+
       <section className={styles.gameplaySection}>
         <SectionHeader
           eyebrow="Universe"

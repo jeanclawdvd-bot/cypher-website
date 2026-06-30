@@ -65,6 +65,7 @@ const RACE_FEATURES: Feature[] = [
     title: 'NOS',
     description:
       'Trigger nitrous boosts for explosive bursts of speed when it matters most.',
+    image: '/images/wilder-world/race_nos.png',
   },
   {
     title: 'Maintenance',

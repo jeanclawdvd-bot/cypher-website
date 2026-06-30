@@ -10,9 +10,10 @@ const FACTION_GROUPS: FactionGroup[] = [
   {
     side: 'Rebel',
     factions: [
+      { name: 'Auric', image: '/images/wilder-world/auric.png' },
       { name: 'Gharic', image: '/images/wilder-world/trinity-program.png' },
+      { name: 'Nova', image: '/images/wilder-world/nova_switch.png' },
       { name: 'Trinity', image: '/images/wilder-world/wiami-forum.png' },
-      { name: 'Sylo', image: '/images/wilder-world/nova_switch.png' },
     ],
   },
   {
@@ -20,7 +21,6 @@ const FACTION_GROUPS: FactionGroup[] = [
     factions: [
       { name: 'Wape', image: '/images/wilder-world/wape.jpeg' },
       { name: 'Spartan', image: '/images/wilder-world/spartan.png' },
-      { name: 'Auric', image: '/images/wilder-world/auric.png' },
     ],
   },
 ];

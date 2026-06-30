@@ -13,6 +13,8 @@ type Neighborhood = {
   x: number;
   y: number;
   full?: boolean;
+  /* Optional dedicated thumbnail image; falls back to the zoomed map. */
+  thumb?: string;
   blurb: string;
 };
 
@@ -22,6 +24,7 @@ const NEIGHBORHOODS: Neighborhood[] = [
     tag: 'Industrial',
     x: 20,
     y: 24,
+    thumb: '/images/wilder-world/island_neighborhood_outline_DistrictZERO.jpg',
     blurb:
       "Wiami's industrial heart. Foundries, fabrication, and logistics run around the clock, refining the resources mined across the world into the goods, gear, and machines that keep the city alive.",
   },
@@ -30,6 +33,7 @@ const NEIGHBORHOODS: Neighborhood[] = [
     tag: 'Innovation',
     x: 30,
     y: 32,
+    thumb: '/images/wilder-world/island_neighborhood_outline_HavenHeights.jpg',
     blurb:
       'Where innovation meets artistry. Fashion houses, auto ateliers, and cybernetics labs push the edge of style and self. Couture, custom wheels, and chrome are born on these streets.',
   },
@@ -38,6 +42,7 @@ const NEIGHBORHOODS: Neighborhood[] = [
     tag: 'Sustainability',
     x: 40,
     y: 39,
+    thumb: '/images/wilder-world/island_neighborhood_outline_TranquilityGardens.jpg',
     blurb:
       "Wiami's green lung. Vertical farms, eco-retail, and living architecture make this the city's sustainability hub, proving the simulation can grow as gracefully as it builds.",
   },
@@ -46,6 +51,7 @@ const NEIGHBORHOODS: Neighborhood[] = [
     tag: 'Culture',
     x: 45,
     y: 45,
+    thumb: '/images/wilder-world/island_neighborhood_outline_LittleMeow.jpg',
     blurb:
       'Rebellious, loud, and alive: the home of the Wilders. Entertainment-driven and fiercely independent, this is where culture is made and the spirit of the resistance burns brightest.',
   },
@@ -54,6 +60,7 @@ const NEIGHBORHOODS: Neighborhood[] = [
     tag: 'Consciousness',
     x: 52,
     y: 53,
+    thumb: '/images/wilder-world/island_neighborhood_outline_SpaceMind.jpg',
     blurb:
       'Where technology meets the soul. A district devoted to consciousness expansion, blending neural tech and spirituality to explore what the mind can become inside the simulation.',
   },
@@ -62,6 +69,7 @@ const NEIGHBORHOODS: Neighborhood[] = [
     tag: 'Finance',
     x: 62,
     y: 60,
+    thumb: '/images/wilder-world/island_neighborhood_outline_Nexus.jpg',
     blurb:
       'The crypto-financial core. Skyscrapers, DAOs, and data centers concentrate the on-chain economy, the place where capital, code, and governance converge.',
   },
@@ -70,6 +78,7 @@ const NEIGHBORHOODS: Neighborhood[] = [
     tag: 'Nightlife',
     x: 73,
     y: 67,
+    thumb: '/images/wilder-world/island_neighborhood_outline_FlashingLights.jpg',
     blurb:
       "Neon-soaked and never dark. Wiami's nightlife and immersive entertainment district: clubs, arenas, and experiences that run until dawn.",
   },
@@ -78,6 +87,7 @@ const NEIGHBORHOODS: Neighborhood[] = [
     tag: 'Luxury',
     x: 86,
     y: 75,
+    thumb: '/images/wilder-world/island_neighborhood_outline_NorthStar.jpg',
     blurb:
       "Serene, exclusive, and above it all. The luxury residential zone of quiet streets, skyline views, and rarefied calm where Wiami's elite reside.",
   },
@@ -124,10 +134,10 @@ export default function Neighborhoods() {
             >
               <img
                 className={styles.thumbImg}
-                src={MAP}
+                src={n.thumb ?? MAP}
                 alt=""
                 aria-hidden
-                style={zoomStyle(n)}
+                style={n.thumb ? undefined : zoomStyle(n)}
               />
             </button>
           ))}

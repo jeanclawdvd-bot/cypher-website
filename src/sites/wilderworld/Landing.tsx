@@ -46,7 +46,7 @@ export default function WilderworldLanding() {
           />
           <div className={styles.scrim} aria-hidden />
           <div className={styles.overlay}>
-            <h1 className={styles.heading}>A virtual metropolis.</h1>
+            <h1 className={styles.heading}>The Simulation.</h1>
             <div className={styles.actions}>
               <a
                 className="sci-btn sci-btn-primary"
@@ -75,7 +75,7 @@ export default function WilderworldLanding() {
         <div className={styles.gameplayInner}>
           <SectionHeader
             eyebrow="Gameplay"
-            title="Step Into Wiami"
+            title="Wire In"
             subtitle={
               <>
                 A massive open-world simulation where you can race, fight,

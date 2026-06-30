@@ -49,7 +49,9 @@
   line-height: 1.6;
   color: var(--color-text-secondary);
   margin: 0;
-  text-wrap: balance;
+  /* Greedy fill (with orphan avoidance) keeps the first line a bit longer
+     than the second rather than perfectly even like `balance`. */
+  text-wrap: pretty;
 }
 
 /* ----------------------------------------------------------------------------

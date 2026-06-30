@@ -7,8 +7,8 @@ export default function CityPage() {
     <div className={styles.page}>
       <SectionHeader
         as="h1"
-        eyebrow="City"
-        title="Welcome to Wiami"
+        eyebrow="Welcome to Wiami"
+        title="City"
         subtitle="Wiami is a massive virtual metropolis with residential areas, commercial hubs, industrial zones and legendary landmarks. Watch the city shift from day to night."
       />
       <CityShowcase />

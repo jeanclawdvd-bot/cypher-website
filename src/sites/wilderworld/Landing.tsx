@@ -93,6 +93,23 @@ export default function WilderworldLanding() {
         </div>
       </section>
 
+      <section className={styles.gameplaySection}>
+        <SectionHeader
+          eyebrow="Universe"
+          title="Fight For Freedom"
+          subtitle={
+            <>
+              Wiami was meant to stay hidden beyond The GATE, a refuge where the
+              Wilders could vanish from the surface. But The FORUM has found it.
+              Now the rogue AI turns its full force on the city, flooding the
+              lower levels with enforcers and mapping every street through
+              relentless surveillance. The attack on Wiami has begun, and only
+              those willing to fight can keep the simulation from falling.
+            </>
+          }
+        />
+      </section>
+
       <section id="universe" className={styles.section}>
         <div className={styles.frame}>
           <img

@@ -121,22 +121,21 @@ const OPEN_WORLD_FEATURES: Feature[] = [
   },
 ];
 
-type Placeholder = {
-  id: string;
-  eyebrow: string;
-  title: string;
-  subtitle: string;
-  image?: string;
-};
-
-const PLACEHOLDERS: Placeholder[] = [
+const BUILD_FEATURES: Feature[] = [
   {
-    id: 'build',
-    eyebrow: 'Build',
-    title: 'Own and Build Everything',
-    subtitle:
-      'Own and build everything from land to vehicles. Full details coming soon.',
-    image: '/images/wilder-world/build_construction.png',
+    title: 'Mine',
+    description:
+      'Extract resources from the land to fuel crafting and the $WILD economy.',
+  },
+  {
+    title: 'Build',
+    description:
+      'Construct and customize everything from vehicles to virtual real estate.',
+  },
+  {
+    title: 'Sell',
+    description:
+      'Trade and sell your creations and assets in a player-driven marketplace.',
   },
 ];
 
@@ -253,28 +252,29 @@ export default function GameplayPage() {
         <FeatureGrid features={OPEN_WORLD_FEATURES} />
       </section>
 
-      {PLACEHOLDERS.map((mode) => (
-        <section key={mode.id} id={mode.id} className={styles.modeSection}>
-          <SectionHeader
-            eyebrow={mode.eyebrow}
-            title={mode.title}
-            subtitle={mode.subtitle}
+      <section id="build" className={styles.modeSection}>
+        <SectionHeader
+          eyebrow="Build"
+          title="Own and Build Everything"
+          subtitle="Own and build everything from land to vehicles in a player-owned economy."
+        />
+
+        <div className={styles.media}>
+          <img
+            className={styles.mediaVideo}
+            src="/images/wilder-world/build_construction.png"
+            alt=""
+            aria-hidden
           />
-          {mode.image ? (
-            <div className={styles.media}>
-              <img
-                className={styles.mediaVideo}
-                src={mode.image}
-                alt=""
-                aria-hidden
-              />
-            </div>
-          ) : null}
-          <div className={styles.comingSoon}>
-            <span className={styles.comingSoonLabel}>Coming Soon</span>
-          </div>
-        </section>
-      ))}
+        </div>
+
+        <header className={styles.featuresHead}>
+          <p className={styles.featuresEyebrow}>Features</p>
+          <h3 className={styles.featuresTitle}>Shape Your World</h3>
+        </header>
+
+        <FeatureGrid features={BUILD_FEATURES} />
+      </section>
     </div>
   );
 }

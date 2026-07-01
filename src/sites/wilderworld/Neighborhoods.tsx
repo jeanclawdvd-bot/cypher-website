@@ -36,6 +36,7 @@ const NEIGHBORHOODS: Neighborhood[] = [
     x: 30,
     y: 32,
     thumb: '/images/wilder-world/island_neighborhood_outline_HavenHeights.jpg',
+    shot: '/images/wilder-world/island_shot_haven_heights.png',
     blurb:
       'Where innovation meets artistry. Fashion houses, auto ateliers, and cybernetics labs push the edge of style and self. Couture, custom wheels, and chrome are born on these streets.',
   },

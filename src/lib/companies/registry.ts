@@ -226,6 +226,7 @@ const wilderFooter: FooterConfig = {
       links: [
         { label: 'Land', href: 'https://www.wilderworld.com/land', external: true },
         { label: 'Wheels', href: 'https://www.wilderworld.com/wheels', external: true },
+        { label: 'Weapons', href: 'https://www.wilderworld.com/weapons', external: true },
         { label: 'Beasts', href: 'https://www.wilderworld.com/beasts', external: true },
         { label: 'Moto', href: 'https://www.wilderworld.com/moto', external: true },
         { label: 'PALs', href: 'https://www.wilderworld.com/pals', external: true },

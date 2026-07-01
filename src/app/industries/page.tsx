@@ -18,6 +18,13 @@ const INDUSTRIES: AccordionItem[] = [
     image: '/images/wilder-world/race_gameplay.png',
   },
   {
+    id: 'weapons',
+    title: 'Weapons',
+    description:
+      'Build, mod, and own an arsenal of firearms and gear, from assault rifles to rare exotic loadouts.',
+    image: '/images/wilder-world/weapons_ww_assult_riffle.jpg',
+  },
+  {
     id: 'beasts',
     title: 'Beasts',
     description:

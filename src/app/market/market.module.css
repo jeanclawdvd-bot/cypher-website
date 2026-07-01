@@ -187,6 +187,111 @@
 }
 
 /* ----------------------------------------------------------------------------
+   Title row + right-hand toolbar
+   The desktop topbar is a 3-col grid (title | nav | toolbar). These wrappers
+   keep that layout intact; the mobile-only controls inside them are hidden
+   until the max-width:820px breakpoint reveals them.
+   --------------------------------------------------------------------------- */
+.titleRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.toolbar {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+/* Mobile-only: filter drawer trigger + flat collection dropdown. */
+.filterIconBtn,
+.mobileColl {
+  display: none;
+}
+
+.filterIconBtn {
+  position: relative;
+  appearance: none;
+  background: none;
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.55rem;
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.filterIconBtn:hover {
+  color: #fff;
+  border-color: #ff6434;
+}
+
+.filterBadge {
+  position: absolute;
+  top: -0.4rem;
+  right: -0.4rem;
+  min-width: 1rem;
+  height: 1rem;
+  padding: 0 0.25rem;
+  border-radius: 999px;
+  background: #ff6434;
+  color: #fff;
+  font-size: 0.62rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobileColl {
+  position: relative;
+  margin-left: auto;
+}
+
+.mobileCollBtn {
+  appearance: none;
+  background: none;
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  max-width: 55vw;
+  padding: 0.35rem 0.6rem;
+  font-family: var(--font-display), system-ui, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ff6434;
+}
+
+.mobileCollLabel {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mobileCollMenu {
+  position: absolute;
+  top: calc(100% + 0.3rem);
+  right: 0;
+  z-index: 45;
+  display: flex;
+  flex-direction: column;
+  min-width: 12rem;
+  max-height: 60vh;
+  overflow-y: auto;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* ----------------------------------------------------------------------------
    Body layout: left rail + grid
    --------------------------------------------------------------------------- */
 .layout {
@@ -791,20 +896,35 @@
    Responsive
    --------------------------------------------------------------------------- */
 @media (max-width: 820px) {
-  /* Not enough room for equal side columns; fall back to a wrapping flex row
-     so the title, nav, and toggle can stack gracefully. */
+  /* Two stacked rows: (1) title + collection dropdown, (2) filter icon on the
+     far left, level with the grid-size toggle on the right. */
   .topbar {
     display: flex;
     flex-wrap: wrap;
+    gap: 0.6rem 1rem;
   }
 
-  .nav {
+  .titleRow {
     flex: 1 1 100%;
   }
 
-  .sizeToggle {
+  /* The desktop industry nav is replaced by the mobile collection dropdown. */
+  .nav {
+    display: none;
+  }
+
+  .toolbar {
+    flex: 1 1 100%;
     justify-self: auto;
-    margin-left: auto;
+    justify-content: space-between;
+  }
+
+  .filterIconBtn {
+    display: inline-flex;
+  }
+
+  .mobileColl {
+    display: block;
   }
 
   .layout {
@@ -820,6 +940,83 @@
 
   .panel {
     flex: 1 1 14rem;
+  }
+
+  /* ----- Filters drawer (mobile only) ----- */
+  .drawer {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+  }
+
+  .drawerBackdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    animation: drawerFade 200ms ease;
+  }
+
+  .drawerPanel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: min(20rem, 82vw);
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg);
+    border-right: 1px solid var(--color-border);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+    animation: drawerSlide 240ms ease;
+  }
+
+  .drawerHead {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .drawerClose {
+    appearance: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 0.25rem;
+    color: var(--color-text-secondary);
+    transition: color 0.15s ease;
+  }
+
+  .drawerClose:hover {
+    color: #fff;
+  }
+
+  .drawerBody {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 1rem;
+  }
+}
+
+@keyframes drawerFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes drawerSlide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
   }
 }
 
@@ -873,7 +1070,9 @@
 @media (prefers-reduced-motion: reduce) {
   .card,
   .filterSkeleton,
-  .filterSwap {
+  .filterSwap,
+  .drawerBackdrop,
+  .drawerPanel {
     animation: none;
   }
 

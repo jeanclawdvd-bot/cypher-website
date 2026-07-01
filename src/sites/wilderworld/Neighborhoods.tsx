@@ -85,6 +85,7 @@ const NEIGHBORHOODS: Neighborhood[] = [
     x: 73,
     y: 67,
     thumb: '/images/wilder-world/island_neighborhood_outline_FlashingLights.jpg',
+    shot: '/images/wilder-world/island_shot_flashing_lights.jpg',
     blurb:
       "Neon-soaked and never dark. Wiami's nightlife and immersive entertainment district: clubs, arenas, and experiences that run until dawn.",
   },

@@ -57,11 +57,10 @@
      the label and content sit, so the text pops without hiding the image. */
   background: linear-gradient(
     to top right,
-    rgba(0, 0, 0, 0.95) 0%,
-    rgba(0, 0, 0, 0.75) 35%,
-    rgba(0, 0, 0, 0.4) 60%,
-    rgba(0, 0, 0, 0.1) 80%,
-    rgba(0, 0, 0, 0) 100%
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.45) 32%,
+    rgba(0, 0, 0, 0.15) 58%,
+    rgba(0, 0, 0, 0) 78%
   );
 }
 

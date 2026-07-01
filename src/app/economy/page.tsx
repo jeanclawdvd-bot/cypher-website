@@ -55,6 +55,28 @@ export default function EconomyPage() {
           />
         </div>
       </section>
+
+      <section className={styles.section}>
+        <SectionHeader
+          eyebrow="Build"
+          title="Assemble the Future"
+          subtitle="Combine building panels to manufacture vehicles, gear, and structures on the assembly line — each a tradeable onchain asset."
+        />
+        <div className={styles.media}>
+          <img className={styles.mediaImg} src="/images/wilder-world/wiami_droid_assembly_line.jpg" alt="" aria-hidden />
+        </div>
+      </section>
+
+      <section className={styles.section}>
+        <SectionHeader
+          eyebrow="Sell"
+          title="Turn Assets to Income"
+          subtitle="List your creations in Wiami's marketplaces and shops, selling to other players for $WILD."
+        />
+        <div className={styles.media}>
+          <img className={styles.mediaImg} src="/images/wilder-world/wiami_shop_interior.png" alt="" aria-hidden />
+        </div>
+      </section>
     </div>
   );
 }

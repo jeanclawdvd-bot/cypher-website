@@ -34,6 +34,22 @@
   transition: top 300ms ease;
 }
 
+/* Opaque backing that fills the strip between the top of the page and the bar
+   (the space the site nav occupies while it's revealed). Without this the
+   transparent site nav lets page content scroll up and show through above the
+   pinned bar. Sits below the nav (z-index 100) so its links stay visible. */
+.topbar::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  height: var(--site-nav-offset, 0px);
+  background: var(--color-bg);
+  pointer-events: none;
+  transition: height 300ms ease;
+}
+
 .headerTitle {
   font-family: var(--font-display), system-ui, sans-serif;
   font-size: clamp(1rem, 2.2vw, 1.35rem);
@@ -576,6 +592,7 @@
   }
 
   .topbar,
+  .topbar::before,
   .rail {
     transition: none;
   }

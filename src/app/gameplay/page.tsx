@@ -137,6 +137,7 @@ const BUILD_FEATURES: Feature[] = [
     title: 'Sell',
     description:
       'Trade and sell your creations and assets in a player-driven marketplace.',
+    image: '/images/wilder-world/wiami_sell.png',
   },
 ];
 

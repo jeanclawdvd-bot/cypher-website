@@ -66,6 +66,7 @@ const NEIGHBORHOODS: Neighborhood[] = [
     x: 52,
     y: 53,
     thumb: '/images/wilder-world/island_neighborhood_outline_SpaceMind.jpg',
+    shot: '/images/wilder-world/island_shot_spacemind.png',
     blurb:
       'Where technology meets the soul. A district devoted to consciousness expansion, blending neural tech and spirituality to explore what the mind can become inside the simulation.',
   },

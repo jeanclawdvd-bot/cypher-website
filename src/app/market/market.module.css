@@ -7,8 +7,11 @@
 
 .page {
   font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  /* Vertical room reserved at the top so the site's fixed nav can slide back
+     down cleanly above the pinned market bar. Consumed by .topbar's padding
+     (instead of the page) so the sticky bar's background fills that band. */
+  --market-nav-room: clamp(4.5rem, 10vh, 6.5rem);
   padding-inline: clamp(0.75rem, 2vw, 1.5rem);
-  padding-top: clamp(4.5rem, 10vh, 6.5rem);
   padding-bottom: clamp(4rem, 10vh, 8rem);
   display: flex;
   flex-direction: column;
@@ -18,11 +21,18 @@
    Top bar + collection navigation
    --------------------------------------------------------------------------- */
 .topbar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 0.75rem 1.25rem;
+  background: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
+  /* Top padding holds the reserved nav room; the bar's background covers it so
+     content scrolls cleanly underneath and the site nav lands over empty space. */
+  padding-top: var(--market-nav-room);
   padding-bottom: 0.75rem;
 }
 
@@ -376,11 +386,12 @@
    --------------------------------------------------------------------------- */
 .rail {
   position: sticky;
-  top: 96px;
+  /* Parks just below the pinned .topbar (nav room + the bar's own content). */
+  top: calc(var(--market-nav-room) + 3.25rem);
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-height: calc(100vh - 120px);
+  max-height: calc(100vh - var(--market-nav-room) - 4rem);
   overflow: auto;
   /* Native scrollbar is replaced by the floating CustomScrollbar overlay.
      A right-side gutter keeps the overlay in the column's own space instead
@@ -555,7 +566,8 @@
 
 @media (max-width: 760px) {
   .page {
-    padding: calc(72px + 1.5rem) 1.25rem 4rem;
+    padding-inline: 1.25rem;
+    padding-bottom: 4rem;
   }
 }
 

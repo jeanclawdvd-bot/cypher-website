@@ -16,8 +16,6 @@ const EARLY_ACCESS_URL =
 const TRAILER_URL = 'https://www.youtube.com/watch?v=7G8SwYp6gPo';
 
 const HERO_HEADING = 'The Simulation.';
-const HERO_DESCRIPTION =
-  'A photorealistic open world built on the blockchain. Step into Wiami and shape a living, player-owned universe.';
 
 const GAMEPLAY_MODES: GameplayCardProps[] = [
   {
@@ -56,7 +54,6 @@ export default function WilderworldLanding() {
   const [heroReady, setHeroReady] = useState(false);
   const [typed, setTyped] = useState('');
   const [typingDone, setTypingDone] = useState(false);
-  const [descIn, setDescIn] = useState(false);
   const [actionsIn, setActionsIn] = useState(false);
 
   // If the video is served from cache the canplay event can fire before React
@@ -83,10 +80,8 @@ export default function WilderworldLanding() {
 
   useEffect(() => {
     if (!typingDone) return;
-    const descTimer = setTimeout(() => setDescIn(true), 200);
     const actionsTimer = setTimeout(() => setActionsIn(true), 650);
     return () => {
-      clearTimeout(descTimer);
       clearTimeout(actionsTimer);
     };
   }, [typingDone]);
@@ -117,11 +112,6 @@ export default function WilderworldLanding() {
               aria-hidden
             />
           </h1>
-          <p
-            className={`${styles.bodyText} ${styles.heroDesc} ${descIn ? styles.heroDescIn : ''}`}
-          >
-            {HERO_DESCRIPTION}
-          </p>
           <div
             className={`${styles.actions} ${styles.heroActions} ${actionsIn ? styles.heroActionsIn : ''}`}
           >

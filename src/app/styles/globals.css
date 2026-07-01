@@ -518,20 +518,35 @@ code {
 }
 
 .sci-btn-primary {
+  position: relative;
+  /* Own stacking context so the fill overlay (z-index: -1) sits above the base
+     colour but below the label, without escaping behind the page. */
+  isolation: isolate;
   color: #000;
   background-color: #ff6434;
-  background-image: linear-gradient(#ff7d55, #ff7d55);
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 0% 100%;
   transition:
-    background-size var(--transition-normal),
     color var(--transition-normal),
     opacity var(--transition-normal);
 }
 
-.sci-btn-primary:hover {
-  background-size: 100% 100%;
+/* Brighter overlay that wipes in from the left on hover. It runs slightly wider
+   than the button and its right edge is slanted, so the leading edge of the
+   fill comes across at an angle rather than as a flat vertical line. */
+.sci-btn-primary::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: calc(100% + 16px);
+  background-color: #ff7d55;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 16px) 100%, 0 100%);
+  transform: translateX(-101%);
+  transition: transform var(--transition-normal);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.sci-btn-primary:hover::after {
+  transform: translateX(0);
 }
 
 /* Borderless ghost variant (e.g. Watch Trailer over the hero video). */

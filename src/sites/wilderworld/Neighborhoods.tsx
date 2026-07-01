@@ -47,6 +47,7 @@ const NEIGHBORHOODS: Neighborhood[] = [
     x: 40,
     y: 39,
     thumb: '/images/wilder-world/island_neighborhood_outline_TranquilityGardens.jpg',
+    shot: '/images/wilder-world/island_shot_tranquility_gardens.jpg',
     blurb:
       "Wiami's green lung. Vertical farms, eco-retail, and living architecture make this the city's sustainability hub, proving the simulation can grow as gracefully as it builds.",
   },

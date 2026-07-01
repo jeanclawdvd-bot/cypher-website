@@ -152,7 +152,7 @@ const products: Product[] = [
     focus: 'Virtual simulation',
     description:
       'Wilder World is an AI-powered virtual simulation—a photorealistic, living world owned by its community and built on open, decentralized rails.',
-    siteHref: '/?company=wilderworld',
+    siteHref: 'https://wilderworld.com',
   },
 ];
 

@@ -34,7 +34,7 @@
   font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #f97316;
+  color: var(--color-text-secondary);
   margin: 0;
 }
 

@@ -27,6 +27,7 @@ const NEIGHBORHOODS: Neighborhood[] = [
     x: 20,
     y: 24,
     thumb: '/images/wilder-world/island_neighborhood_outline_DistrictZERO.jpg',
+    shot: '/images/wilder-world/island_shot_district_zero.png',
     blurb:
       "Wiami's industrial heart. Foundries, fabrication, and logistics run around the clock, refining the resources mined across the world into the goods, gear, and machines that keep the city alive.",
   },

@@ -423,6 +423,7 @@
 .panel {
   display: flex;
   flex-direction: column;
+  gap: 0.6rem;
   border: 1px solid var(--color-border);
   background: var(--color-surface);
   padding: clamp(0.85rem, 1.5vw, 1.25rem);

@@ -388,15 +388,15 @@ export default function MarketBrowser({ industries }: Props) {
         {/* ---- Left rail: filters + info ---- */}
         <aside className={styles.rail} ref={railRef}>
           <div className={styles.panel}>
+            <div className={styles.filtersHead}>
+              <p className={styles.railHeading}>Filters</p>
+              {selectedCount > 0 && (
+                <button className={styles.clearBtn} onClick={() => setSelected({})}>
+                  Clear ({selectedCount})
+                </button>
+              )}
+            </div>
             <AnimatedHeight innerClassName={styles.panelInner} motionKey={filterView.slug}>
-              <div className={styles.filtersHead}>
-                <p className={styles.railHeading}>Filters</p>
-                {selectedCount > 0 && (
-                  <button className={styles.clearBtn} onClick={() => setSelected({})}>
-                    Clear ({selectedCount})
-                  </button>
-                )}
-              </div>
               {filterView.slug === '' ? null : filterView.cats.length === 0 ? (
                 <p className={styles.filtersEmpty}>No trait filters available.</p>
               ) : (

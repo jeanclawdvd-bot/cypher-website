@@ -5,7 +5,7 @@
 
 .inner {
   opacity: 1;
-  transition: opacity 0.16s ease;
+  transition: opacity 0.15s ease;
 }
 
 /* Fading the outgoing content away. */
@@ -13,7 +13,7 @@
   opacity: 0;
 }
 
-/* Incoming content parked invisibly for one frame before it fades in. */
+/* New content parked invisibly while the height tweens to its size. */
 .hidden {
   opacity: 0;
   transition: none;

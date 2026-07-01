@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { BackHomeLink } from './BackHomeLink';
 import styles from './LegalDocument.module.css';
 
 export interface LegalSection {
@@ -64,9 +64,7 @@ export function LegalDocument({
       </div>
 
       <p className={styles.backRow}>
-        <Link className={styles.backLink} href="/">
-          Back to home
-        </Link>
+        <BackHomeLink className={styles.backLink}>Back to home</BackHomeLink>
       </p>
     </div>
   );

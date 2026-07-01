@@ -41,10 +41,17 @@ export function AnimatedPanel({
       const inner = innerRef.current;
       if (!outer || !inner) return;
 
+      // Measure the outer's natural border-box height (border + padding +
+      // content), not the inner content alone. The visible bordered panel is
+      // the outer node, so animating to inner.scrollHeight would drop the
+      // panel's own border + padding and clip the tail of the content.
       const previousHeight = outer.style.height;
+      const previousTransition = outer.style.transition;
+      outer.style.transition = 'none';
       outer.style.height = 'auto';
-      const target = inner.scrollHeight;
+      const target = outer.getBoundingClientRect().height;
       outer.style.height = previousHeight;
+      outer.style.transition = previousTransition;
 
       cancelHeightAnimation(outer, animationRef.current);
       animationRef.current = null;
@@ -61,22 +68,20 @@ export function AnimatedPanel({
     []
   );
 
-  const syncHeightAfterLayout = useCallback(() => {
-    syncHeight(false);
-    requestAnimationFrame(() => {
-      requestAnimationFrame(() => syncHeight(false));
-    });
-  }, [syncHeight]);
-
   useLayoutEffect(() => {
     syncHeight(true);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // A single ResizeObserver on the inner wrapper is the one place that drives
+  // the tween: it fires for async loads, accordion toggles, and the collection
+  // skeleton swap. measureDeps only re-assert after layout via one rAF so a
+  // dependency change never stacks competing animation loops against the RO.
   useLayoutEffect(() => {
-    syncHeightAfterLayout();
+    const id = requestAnimationFrame(() => syncHeight(false));
+    return () => cancelAnimationFrame(id);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [...measureDeps, syncHeightAfterLayout]);
+  }, [...measureDeps, syncHeight]);
 
   useEffect(() => {
     const inner = innerRef.current;

@@ -29,14 +29,24 @@ export async function GET(request: Request) {
   const next = searchParams.get('next');
   const status = searchParams.get('status') === 'unlisted' ? 'unlisted' : 'listed';
 
-  const empty: { items: MarketNft[]; next: string | null } = { items: [], next: null };
+  const empty: { items: MarketNft[]; next: string | null; error: boolean } = {
+    items: [],
+    next: null,
+    error: false,
+  };
+
+  // A failed upstream fetch must be reported as an error, never as a confirmed
+  // empty result: the client relies on this flag to avoid telling the user a
+  // collection has no listings when OpenSea was simply unreachable.
+  const fetchFailed = () =>
+    NextResponse.json({ items: [], next: null, error: true }, { status: 502 });
 
   const entry = slug ? getEntryBySlug(slug) : undefined;
   if (!entry) return NextResponse.json(empty);
 
   if (status === 'listed') {
     const page = await fetchBestListingsPage(entry.slug, next);
-    if (!page) return NextResponse.json(empty);
+    if (!page) return fetchFailed();
 
     // Listings are already ascending; a token can appear more than once, so
     // keep the first (cheapest) occurrence and preserve that order.
@@ -74,7 +84,7 @@ export async function GET(request: Request) {
       };
     });
 
-    return NextResponse.json({ items, next: page.next });
+    return NextResponse.json({ items, next: page.next, error: false });
   }
 
   // status === 'unlisted'
@@ -83,23 +93,21 @@ export async function GET(request: Request) {
 
   if (entry.contract) {
     const data = await fetchNftsByContract(entry.chain, entry.contract, next);
-    if (data) {
-      nfts = data.nfts;
-      nextCursor = data.next;
-    }
+    if (!data) return fetchFailed();
+    nfts = data.nfts;
+    nextCursor = data.next;
   } else {
     const params = new URLSearchParams({ limit: '50' });
     if (next) params.set('next', next);
     const data = await openseaFetch<{ nfts?: OpenSeaNft[]; next?: string | null }>(
       `/collection/${encodeURIComponent(entry.slug)}/nfts?${params.toString()}`
     );
-    if (data?.nfts) {
-      nfts = data.nfts;
-      nextCursor = data.next ?? null;
-    }
+    if (!data?.nfts) return fetchFailed();
+    nfts = data.nfts;
+    nextCursor = data.next ?? null;
   }
 
-  if (nfts.length === 0) return NextResponse.json({ items: [], next: nextCursor });
+  if (nfts.length === 0) return NextResponse.json({ items: [], next: nextCursor, error: false });
 
   const priceMap = await fetchBestListingsMap(entry.slug);
 
@@ -107,5 +115,5 @@ export async function GET(request: Request) {
     .filter((nft) => priceMap[nft.identifier] == null)
     .map((nft) => normalizeNft(nft, entry.slug, entry.chain, null));
 
-  return NextResponse.json({ items, next: nextCursor });
+  return NextResponse.json({ items, next: nextCursor, error: false });
 }

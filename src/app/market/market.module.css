@@ -661,6 +661,23 @@
   background: rgba(255, 255, 255, 0.04);
 }
 
+/* Swappable filter body (skeleton / empty / trait groups). Keyed per
+   collection+state so React remounts it and the new content fades in while the
+   panel animates to its new height. The Filters header + Listed/Unlisted toggle
+   live outside this wrapper and stay static. */
+.filterSwap {
+  animation: filterSwapIn 220ms ease both;
+}
+
+@keyframes filterSwapIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .filtersEmpty {
   font-size: 0.8rem;
   color: var(--color-text-secondary);
@@ -836,7 +853,8 @@
 
 @media (prefers-reduced-motion: reduce) {
   .card,
-  .filterSkeleton {
+  .filterSkeleton,
+  .filterSwap {
     animation: none;
   }
 

@@ -200,8 +200,14 @@ export default function MarketBrowser({ industries }: Props) {
       `/api/market/nfts?slug=${encodeURIComponent(activeSlug)}&status=${availability}`
     )
       .then((r) => r.json())
-      .then((d: { items?: MarketNft[]; next?: string | null }) => {
+      .then((d: { items?: MarketNft[]; next?: string | null; error?: boolean }) => {
         if (!alive) return;
+        // An upstream failure must never be shown as "no listed items"; surface
+        // the unavailable state instead so the empty copy stays truthful.
+        if (d.error) {
+          setError(true);
+          return;
+        }
         setItems(dedupeItems(d.items ?? []));
         setNext(d.next ? { cursor: d.next, key } : null);
       })
@@ -259,9 +265,12 @@ export default function MarketBrowser({ industries }: Props) {
       )}`
     )
       .then((r) => r.json())
-      .then((d: { items?: MarketNft[]; next?: string | null }) => {
+      .then((d: { items?: MarketNft[]; next?: string | null; error?: boolean }) => {
         // Ignore results that arrive after the collection/availability changed.
         if (loadKeyRef.current !== key) return;
+        // On an upstream failure keep the current items and cursor so a hiccup
+        // isn't misread as the end of the list.
+        if (d.error) return;
         setItems((prev) => {
           batchBaseRef.current = prev.length;
           return dedupeItems([...prev, ...(d.items ?? [])]);
@@ -372,6 +381,13 @@ export default function MarketBrowser({ industries }: Props) {
   const gridClass = `${styles.grid} ${
     gridSize === 'lg' ? styles.gridLg : gridSize === 'sm' ? styles.gridSm : ''
   }`;
+
+  // A live floor price means the collection has at least one active listing, so
+  // an empty "listed" result there is almost certainly a fetch hiccup rather
+  // than a truly empty collection. Don't claim "no listed items" in that case.
+  const floorSuggestsListings =
+    availability === 'listed' && (activeMeta?.floorPrice ?? 0) > 0;
+  const showUnavailable = error || (items.length === 0 && floorSuggestsListings);
 
   const openModal = useCallback(
     (id: string, { replace = false }: { replace?: boolean } = {}) => {
@@ -552,6 +568,10 @@ export default function MarketBrowser({ industries }: Props) {
                 Unlisted
               </button>
             </div>
+            <div
+              key={`${filterView.slug}-${filterView.state}`}
+              className={styles.filterSwap}
+            >
             {filterView.state === 'loading' ? (
               <div className={styles.filtersLoading} aria-hidden="true">
                 <span className={styles.filterSkeleton} />
@@ -601,6 +621,7 @@ export default function MarketBrowser({ industries }: Props) {
                 })}
               </div>
             )}
+            </div>
           </AnimatedPanel>
 
           {/* Info panel */}
@@ -689,7 +710,7 @@ export default function MarketBrowser({ industries }: Props) {
                 ))}
               </div>
             )
-          ) : error ? (
+          ) : showUnavailable ? (
             <div className={styles.empty}>
               <p className={styles.emptyTitle}>No items to display</p>
               <p className={styles.emptyBody}>

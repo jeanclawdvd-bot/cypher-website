@@ -91,33 +91,6 @@ const SECTIONS: Section[] = [
       { kind: 'lead', text: 'To those vying for dominion over Earth, The Simulation became their only threat.' },
     ],
   },
-  {
-    id: 'element-zero',
-    title: 'Element Zero',
-    image: '/images/wilder-world/wilder-world-bg.png',
-    blocks: [
-      {
-        kind: 'p',
-        text:
-          'Mastery of Element Zero now represents mastery over reality itself, allowing faster-than-light effects, new universes, and defenses against hostile forces, making its control the central struggle for humanity\u2019s survival. In small quantities it can be utilized to materialize new objects and aspects of reality. In large quantities it can be used to recode parts of existing realities or create new realities entirely.',
-      },
-      {
-        kind: 'p',
-        text:
-          'Element Zero is an exotic quantum phase of spacetime, believed to originate from pre-Big Bang symmetry. Rather than being a conventional material, it manifests as a stable pocket of negative vacuum curvature that can convert informational energy into mass. It behaves simultaneously as a field, a form of exotic matter, and a self-encoding quantum information state. In normal conditions, Element Zero only appears as fleeting fluctuations, too unstable to study or synthesize.',
-      },
-      {
-        kind: 'p',
-        text:
-          'Because Element Zero collapses under observation and is disrupted by higher-dimensional interference, researchers built a controlled pocket universe through the construction of a Portal Reactor, where physical constants and quantum curvature could be tuned. Anchored by quantum supercomputers and singularity wells, this enclosed spacetime minimizes decoherence and enables the nucleation of Element Zero. Within it, the Portal Reactor aligns vacuum fields into resonance with pre-Big Bang symmetry, encapsulates emerging formations within a six-dimensional topological lattice, and materializes them as discrete, stable units, effectively minting Element Zero.',
-      },
-      {
-        kind: 'p',
-        text:
-          'This breakthrough enables the creation of matter-information hybrids capable of modifying inertia, bending spacetime, and storing consciousness beyond external surveillance or control. Early hints of Element Zero first appeared in anomalous data from CERN, where high-energy collisions briefly produced the same metastable vacuum structures seen later inside the Simulation. Unable to stabilize or safely replicate the phenomenon, CERN\u2019s findings became the theoretical foundation for the pocket-universe approach.',
-      },
-    ],
-  },
 ];
 
 export default function UniversePage() {

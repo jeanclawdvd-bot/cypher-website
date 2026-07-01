@@ -39,10 +39,9 @@
 
 .photo {
   position: relative;
-  /* Fixed portrait ratio so every section's image is the same height (matching
-     the Conflict row) and carries the same framed border as other image
-     sections across the site. */
-  aspect-ratio: 4 / 5;
+  /* Square frame sized to the column so every section's image is identical and
+     carries the same framed border as other image sections across the site. */
+  aspect-ratio: 1 / 1;
   background: #000;
   border: 1px solid var(--color-border);
   overflow: hidden;
@@ -117,9 +116,9 @@
     grid-template-columns: 1fr;
   }
 
-  /* Stacked: no story column to stretch against, so give the photo a shape. */
+  /* Stacked: keep the square frame for consistency with the desktop layout. */
   .photo {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 1 / 1;
   }
 
   /* Image always stacks above the copy on mobile. */

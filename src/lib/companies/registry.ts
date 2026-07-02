@@ -413,7 +413,7 @@ export const COMPANIES: Record<CompanyKey, CompanyConfig> = {
     name: 'ZERO',
     wordmark: 'ZERO',
     wordmarkLogo: {
-      src: '/images/zero/zero-logo.svg',
+      src: '/images/zero/zero-wordmark-nav.svg',
       alt: 'ZERO',
     },
     cta: {
@@ -429,7 +429,6 @@ export const COMPANIES: Record<CompanyKey, CompanyConfig> = {
       description: 'A private, sovereign, decentralized messenger.',
     },
     nav: zeroNav,
-    navStyle: 'buttons',
     footer: zeroFooter,
     pageSections: [],
   },

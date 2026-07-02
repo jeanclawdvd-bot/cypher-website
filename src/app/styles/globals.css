@@ -469,13 +469,17 @@ body[data-company='zero'] {
   --link-hover-glow: 0 0 10px rgba(1, 244, 203, 0.5);
 }
 
-/* zero.tech's framed shell: the content column is capped at 1920px with 1px
-   vertical borders running the full page height (visible as inset lines on
-   wide screens, edge lines below the cap). */
+/* zero.tech's framed shell: the content column is always inset from the
+   viewport with 1px vertical borders running the full page height, plus a
+   horizontal rule under the fixed nav. */
 body[data-company='zero'] #page-main {
-  max-width: 1920px;
+  max-width: min(1920px, calc(100% - 2 * clamp(24px, 7vw, 154px)));
   margin-inline: auto;
   border-inline: 1px solid var(--color-overlay-medium);
+}
+
+body[data-company='zero'] header[class*='siteTopbar'] {
+  border-bottom: 1px solid var(--color-overlay-medium);
 }
 
 /* zero.tech button style: quiet dark fill, 1px teal outline, 4px radius,

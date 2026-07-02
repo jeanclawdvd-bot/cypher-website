@@ -16,7 +16,10 @@
   justify-content: center;
   padding: 5rem 2rem 3rem;
   overflow: hidden;
-  background: #010101 url('/images/zero/zero-hero-bg.webp') center / cover no-repeat;
+  /* Width-fit (not cover) so the full horizon arc stays in frame like on
+     zero.tech; the image fades to black at its edges, so the letterboxing
+     above/below blends into the page background. */
+  background: #010101 url('/images/zero/zero-hero-bg.webp') center / 100% auto no-repeat;
 }
 
 .heroInner {

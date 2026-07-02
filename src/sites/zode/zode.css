@@ -117,6 +117,16 @@ body[data-company='zode'] img {
   border: 0;
 }
 
+/* The monorepo's app/template.tsx wraps every page in a fade-in div, which
+ * sits between the shell's scroll container and the page sections and breaks
+ * the percentage-height chain the full-bleed heroes rely on (they'd collapse
+ * to their min-height fallback). Flatten it out of layout inside the zode
+ * shell so sections are direct flow children of the scroll container, exactly
+ * like the standalone site (which had no page transition). */
+body[data-company='zode'] #site-scroll > [class*='pageTransition'] {
+  display: contents;
+}
+
 /* Fallback base shown if the animated backdrop fails to paint; lives on
  * <html> (not <body>) so it never paints over the fixed ShellBackdrop
  * (z-index: -1). Matches --shell-outer-bg. */

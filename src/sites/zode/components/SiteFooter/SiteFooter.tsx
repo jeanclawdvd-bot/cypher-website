@@ -174,13 +174,16 @@ export function SiteFooter(): ReactElement | null {
             </div>
           ) : null}
           <p className={styles.copyright}>Copyright &copy; 2026 Cypher, Inc.</p>
-          <p className={styles.parentCompany}>
-            <a href="https://cypher.net" target="_blank" rel="noopener noreferrer">
-              A Cypher Company
-            </a>
-          </p>
         </div>
       </div>
+
+      {/* Parent-company colophon centered on the footer's bottom edge,
+          matching the Wilder World footer treatment. */}
+      <p className={styles.parentCompany}>
+        <a href="https://cypher.net" target="_blank" rel="noopener noreferrer">
+          A Cypher Company
+        </a>
+      </p>
     </footer>
   );
 }

@@ -103,9 +103,16 @@
   color: var(--color-text-secondary);
 }
 
-/* Parent-company colophon, matching the Wilder World footer treatment. */
+/* Parent-company colophon centered on the footer's bottom edge (below the
+   faded wordmark), matching the Wilder World footer treatment. */
 .parentCompany {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: clamp(14px, 1.8vw, 24px);
+  z-index: 1;
   margin: 0;
+  text-align: center;
   font-size: 12px;
   letter-spacing: 0.18em;
   text-transform: uppercase;

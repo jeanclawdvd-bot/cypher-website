@@ -6,7 +6,6 @@ import type {
   FooterParentCompany,
   FooterSocial,
   NavSection,
-  PageSection,
 } from './types';
 
 const GITHUB_ORG = 'https://github.com/cypher-asi';
@@ -190,7 +189,6 @@ function footer(copyrightName: string): FooterConfig {
 const CYPHER_PARENT: FooterParentCompany = {
   label: 'A Cypher Company',
   href: 'https://cypher.net',
-  external: true,
 };
 
 /* Minimal per-site footer for child brands that don't yet have a full footer:
@@ -371,18 +369,6 @@ const zeroFooter: FooterConfig = {
 };
 
 /* ---------------------------------------------------------------------------
-   Per-company landing scroll sections
-   --------------------------------------------------------------------------- */
-const zodeSections: PageSection[] = [
-  { id: 'hero', label: 'Overview' },
-  { id: 'how-it-works', label: 'How It Works' },
-  { id: 'features', label: 'Features' },
-  { id: 'security', label: 'Security' },
-  { id: 'start', label: 'Get Started' },
-  { id: 'faq', label: 'FAQ' },
-];
-
-/* ---------------------------------------------------------------------------
    Companies
    --------------------------------------------------------------------------- */
 export const COMPANIES: Record<CompanyKey, CompanyConfig> = {
@@ -410,11 +396,17 @@ export const COMPANIES: Record<CompanyKey, CompanyConfig> = {
     defaultTheme: 'dark',
     metadata: {
       title: 'ZODE',
-      description: 'Autonomous AI agents that triage, code, test, and ship inside your infrastructure.',
+      description:
+        'ZODE — the connective layer for a decentralized, secure compute network.',
+      // Carried over from the standalone zode-website (site not yet launched).
+      noindex: true,
     },
+    /* Zode ships its own chrome (SiteNav / SiteFooter / BottomTaskbar) ported
+       verbatim from the standalone zode-website; see src/sites/zode/ZodeShell. */
+    customChrome: true,
     nav: sharedNav,
     footer: minimalFooter('Zode', 'ZODE'),
-    pageSections: zodeSections,
+    pageSections: [],
   },
   zero: {
     key: 'zero',

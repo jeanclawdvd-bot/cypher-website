@@ -1,4 +1,4 @@
-import { Inter, JetBrains_Mono } from 'next/font/google';
+import { Geist, Geist_Mono, Inter, JetBrains_Mono } from 'next/font/google';
 import localFont from 'next/font/local';
 
 /**
@@ -37,5 +37,18 @@ export const dDin = localFont({
   ],
 });
 
+/** Geist — ZODE brand face (ported from the standalone zode-website). */
+export const geistSans = Geist({
+  subsets: ['latin'],
+  variable: '--font-geist-sans',
+  display: 'swap',
+});
+
+export const geistMono = Geist_Mono({
+  subsets: ['latin'],
+  variable: '--font-geist-mono',
+  display: 'swap',
+});
+
 /** Every font variable attached to <html>, regardless of active brand. */
-export const fontVariables = `${inter.variable} ${jetbrainsMono.variable} ${dDin.variable}`;
+export const fontVariables = `${inter.variable} ${jetbrainsMono.variable} ${dDin.variable} ${geistSans.variable} ${geistMono.variable}`;

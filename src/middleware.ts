@@ -1,8 +1,13 @@
 import { NextResponse, type NextRequest } from 'next/server';
 import { resolveHostCompany, normalizeCompany } from './lib/companies/resolve';
 import { DEFAULT_COMPANY } from './lib/companies/registry';
+import {
+  AUTH_DISABLED as ZODE_AUTH_DISABLED,
+  SESSION_COOKIE as ZODE_SESSION_COOKIE,
+} from './sites/zode/lib/session-constants';
 
 const COMPANY_COOKIE = 'company';
+const ZODE_LOGIN_PATH = '/login';
 
 /**
  * Resolves the active company and attaches it as an `x-company` request header.
@@ -30,8 +35,29 @@ export function middleware(req: NextRequest) {
 
   const company = hostKey ?? override ?? cookieKey ?? DEFAULT_COMPANY;
 
+  /*
+   * Zode shared-password gate (ported from zode-website's proxy.ts, currently
+   * disabled via AUTH_DISABLED). This Edge bundle can't use node:crypto, so it
+   * only checks cookie presence for the redirect; full HMAC verification
+   * happens server-side in ZodeGate before any content renders.
+   */
+  if (company === 'zode' && !ZODE_AUTH_DISABLED) {
+    const { pathname } = req.nextUrl;
+    const hasSession = Boolean(req.cookies.get(ZODE_SESSION_COOKIE)?.value);
+
+    if (pathname === ZODE_LOGIN_PATH) {
+      if (hasSession) {
+        return NextResponse.redirect(new URL('/', req.nextUrl));
+      }
+    } else if (!hasSession) {
+      return NextResponse.redirect(new URL(ZODE_LOGIN_PATH, req.nextUrl));
+    }
+  }
+
   const requestHeaders = new Headers(req.headers);
   requestHeaders.set('x-company', company);
+  // Lets server components (e.g. ZodeGate) know the requested path.
+  requestHeaders.set('x-pathname', req.nextUrl.pathname);
 
   const res = NextResponse.next({ request: { headers: requestHeaders } });
 

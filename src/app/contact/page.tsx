@@ -1,14 +1,20 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
+import { getCurrentCompany } from '@/lib/companies/current';
+import { ZodeContact, zodeContactMetadata } from '@/sites/zode/pages/ZodeContact';
 import styles from './page.module.css';
 
 const EMAIL = 'hello@cypher.net';
 
-export const metadata: Metadata = {
-  title: 'Contact | Cypher',
-  description: 'Get in touch with Cypher, Inc.',
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const company = await getCurrentCompany();
+  if (company.key === 'zode') return zodeContactMetadata;
+  return {
+    title: 'Contact | Cypher',
+    description: 'Get in touch with Cypher, Inc.',
+  };
+}
 
 function XIcon({ size = 18 }: { size?: number }) {
   return (
@@ -26,7 +32,11 @@ function GithubIcon({ size = 18 }: { size?: number }) {
   );
 }
 
-export default function ContactPage() {
+export default async function ContactPage() {
+  const company = await getCurrentCompany();
+  if (company.key === 'zode') {
+    return <ZodeContact />;
+  }
   return (
     <div className={styles.page}>
       <header className={styles.hero}>

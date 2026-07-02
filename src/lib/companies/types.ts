@@ -70,8 +70,8 @@ export interface FooterCta {
 
 export interface FooterParentCompany {
   label: string;
+  /** Canonical absolute URL; the footer rewrites it to a local link on dev hosts. */
   href: string;
-  external?: boolean;
 }
 
 export interface FooterConfig {
@@ -130,11 +130,16 @@ export interface CompanyConfig {
   metadata: {
     title: string;
     description: string;
+    /** Block search-engine indexing for this brand (robots noindex/nofollow). */
+    noindex?: boolean;
   };
   nav: NavSection[];
   /** Top-nav item presentation. 'buttons' renders uppercase, button-styled
    *  items (e.g. Wilder World); defaults to plain text links. */
   navStyle?: 'links' | 'buttons';
+  /** When true, the root layout skips the shared Nav/Footer/scrollbar chrome
+   *  and the brand supplies its own shell (e.g. zode's ZodeShell). */
+  customChrome?: boolean;
   footer: FooterConfig;
   /** Sections for the in-page scroll-spy nav on this company's landing. */
   pageSections: PageSection[];

@@ -1,0 +1,34 @@
+.shell {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  min-height: 0;
+  /* Transparent so the animated ShellBackdrop shows through the frame. */
+  background: transparent;
+}
+
+/* Rounded, bordered inner panel floating on the white outer shell,
+ * matching the deck's frame so marketing pages feel cohesive. */
+.body {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  margin: 0 6px;
+  border-radius: 12px;
+  background: var(--color-bg);
+  overflow: hidden;
+}
+
+.scroll {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* Native bar hidden; OverlayScrollbar draws a floating custom one. */
+  scrollbar-width: none;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

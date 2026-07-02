@@ -1,0 +1,150 @@
+/*
+ * ZODE brand tokens and base styles, ported from the standalone zode-website
+ * globals.css. Everything is scoped under `body[data-company='zode']` so the
+ * tokens override the monorepo defaults only when the zode brand is active
+ * and can never leak into other brands.
+ *
+ * The outer shell (frame + top bar + bottom taskbar) is a constant WHITE
+ * surface with dark chrome in both themes — so the body scope holds the
+ * light/white-surface palette. Only the inner content panel
+ * (`[data-shell-body]`) re-themes: a dark "screen" by default (dark mode is
+ * the default) and a light panel in light mode. `--logo-invert` keeps the
+ * mark legible: black on the white shell, white inside the dark panel, black
+ * inside a light panel.
+ */
+body[data-company='zode'] {
+  --color-bg: #ffffff;
+  --color-bg-elevated: #ffffff;
+  --color-text-primary: #0a0a0a;
+  --color-text-secondary: #6b6b72;
+  --color-border: rgba(0, 0, 0, 0.12);
+  --color-border-strong: rgba(0, 0, 0, 0.16);
+  --color-surface-tint: rgba(0, 0, 0, 0.05);
+  --color-surface-hover: rgba(0, 0, 0, 0.06);
+  --color-overlay-focus: rgba(0, 0, 0, 0.35);
+  --color-focus-ring: #2563eb;
+  --logo-invert: 1;
+
+  /* Brand accent — tan, inherited across both themes. */
+  --color-accent: #ffd6a0;
+
+  /*
+   * Categorical chart palette — a warm tan cluster anchored on the accent.
+   * Kept in sync with `src/sites/zode/lib/theme/chartPalette.ts` (the source
+   * of truth used by Recharts); these tokens let CSS-based graphs/tables
+   * match the same set.
+   */
+  --chart-1: #ffd6a0; /* brand tan accent */
+  --chart-2: #ffe8c9; /* pale cream */
+  --chart-3: #f4be7c; /* warm amber */
+  --chart-4: #e3a155; /* honey / gold */
+  --chart-5: #9e6526; /* deep bronze */
+  --chart-6: #c6843c; /* toffee */
+
+  /* Soft white/gray frame around the inner content "screen". Used as the
+   * static base/fallback behind the animated ShellBackdrop. */
+  --shell-outer-bg: #eef0f2;
+
+  /* Typography: Geist replaces the monorepo Inter defaults for this brand.
+   * (The original site wired these through a Tailwind `@theme` block.) */
+  --font-sans: 'Universal Sans Display', var(--font-geist-sans), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+}
+
+/* Inner content panel — dark "screen" by default (dark mode). */
+body[data-company='zode'] [data-shell-body] {
+  --color-bg: #161616;
+  --color-bg-elevated: #1e1e1e;
+  --color-text-primary: #f4f4f5;
+  --color-text-secondary: #8a8a92;
+  --color-border: rgba(255, 255, 255, 0.12);
+  --color-border-strong: rgba(255, 255, 255, 0.18);
+  --color-surface-tint: rgba(255, 255, 255, 0.06);
+  --color-surface-hover: rgba(255, 255, 255, 0.08);
+  --color-overlay-focus: rgba(255, 255, 255, 0.4);
+  --color-focus-ring: #6aa6ff;
+  --logo-invert: 0;
+}
+
+/* Inner content panel in light mode — light panel on the same white shell. */
+[data-theme='light'] body[data-company='zode'] [data-shell-body] {
+  --color-bg: #ffffff;
+  --color-bg-elevated: #ffffff;
+  --color-text-primary: #0a0a0a;
+  --color-text-secondary: #6b6b72;
+  --color-border: rgba(0, 0, 0, 0.12);
+  --color-border-strong: rgba(0, 0, 0, 0.16);
+  --color-surface-tint: rgba(0, 0, 0, 0.05);
+  --color-surface-hover: rgba(0, 0, 0, 0.06);
+  --color-overlay-focus: rgba(0, 0, 0, 0.35);
+  --color-focus-ring: #2563eb;
+  --logo-invert: 1;
+}
+
+body[data-company='zode'],
+body[data-company='zode'] * {
+  box-sizing: border-box;
+}
+
+/* Sleek, transparent custom scrollbar shared across the deck and pages. */
+body[data-company='zode'] * {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(140, 140, 150, 0.4) transparent;
+}
+
+body[data-company='zode'] *::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+body[data-company='zode'] *::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body[data-company='zode'] *::-webkit-scrollbar-thumb {
+  background: rgba(140, 140, 150, 0.35);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+body[data-company='zode'] *::-webkit-scrollbar-thumb:hover {
+  background: rgba(140, 140, 150, 0.6);
+  background-clip: padding-box;
+}
+
+body[data-company='zode'] img {
+  border: 0;
+}
+
+/* Fallback base shown if the animated backdrop fails to paint; lives on
+ * <html> (not <body>) so it never paints over the fixed ShellBackdrop
+ * (z-index: -1). Matches --shell-outer-bg. */
+html:has(body[data-company='zode']) {
+  height: 100%;
+  scroll-behavior: smooth;
+  /* !important to out-cascade the monorepo's `html, body` gradient, which is
+   * itself marked !important in globals.css. */
+  background: #eef0f2 !important;
+  /* The zode shell is a white-framed surface in both themes; keep
+   * UA-painted regions (overscroll, resize backdrop) light. */
+  color-scheme: light;
+}
+
+body[data-company='zode'] {
+  margin: 0;
+  min-height: 100%;
+  /* Transparent so the fixed ShellBackdrop (z-index: -1) shows through; the
+   * fallback color lives on <html>. !important to out-cascade the monorepo's
+   * important `html, body` gradient. */
+  background: transparent !important;
+  color: var(--color-text-primary);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:has(body[data-company='zode']) {
+    scroll-behavior: auto;
+  }
+}

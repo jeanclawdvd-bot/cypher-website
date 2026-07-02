@@ -1,6 +1,7 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import type { CSSProperties } from 'react';
 import './styles/globals.css';
+import '@/sites/zode/zode.css';
 import { Nav } from '@/components/Nav';
 import { Footer } from '@/components/Footer';
 import { ThemeWrapper } from '@/components/ThemeWrapper';
@@ -8,6 +9,9 @@ import { MusicProvider } from '@/components/MusicContext';
 import { CustomScrollbar } from '@/components/CustomScrollbar';
 import { getCurrentCompany } from '@/lib/companies/current';
 import { fontVariables } from '@/lib/fonts';
+import { ZodeShell } from '@/sites/zode/ZodeShell';
+import { ZodeGate } from '@/sites/zode/ZodeGate';
+import { themeInitScript } from '@/sites/zode/lib/theme/theme-script';
 import { Providers } from './providers';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -16,8 +20,15 @@ export async function generateMetadata(): Promise<Metadata> {
     title: company.metadata.title,
     description: company.metadata.description,
     icons: { icon: `/brand-favicon?company=${company.key}` },
+    ...(company.metadata.noindex ? { robots: { index: false, follow: false } } : {}),
   };
 }
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+};
 
 export default async function RootLayout({
   children,
@@ -34,6 +45,27 @@ export default async function RootLayout({
   }
   if (company.fonts?.display) {
     (fontStyle as Record<string, string>)['--font-display'] = company.fonts.display;
+  }
+
+  /* Brands with custom chrome (currently only zode) skip the shared
+     Nav/Footer/scrollbar and theme system entirely: the brand's own shell
+     supplies its chrome, theming, and scroll containers. */
+  if (company.customChrome) {
+    return (
+      <html lang="en" suppressHydrationWarning className={fontVariables}>
+        <head>
+          {/* Applies the persisted zode theme before first paint. */}
+          <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+        </head>
+        <body data-company={company.key}>
+          <Providers>
+            <ZodeGate>
+              <ZodeShell>{children}</ZodeShell>
+            </ZodeGate>
+          </Providers>
+        </body>
+      </html>
+    );
   }
 
   return (

@@ -121,6 +121,14 @@ const sharedNav: NavSection[] = [
   },
 ];
 
+/* ZERO runs its own product-site nav (not the ecosystem chrome). */
+const zeroNav: NavSection[] = [
+  { id: 'messenger', label: 'Messenger', href: '/messenger', noPanel: true },
+  { id: 'social', label: 'Social', href: '/social', noPanel: true },
+  { id: 'id', label: 'ID', href: '/id', noPanel: true },
+  { id: 'protocol', label: 'Protocol', href: '/protocol', noPanel: true },
+];
+
 /* Wilder World runs its own product-site nav (not the ecosystem chrome). */
 const wilderNav: NavSection[] = [
   { id: 'universe', label: 'Universe', href: '/universe', noPanel: true },
@@ -260,6 +268,108 @@ const wilderFooter: FooterConfig = {
   ],
 };
 
+/* ZERO runs its own product-site footer, mirroring the zero.tech menu. */
+const ZERO_GET_STARTED_URL = 'https://zos.zero.tech/';
+
+const zeroFooter: FooterConfig = {
+  copyrightName: 'Zero',
+  wordmarkText: 'ZERO',
+  social: {},
+  cta: {
+    heading: 'Built for Freedom',
+    button: { label: 'Get Started', href: ZERO_GET_STARTED_URL, external: true },
+  },
+  parentCompany: CYPHER_PARENT,
+  columns: [
+    {
+      heading: 'Resources',
+      links: [
+        { label: 'Zine', href: 'https://www.zine.live', external: true },
+        {
+          label: 'Whitepaper',
+          href: 'https://drive.google.com/file/d/1fsR0_ygZTd46i4kLSLMifnvduH5UdEWX/view?usp=sharing',
+          external: true,
+        },
+        {
+          label: 'Press Kit',
+          href: 'https://www.dropbox.com/sh/blf8nmnz0g2rjaj/AABNrXeCwI4CdmgzMgwswxfma?dl=0',
+          external: true,
+        },
+        {
+          label: 'Deck',
+          href: 'https://www.dropbox.com/s/5v0fute7s3t44hy/Zero%20Deck.pdf?dl=0',
+          external: true,
+        },
+      ],
+    },
+    {
+      heading: 'Audits',
+      links: [
+        {
+          label: 'Z Token',
+          href: 'https://certificate.quantstamp.com/full/zns-token-upgrade/349ec7ff-7d8c-45fe-92a0-bb86b9dde5be/index.html',
+          external: true,
+        },
+        {
+          label: 'Z NS',
+          href: 'https://certificate.quantstamp.com/full/zero-name-service-zns/4ec9b4dd-2c6b-4ce8-ad3f-c4f4246e0140/index.html',
+          external: true,
+        },
+        {
+          label: 'Z FI',
+          href: 'https://certificate.quantstamp.com/full/zero-staking/40ffa176-7b8d-43ec-a7e2-29732c12f21e/index.html',
+          external: true,
+        },
+      ],
+    },
+    {
+      heading: 'Products',
+      links: [
+        { label: 'Messenger', href: '/messenger' },
+        { label: 'Social', href: '/social' },
+        { label: 'ZERO ID', href: '/id' },
+      ],
+    },
+    {
+      heading: 'Legal',
+      links: [
+        { label: 'Privacy Policy', href: '/privacy' },
+        { label: 'T&C', href: '/terms' },
+        { label: 'EULA', href: 'https://zero.tech/eula', external: true },
+      ],
+    },
+    {
+      heading: 'Downloads',
+      links: [
+        {
+          label: 'iOS',
+          href: 'https://apps.apple.com/us/app/zero-messenger/id6476882926',
+          external: true,
+        },
+        {
+          label: 'Android',
+          href: 'https://play.google.com/store/apps/details?id=com.zero.android.messenger',
+          external: true,
+        },
+        { label: 'Windows', href: 'https://download.zero.tech', external: true },
+        { label: 'Mac', href: 'https://download.zero.tech', external: true },
+        { label: 'Linux', href: 'https://download.zero.tech', external: true },
+      ],
+    },
+    {
+      heading: 'Protocol',
+      links: [
+        { label: 'Overview', href: '/protocol#overview' },
+        { label: 'Applications', href: '/protocol#applications' },
+        { label: 'Z NS', href: '/protocol#z-ns' },
+        { label: 'Z DAO', href: '/protocol#z-dao' },
+        { label: 'Z XP', href: '/protocol#z-xp' },
+        { label: 'ZODE', href: '/protocol#zode' },
+      ],
+    },
+  ],
+};
+
 /* ---------------------------------------------------------------------------
    Per-company landing scroll sections
    --------------------------------------------------------------------------- */
@@ -268,17 +378,6 @@ const zodeSections: PageSection[] = [
   { id: 'how-it-works', label: 'How It Works' },
   { id: 'features', label: 'Features' },
   { id: 'security', label: 'Security' },
-  { id: 'start', label: 'Get Started' },
-  { id: 'faq', label: 'FAQ' },
-];
-
-const zeroSections: PageSection[] = [
-  { id: 'hero', label: 'Overview' },
-  { id: 'principles', label: 'Principles' },
-  { id: 'features', label: 'Features' },
-  { id: 'capabilities', label: 'Capabilities' },
-  { id: 'trust', label: 'Security' },
-  { id: 'open', label: 'Open Source' },
   { id: 'start', label: 'Get Started' },
   { id: 'faq', label: 'FAQ' },
 ];
@@ -321,16 +420,26 @@ export const COMPANIES: Record<CompanyKey, CompanyConfig> = {
     key: 'zero',
     name: 'ZERO',
     wordmark: 'ZERO',
+    wordmarkLogo: {
+      src: '/images/zero/zero-logo.svg',
+      alt: 'ZERO',
+    },
+    cta: {
+      label: 'Get Started',
+      href: ZERO_GET_STARTED_URL,
+      external: true,
+    },
     domain: 'zero.tech',
-    accent: 'blue',
+    accent: 'cyan',
     defaultTheme: 'dark',
     metadata: {
-      title: 'ZERO OS',
-      description: 'A secure operating system for an agentic world.',
+      title: 'ZERO',
+      description: 'A private, sovereign, decentralized messenger.',
     },
-    nav: sharedNav,
-    footer: minimalFooter('Zero', 'ZERO'),
-    pageSections: zeroSections,
+    nav: zeroNav,
+    navStyle: 'buttons',
+    footer: zeroFooter,
+    pageSections: [],
   },
   wilderworld: {
     key: 'wilderworld',

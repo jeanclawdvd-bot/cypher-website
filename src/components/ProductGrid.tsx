@@ -82,6 +82,7 @@ const products: Product[] = [
     focus: 'Secure messenger',
     description:
       'ZERO is a secure, private messenger for an agentic world, pairing end-to-end encrypted communication with the identity and infrastructure people need to own their data.',
+    siteHref: 'https://zero.tech',
   },
   {
     id: 'zns',

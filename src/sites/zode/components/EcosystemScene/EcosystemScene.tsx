@@ -10,18 +10,21 @@ import {
   type ReactNode,
   type RefObject,
 } from "react";
-import {
-  Anthropic,
-  ByteDance,
-  DeepSeek,
-  Gemini,
-  Minimax,
-  Moonshot,
-  OpenAI,
-  Qwen,
-  Tripo,
-  ZAI,
-} from "@lobehub/icons";
+// Deep per-icon Mono imports instead of the package barrel: the barrel (and
+// even each icon's default export, via its Avatar variant) drags in
+// @lobehub/ui and antd — thousands of modules that ballooned the /invest
+// bundle and made dev compiles slow enough to look like broken navigation.
+// Only the Mono marks are rendered here, and they depend on react alone.
+import Anthropic from "@lobehub/icons/es/Anthropic/components/Mono";
+import ByteDance from "@lobehub/icons/es/ByteDance/components/Mono";
+import DeepSeek from "@lobehub/icons/es/DeepSeek/components/Mono";
+import Gemini from "@lobehub/icons/es/Gemini/components/Mono";
+import Minimax from "@lobehub/icons/es/Minimax/components/Mono";
+import Moonshot from "@lobehub/icons/es/Moonshot/components/Mono";
+import OpenAI from "@lobehub/icons/es/OpenAI/components/Mono";
+import Qwen from "@lobehub/icons/es/Qwen/components/Mono";
+import Tripo from "@lobehub/icons/es/Tripo/components/Mono";
+import ZAI from "@lobehub/icons/es/ZAI/components/Mono";
 import type { SectionContent } from "@/sites/zode/content/sections";
 import { SlideLayout } from "@/sites/zode/components/SlideLayout";
 import { useInView } from "@/sites/zode/lib/useInView";

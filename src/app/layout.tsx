@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import type { CSSProperties } from 'react';
+import { headers } from 'next/headers';
 import './styles/globals.css';
 import '@/sites/zode/zode.css';
 import { Nav } from '@/components/Nav';
@@ -8,6 +9,7 @@ import { ThemeWrapper } from '@/components/ThemeWrapper';
 import { MusicProvider } from '@/components/MusicContext';
 import { CustomScrollbar } from '@/components/CustomScrollbar';
 import { getCurrentCompany } from '@/lib/companies/current';
+import { brandNavParams, parentColophonParams } from '@/lib/companies/resolve';
 import { fontVariables } from '@/lib/fonts';
 import { ZodeShell } from '@/sites/zode/ZodeShell';
 import { ZodeGate } from '@/sites/zode/ZodeGate';
@@ -36,6 +38,11 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const company = await getCurrentCompany();
+  const h = await headers();
+  const { homeHref, brandParam } = brandNavParams(company.key, h.get('host'));
+  const parentColophon = company.footer.parentCompany
+    ? parentColophonParams(company.footer.parentCompany.href, h.get('host'))
+    : null;
 
   // Remap the semantic font tokens to the active brand's typeface. Omitted
   // fields keep the Inter defaults from globals.css.
@@ -91,10 +98,16 @@ export default async function RootLayout({
                 sections={company.nav}
                 navStyle={company.navStyle}
                 pageSections={company.pageSections}
+                homeHref={homeHref}
+                brandParam={brandParam}
               />
               <main id="page-main">
                 {children}
-                <Footer footer={company.footer} />
+                <Footer
+                  footer={company.footer}
+                  brandParam={brandParam}
+                  parentColophon={parentColophon}
+                />
               </main>
             </MusicProvider>
           </ThemeWrapper>

@@ -1,4 +1,4 @@
-import { COMPANIES, DEFAULT_COMPANY, DOMAIN_TO_COMPANY } from './registry';
+import { COMPANIES, DEFAULT_COMPANY, DOMAIN_TO_COMPANY, PATH_TO_COMPANY } from './registry';
 import type { CompanyConfig, CompanyKey } from './types';
 
 function isCompanyKey(value: string): value is CompanyKey {
@@ -42,6 +42,66 @@ export function resolveHostCompany(host: string | null | undefined): CompanyKey 
  */
 export function resolveCompanyKey(host: string | null | undefined): CompanyKey {
   return resolveHostCompany(host) ?? DEFAULT_COMPANY;
+}
+
+/**
+ * Returns the brand that owns a URL path (first segment), or `null` when the
+ * path is shared across brands (e.g. `/`, `/privacy`, `/research`).
+ */
+export function resolvePathCompany(pathname: string): CompanyKey | null {
+  const segment = pathname.split('/').filter(Boolean)[0];
+  if (!segment) return null;
+  return PATH_TO_COMPANY[segment] ?? null;
+}
+
+/**
+ * Home link and dev override for internal nav links. On mapped hosts (real
+ * domains and `brand.localhost`) the logo and links stay at `/`. On unmapped
+ * dev/preview hosts, non-default brands carry `?company=` so `/` resolves
+ * correctly.
+ */
+export function brandNavParams(
+  companyKey: CompanyKey,
+  host: string | null | undefined
+): { homeHref: string; brandParam: CompanyKey | null } {
+  const hostMapped = resolveHostCompany(host) !== null;
+  if (hostMapped || companyKey === DEFAULT_COMPANY) {
+    return { homeHref: '/', brandParam: null };
+  }
+  return { homeHref: `/?company=${companyKey}`, brandParam: companyKey };
+}
+
+function isDevHost(host: string | null | undefined): boolean {
+  if (!host) return false;
+  const hostname = host.split(':')[0].toLowerCase();
+  return (
+    hostname === 'localhost' ||
+    hostname.endsWith('.localhost') ||
+    hostname === '127.0.0.1' ||
+    hostname.endsWith('.onrender.com')
+  );
+}
+
+/**
+ * Parent colophon link ("A Cypher Company"). On real child domains opens
+ * cypher.net in a new tab; on dev/preview hosts navigates same-tab to the
+ * local Cypher root (bare localhost when on brand.localhost).
+ */
+export function parentColophonParams(
+  canonicalHref: string,
+  host: string | null | undefined
+): { href: string; external: boolean } {
+  if (!isDevHost(host)) {
+    return { href: canonicalHref, external: true };
+  }
+
+  const hostname = host!.split(':')[0].toLowerCase();
+  if (hostname.endsWith('.localhost')) {
+    const port = host!.includes(':') ? `:${host!.split(':')[1]}` : '';
+    return { href: `http://localhost${port}/`, external: false };
+  }
+
+  return { href: '/', external: false };
 }
 
 /**

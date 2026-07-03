@@ -1,13 +1,13 @@
 'use client';
 
 import type { ReactNode } from 'react';
-import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { brandNavParams } from '@/lib/companies/resolve';
+import type { CompanyKey } from '@/lib/companies/types';
 
 /**
- * Home link that preserves the active `?company=` dev override so pages like
- * Privacy/Terms return to the current brand's home (e.g. Wilder World) instead
- * of the default company. On real domains there is no param and it stays "/".
+ * Home link that returns to the current brand's root. Uses the server-set
+ * `data-company` on body plus hostname to derive the correct href on dev hosts.
  */
 export function BackHomeLink({
   className,
@@ -16,13 +16,14 @@ export function BackHomeLink({
   className?: string;
   children: ReactNode;
 }) {
-  const [href, setHref] = useState('/');
-  useEffect(() => {
-    const company = new URLSearchParams(window.location.search).get('company');
-    setHref(company ? `/?company=${company}` : '/');
-  }, []);
+  const companyKey = (typeof document !== 'undefined'
+    ? document.body.dataset.company
+    : null) as CompanyKey | undefined;
+  const host = typeof window !== 'undefined' ? window.location.host : null;
+  const { homeHref } = brandNavParams(companyKey ?? 'cypher', host);
+
   return (
-    <Link className={className} href={href}>
+    <Link className={className} href={homeHref}>
       {children}
     </Link>
   );

@@ -494,4 +494,27 @@ export const DOMAIN_TO_COMPANY: Record<string, CompanyKey> = {
   'www.zchain.org': 'zchain',
 };
 
+/**
+ * Maps the first URL path segment to the brand that owns that route. When a
+ * request hits a brand-owned path, the owning brand wins so chrome and content
+ * always match (e.g. /universe always serves Wilder World).
+ */
+export const PATH_TO_COMPANY: Record<string, CompanyKey> = {
+  universe: 'wilderworld',
+  gameplay: 'wilderworld',
+  city: 'wilderworld',
+  industries: 'wilderworld',
+  economy: 'wilderworld',
+  market: 'wilderworld',
+  messenger: 'zero',
+  social: 'zero',
+  id: 'zero',
+  protocol: 'zero',
+  network: 'zode',
+  invest: 'zode',
+  'buy-compute': 'zode',
+  'give-compute': 'zode',
+  login: 'zode',
+};
+
 export const DEFAULT_COMPANY: CompanyKey = 'cypher';

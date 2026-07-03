@@ -1,10 +1,10 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback } from 'react';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 import { scrollToSection } from './scrollToSection';
-import type { FooterConfig } from '@/lib/companies/types';
+import type { CompanyKey, FooterConfig } from '@/lib/companies/types';
 import styles from './Footer.module.css';
 
 function XIcon({ size = 18 }: { size?: number }) {
@@ -23,7 +23,15 @@ function GithubIcon({ size = 18 }: { size?: number }) {
   );
 }
 
-export function Footer({ footer }: { footer: FooterConfig }) {
+export function Footer({
+  footer,
+  brandParam,
+  parentColophon,
+}: {
+  footer: FooterConfig;
+  brandParam: CompanyKey | null;
+  parentColophon: { href: string; external: boolean } | null;
+}) {
   const {
     columns,
     social,
@@ -36,25 +44,15 @@ export function Footer({ footer }: { footer: FooterConfig }) {
   } = footer;
   const hasSocial = Boolean(social.x || social.github);
 
-  // Preserve the active `?company=` dev override on internal links so the
-  // footer keeps the current brand (e.g. Wilder World) instead of falling back
-  // to the default company. On real domains there is no param and links stay
-  // bare (the host resolves the brand).
-  const [companyParam, setCompanyParam] = useState<string | null>(null);
-  useEffect(() => {
-    setCompanyParam(new URLSearchParams(window.location.search).get('company'));
-  }, []);
   const withCompany = useCallback(
     (href: string) => {
-      if (!companyParam || !href.startsWith('/')) return href;
-      // Insert the param before any hash so `/industries#industry-land` becomes
-      // `/industries?company=X#industry-land` (a valid, still-scrolling URL).
+      if (!brandParam || !href.startsWith('/')) return href;
       const hashIndex = href.indexOf('#');
       const path = hashIndex === -1 ? href : href.slice(0, hashIndex);
       const hash = hashIndex === -1 ? '' : href.slice(hashIndex);
-      return `${path}${path.includes('?') ? '&' : '?'}company=${companyParam}${hash}`;
+      return `${path}${path.includes('?') ? '&' : '?'}company=${brandParam}${hash}`;
     },
-    [companyParam]
+    [brandParam]
   );
 
   return (
@@ -161,19 +159,15 @@ export function Footer({ footer }: { footer: FooterConfig }) {
           ) : null}
         </div>
 
-        {parentCompany && (
+        {parentCompany && parentColophon && (
           <p className={styles.parentCompany}>
-            {parentCompany.external ? (
-              <a
-                href={parentCompany.href}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {parentCompany.label}
-              </a>
-            ) : (
-              <Link href={parentCompany.href}>{parentCompany.label}</Link>
-            )}
+            <a
+              href={parentColophon.href}
+              target={parentColophon.external ? '_blank' : undefined}
+              rel={parentColophon.external ? 'noopener noreferrer' : undefined}
+            >
+              {parentCompany.label}
+            </a>
           </p>
         )}
       </div>

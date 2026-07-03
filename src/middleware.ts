@@ -1,12 +1,11 @@
 import { NextResponse, type NextRequest } from 'next/server';
-import { resolveHostCompany, normalizeCompany } from './lib/companies/resolve';
+import { resolveHostCompany, resolvePathCompany, normalizeCompany } from './lib/companies/resolve';
 import { DEFAULT_COMPANY } from './lib/companies/registry';
 import {
   AUTH_DISABLED as ZODE_AUTH_DISABLED,
   SESSION_COOKIE as ZODE_SESSION_COOKIE,
 } from './sites/zode/lib/session-constants';
 
-const COMPANY_COOKIE = 'company';
 const ZODE_LOGIN_PATH = '/login';
 
 /**
@@ -15,25 +14,20 @@ const ZODE_LOGIN_PATH = '/login';
  * read the header to render the right company.
  *
  * Brand resolution precedence:
- *   1. The request host, when it explicitly maps to a brand (real domains and
- *      `brand.localhost` subdomains). This is authoritative so a stale cookie
- *      or stray `?company=` can never make a real domain serve another brand.
- *   2. `?company=` override (dev convenience) — also persisted to a cookie.
- *   3. A previously-set `company` cookie (keeps the dev override sticky across
- *      internal navigations so links never need to carry `?company=`).
- *   4. The default company.
- *
- * Making the explicit host win first is the structural fix for brand "leaks":
- * on `cypher.net` (the default brand's domain) a lingering `company=wilderworld`
- * cookie previously overrode the host and served Wilder World. The override and
- * cookie now only apply on non-mapped hosts (`localhost`, `*.onrender.com`).
+ *   1. The request path, when it belongs to a brand-owned route (e.g. /universe
+ *      → wilderworld). Ensures chrome and content always match.
+ *   2. The request host, when it explicitly maps to a brand (real domains and
+ *      `brand.localhost` subdomains). Authoritative on mapped hosts so a stray
+ *      `?company=` can never make a real domain serve another brand.
+ *   3. `?company=` override (dev convenience on localhost / preview hosts).
+ *   4. The default company (bare localhost behaves like cypher.net).
  */
 export function middleware(req: NextRequest) {
+  const pathKey = resolvePathCompany(req.nextUrl.pathname);
   const hostKey = resolveHostCompany(req.headers.get('host'));
   const override = normalizeCompany(req.nextUrl.searchParams.get('company'));
-  const cookieKey = normalizeCompany(req.cookies.get(COMPANY_COOKIE)?.value);
 
-  const company = hostKey ?? override ?? cookieKey ?? DEFAULT_COMPANY;
+  const company = pathKey ?? hostKey ?? override ?? DEFAULT_COMPANY;
 
   /*
    * Zode shared-password gate (ported from zode-website's proxy.ts, currently
@@ -59,22 +53,7 @@ export function middleware(req: NextRequest) {
   // Lets server components (e.g. ZodeGate) know the requested path.
   requestHeaders.set('x-pathname', req.nextUrl.pathname);
 
-  const res = NextResponse.next({ request: { headers: requestHeaders } });
-
-  // Keep the dev override sticky; clear it when explicitly returning to default.
-  if (override) {
-    if (override === DEFAULT_COMPANY) {
-      res.cookies.delete(COMPANY_COOKIE);
-    } else {
-      res.cookies.set(COMPANY_COOKIE, override, {
-        path: '/',
-        sameSite: 'lax',
-        maxAge: 60 * 60 * 24 * 30,
-      });
-    }
-  }
-
-  return res;
+  return NextResponse.next({ request: { headers: requestHeaders } });
 }
 
 export const config = {

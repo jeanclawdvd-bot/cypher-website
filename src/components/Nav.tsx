@@ -127,6 +127,8 @@ export function Nav({
   sections,
   navStyle = 'links',
   pageSections,
+  homeHref,
+  brandParam,
 }: {
   wordmark: string;
   wordmarkLogo?: { src: string; alt: string };
@@ -134,6 +136,8 @@ export function Nav({
   sections: NavSection[];
   navStyle?: 'links' | 'buttons';
   pageSections: PageSection[];
+  homeHref: string;
+  brandParam: string | null;
 }) {
   const [openSectionId, setOpenSectionId] = useState<string | null>('products');
   const [displayedSection, setDisplayedSection] = useState<NavSection | null>(null);
@@ -148,32 +152,17 @@ export function Nav({
   // the animation finishes so it can retrigger on the next click. Hovering the
   // logo runs its own looping glitch via CSS.
   const [logoGlitch, setLogoGlitch] = useState(false);
-  // Home link target. On a child site reached via the `?company=` dev override,
-  // keep the override so the logo returns to that site's home rather than the
-  // default (Cypher). On real domains there is no param, so this stays "/".
-  const [homeHref, setHomeHref] = useState('/');
-  // The active `?company=` dev override (if any). Internal nav links carry it
-  // so routing between pages keeps the current brand instead of falling back
-  // to the default company. On real domains there is no param and links stay
-  // bare (the host resolves the brand).
-  const [companyParam, setCompanyParam] = useState<string | null>(null);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const unmountTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const megaContentRef = useRef<HTMLDivElement | null>(null);
 
-  useEffect(() => {
-    const company = new URLSearchParams(window.location.search).get('company');
-    setCompanyParam(company);
-    setHomeHref(company ? `/?company=${company}` : '/');
-  }, []);
-
   // Append the active company override to internal (path) hrefs only.
   const withCompany = useCallback(
     (href: string) => {
-      if (!companyParam || !href.startsWith('/')) return href;
-      return `${href}${href.includes('?') ? '&' : '?'}company=${companyParam}`;
+      if (!brandParam || !href.startsWith('/')) return href;
+      return `${href}${href.includes('?') ? '&' : '?'}company=${brandParam}`;
     },
-    [companyParam]
+    [brandParam]
   );
 
   useEffect(() => {

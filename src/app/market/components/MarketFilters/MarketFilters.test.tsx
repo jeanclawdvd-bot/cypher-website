@@ -12,6 +12,7 @@ function setup(overrides: Partial<Parameters<typeof MarketFilters>[0]> = {}) {
   const props = {
     activeSlug: 'wilder',
     availability: 'listed' as const,
+    showAvailability: true,
     traitCategories,
     selectedTraits: {},
     openTraitGroups: { Color: true },
@@ -39,11 +40,19 @@ describe('MarketFilters', () => {
     expect(props.onAvailabilityChange).toHaveBeenCalledWith('unlisted');
   });
 
+  it('hides the availability toggle when showAvailability is false', () => {
+    setup({ showAvailability: false });
+    expect(screen.queryByRole('button', { name: 'Listed' })).not.toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: 'Unlisted' })).not.toBeInTheDocument();
+    expect(screen.queryByRole('group', { name: 'Availability' })).not.toBeInTheDocument();
+  });
+
   it('shows a clear button only when traits are selected', () => {
     const { rerender } = render(
       <MarketFilters
         activeSlug="wilder"
         availability="listed"
+        showAvailability
         traitCategories={traitCategories}
         selectedTraits={{}}
         openTraitGroups={{}}
@@ -59,6 +68,7 @@ describe('MarketFilters', () => {
       <MarketFilters
         activeSlug="wilder"
         availability="listed"
+        showAvailability
         traitCategories={traitCategories}
         selectedTraits={{ Color: ['Red'] }}
         openTraitGroups={{}}

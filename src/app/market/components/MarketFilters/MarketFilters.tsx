@@ -6,6 +6,7 @@ import styles from '../../market.module.css';
 type Props = {
   activeSlug: string;
   availability: Availability;
+  showAvailability: boolean;
   traitCategories: readonly TraitCategory[];
   selectedTraits: SelectedTraits;
   openTraitGroups: Record<string, boolean>;
@@ -19,6 +20,7 @@ type Props = {
 export function MarketFilters({
   activeSlug,
   availability,
+  showAvailability,
   traitCategories,
   selectedTraits,
   openTraitGroups,
@@ -38,28 +40,30 @@ export function MarketFilters({
           </button>
         )}
       </div>
-      <div className={styles.statusFilter} role="group" aria-label="Availability">
-        <button
-          type="button"
-          className={`${styles.statusBtn} ${
-            availability === 'listed' ? styles.statusBtnActive : ''
-          }`}
-          onClick={() => onAvailabilityChange('listed')}
-          aria-pressed={availability === 'listed'}
-        >
-          Listed
-        </button>
-        <button
-          type="button"
-          className={`${styles.statusBtn} ${
-            availability === 'unlisted' ? styles.statusBtnActive : ''
-          }`}
-          onClick={() => onAvailabilityChange('unlisted')}
-          aria-pressed={availability === 'unlisted'}
-        >
-          Unlisted
-        </button>
-      </div>
+      {showAvailability && (
+        <div className={styles.statusFilter} role="group" aria-label="Availability">
+          <button
+            type="button"
+            className={`${styles.statusBtn} ${
+              availability === 'listed' ? styles.statusBtnActive : ''
+            }`}
+            onClick={() => onAvailabilityChange('listed')}
+            aria-pressed={availability === 'listed'}
+          >
+            Listed
+          </button>
+          <button
+            type="button"
+            className={`${styles.statusBtn} ${
+              availability === 'unlisted' ? styles.statusBtnActive : ''
+            }`}
+            onClick={() => onAvailabilityChange('unlisted')}
+            aria-pressed={availability === 'unlisted'}
+          >
+            Unlisted
+          </button>
+        </div>
+      )}
       <div key={activeSlug} className={styles.filterSwap}>
         {!activeSlug ? null : traitCategories.length === 0 ? (
           <p className={styles.filtersEmpty}>No trait filters available.</p>

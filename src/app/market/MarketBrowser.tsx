@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef } from 'react';
 import type { WilderIndustry } from '@/lib/wilderCollections';
+import { getEntrySource } from '@/lib/wilderCollections';
 import { getStaticTraits } from '@/lib/wilderTraits';
 import { AnimatedPanel } from '@/components/AnimatedPanel';
 import { CustomScrollbar } from '@/components/CustomScrollbar';
@@ -89,6 +90,8 @@ export default function MarketBrowser({ industries }: Props) {
   const selectedCount = countSelectedTraits(selectedTraits);
 
   const activeEntry = allEntries.find((c) => c.slug === activeSlug);
+  const isIndexerSource =
+    activeEntry != null && getEntrySource(activeEntry) === 'indexer';
   const activeIndustry = industries.find((i) =>
     i.collections.some((c) => c.slug === activeSlug)
   );
@@ -207,6 +210,7 @@ export default function MarketBrowser({ industries }: Props) {
     <MarketFilters
       activeSlug={activeSlug}
       availability={availability}
+      showAvailability={!isIndexerSource}
       traitCategories={traitCategories}
       selectedTraits={selectedTraits}
       openTraitGroups={openTraitGroups}
@@ -297,7 +301,7 @@ export default function MarketBrowser({ industries }: Props) {
               listedCount={activeMeta?.listedCount ?? null}
               owners={activeMeta?.owners ?? null}
               ethUsd={ethUsd}
-              openseaSlug={activeEntry?.slug}
+              openseaSlug={isIndexerSource ? undefined : activeEntry?.slug}
             />
           </AnimatedPanel>
 
@@ -310,14 +314,22 @@ export default function MarketBrowser({ industries }: Props) {
           ) : showUnavailable ? (
             <MarketEmptyState
               title="No items to display"
-              body="Live NFT data is unavailable right now. Check that the OpenSea API key is configured, or view the collection directly on OpenSea."
-              openseaSlug={activeEntry?.slug}
+              body={
+                isIndexerSource
+                  ? 'Live data is unavailable right now. Please try again shortly.'
+                  : 'Live NFT data is unavailable right now. Check that the OpenSea API key is configured, or view the collection directly on OpenSea.'
+              }
+              openseaSlug={isIndexerSource ? undefined : activeEntry?.slug}
             />
           ) : filtered.length === 0 ? (
             <MarketEmptyState
               title={emptyCopy.title}
               body={emptyCopy.body}
-              openseaSlug={items.length === 0 ? activeEntry?.slug : undefined}
+              openseaSlug={
+                isIndexerSource || items.length !== 0
+                  ? undefined
+                  : activeEntry?.slug
+              }
             />
           ) : (
             <>

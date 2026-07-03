@@ -1,5 +1,17 @@
 import { NextResponse } from 'next/server';
-import { getEntryBySlug } from '@/lib/wilderCollections';
+import {
+  getEntryBySlug,
+  getEntrySource,
+  type WilderCollectionEntry,
+} from '@/lib/wilderCollections';
+import {
+  hasMoreInventory,
+  indexerFetch,
+  resolveMediaUrl,
+  INDEXER_PAGE_LIMIT,
+  type IndexerAsset,
+  type IndexerInventoryResponse,
+} from '@/lib/indexer';
 import {
   fetchNftByContract,
   fetchBestListingsMap,
@@ -9,6 +21,9 @@ import {
 } from '@/lib/opensea';
 
 export const revalidate = 300;
+
+// Defensive cap for the indexer page walk: 50 pages x 200 = 10k items.
+const MAX_PAGES = 50;
 
 export type MarketItem = {
   identifier: string;
@@ -43,6 +58,8 @@ export async function GET(request: Request) {
   if (!entry || !identifier) {
     return NextResponse.json({ item: null }, { status: 400 });
   }
+
+  if (getEntrySource(entry) === 'indexer') return handleIndexer(entry, identifier);
 
   const chain = chainParam || entry.chain;
   let contract = contractParam || entry.contract || null;
@@ -85,6 +102,49 @@ export async function GET(request: Request) {
     openseaUrl:
       nft.opensea_url ||
       `https://opensea.io/assets/${chain}/${contract}/${nft.identifier}`,
+  };
+
+  return NextResponse.json({ item });
+}
+
+/**
+ * Z-Chain items come from the indexer inventory. No trading yet, so
+ * `priceEth` is always null and `openseaUrl` is '' (no explorer to link).
+ */
+async function handleIndexer(entry: WilderCollectionEntry, identifier: string) {
+  const contract = encodeURIComponent(entry.contract ?? '');
+
+  // Walk inventory pages until the token appears; the collection may hold
+  // thousands of items. Capped defensively so a misbehaving API cannot loop.
+  let asset: IndexerAsset | undefined;
+  let offset = 0;
+  for (let page = 0; page < MAX_PAGES; page++) {
+    const data = await indexerFetch<IndexerInventoryResponse>(
+      `/v1/inventory?collections=${contract}&limit=${INDEXER_PAGE_LIMIT}&offset=${offset}`
+    );
+    if (!data) break;
+    asset = data.items.find((a) => a.tokenId === identifier);
+    // An empty page cannot advance the offset; treat it as exhaustion even if
+    // a stale `total` claims otherwise.
+    if (asset || data.items.length === 0 || !hasMoreInventory(data, offset)) break;
+    offset += data.items.length;
+  }
+  if (!asset) return NextResponse.json({ item: null }, { status: 404 });
+
+  const metadata = asset.metadata;
+  const item: MarketItem = {
+    identifier: asset.tokenId,
+    name: metadata?.name || `${entry.label ?? entry.slug} #${asset.tokenId}`,
+    image: resolveMediaUrl(metadata?.image),
+    animationUrl: resolveMediaUrl(metadata?.animationUrl),
+    description: metadata?.description ?? null,
+    collectionSlug: entry.slug,
+    collectionName: asset.collectionName || (entry.label ?? entry.slug),
+    traits: (metadata?.attributes ?? [])
+      .filter((t) => Boolean(t.trait_type))
+      .map((t) => ({ type: t.trait_type, value: String(t.value) })),
+    priceEth: null,
+    openseaUrl: '',
   };
 
   return NextResponse.json({ item });

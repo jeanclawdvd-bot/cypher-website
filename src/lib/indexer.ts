@@ -57,7 +57,29 @@ export type IndexerAsset = {
 
 export type IndexerInventoryResponse = {
   items: IndexerAsset[];
+  // Optional so a degraded envelope still parses; `total` is the primary
+  // pagination driver, with a short-page heuristic as runtime fallback.
+  total?: number;
+  limit?: number;
+  offset?: number;
 };
+
+/** Page size used by all inventory-paginating route handlers. */
+export const INDEXER_PAGE_LIMIT = 200;
+
+/**
+ * Whether more inventory pages remain after the page just fetched. Exact when
+ * the envelope carries `total`; otherwise falls back to the full-page
+ * heuristic (a page shorter than the limit means the collection is exhausted).
+ */
+export function hasMoreInventory(
+  page: IndexerInventoryResponse,
+  offset: number
+): boolean {
+  return typeof page.total === 'number'
+    ? offset + page.items.length < page.total
+    : page.items.length === INDEXER_PAGE_LIMIT;
+}
 
 /**
  * Resolve a metadata media URI to a fetchable URL. Rewrites `ipfs://` (and

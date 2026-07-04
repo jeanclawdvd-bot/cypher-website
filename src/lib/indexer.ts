@@ -10,19 +10,27 @@ import type { MarketNft } from './opensea';
 
 export const INDEXER_REVALIDATE = 300;
 
+// Trait aggregation walks the whole collection (many indexer calls), so cache
+// those page fetches for much longer — traits change rarely, and this keeps the
+// expensive walk to ~once/hour per collection instead of on every cold view.
+export const INDEXER_TRAITS_REVALIDATE = 3600;
+
 export function hasIndexerConfig(): boolean {
   return Boolean(process.env.INDEXER_API_URL && process.env.INDEXER_API_KEY);
 }
 
 /** Fetch a JSON endpoint from the indexer. Returns null on any failure. */
-export async function indexerFetch<T>(path: string): Promise<T | null> {
+export async function indexerFetch<T>(
+  path: string,
+  revalidate: number = INDEXER_REVALIDATE
+): Promise<T | null> {
   const baseUrl = process.env.INDEXER_API_URL;
   const key = process.env.INDEXER_API_KEY;
   if (!baseUrl || !key) return null;
   try {
     const res = await fetch(`${baseUrl}${path}`, {
       headers: { 'x-api-key': key, accept: 'application/json' },
-      next: { revalidate: INDEXER_REVALIDATE },
+      next: { revalidate },
     });
     if (!res.ok) return null;
     return (await res.json()) as T;
@@ -64,21 +72,27 @@ export type IndexerInventoryResponse = {
   offset?: number;
 };
 
-/** Page size used by all inventory-paginating route handlers. */
+/** Page size for the browse grid — matches the ETH grid cadence and keeps the
+ * initial render light (each Z-Chain image is multi-MB, so fewer per page). */
+export const INDEXER_GRID_LIMIT = 50;
+
+/** Page size for full-collection walks (item lookup, trait aggregation) —
+ * larger to minimise round-trips. */
 export const INDEXER_PAGE_LIMIT = 200;
 
 /**
  * Whether more inventory pages remain after the page just fetched. Exact when
  * the envelope carries `total`; otherwise falls back to the full-page
- * heuristic (a page shorter than the limit means the collection is exhausted).
+ * heuristic (a page shorter than `limit` means the collection is exhausted).
  */
 export function hasMoreInventory(
   page: IndexerInventoryResponse,
-  offset: number
+  offset: number,
+  limit: number = INDEXER_PAGE_LIMIT
 ): boolean {
   return typeof page.total === 'number'
     ? offset + page.items.length < page.total
-    : page.items.length === INDEXER_PAGE_LIMIT;
+    : page.items.length === limit;
 }
 
 /**

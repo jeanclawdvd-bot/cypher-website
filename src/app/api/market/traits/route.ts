@@ -9,6 +9,7 @@ import {
   hasMoreInventory,
   indexerFetch,
   INDEXER_PAGE_LIMIT,
+  INDEXER_TRAITS_REVALIDATE,
   type IndexerInventoryResponse,
 } from '@/lib/indexer';
 
@@ -73,7 +74,8 @@ async function handleIndexer(entry: WilderCollectionEntry) {
   let exhausted = false;
   for (let page = 0; page < MAX_PAGES; page++) {
     const data = await indexerFetch<IndexerInventoryResponse>(
-      `/v1/inventory?collections=${contract}&limit=${INDEXER_PAGE_LIMIT}&offset=${offset}`
+      `/v1/inventory?collections=${contract}&limit=${INDEXER_PAGE_LIMIT}&offset=${offset}`,
+      INDEXER_TRAITS_REVALIDATE
     );
     if (!data) return NextResponse.json({ categories: [] });
 

@@ -66,41 +66,41 @@ beforeEach(() => {
 });
 
 describe('GET /api/market/nfts (indexer branch)', () => {
-  it('returns the first page of 200 with next="200" when more remain', async () => {
+  it('returns the first page of 50 with next="50" when more remain', async () => {
     servePages(450);
     const res = await GET(request('slug=packs'));
     const body = await res.json();
     expect(body.error).toBe(false);
-    expect(body.items).toHaveLength(200);
+    expect(body.items).toHaveLength(50);
     expect(body.items[0].identifier).toBe('0');
-    expect(body.next).toBe('200');
+    expect(body.next).toBe('50');
     expect(mockedFetch).toHaveBeenCalledTimes(1);
-    expect(mockedFetch.mock.calls[0][0]).toContain('limit=200');
+    expect(mockedFetch.mock.calls[0][0]).toContain('limit=50');
     expect(mockedFetch.mock.calls[0][0]).toContain('offset=0');
   });
 
   it('walks subsequent pages via next and terminates with next=null', async () => {
     servePages(450);
-    const page2 = await (await GET(request('slug=packs&next=200'))).json();
-    expect(page2.items[0].identifier).toBe('200');
-    expect(page2.next).toBe('400');
+    const page2 = await (await GET(request('slug=packs&next=50'))).json();
+    expect(page2.items[0].identifier).toBe('50');
+    expect(page2.next).toBe('100');
 
-    const page3 = await (await GET(request('slug=packs&next=400'))).json();
-    expect(page3.items).toHaveLength(50);
-    expect(page3.next).toBeNull();
+    const last = await (await GET(request('slug=packs&next=400'))).json();
+    expect(last.items).toHaveLength(50);
+    expect(last.next).toBeNull();
   });
 
   it('uses the short-page heuristic when total is missing', async () => {
     mockedFetch.mockResolvedValueOnce({
-      items: Array.from({ length: 200 }, (_, i) => makeAsset(String(i))),
+      items: Array.from({ length: 50 }, (_, i) => makeAsset(String(i))),
     } satisfies IndexerInventoryResponse);
     const body = await (await GET(request('slug=packs'))).json();
-    expect(body.next).toBe('200');
+    expect(body.next).toBe('50');
 
     mockedFetch.mockResolvedValueOnce({
-      items: [makeAsset('200')],
+      items: [makeAsset('50')],
     } satisfies IndexerInventoryResponse);
-    const tail = await (await GET(request('slug=packs&next=200'))).json();
+    const tail = await (await GET(request('slug=packs&next=50'))).json();
     expect(tail.next).toBeNull();
   });
 

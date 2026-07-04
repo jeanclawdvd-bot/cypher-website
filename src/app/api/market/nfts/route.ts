@@ -8,7 +8,7 @@ import {
   hasMoreInventory,
   indexerFetch,
   normalizeIndexerAsset,
-  INDEXER_PAGE_LIMIT,
+  INDEXER_GRID_LIMIT,
   type IndexerInventoryResponse,
 } from '@/lib/indexer';
 import {
@@ -146,7 +146,7 @@ async function handleIndexer(
 
   const data = await indexerFetch<IndexerInventoryResponse>(
     `/v1/inventory?collections=${encodeURIComponent(entry.contract ?? '')}` +
-      `&limit=${INDEXER_PAGE_LIMIT}&offset=${offset}`
+      `&limit=${INDEXER_GRID_LIMIT}&offset=${offset}`
   );
   if (!data) return fetchFailed();
 
@@ -154,7 +154,7 @@ async function handleIndexer(
     normalizeIndexerAsset(asset, entry.slug, entry.chain)
   );
   const nextCursor =
-    data.items.length > 0 && hasMoreInventory(data, offset)
+    data.items.length > 0 && hasMoreInventory(data, offset, INDEXER_GRID_LIMIT)
       ? String(offset + data.items.length)
       : null;
   return NextResponse.json({ items, next: nextCursor, error: false });

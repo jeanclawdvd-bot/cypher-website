@@ -257,6 +257,16 @@ const wilderFooter: FooterConfig = {
       ],
     },
     {
+      heading: 'Apps',
+      links: [
+        { label: 'Epic Games', href: WILDER_EARLY_ACCESS_URL, external: true },
+        { label: 'Market', href: '/market' },
+        { label: 'Packs', href: 'https://packs.wilderworld.com', external: true },
+        { label: 'Staking', href: 'https://app.wilderworld.com/staking/pools', external: true },
+        { label: 'Map', href: 'https://map.wilderworld.com', external: true },
+      ],
+    },
+    {
       heading: 'Legal',
       links: [
         { label: 'Privacy Policy', href: '/privacy' },

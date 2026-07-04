@@ -10,6 +10,7 @@ import { useMarketStore } from './store/marketStore';
 import { useCollectionsQuery } from './hooks/useCollectionsQuery';
 import { useEthPriceQuery } from './hooks/useEthPriceQuery';
 import { useMarketNftsQuery } from './hooks/useMarketNftsQuery';
+import { useMarketTraitsQuery } from './hooks/useMarketTraitsQuery';
 import { useMediaQuery } from './hooks/useMediaQuery';
 import { useInfiniteScroll } from './hooks/useInfiniteScroll';
 import { useMarketUrlSync } from './hooks/useMarketUrlSync';
@@ -82,16 +83,19 @@ export default function MarketBrowser({ industries }: Props) {
   const items = nftsData?.items ?? [];
   const batchBase = nftsData?.batchBase ?? 0;
 
-  const traitCategories = useMemo(() => getStaticTraits(activeSlug), [activeSlug]);
+  const activeEntry = allEntries.find((c) => c.slug === activeSlug);
+  const isIndexerSource =
+    activeEntry != null && getEntrySource(activeEntry) === 'indexer';
+
+  const staticTraits = useMemo(() => getStaticTraits(activeSlug), [activeSlug]);
+  const { data: indexerTraits } = useMarketTraitsQuery(isIndexerSource ? activeSlug : '');
+  const traitCategories = isIndexerSource ? (indexerTraits ?? []) : staticTraits;
   const filtered = useMemo(
     () => filterByTraits(items, selectedTraits),
     [items, selectedTraits]
   );
   const selectedCount = countSelectedTraits(selectedTraits);
 
-  const activeEntry = allEntries.find((c) => c.slug === activeSlug);
-  const isIndexerSource =
-    activeEntry != null && getEntrySource(activeEntry) === 'indexer';
   const activeIndustry = industries.find((i) =>
     i.collections.some((c) => c.slug === activeSlug)
   );

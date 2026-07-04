@@ -263,6 +263,7 @@ const wilderFooter: FooterConfig = {
         { label: 'Market', href: '/market' },
         { label: 'Packs', href: 'https://packs.wilderworld.com', external: true },
         { label: 'Staking', href: 'https://app.wilderworld.com/staking/pools', external: true },
+        { label: 'Gibson', href: 'https://wildergibson.com', external: true },
         { label: 'Map', href: 'https://map.wilderworld.com', external: true },
       ],
     },

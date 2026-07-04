@@ -9,13 +9,18 @@
 
    Industry order mirrors the footer "Industries" column
    (see src/lib/companies/registry.ts): Land, Avatars, Wheels, Weapons, Beasts,
-   Moto, PALs, Crafts, Cribs, Kicks. Avatars and Weapons have no tradeable
-   collection yet and are omitted.
+   Moto, PALs, Crafts, Cribs, Kicks.
+
+   Z-Chain collections (chainId 9369) are indexer-backed and browse-only —
+   they have no listings or prices. For those entries, `slug` is the indexer's
+   own collection slug, not an OpenSea slug.
    --------------------------------------------------------------------------- */
+export type CollectionSource = 'opensea' | 'indexer';
+
 export type WilderCollectionEntry = {
   /** Stable id / URL key for this collection. */
   id: string;
-  /** OpenSea collection slug (used for stats + collection detail). */
+  /** Collection slug — OpenSea slug for ETH entries, indexer slug otherwise. */
   slug: string;
   /** Optional sub-label when an industry has more than one collection. */
   label?: string;
@@ -27,6 +32,10 @@ export type WilderCollectionEntry = {
   launched?: string;
   /** Short blurb shown under the active collection. */
   blurb?: string;
+  /** Data source; defaults to 'opensea' when omitted. */
+  source?: CollectionSource;
+  /** Numeric chain id for indexer-backed chains (Z-Chain = 9369). */
+  chainId?: number;
 };
 
 export type WilderIndustry = {
@@ -185,6 +194,51 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
       },
     ],
   },
+  {
+    id: 'packs',
+    name: 'Packs',
+    collections: [
+      {
+        id: 'packs',
+        slug: 'packs',
+        chain: 'zchain',
+        chainId: 9369,
+        source: 'indexer',
+        contract: '0x5ce3a764cc43e891d8bd068dd16c1b08db4ad0d4',
+        blurb: 'Sealed packs on Z-Chain — open them to reveal weapons, wheels and avatars.',
+      },
+      {
+        id: 'pack-weapons',
+        slug: 'pack-weapons',
+        label: 'Weapons',
+        chain: 'zchain',
+        chainId: 9369,
+        source: 'indexer',
+        contract: '0x693de821fc5999ac3738720f53763fe8aafaf6ac',
+        blurb: 'Weapons revealed from Z-Chain packs.',
+      },
+      {
+        id: 'pack-wheels',
+        slug: 'pack-wheels',
+        label: 'Wheels',
+        chain: 'zchain',
+        chainId: 9369,
+        source: 'indexer',
+        contract: '0x6c6e92c542b525043926028cbfa61bfe0e76e69b',
+        blurb: 'Wheels revealed from Z-Chain packs.',
+      },
+      {
+        id: 'pack-avatars',
+        slug: 'pack-avatars',
+        label: 'Avatars',
+        chain: 'zchain',
+        chainId: 9369,
+        source: 'indexer',
+        contract: '0xa5908ee83b7f61e92e0a68b22372cbca78751cb2',
+        blurb: 'Avatars revealed from Z-Chain packs.',
+      },
+    ],
+  },
 ];
 
 /** Flat list of every collection across all industries, in rail order. */
@@ -198,6 +252,11 @@ export function getEntryBySlug(slug: string): WilderCollectionEntry | undefined 
 
 export function getEntryById(id: string): WilderCollectionEntry | undefined {
   return ALL_ENTRIES.find((c) => c.id === id);
+}
+
+/** Resolve an entry's data source; entries without an explicit source are OpenSea-backed. */
+export function getEntrySource(entry: WilderCollectionEntry): CollectionSource {
+  return entry.source ?? 'opensea';
 }
 
 export function getIndustryForEntry(entryId: string): WilderIndustry | undefined {

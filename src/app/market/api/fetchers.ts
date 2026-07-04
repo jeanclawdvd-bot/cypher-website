@@ -1,6 +1,7 @@
 import type { MarketNft } from '@/lib/opensea';
 import type { MarketCollection } from '@/app/api/market/collections/route';
 import type { MarketItem } from '@/app/api/market/item/route';
+import type { TraitCategory } from '@/app/api/market/traits/route';
 import type { Availability } from '../types';
 
 export type NftsPage = {
@@ -59,6 +60,15 @@ export async function fetchNftsPage(
   // an error so the empty-state copy stays truthful.
   if (parsed.error) throw new MarketFetchError('Upstream NFT data unavailable');
   return { items: parsed.items ?? [], next: parsed.next ?? null };
+}
+
+export async function fetchTraits(slug: string): Promise<TraitCategory[]> {
+  const data = await getJson(`/api/market/traits?slug=${encodeURIComponent(slug)}`);
+  const categories =
+    data && typeof data === 'object' && 'categories' in data
+      ? (data as { categories?: TraitCategory[] }).categories
+      : undefined;
+  return categories ?? [];
 }
 
 export async function fetchItem(args: {

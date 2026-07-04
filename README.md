@@ -30,6 +30,8 @@ Copy `.env.example` to `.env.local` and fill in the values:
 | Variable | Used by | Notes |
 |----------|---------|-------|
 | `OPENSEA_API_KEY` | Wilder World Market page (`/market`) | OpenSea API v2 key used server-side to browse live onchain NFTs and metadata. Get one at [OpenSea API keys](https://docs.opensea.io/reference/api-keys). If unset, the Market page renders a graceful empty state. |
+| `INDEXER_API_URL` | Market page (`/market`), Z-Chain collections | Base URL of the indexing service. Read server-side only; if unset (or `INDEXER_API_KEY` is missing), indexer-backed collections render a graceful empty state. |
+| `INDEXER_API_KEY` | Market page (`/market`), Z-Chain collections | `x-api-key` value for the indexing service. Read server-side only. |
 
 ## Pages
 

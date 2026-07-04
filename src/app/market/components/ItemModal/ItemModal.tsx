@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { ArrowUpRight, ChevronLeft, ChevronRight, X } from 'lucide-react';
 import type { MarketNft } from '@/lib/opensea';
+import { getEntryBySlug, getEntrySource } from '@/lib/wilderCollections';
 import { formatUsd, formatEth } from '@/lib/price';
 import { FadeInImage } from '@/components/FadeInImage';
 import { useItemQuery } from '../../hooks/useItemQuery';
@@ -33,6 +34,12 @@ export function ItemModal({
   // Full onchain detail is loaded (and cached) via TanStack Query, keyed by the
   // token's own contract + chain — the fix for umbrella-slug "Item unavailable".
   const { data: item, status } = useItemQuery(slug, nft);
+  // Z-Chain (indexer-source) items have no OpenSea presence; never render the
+  // link for them (their openseaUrl is '', which is not nullish).
+  const entry = getEntryBySlug(slug);
+  const hideOpenSea =
+    (entry != null && getEntrySource(entry) === 'indexer') ||
+    (entry != null && item?.openseaUrl === '');
   const [mounted, setMounted] = useState(false);
   const [videoFailed, setVideoFailed] = useState(false);
   const [videoReady, setVideoReady] = useState(false);
@@ -174,15 +181,17 @@ export function ItemModal({
               <p className={styles.errorBody}>
                 We couldn&apos;t load this item&apos;s onchain metadata right now.
               </p>
-              <a
-                className={styles.openseaLink}
-                href={`https://opensea.io/assets/${nft.chain}/${nft.contract}/${nft.identifier}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View on OpenSea
-                <ArrowUpRight size={14} />
-              </a>
+              {!hideOpenSea && (
+                <a
+                  className={styles.openseaLink}
+                  href={`https://opensea.io/assets/${nft.chain}/${nft.contract}/${nft.identifier}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on OpenSea
+                  <ArrowUpRight size={14} />
+                </a>
+              )}
             </>
           ) : (
             <>
@@ -198,18 +207,20 @@ export function ItemModal({
                 </span>
               </div>
 
-              <a
-                className={styles.openseaLink}
-                href={
-                  item?.openseaUrl ??
-                  `https://opensea.io/assets/${nft.chain}/${nft.contract}/${nft.identifier}`
-                }
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View on OpenSea
-                <ArrowUpRight size={14} />
-              </a>
+              {!hideOpenSea && (
+                <a
+                  className={styles.openseaLink}
+                  href={
+                    item?.openseaUrl ??
+                    `https://opensea.io/assets/${nft.chain}/${nft.contract}/${nft.identifier}`
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on OpenSea
+                  <ArrowUpRight size={14} />
+                </a>
+              )}
 
               {isLoading ? (
                 <div className={styles.descriptionSkeleton} aria-hidden>
@@ -255,3 +266,4 @@ export function ItemModal({
     document.body
   );
 }
+

@@ -1,6 +1,15 @@
 import { NextResponse } from 'next/server';
-import { ALL_ENTRIES } from '@/lib/wilderCollections';
+import {
+  ALL_ENTRIES,
+  getEntrySource,
+  type WilderCollectionEntry,
+} from '@/lib/wilderCollections';
 import { openseaFetch, type OpenSeaCollection, type OpenSeaStats } from '@/lib/opensea';
+import {
+  indexerFetch,
+  resolveMediaUrl,
+  type IndexerInventoryResponse,
+} from '@/lib/indexer';
 
 export const revalidate = 300;
 
@@ -55,6 +64,7 @@ function formatLaunched(createdDate: string | null | undefined): string | null {
 export async function GET() {
   const results = await Promise.all(
     ALL_ENTRIES.map(async (c): Promise<MarketCollection> => {
+      if (getEntrySource(c) === 'indexer') return buildIndexerCollection(c);
       const [detail, stats, topOfferEth] = await Promise.all([
         openseaFetch<OpenSeaCollection>(`/collections/${encodeURIComponent(c.slug)}`),
         openseaFetch<OpenSeaStats>(`/collections/${encodeURIComponent(c.slug)}/stats`),
@@ -77,4 +87,50 @@ export async function GET() {
   );
 
   return NextResponse.json({ collections: results });
+}
+
+type IndexerCollectionsResponse = {
+  collections?: Array<{
+    collectionAddress?: string;
+    collectionName?: string;
+    totalItems?: number;
+    totalHolders?: number;
+  }>;
+};
+
+/**
+ * Z-Chain collections are indexer-backed and browse-only: no floor / offers /
+ * volume / owners stats. Name + supply come from the indexer collections
+ * endpoint when available, the card image from the first asset. Any indexer
+ * failure degrades to config-only nulls — never rejects the whole response.
+ */
+async function buildIndexerCollection(
+  c: WilderCollectionEntry
+): Promise<MarketCollection> {
+  const [collections, inventory] = await Promise.all([
+    indexerFetch<IndexerCollectionsResponse>('/v1/inventory/collections'),
+    indexerFetch<IndexerInventoryResponse>(
+      `/v1/inventory?collections=${encodeURIComponent(c.contract ?? '')}`
+    ),
+  ]);
+
+  const contract = (c.contract ?? '').toLowerCase();
+  const detail = collections?.collections?.find(
+    (col) => (col.collectionAddress ?? '').toLowerCase() === contract
+  );
+  const firstAsset = inventory?.items?.[0];
+
+  return {
+    slug: c.slug,
+    name: detail?.collectionName || (c.label ?? c.slug),
+    image: resolveMediaUrl(firstAsset?.metadata?.image),
+    floorPrice: null,
+    floorSymbol: null,
+    topOfferEth: null,
+    totalVolume: null,
+    listedCount: null,
+    owners: null,
+    totalSupply: detail?.totalItems ?? null,
+    launched: c.launched ?? null,
+  };
 }

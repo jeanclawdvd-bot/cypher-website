@@ -1,5 +1,16 @@
 import { NextResponse } from 'next/server';
-import { getEntryBySlug } from '@/lib/wilderCollections';
+import {
+  getEntryBySlug,
+  getEntrySource,
+  type WilderCollectionEntry,
+} from '@/lib/wilderCollections';
+import {
+  hasMoreInventory,
+  indexerFetch,
+  normalizeIndexerAsset,
+  INDEXER_GRID_LIMIT,
+  type IndexerInventoryResponse,
+} from '@/lib/indexer';
 import {
   fetchNftsByContract,
   fetchBestListingsMap,
@@ -43,6 +54,13 @@ export async function GET(request: Request) {
 
   const entry = slug ? getEntryBySlug(slug) : undefined;
   if (!entry) return NextResponse.json(empty);
+
+  // Z-Chain collections are indexer-backed and browse-only: no listings, no
+  // prices, no listed/unlisted distinction. Paginated via a numeric offset
+  // carried in the `next` cursor; `next: null` terminates the infinite query.
+  if (getEntrySource(entry) === 'indexer') {
+    return handleIndexer(entry, next, fetchFailed);
+  }
 
   if (status === 'listed') {
     const page = await fetchBestListingsPage(entry.slug, next);
@@ -115,5 +133,29 @@ export async function GET(request: Request) {
     .filter((nft) => priceMap[nft.identifier] == null)
     .map((nft) => normalizeNft(nft, entry.slug, entry.chain, null));
 
+  return NextResponse.json({ items, next: nextCursor, error: false });
+}
+
+async function handleIndexer(
+  entry: WilderCollectionEntry,
+  next: string | null,
+  fetchFailed: () => NextResponse
+) {
+  const parsed = next ? parseInt(next, 10) : 0;
+  const offset = Number.isFinite(parsed) && parsed > 0 ? parsed : 0;
+
+  const data = await indexerFetch<IndexerInventoryResponse>(
+    `/v1/inventory?collections=${encodeURIComponent(entry.contract ?? '')}` +
+      `&limit=${INDEXER_GRID_LIMIT}&offset=${offset}`
+  );
+  if (!data) return fetchFailed();
+
+  const items = data.items.map((asset) =>
+    normalizeIndexerAsset(asset, entry.slug, entry.chain)
+  );
+  const nextCursor =
+    data.items.length > 0 && hasMoreInventory(data, offset, INDEXER_GRID_LIMIT)
+      ? String(offset + data.items.length)
+      : null;
   return NextResponse.json({ items, next: nextCursor, error: false });
 }

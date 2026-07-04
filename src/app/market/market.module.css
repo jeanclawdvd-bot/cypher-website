@@ -31,7 +31,7 @@
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   gap: 0.75rem 1.25rem;
-  background: var(--color-bg);
+  background: var(--site-bg-to);
   border-bottom: 1px solid var(--color-border);
   padding-block: 0.75rem;
   transition: top 300ms ease;
@@ -48,7 +48,7 @@
   right: 0;
   bottom: 100%;
   height: var(--site-nav-offset, 0px);
-  background: var(--color-bg);
+  background: var(--site-bg-to);
   pointer-events: none;
   transition: height 300ms ease;
 }

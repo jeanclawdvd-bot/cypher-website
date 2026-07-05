@@ -104,7 +104,7 @@ const keyFacts: KeyFact[] = [
   { label: 'Incorporation', value: 'Nevada, USA' },
   { label: 'Founder & CEO', value: 'n3o', href: 'https://x.com/real_n3o' },
   {
-    label: 'Locations',
+    label: 'Key Locations',
     items: [
       'San Francisco, California',
       'Vancouver, British Columbia',
@@ -189,7 +189,7 @@ const principles = [
 ];
 
 const stack: { name: string; tags: string[][] }[] = [
-  { name: 'Clean Energy', tags: [['ZODE']] },
+  { name: 'Energy', tags: [['ZODE']] },
   { name: 'Land Acquisition', tags: [['ZODE']] },
   { name: 'Manufacturing', tags: [['ZODE']] },
   { name: 'Compute Protocol', tags: [['THE GRID']] },

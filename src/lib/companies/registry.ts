@@ -42,6 +42,13 @@ const sharedNav: NavSection[] = [
       { id: 'zns', label: 'ZNS', description: 'Naming and trust layer', href: '/research/zns', year: '2022' },
       { id: 'zero-os', label: 'ZERO OS', description: 'A social operating system', href: '/research/zero-os', year: '2020' },
     ],
+  },
+  {
+    id: 'code',
+    label: 'Code',
+    href: GITHUB_ORG,
+    external: true,
+    blurb: 'Open source software powering the sovereign AI stack.',
     repoSection: {
       heading: 'Open Source',
       allHref: GITHUB_ORG,
@@ -87,6 +94,7 @@ const sharedNav: NavSection[] = [
             project: 'Wilder World',
             repos: [
               { name: 'wilderworld-com', description: 'The official Wilder World site and web platform.' },
+              { name: 'wilder-gibson', description: 'A photorealistic world simulation engine.' },
             ],
           },
         ],

@@ -146,7 +146,7 @@ export function Footer({
               </a>
             )}
           </div>
-          <p className={styles.copyright}>Copyright &copy; 2026 {copyrightName}.</p>
+          <p className={styles.copyright}>Copyright &copy; 2026 {copyrightName}</p>
         </div>
         )}
 

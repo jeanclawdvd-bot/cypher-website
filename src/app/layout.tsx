@@ -65,7 +65,7 @@ export default async function RootLayout({
           <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
         </head>
         <body data-company={company.key}>
-          <Providers>
+          <Providers company={company.key}>
             <ZodeGate>
               <ZodeShell>{children}</ZodeShell>
             </ZodeGate>
@@ -83,7 +83,7 @@ export default async function RootLayout({
       style={fontStyle}
     >
       <body data-company={company.key}>
-        <Providers>
+        <Providers company={company.key}>
           <ThemeWrapper
             defaultTheme={company.defaultTheme}
             defaultAccent={company.accent}

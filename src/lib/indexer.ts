@@ -72,6 +72,18 @@ export type IndexerInventoryResponse = {
   offset?: number;
 };
 
+/**
+ * Shape of `GET /v1/inventory/attributes/counts` — every trait type with its
+ * values and per-value item counts, aggregated server-side in one query.
+ * Trait types come back alphabetical, values sorted by count desc.
+ */
+export type IndexerAttributeCounts = {
+  attributes: Array<{
+    traitType: string;
+    values: Array<{ value: string; count: number }>;
+  }>;
+};
+
 /** Page size for the browse grid — matches the ETH grid cadence and keeps the
  * initial render light (each Z-Chain image is multi-MB, so fewer per page). */
 export const INDEXER_GRID_LIMIT = 50;

@@ -115,6 +115,21 @@ describe('GET /api/market/nfts (indexer branch)', () => {
     expect(mockedFetch.mock.calls[1][0]).toContain('offset=0');
   });
 
+  it('forwards trait selections to the indexer as an attributes filter', async () => {
+    servePages(10);
+    const attrs = JSON.stringify({ Rarity: ['Rare', 'Common'] });
+    await GET(request(`slug=packs&attributes=${encodeURIComponent(attrs)}`));
+    const url = mockedFetch.mock.calls[0][0];
+    expect(url).toContain('attributes=');
+    expect(decodeURIComponent(url)).toContain(attrs);
+  });
+
+  it('omits the attributes param when no traits are selected', async () => {
+    servePages(10);
+    await GET(request('slug=packs'));
+    expect(mockedFetch.mock.calls[0][0]).not.toContain('attributes=');
+  });
+
   it('reports a failed page as a failed request (502, error: true)', async () => {
     mockedFetch.mockResolvedValue(null);
     const res = await GET(request('slug=packs'));

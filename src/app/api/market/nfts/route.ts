@@ -59,7 +59,7 @@ export async function GET(request: Request) {
   // prices, no listed/unlisted distinction. Paginated via a numeric offset
   // carried in the `next` cursor; `next: null` terminates the infinite query.
   if (getEntrySource(entry) === 'indexer') {
-    return handleIndexer(entry, next, fetchFailed);
+    return handleIndexer(entry, next, fetchFailed, searchParams.get('attributes'));
   }
 
   if (status === 'listed') {
@@ -139,14 +139,18 @@ export async function GET(request: Request) {
 async function handleIndexer(
   entry: WilderCollectionEntry,
   next: string | null,
-  fetchFailed: () => NextResponse
+  fetchFailed: () => NextResponse,
+  attributes: string | null
 ) {
   const parsed = next ? parseInt(next, 10) : 0;
   const offset = Number.isFinite(parsed) && parsed > 0 ? parsed : 0;
 
+  // `attributes` is a JSON trait filter (e.g. {"Rarity":["Rare","Common"]});
+  // the indexer applies it server-side across the whole collection.
   const data = await indexerFetch<IndexerInventoryResponse>(
     `/v1/inventory?collections=${encodeURIComponent(entry.contract ?? '')}` +
-      `&limit=${INDEXER_GRID_LIMIT}&offset=${offset}`
+      `&limit=${INDEXER_GRID_LIMIT}&offset=${offset}` +
+      (attributes ? `&attributes=${encodeURIComponent(attributes)}` : '')
   );
   if (!data) return fetchFailed();
 

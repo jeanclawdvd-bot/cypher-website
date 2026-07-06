@@ -71,6 +71,13 @@ export default function MarketBrowser({ industries }: Props) {
   /* ----- Server data (TanStack Query) ------------------------------------ */
   const { data: meta } = useCollectionsQuery();
   const { data: ethUsd = null } = useEthPriceQuery();
+  const activeEntry = allEntries.find((c) => c.slug === activeSlug);
+  const isIndexerSource =
+    activeEntry != null && getEntrySource(activeEntry) === 'indexer';
+
+  // Indexer collections filter server-side across the whole collection, so the
+  // trait selections drive the query. ETH keeps filtering client-side over the
+  // loaded page, so it passes no attributes here.
   const {
     data: nftsData,
     isLoading,
@@ -78,21 +85,24 @@ export default function MarketBrowser({ industries }: Props) {
     hasNextPage = false,
     isFetchingNextPage,
     fetchNextPage,
-  } = useMarketNftsQuery(activeSlug, availability);
+  } = useMarketNftsQuery(
+    activeSlug,
+    availability,
+    isIndexerSource ? selectedTraits : undefined
+  );
 
   const items = nftsData?.items ?? [];
   const batchBase = nftsData?.batchBase ?? 0;
 
-  const activeEntry = allEntries.find((c) => c.slug === activeSlug);
-  const isIndexerSource =
-    activeEntry != null && getEntrySource(activeEntry) === 'indexer';
-
   const staticTraits = useMemo(() => getStaticTraits(activeSlug), [activeSlug]);
   const { data: indexerTraits } = useMarketTraitsQuery(isIndexerSource ? activeSlug : '');
   const traitCategories = isIndexerSource ? (indexerTraits ?? []) : staticTraits;
+  // Indexer results are already trait-filtered server-side; ETH filters the
+  // loaded page client-side.
   const filtered = useMemo(
-    () => filterByTraits(items, selectedTraits),
-    [items, selectedTraits]
+    () =>
+      isIndexerSource ? items : filterByTraits(items, selectedTraits),
+    [isIndexerSource, items, selectedTraits]
   );
   const selectedCount = countSelectedTraits(selectedTraits);
 

@@ -2,7 +2,7 @@ import type { MarketNft } from '@/lib/opensea';
 import type { MarketCollection } from '@/app/api/market/collections/route';
 import type { MarketItem } from '@/app/api/market/item/route';
 import type { TraitCategory } from '@/app/api/market/traits/route';
-import type { Availability } from '../types';
+import type { Availability, SelectedTraits } from '../types';
 
 export type NftsPage = {
   items: MarketNft[];
@@ -46,10 +46,21 @@ export async function fetchEthPrice(): Promise<number | null> {
 export async function fetchNftsPage(
   slug: string,
   availability: Availability,
-  next: string | null
+  next: string | null,
+  attributes?: SelectedTraits
 ): Promise<NftsPage> {
   const params = new URLSearchParams({ slug, status: availability });
   if (next) params.set('next', next);
+  // Server-side trait filter for indexer collections: forward only the
+  // selected values (drop empty types) as a JSON attribute filter.
+  const active = attributes
+    ? Object.fromEntries(
+        Object.entries(attributes).filter(([, values]) => values.length > 0)
+      )
+    : {};
+  if (Object.keys(active).length > 0) {
+    params.set('attributes', JSON.stringify(active));
+  }
   const data = await getJson(`/api/market/nfts?${params.toString()}`);
   const parsed = (data ?? {}) as {
     items?: MarketNft[];

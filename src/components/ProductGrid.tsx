@@ -117,7 +117,7 @@ const products: Product[] = [
     span: 'wide',
     image: '/images/zode/zode-bg.png',
     logo: '/images/zode/zode-logo.png',
-    url: 'thegrid.host',
+    url: 'zode.org',
     year: '2026',
     handle: '@zode_org',
     focus: 'Micro-data center',

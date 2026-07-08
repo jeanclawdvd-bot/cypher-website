@@ -12,6 +12,10 @@ services:
     envVars:
       - key: NODE_VERSION
         value: "22"
+      # ZODE compute-lead webhook (CRM funnel target). Set in the Render
+      # dashboard, not committed. Unset → forms fall back to mailto.
+      - key: ZODE_LEADS_WEBHOOK_URL
+        sync: false
     domains:
       - cypher.net
       - www.cypher.net

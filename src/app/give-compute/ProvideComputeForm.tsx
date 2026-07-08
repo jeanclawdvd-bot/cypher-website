@@ -2,34 +2,17 @@
 
 import { useState, type FormEvent, type ReactElement } from "react";
 import Link from "next/link";
+import { track } from "@/features/analytics";
+import {
+  GIVE_HARDWARE_OPTIONS,
+  GIVE_COUNT_OPTIONS,
+  GIVE_AVAIL_OPTIONS,
+  HONEYPOT_FIELD,
+} from "@/features/leads/leads";
+import { submitLead } from "@/features/leads/submit";
 import styles from "../buy-compute/page.module.css";
 
-const RECIPIENT = "hello@zode.org";
-
-const HARDWARE_OPTIONS = [
-  "NVIDIA H100",
-  "NVIDIA A100",
-  "NVIDIA L40S / L40",
-  "NVIDIA RTX 4090",
-  "AMD MI300X",
-  "Other / mixed fleet",
-] as const;
-
-const COUNT_OPTIONS = [
-  "1 - 8 GPUs",
-  "8 - 32 GPUs",
-  "32 - 128 GPUs",
-  "128 - 512 GPUs",
-  "512+ GPUs",
-] as const;
-
-const AVAIL_OPTIONS = [
-  "Immediately",
-  "Within a week",
-  "This month",
-  "This quarter",
-  "Just exploring",
-] as const;
+type Status = "idle" | "submitting" | "success" | "fallback";
 
 export function ProvideComputeForm(): ReactElement {
   const [name, setName] = useState("");
@@ -39,26 +22,43 @@ export function ProvideComputeForm(): ReactElement {
   const [count, setCount] = useState("");
   const [availability, setAvailability] = useState("");
   const [setup, setSetup] = useState("");
+  const [honeypot, setHoneypot] = useState("");
+  const [status, setStatus] = useState<Status>("idle");
+  const [started, setStarted] = useState(false);
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>): void {
+  // Fire the top-of-funnel event once, the moment the visitor starts filling
+  // the form — pairs with `compute_lead_submitted` to measure conversion.
+  function markStarted(): void {
+    if (started) return;
+    setStarted(true);
+    track("compute_form_started", { lead_type: "give" });
+  }
+
+  async function handleSubmit(event: FormEvent<HTMLFormElement>): Promise<void> {
     event.preventDefault();
+    if (status === "submitting") return;
+    setStatus("submitting");
 
-    const subject = `Compute offer — ${company || name}`;
-    const body = [
-      `Name: ${name}`,
-      `Work email: ${email}`,
-      `Company: ${company}`,
-      `Hardware type: ${hardware}`,
-      `GPUs available: ${count}`,
-      `Available from: ${availability}`,
-      ``,
-      `About their setup:`,
+    const result = await submitLead("give", {
+      name,
+      email,
+      company,
+      hardware,
+      count,
+      availability,
       setup,
-    ].join("\n");
+      [HONEYPOT_FIELD]: honeypot,
+    });
+    setStatus(result);
+  }
 
-    window.location.href = `mailto:${RECIPIENT}?subject=${encodeURIComponent(
-      subject,
-    )}&body=${encodeURIComponent(body)}`;
+  if (status === "success") {
+    return (
+      <SuccessCard
+        title="Offer received"
+        body="Thanks — we'll review your fleet and reply to your email, usually within a few hours."
+      />
+    );
   }
 
   return (
@@ -72,6 +72,18 @@ export function ProvideComputeForm(): ReactElement {
       </div>
 
       <form className={styles.form} onSubmit={handleSubmit}>
+        {/* Honeypot: hidden from users, catches bots. Never rendered visibly. */}
+        <input
+          type="text"
+          name={HONEYPOT_FIELD}
+          className={styles.honeypot}
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+          value={honeypot}
+          onChange={(e) => setHoneypot(e.target.value)}
+        />
+
         <div className={styles.grid}>
           <div className={styles.field}>
             <label className={styles.label} htmlFor="name">
@@ -86,6 +98,7 @@ export function ProvideComputeForm(): ReactElement {
               required
               value={name}
               onChange={(e) => setName(e.target.value)}
+              onFocus={markStarted}
             />
           </div>
 
@@ -103,6 +116,7 @@ export function ProvideComputeForm(): ReactElement {
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              onFocus={markStarted}
             />
           </div>
 
@@ -119,6 +133,7 @@ export function ProvideComputeForm(): ReactElement {
               required
               value={company}
               onChange={(e) => setCompany(e.target.value)}
+              onFocus={markStarted}
             />
           </div>
 
@@ -137,7 +152,7 @@ export function ProvideComputeForm(): ReactElement {
               <option value="" disabled>
                 Select…
               </option>
-              {HARDWARE_OPTIONS.map((option) => (
+              {GIVE_HARDWARE_OPTIONS.map((option) => (
                 <option key={option} value={option}>
                   {option}
                 </option>
@@ -160,7 +175,7 @@ export function ProvideComputeForm(): ReactElement {
               <option value="" disabled>
                 Select…
               </option>
-              {COUNT_OPTIONS.map((option) => (
+              {GIVE_COUNT_OPTIONS.map((option) => (
                 <option key={option} value={option}>
                   {option}
                 </option>
@@ -183,7 +198,7 @@ export function ProvideComputeForm(): ReactElement {
               <option value="" disabled>
                 Select…
               </option>
-              {AVAIL_OPTIONS.map((option) => (
+              {GIVE_AVAIL_OPTIONS.map((option) => (
                 <option key={option} value={option}>
                   {option}
                 </option>
@@ -206,9 +221,26 @@ export function ProvideComputeForm(): ReactElement {
           </div>
         </div>
 
-        <button type="submit" className={styles.submit}>
-          Provide Compute <span aria-hidden="true">→</span>
+        <button type="submit" className={styles.submit} disabled={status === "submitting"}>
+          {status === "submitting" ? (
+            "Sending…"
+          ) : (
+            <>
+              Provide Compute <span aria-hidden="true">→</span>
+            </>
+          )}
         </button>
+
+        {status === "fallback" && (
+          <p className={styles.formError} role="alert">
+            We couldn&apos;t reach our servers, so we opened your email app with
+            the details instead. If nothing happened, email us at{" "}
+            <a className={styles.disclaimerLink} href="mailto:hello@zode.org">
+              hello@zode.org
+            </a>
+            .
+          </p>
+        )}
 
         <p className={styles.disclaimer}>
           Sending this request means you accept ZODE&apos;s{" "}
@@ -222,6 +254,20 @@ export function ProvideComputeForm(): ReactElement {
           .
         </p>
       </form>
+    </div>
+  );
+}
+
+function SuccessCard({ title, body }: { title: string; body: string }): ReactElement {
+  return (
+    <div className={styles.card}>
+      <div className={styles.success} role="status">
+        <span className={styles.successIcon}>
+          <CheckIcon />
+        </span>
+        <h2 className={styles.cardTitle}>{title}</h2>
+        <p className={styles.successBody}>{body}</p>
+      </div>
     </div>
   );
 }

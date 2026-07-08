@@ -2,33 +2,17 @@
 
 import { useState, type FormEvent, type ReactElement } from "react";
 import Link from "next/link";
+import { track } from "@/features/analytics";
+import {
+  BUY_GPU_OPTIONS,
+  BUY_SPEND_OPTIONS,
+  BUY_START_OPTIONS,
+  HONEYPOT_FIELD,
+} from "@/features/leads/leads";
+import { submitLead } from "@/features/leads/submit";
 import styles from "./page.module.css";
 
-const RECIPIENT = "hello@zode.org";
-
-const GPU_OPTIONS = [
-  "1 - 8 GPUs",
-  "8 - 32 GPUs",
-  "32 - 128 GPUs",
-  "128 - 512 GPUs",
-  "512+ GPUs",
-] as const;
-
-const SPEND_OPTIONS = [
-  "Under $10k / mo",
-  "$10k - $50k / mo",
-  "$50k - $250k / mo",
-  "$250k - $1M / mo",
-  "$1M+ / mo",
-] as const;
-
-const START_OPTIONS = [
-  "Immediately",
-  "Within a week",
-  "This month",
-  "This quarter",
-  "Just exploring",
-] as const;
+type Status = "idle" | "submitting" | "success" | "fallback";
 
 export function RequestComputeForm(): ReactElement {
   const [name, setName] = useState("");
@@ -38,26 +22,43 @@ export function RequestComputeForm(): ReactElement {
   const [spend, setSpend] = useState("");
   const [start, setStart] = useState("");
   const [workload, setWorkload] = useState("");
+  const [honeypot, setHoneypot] = useState("");
+  const [status, setStatus] = useState<Status>("idle");
+  const [started, setStarted] = useState(false);
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>): void {
+  // Fire the top-of-funnel event once, the moment the visitor starts filling
+  // the form — pairs with `compute_lead_submitted` to measure conversion.
+  function markStarted(): void {
+    if (started) return;
+    setStarted(true);
+    track("compute_form_started", { lead_type: "buy" });
+  }
+
+  async function handleSubmit(event: FormEvent<HTMLFormElement>): Promise<void> {
     event.preventDefault();
+    if (status === "submitting") return;
+    setStatus("submitting");
 
-    const subject = `Compute request — ${company || name}`;
-    const body = [
-      `Name: ${name}`,
-      `Work email: ${email}`,
-      `Company: ${company}`,
-      `GPUs needed: ${gpus}`,
-      `Monthly compute spend: ${spend}`,
-      `Start: ${start}`,
-      ``,
-      `What they're running:`,
+    const result = await submitLead("buy", {
+      name,
+      email,
+      company,
+      gpus,
+      spend,
+      start,
       workload,
-    ].join("\n");
+      [HONEYPOT_FIELD]: honeypot,
+    });
+    setStatus(result);
+  }
 
-    window.location.href = `mailto:${RECIPIENT}?subject=${encodeURIComponent(
-      subject,
-    )}&body=${encodeURIComponent(body)}`;
+  if (status === "success") {
+    return (
+      <SuccessCard
+        title="Request received"
+        body="Thanks — an engineer will reply to your email, usually within a few hours."
+      />
+    );
   }
 
   return (
@@ -71,6 +72,18 @@ export function RequestComputeForm(): ReactElement {
       </div>
 
       <form className={styles.form} onSubmit={handleSubmit}>
+        {/* Honeypot: hidden from users, catches bots. Never rendered visibly. */}
+        <input
+          type="text"
+          name={HONEYPOT_FIELD}
+          className={styles.honeypot}
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+          value={honeypot}
+          onChange={(e) => setHoneypot(e.target.value)}
+        />
+
         <div className={styles.grid}>
           <div className={styles.field}>
             <label className={styles.label} htmlFor="name">
@@ -85,6 +98,7 @@ export function RequestComputeForm(): ReactElement {
               required
               value={name}
               onChange={(e) => setName(e.target.value)}
+              onFocus={markStarted}
             />
           </div>
 
@@ -102,6 +116,7 @@ export function RequestComputeForm(): ReactElement {
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              onFocus={markStarted}
             />
           </div>
 
@@ -118,6 +133,7 @@ export function RequestComputeForm(): ReactElement {
               required
               value={company}
               onChange={(e) => setCompany(e.target.value)}
+              onFocus={markStarted}
             />
           </div>
 
@@ -136,7 +152,7 @@ export function RequestComputeForm(): ReactElement {
               <option value="" disabled>
                 Select…
               </option>
-              {GPU_OPTIONS.map((option) => (
+              {BUY_GPU_OPTIONS.map((option) => (
                 <option key={option} value={option}>
                   {option}
                 </option>
@@ -159,7 +175,7 @@ export function RequestComputeForm(): ReactElement {
               <option value="" disabled>
                 Select…
               </option>
-              {SPEND_OPTIONS.map((option) => (
+              {BUY_SPEND_OPTIONS.map((option) => (
                 <option key={option} value={option}>
                   {option}
                 </option>
@@ -182,7 +198,7 @@ export function RequestComputeForm(): ReactElement {
               <option value="" disabled>
                 Select…
               </option>
-              {START_OPTIONS.map((option) => (
+              {BUY_START_OPTIONS.map((option) => (
                 <option key={option} value={option}>
                   {option}
                 </option>
@@ -205,9 +221,26 @@ export function RequestComputeForm(): ReactElement {
           </div>
         </div>
 
-        <button type="submit" className={styles.submit}>
-          Request Compute <span aria-hidden="true">→</span>
+        <button type="submit" className={styles.submit} disabled={status === "submitting"}>
+          {status === "submitting" ? (
+            "Sending…"
+          ) : (
+            <>
+              Request Compute <span aria-hidden="true">→</span>
+            </>
+          )}
         </button>
+
+        {status === "fallback" && (
+          <p className={styles.formError} role="alert">
+            We couldn&apos;t reach our servers, so we opened your email app with
+            the details instead. If nothing happened, email us at{" "}
+            <a className={styles.disclaimerLink} href="mailto:hello@zode.org">
+              hello@zode.org
+            </a>
+            .
+          </p>
+        )}
 
         <p className={styles.disclaimer}>
           Sending this request means you accept ZODE&apos;s{" "}
@@ -221,6 +254,20 @@ export function RequestComputeForm(): ReactElement {
           .
         </p>
       </form>
+    </div>
+  );
+}
+
+function SuccessCard({ title, body }: { title: string; body: string }): ReactElement {
+  return (
+    <div className={styles.card}>
+      <div className={styles.success} role="status">
+        <span className={styles.successIcon}>
+          <CheckIcon />
+        </span>
+        <h2 className={styles.cardTitle}>{title}</h2>
+        <p className={styles.successBody}>{body}</p>
+      </div>
     </div>
   );
 }

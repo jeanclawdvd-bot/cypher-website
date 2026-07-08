@@ -216,6 +216,16 @@ export function CabinScene({
     controls.target.set(0, isometric ? 12 : 15, 0);
     controls.update();
 
+    // OrbitControls sets `touch-action: none` on the canvas in its constructor,
+    // which swallows vertical scroll on touch devices and traps the user on the
+    // slide. Allow vertical panning (page scroll) so mobile users can scroll
+    // past the model; horizontal single-finger drags still rotate it. Static
+    // scenes are fully non-interactive (pointer-events: none via CSS), so no
+    // override is needed there.
+    if (interactive) {
+      renderer.domElement.style.touchAction = "pan-y";
+    }
+
     const onWheelCapture = (event: WheelEvent) => {
       controls.enableZoom = event.ctrlKey;
     };
@@ -235,7 +245,12 @@ export function CabinScene({
       if (w === 0 || h === 0) return;
       camera.aspect = w / h;
       camera.updateProjectionMatrix();
-      renderer.setSize(w, h, false);
+      // updateStyle must stay on (the default): it sets the canvas CSS size to
+      // the container's CSS pixels while the drawing buffer scales by
+      // devicePixelRatio. Passing `false` leaves the canvas with no CSS size, so
+      // on high-DPI screens (phones/retina) it falls back to its buffer size
+      // (w * DPR) and overflows the viewport, pushing the model off-screen.
+      renderer.setSize(w, h);
       // LineMaterial needs the viewport size to size screen-space line widths.
       matStruct.resolution.set(w, h);
       matDetail.resolution.set(w, h);

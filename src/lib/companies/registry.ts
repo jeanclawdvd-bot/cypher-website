@@ -536,4 +536,10 @@ export const PATH_TO_COMPANY: Record<string, CompanyKey> = {
   login: 'zode',
 };
 
-export const DEFAULT_COMPANY: CompanyKey = 'cypher';
+/**
+ * Preview and single-brand deployments can choose their default site without
+ * changing the canonical hostname mappings. Unknown hosts still render Cypher
+ * unless explicitly configured otherwise.
+ */
+export const DEFAULT_COMPANY: CompanyKey =
+  process.env.NEXT_PUBLIC_DEFAULT_COMPANY === 'wilderworld' ? 'wilderworld' : 'cypher';

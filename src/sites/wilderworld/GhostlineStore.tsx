@@ -19,7 +19,7 @@ export default function GhostlineStore() {
     <div className={styles.page}>
       {/* ── Featured + rail ── */}
       <section className={styles.storeRow}>
-        <Link href={`/ghostline/${featured.id}`} className={styles.featured}>
+        <Link href={`/vehicles/${featured.id}`} className={styles.featured}>
           <video
             key={featured.id}
             className={styles.featuredVideo}
@@ -80,7 +80,7 @@ export default function GhostlineStore() {
         />
         <div className={styles.passGrid}>
           {GHOSTLINE_PASSES.map((pass) => (
-            <Link key={pass.id} href={`/ghostline/${pass.id}`} className={styles.passCard}>
+            <Link key={pass.id} href={`/vehicles/${pass.id}`} className={styles.passCard}>
               <span className={styles.passMedia}>
                 <LazyVideo
                   src={pass.video}

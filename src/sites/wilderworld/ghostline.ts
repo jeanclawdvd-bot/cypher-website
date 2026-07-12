@@ -1,5 +1,5 @@
 /** Ghostline drop: two passes, identical access package, different vehicle.
- *  Single source of truth for /ghostline, /ghostline/[id], and checkout. */
+ *  Single source of truth for /vehicles, /vehicles/[id], and checkout. */
 
 export type IncludeLine = { label: string; detail?: string; children?: IncludeLine[] };
 

@@ -133,12 +133,12 @@
 
 .railItem:hover {
   background: #141414;
-  border-color: rgba(255, 255, 255, 0.28);
+  border-color: var(--ww-orange, #ff6434);
 }
 
 .railItemActive {
   background: #1a1a1a;
-  border-color: rgba(255, 255, 255, 0.5);
+  border-color: var(--ww-orange, #ff6434);
 }
 
 .railThumb {
@@ -202,7 +202,7 @@
 }
 
 .passCard:hover {
-  border-color: rgba(255, 255, 255, 0.28);
+  border-color: var(--ww-orange, #ff6434);
 }
 
 .passMedia {
@@ -382,8 +382,10 @@
   object-fit: cover;
 }
 
+.thumb:hover,
+.thumb:focus-visible,
 .thumbActive {
-  border-color: rgba(255, 255, 255, 0.6);
+  border-color: var(--ww-orange, #ff6434);
   opacity: 1;
 }
 

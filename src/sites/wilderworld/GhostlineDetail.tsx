@@ -76,7 +76,7 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
           <p className={styles.detailBlurb}>{pass.blurb}</p>
           <div className={styles.detailBuyRow}>
             <span className={styles.detailPrice}>{pass.price}</span>
-            <Link href={`/ghostline/${pass.id}/checkout`} className="sci-btn sci-btn-primary">
+            <Link href={`/vehicles/${pass.id}/checkout`} className="sci-btn sci-btn-primary">
               Buy Now <ArrowUpRight size={16} strokeWidth={2.4} />
             </Link>
           </div>

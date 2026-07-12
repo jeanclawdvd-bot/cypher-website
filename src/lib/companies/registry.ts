@@ -519,6 +519,7 @@ export const DOMAIN_TO_COMPANY: Record<string, CompanyKey> = {
  * always match (e.g. /universe always serves Wilder World).
  */
 export const PATH_TO_COMPANY: Record<string, CompanyKey> = {
+  vehicles: 'wilderworld',
   ghostline: 'wilderworld',
   universe: 'wilderworld',
   gameplay: 'wilderworld',

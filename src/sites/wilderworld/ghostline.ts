@@ -66,8 +66,8 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     ],
   },
   {
-    id: 'vera-solace',
-    name: 'Vera Solace',
+    id: 'vera-solis',
+    name: 'Vera Solis',
     tier: 'Premium',
     price: '$59',
     priceCents: 5900,
@@ -76,20 +76,20 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     includes: [
       {
         label: '1 Vehicle',
-        detail: 'Vera Solace · Premium · Lifetime ownership',
+        detail: 'Vera Solis · Premium · Lifetime ownership',
       },
       PERSONAL_COMPOUND,
       { label: 'Customization', detail: 'Full customization · Custom plate' },
     ],
     contents: [
-      'Vera Solace · Premium · Lifetime ownership',
+      'Vera Solis · Premium · Lifetime ownership',
       'Personal Compound · Full access · 3 months',
       'Customization · Full customization · Custom plate',
     ],
     video: '/videos/wilder_construction.mp4',
     poster: 'build',
     media: [
-      { type: 'video', src: '/videos/wilder_construction.mp4', label: 'Vera Solace presentation', alt: 'Vera Solace presentation in Wilder World' },
+      { type: 'video', src: '/videos/wilder_construction.mp4', label: 'Vera Solis presentation', alt: 'Vera Solis presentation in Wilder World' },
       { type: 'image', src: '/images/wilder-world/race_deep_customization.png', label: 'Deep customization', alt: 'Wilder World vehicle customization' },
       { type: 'image', src: '/images/wilder-world/race_nos.png', label: 'Performance', alt: 'High-performance Wilder World vehicle' },
     ],

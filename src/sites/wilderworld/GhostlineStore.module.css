@@ -101,6 +101,11 @@
 }
 
 .railItem {
+  appearance: none;
+  width: 100%;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -486,5 +491,78 @@
   .detailRow {
     grid-template-columns: 1fr;
     gap: 28px;
+  }
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: calc(var(--nav-height, 84px) + 10px) 8px 56px;
+  }
+
+  .storeRow {
+    height: calc(100svh - var(--nav-height, 84px) - 20px);
+    min-height: 610px;
+    grid-template-rows: minmax(0, 1fr) 92px;
+    gap: 8px;
+  }
+
+  .featured {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    aspect-ratio: auto;
+  }
+
+  .featuredCat {
+    left: 18px;
+    bottom: 108px;
+  }
+
+  .featuredName {
+    left: 18px;
+    bottom: 58px;
+    max-width: 58%;
+  }
+
+  .featuredPrice {
+    left: 18px;
+    bottom: 22px;
+  }
+
+  .featuredBuy {
+    right: 14px;
+    bottom: 18px;
+  }
+
+  .rail {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: 1fr;
+    gap: 8px;
+  }
+
+  .railItem {
+    min-width: 0;
+    height: 92px;
+    gap: 8px;
+    padding: 7px;
+  }
+
+  .railThumb {
+    width: 62px;
+  }
+
+  .railLabel {
+    min-width: 0;
+    font-size: 13px;
+  }
+
+  .railPrice {
+    margin-top: 3px;
+    font-size: 12px;
+  }
+
+  .passSection {
+    padding-top: 64px;
   }
 }

@@ -8,9 +8,8 @@ import LazyVideo from './LazyVideo';
 import { GHOSTLINE_PASSES } from './ghostline';
 import styles from './GhostlineStore.module.css';
 
-/** Ghostline drop storefront: RSI-style featured card + selectable rail, then
- *  one card per pass. Hovering a rail item previews it in the featured slot;
- *  clicking anything navigates into that pass's detail page. */
+/** Ghostline drop storefront: the offer rail changes the featured content in
+ * place. Only the featured hero and its Buy Now action enter the offer funnel. */
 export default function GhostlineStore() {
   const [previewId, setPreviewId] = useState(GHOSTLINE_PASSES[0].id);
   const featured =
@@ -45,20 +44,30 @@ export default function GhostlineStore() {
 
         <div className={styles.rail}>
           {GHOSTLINE_PASSES.map((pass) => (
-            <Link
+            <button
+              type="button"
               key={pass.id}
-              href={`/ghostline/${pass.id}`}
               className={`${styles.railItem} ${pass.id === previewId ? styles.railItemActive : ''}`}
               onMouseEnter={() => setPreviewId(pass.id)}
+              onFocus={() => setPreviewId(pass.id)}
+              onClick={() => setPreviewId(pass.id)}
+              aria-pressed={pass.id === previewId}
+              aria-label={`Preview ${pass.name}`}
             >
               <span className={styles.railThumb}>
-                <video src={pass.video} muted playsInline preload="metadata" />
+                <video
+                  src={pass.video}
+                  poster={`/images/wilder-world/mobile/${pass.poster}_mobile.webp`}
+                  muted
+                  playsInline
+                  preload="metadata"
+                />
               </span>
               <span className={styles.railLabel}>
                 {pass.name}
                 <span className={styles.railPrice}>{pass.price}</span>
               </span>
-            </Link>
+            </button>
           ))}
         </div>
       </section>

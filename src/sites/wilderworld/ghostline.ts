@@ -8,6 +8,7 @@ export type GhostlineMedia = {
   src: string;
   label: string;
   alt: string;
+  poster?: string;
 };
 
 export type GhostlinePass = {
@@ -67,7 +68,7 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     poster: 'ghostline-showcase',
     media: [
       { type: 'video', src: '/videos/radeon-ghostline-showcase.mp4', label: 'Radeon Ghostline presentation', alt: 'Radeon Ghostline presentation in Wilder World' },
-      { type: 'image', src: '/images/wilder-world/race_gameplay.png', label: 'Street-racing gameplay', alt: 'Wilder World street-racing gameplay' },
+      { type: 'video', src: '/videos/personal-compound-apartment.mp4', label: 'Personal Compound apartment', alt: 'Personal Compound apartment interior in Wilder World', poster: '/images/wilder-world/personal-compound-apartment-poster.jpg' },
       { type: 'image', src: '/images/wilder-world/race_open_world.png', label: 'Open-world driving', alt: 'Vehicle driving through the open world of Wiami' },
     ],
   },
@@ -99,7 +100,7 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     poster: 'vera-solis-showcase',
     media: [
       { type: 'video', src: '/videos/vera-solis-showcase.mp4', label: 'Vera Solis presentation', alt: 'Vera Solis presentation in Wilder World' },
-      { type: 'image', src: '/images/wilder-world/race_deep_customization.png', label: 'Deep customization', alt: 'Wilder World vehicle customization' },
+      { type: 'video', src: '/videos/personal-compound-apartment.mp4', label: 'Personal Compound apartment', alt: 'Personal Compound apartment interior in Wilder World', poster: '/images/wilder-world/personal-compound-apartment-poster.jpg' },
       { type: 'image', src: '/images/wilder-world/race_nos.png', label: 'Performance', alt: 'High-performance Wilder World vehicle' },
     ],
   },

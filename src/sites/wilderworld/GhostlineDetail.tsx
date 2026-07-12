@@ -71,7 +71,7 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
           </p>
         </div>
 
-        <div>
+        <div className={styles.detailInfo}>
           <h1 className={styles.detailName}>{pass.name}</h1>
           <p className={styles.detailBlurb}>{pass.blurb}</p>
           <div className={styles.detailBuyRow}>

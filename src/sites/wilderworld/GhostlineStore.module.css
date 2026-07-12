@@ -518,6 +518,94 @@
 
 /* ── Responsive ── */
 
+@media (min-width: 1081px) {
+  .page {
+    height: 100dvh;
+    padding-top: calc(var(--nav-height, 84px) + 16px);
+    padding-bottom: 24px;
+    overflow: hidden;
+  }
+
+  .detailRow {
+    height: calc(100dvh - var(--nav-height, 84px) - 40px);
+    min-height: 0;
+    gap: 40px;
+  }
+
+  .detailInfo {
+    min-height: 0;
+  }
+
+  .detailName {
+    font-size: clamp(2.2rem, 3.2vw, 3.2rem);
+    margin-bottom: 12px;
+  }
+
+  .detailBlurb {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 14px;
+  }
+
+  .detailBuyRow {
+    margin-bottom: 14px;
+  }
+
+  .includes {
+    padding: 14px 20px 6px;
+  }
+
+  .includesTitle {
+    font-size: 1rem;
+    margin-bottom: 2px;
+  }
+
+  .incLine {
+    gap: 12px;
+    padding: 8px 0;
+    font-size: 14px;
+  }
+
+  .incDetail {
+    margin-top: 3px;
+    font-size: 12.5px;
+  }
+
+  .incChildren {
+    gap: 4px;
+    margin-top: 6px;
+  }
+
+  .incChildren li {
+    font-size: 12.5px;
+  }
+
+  .incChildDetail {
+    display: inline;
+    margin: 0 0 0 6px;
+  }
+
+  .notice {
+    margin-top: 12px;
+    padding: 10px 14px;
+    font-size: 12.5px;
+  }
+
+  .thumbRow {
+    margin-top: 8px;
+    gap: 8px;
+  }
+
+  .thumb {
+    aspect-ratio: 16 / 6;
+  }
+
+  .viewerCap {
+    margin-top: 6px;
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 1080px) {
   .page {
     padding-inline: 12px;

@@ -492,6 +492,23 @@
     grid-template-columns: 1fr;
     gap: 28px;
   }
+
+  .thumbRow {
+    gap: 6px;
+    width: 100%;
+  }
+
+  .thumbArrow {
+    flex: 0 0 28px;
+    padding: 4px;
+    justify-content: center;
+  }
+
+  .thumb {
+    width: auto;
+    min-width: 0;
+    flex: 1 1 0;
+  }
 }
 
 @media (max-width: 640px) {

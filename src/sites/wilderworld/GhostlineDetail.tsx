@@ -1,65 +1,86 @@
 'use client';
 
+import { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowUpRight, Check, ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
-import { GHOSTLINE_PASSES, type GhostlinePass } from './ghostline';
+import type { GhostlinePass } from './ghostline';
 import styles from './GhostlineStore.module.css';
 
 const EARLY_ACCESS_URL =
   'https://store.epicgames.com/p/wilder-world-wilder-world-alpha-b4ccf8?lang=en-US';
 
-/** Pass detail page: media viewer left; name, description, price, INCLUDES
- *  checklist and Early Access notice right. Thumbnails walk between passes. */
+/** Pass detail page. The media gallery stays within the selected offer so the
+ * shopper continues forward through the purchase funnel. */
 export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
-  const index = GHOSTLINE_PASSES.findIndex((p) => p.id === pass.id);
-  const prev = GHOSTLINE_PASSES[(index + GHOSTLINE_PASSES.length - 1) % GHOSTLINE_PASSES.length];
-  const next = GHOSTLINE_PASSES[(index + 1) % GHOSTLINE_PASSES.length];
+  const [activeIndex, setActiveIndex] = useState(0);
+  const activeMedia = pass.media[activeIndex];
+  const showPrevious = () =>
+    setActiveIndex((current) => (current + pass.media.length - 1) % pass.media.length);
+  const showNext = () => setActiveIndex((current) => (current + 1) % pass.media.length);
 
   return (
     <div className={styles.page}>
-      <nav className={styles.crumbs} aria-label="Breadcrumb">
-        <Link href="/">Home</Link>
-        <span className={styles.crumbSep} aria-hidden>
-          {'\u203A'}
-        </span>
-        <Link href="/ghostline">Ghostline</Link>
-        <span className={styles.crumbSep} aria-hidden>
-          {'\u203A'}
-        </span>
-        <span>{pass.name}</span>
-      </nav>
-
       <div className={styles.detailRow}>
         <div>
           <div className={styles.viewer}>
-            <video
-              key={pass.id}
-              src={pass.video}
-              autoPlay
-              loop
-              muted
-              playsInline
-              preload="metadata"
-            />
+            {activeMedia.type === 'video' ? (
+              <video
+                key={activeMedia.src}
+                src={activeMedia.src}
+                autoPlay
+                loop
+                muted
+                playsInline
+                preload="metadata"
+              />
+            ) : (
+              <Image
+                key={activeMedia.src}
+                src={activeMedia.src}
+                alt={activeMedia.alt}
+                fill
+                priority
+                sizes="(max-width: 980px) 100vw, 58vw"
+              />
+            )}
           </div>
-          <p className={styles.viewerCap}>{pass.name}</p>
-          <div className={styles.thumbRow}>
-            <Link href={`/ghostline/${prev.id}`} className={styles.thumbArrow} aria-label="Previous pass">
+          <p className={styles.viewerCap}>
+            {activeIndex + 1} / {pass.media.length} — {activeMedia.label}
+          </p>
+          <div className={styles.thumbRow} aria-label={`${pass.name} media gallery`}>
+            <button
+              type="button"
+              className={styles.thumbArrow}
+              onClick={showPrevious}
+              aria-label="Previous image"
+            >
               <ChevronLeft size={20} />
-            </Link>
-            {GHOSTLINE_PASSES.map((p) => (
-              <Link
-                key={p.id}
-                href={`/ghostline/${p.id}`}
-                className={`${styles.thumb} ${p.id === pass.id ? styles.thumbActive : ''}`}
-                aria-label={p.name}
+            </button>
+            {pass.media.map((media, index) => (
+              <button
+                type="button"
+                key={media.src}
+                onClick={() => setActiveIndex(index)}
+                className={`${styles.thumb} ${index === activeIndex ? styles.thumbActive : ''}`}
+                aria-label={`View ${media.label}`}
+                aria-pressed={index === activeIndex}
               >
-                <video src={p.video} muted playsInline preload="metadata" />
-              </Link>
+                {media.type === 'video' ? (
+                  <video src={media.src} muted playsInline preload="metadata" />
+                ) : (
+                  <Image src={media.src} alt="" fill sizes="104px" />
+                )}
+              </button>
             ))}
-            <Link href={`/ghostline/${next.id}`} className={styles.thumbArrow} aria-label="Next pass">
+            <button
+              type="button"
+              className={styles.thumbArrow}
+              onClick={showNext}
+              aria-label="Next image"
+            >
               <ChevronRight size={20} />
-            </Link>
+            </button>
           </div>
         </div>
 

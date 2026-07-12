@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 import { ArrowUpRight, Check, Lock, Mail } from 'lucide-react';
 import type { GhostlinePass } from './ghostline';
 import styles from './GhostlineCheckout.module.css';
@@ -26,18 +25,6 @@ export default function GhostlineCheckout({ pass }: { pass: GhostlinePass }) {
 
   return (
     <div className={styles.page}>
-      <nav className={styles.crumbs} aria-label="Breadcrumb">
-        <Link href="/ghostline">Ghostline</Link>
-        <span className={styles.crumbSep} aria-hidden>
-          {'\u203A'}
-        </span>
-        <Link href={`/ghostline/${pass.id}`}>{pass.name}</Link>
-        <span className={styles.crumbSep} aria-hidden>
-          {'\u203A'}
-        </span>
-        <span>Checkout</span>
-      </nav>
-
       <div className={styles.layout}>
         {/* ── Order summary ── */}
         <aside className={styles.summary}>

@@ -3,6 +3,13 @@
 
 export type IncludeLine = { label: string; detail?: string };
 
+export type GhostlineMedia = {
+  type: 'video' | 'image';
+  src: string;
+  label: string;
+  alt: string;
+};
+
 export type GhostlinePass = {
   id: string;
   name: string;
@@ -15,6 +22,7 @@ export type GhostlinePass = {
   contents: string[];
   video: string;
   poster: string;
+  media: GhostlineMedia[];
 };
 
 /** Shared access package: everything except the car is identical. */
@@ -45,6 +53,12 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     contents: ['Ghostline (standard car)', ...ACCESS_CONTENTS],
     video: '/videos/wiami-race.mp4',
     poster: 'race',
+    media: [
+      { type: 'video', src: '/videos/wiami-race.mp4', label: 'Ghostline on the streets of Wiami', alt: 'Ghostline driving through Wiami' },
+      { type: 'image', src: '/images/wilder-world/race_gameplay.png', label: 'Street-racing gameplay', alt: 'Wilder World street-racing gameplay' },
+      { type: 'image', src: '/images/wilder-world/race_open_world.png', label: 'Open-world driving', alt: 'Vehicle driving through the open world of Wiami' },
+      { type: 'image', src: '/images/wilder-world/race_maintenance.png', label: 'Garage and maintenance', alt: 'A Wilder World vehicle inside a garage' },
+    ],
   },
   {
     id: 'vera-solace',
@@ -58,6 +72,12 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     contents: ['Vera Solace (premium car)', ...ACCESS_CONTENTS],
     video: '/videos/wilder_construction.mp4',
     poster: 'build',
+    media: [
+      { type: 'video', src: '/videos/wilder_construction.mp4', label: 'Vera Solace presentation', alt: 'Vera Solace presentation in Wilder World' },
+      { type: 'image', src: '/images/wilder-world/race_deep_customization.png', label: 'Deep customization', alt: 'Wilder World vehicle customization' },
+      { type: 'image', src: '/images/wilder-world/race_nos.png', label: 'Performance', alt: 'High-performance Wilder World vehicle' },
+      { type: 'image', src: '/images/wilder-world/race_100_vehicles.png', label: 'Premium vehicle collection', alt: 'Selection of premium Wilder World vehicles' },
+    ],
   },
 ];
 

@@ -615,15 +615,29 @@
 
   .detailBuyRow {
     position: fixed;
-    left: 8px;
-    right: 8px;
+    left: 0;
+    right: 0;
     bottom: 0;
     z-index: 80;
     margin-top: 0;
-    padding: 12px 12px max(12px, env(safe-area-inset-bottom));
+    padding: 12px 20px max(12px, env(safe-area-inset-bottom));
     border: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
     background: rgba(8, 8, 8, 0.94);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(14px);
+  }
+
+  .detailBuyRow::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    height: 64px;
+    background: #080808;
+    pointer-events: none;
   }
 }

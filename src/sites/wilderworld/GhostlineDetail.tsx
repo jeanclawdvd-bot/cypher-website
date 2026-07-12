@@ -67,7 +67,13 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
                 aria-pressed={index === activeIndex}
               >
                 {media.type === 'video' ? (
-                  <video src={media.src} muted playsInline preload="metadata" />
+                  <video
+                    src={media.src}
+                    poster={`/images/wilder-world/mobile/${pass.poster}_mobile.webp`}
+                    muted
+                    playsInline
+                    preload="metadata"
+                  />
                 ) : (
                   <Image src={media.src} alt="" fill sizes="104px" />
                 )}

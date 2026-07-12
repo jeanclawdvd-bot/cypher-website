@@ -608,4 +608,22 @@
   .passSection {
     padding-top: 64px;
   }
+
+  .detailRow {
+    padding-bottom: 104px;
+  }
+
+  .detailBuyRow {
+    position: fixed;
+    left: 8px;
+    right: 8px;
+    bottom: max(12px, env(safe-area-inset-bottom));
+    z-index: 80;
+    margin-top: 0;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(8, 8, 8, 0.94);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(14px);
+  }
 }

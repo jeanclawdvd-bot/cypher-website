@@ -596,8 +596,9 @@
   }
 
   .notice {
-    flex: 0 0 clamp(110px, 8.4vw, 130px);
+    flex: 0 0 clamp(86px, calc(8.4vw - 24px), 106px);
     margin-top: 8px;
+    margin-bottom: 24px;
     padding: 15px 18px;
     font-size: 13.5px;
   }

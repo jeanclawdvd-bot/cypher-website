@@ -69,7 +69,7 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     media: [
       { type: 'video', src: '/videos/radeon-ghostline-showcase.mp4', label: 'Radeon Ghostline presentation', alt: 'Radeon Ghostline presentation in Wilder World' },
       { type: 'video', src: '/videos/personal-compound-apartment.mp4', label: 'Personal Compound apartment', alt: 'Personal Compound apartment interior in Wilder World', poster: '/images/wilder-world/personal-compound-apartment-poster.jpg' },
-      { type: 'image', src: '/images/wilder-world/race_open_world.png', label: 'Open-world driving', alt: 'Vehicle driving through the open world of Wiami' },
+      { type: 'video', src: '/videos/weapon-and-gear-room.mp4', label: 'Weapon & Gear Room', alt: 'Weapon and Gear Room armor bench in Wilder World', poster: '/images/wilder-world/weapon-and-gear-room-poster.jpg' },
     ],
   },
   {
@@ -101,7 +101,7 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     media: [
       { type: 'video', src: '/videos/vera-solis-showcase.mp4', label: 'Vera Solis presentation', alt: 'Vera Solis presentation in Wilder World' },
       { type: 'video', src: '/videos/personal-compound-apartment.mp4', label: 'Personal Compound apartment', alt: 'Personal Compound apartment interior in Wilder World', poster: '/images/wilder-world/personal-compound-apartment-poster.jpg' },
-      { type: 'image', src: '/images/wilder-world/race_nos.png', label: 'Performance', alt: 'High-performance Wilder World vehicle' },
+      { type: 'video', src: '/videos/weapon-and-gear-room.mp4', label: 'Weapon & Gear Room', alt: 'Weapon and Gear Room armor bench in Wilder World', poster: '/images/wilder-world/weapon-and-gear-room-poster.jpg' },
     ],
   },
 ];

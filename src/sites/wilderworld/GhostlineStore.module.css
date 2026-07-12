@@ -541,12 +541,12 @@
   }
 
   .detailName {
-    font-size: clamp(2.6rem, 3.6vw, 3.6rem);
+    font-size: clamp(2.4rem, 4vw, 3.8rem);
     margin-bottom: 16px;
   }
 
   .detailBlurb {
-    font-size: 15.5px;
+    font-size: 16px;
     line-height: 1.55;
     margin-bottom: 18px;
   }
@@ -573,12 +573,12 @@
     align-items: center;
     gap: 12px;
     padding: 8px 0;
-    font-size: 15.5px;
+    font-size: 16px;
   }
 
   .incDetail {
     margin-top: 3px;
-    font-size: 13.5px;
+    font-size: 14px;
   }
 
   .incChildren {
@@ -587,7 +587,7 @@
   }
 
   .incChildren li {
-    font-size: 13.5px;
+    font-size: 14px;
   }
 
   .incChildDetail {
@@ -600,7 +600,7 @@
     margin-top: 8px;
     margin-bottom: 24px;
     padding: 15px 18px;
-    font-size: 13.5px;
+    font-size: 14px;
   }
 
   .thumbRow {

@@ -43,14 +43,14 @@ const ACCESS_CONTENTS = [
 export const GHOSTLINE_PASSES: GhostlinePass[] = [
   {
     id: 'ghostline',
-    name: 'Ghostline',
+    name: 'Radeon Ghostline',
     tier: 'Standard',
     price: '$59',
     priceCents: 5900,
     blurb:
-      'The standard way in. The Ghostline gets you on the streets of Wiami with a full compound behind you: garage for the car, apartment to live in, and a weapon and gun room to display everything you extract. Three months of full compound access, minted to your account at purchase.',
-    includes: [{ label: '1 Vehicle', detail: 'Ghostline' }, ...ACCESS],
-    contents: ['Ghostline (standard car)', ...ACCESS_CONTENTS],
+      'A street car tuned for Wiami’s alleys, bridges, and neon-lit straights. Agile, understated, and ready for whatever the city throws at it.',
+    includes: [{ label: '1 Vehicle', detail: 'Radeon Ghostline' }, ...ACCESS],
+    contents: ['Radeon Ghostline (standard car)', ...ACCESS_CONTENTS],
     video: '/videos/wiami-race.mp4',
     poster: 'race',
     media: [
@@ -66,7 +66,7 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     price: '$149',
     priceCents: 14900,
     blurb:
-      'The premium way in. The Vera Solace is the car people move out of the way for, backed by the same full compound: garage, apartment, and a weapon and gun room to display everything you own. Three months of full compound access, minted to your account at purchase.',
+      'A sports car built to chase the edge of speed. Sleek, aggressive, and tuned to make every second on the road feel like a countdown.',
     includes: [{ label: '1 Vehicle', detail: 'Vera Solace \u2014 Premium' }, ...ACCESS],
     contents: ['Vera Solace (premium car)', ...ACCESS_CONTENTS],
     video: '/videos/wilder_construction.mp4',

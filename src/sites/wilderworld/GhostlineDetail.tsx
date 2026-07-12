@@ -30,7 +30,7 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
                 loop
                 muted
                 playsInline
-                preload="metadata"
+                preload="auto"
               />
             ) : (
               <Image
@@ -59,7 +59,7 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
                     poster={media.poster ?? pass.thumbnailPoster ?? `/images/wilder-world/mobile/${pass.poster}_mobile.webp`}
                     muted
                     playsInline
-                    preload="metadata"
+                    preload="auto"
                   />
                 ) : (
                   <Image src={media.src} alt="" fill sizes="104px" />

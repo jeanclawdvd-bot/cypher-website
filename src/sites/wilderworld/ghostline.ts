@@ -64,12 +64,12 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     video: '/videos/radeon-ghostline-showcase.mp4',
     heroVideo: '/videos/radeon-ghostline-showcase.mp4',
     thumbnailVideo: '/videos/radeon-ghostline-showcase.mp4',
-    thumbnailPoster: '/images/wilder-world/radeon-ghostline-showcase-poster.jpg',
+    thumbnailPoster: '/images/wilder-world/radeon-ghostline-showcase-first-frame.jpg',
     poster: 'ghostline-showcase',
     media: [
       { type: 'video', src: '/videos/radeon-ghostline-showcase.mp4', label: 'Radeon Ghostline presentation', alt: 'Radeon Ghostline presentation in Wilder World' },
-      { type: 'video', src: '/videos/personal-compound-apartment.mp4', label: 'Personal Compound apartment', alt: 'Personal Compound apartment interior in Wilder World', poster: '/images/wilder-world/personal-compound-apartment-poster.jpg' },
-      { type: 'video', src: '/videos/weapon-and-gear-room.mp4', label: 'Weapon & Gear Room', alt: 'Weapon and Gear Room armor bench in Wilder World', poster: '/images/wilder-world/weapon-and-gear-room-poster.jpg' },
+      { type: 'video', src: '/videos/personal-compound-apartment.mp4', label: 'Personal Compound apartment', alt: 'Personal Compound apartment interior in Wilder World', poster: '/images/wilder-world/personal-compound-apartment-first-frame.jpg' },
+      { type: 'video', src: '/videos/weapon-and-gear-room.mp4', label: 'Weapon & Gear Room', alt: 'Weapon and Gear Room armor bench in Wilder World', poster: '/images/wilder-world/weapon-and-gear-room-first-frame.jpg' },
     ],
   },
   {
@@ -96,12 +96,12 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     video: '/videos/vera-solis-showcase.mp4',
     heroVideo: '/videos/vera-solis-showcase.mp4',
     thumbnailVideo: '/videos/vera-solis-showcase.mp4',
-    thumbnailPoster: '/images/wilder-world/vera-solis-showcase-poster.jpg',
+    thumbnailPoster: '/images/wilder-world/vera-solis-showcase-first-frame.jpg',
     poster: 'vera-solis-showcase',
     media: [
       { type: 'video', src: '/videos/vera-solis-showcase.mp4', label: 'Vera Solis presentation', alt: 'Vera Solis presentation in Wilder World' },
-      { type: 'video', src: '/videos/personal-compound-apartment.mp4', label: 'Personal Compound apartment', alt: 'Personal Compound apartment interior in Wilder World', poster: '/images/wilder-world/personal-compound-apartment-poster.jpg' },
-      { type: 'video', src: '/videos/weapon-and-gear-room.mp4', label: 'Weapon & Gear Room', alt: 'Weapon and Gear Room armor bench in Wilder World', poster: '/images/wilder-world/weapon-and-gear-room-poster.jpg' },
+      { type: 'video', src: '/videos/personal-compound-apartment.mp4', label: 'Personal Compound apartment', alt: 'Personal Compound apartment interior in Wilder World', poster: '/images/wilder-world/personal-compound-apartment-first-frame.jpg' },
+      { type: 'video', src: '/videos/weapon-and-gear-room.mp4', label: 'Weapon & Gear Room', alt: 'Weapon and Gear Room armor bench in Wilder World', poster: '/images/wilder-world/weapon-and-gear-room-first-frame.jpg' },
     ],
   },
 ];

@@ -43,7 +43,7 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     price: '$19',
     priceCents: 1900,
     blurb:
-      'A street car tuned for Wiami’s alleys, bridges, and neon-lit straights. Agile, understated, and ready for whatever the city throws at it. The car is yours forever, and Personal Compound access is included for 3 months.',
+      'A street car tuned for Wiami’s alleys, bridges, and neon-lit straights. Agile, understated, and ready for whatever the city throws at it.',
     includes: [
       {
         label: '1 Vehicle',
@@ -72,7 +72,7 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     price: '$59',
     priceCents: 5900,
     blurb:
-      'A sports car built to chase the edge of speed. Sleek, aggressive, and tuned to make every second on the road feel like a countdown. The car is yours forever, and Personal Compound access is included for 3 months.',
+      'A sports car built to chase the edge of speed. Sleek, aggressive, and tuned to make every second on the road feel like a countdown.',
     includes: [
       {
         label: '1 Vehicle',

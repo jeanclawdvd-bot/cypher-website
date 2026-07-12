@@ -540,7 +540,7 @@
   }
 
   .storeRow {
-    height: calc(100svh - var(--nav-height, 84px) - 68px);
+    height: calc(100svh - var(--nav-height, 84px) - 28px);
     min-height: 0;
     grid-template-rows: minmax(0, 1fr) 92px;
     gap: 8px;

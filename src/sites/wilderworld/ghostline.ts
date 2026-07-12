@@ -62,7 +62,7 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     heroVideo: '/videos/radeon-ghostline-hero.mp4',
     poster: 'race',
     media: [
-      { type: 'video', src: '/videos/wiami-race.mp4', label: 'Ghostline on the streets of Wiami', alt: 'Ghostline driving through Wiami' },
+      { type: 'video', src: '/videos/radeon-ghostline-hero.mp4', label: 'Radeon Ghostline presentation', alt: 'Radeon Ghostline presentation in Wilder World' },
       { type: 'image', src: '/images/wilder-world/race_gameplay.png', label: 'Street-racing gameplay', alt: 'Wilder World street-racing gameplay' },
       { type: 'image', src: '/images/wilder-world/race_open_world.png', label: 'Open-world driving', alt: 'Vehicle driving through the open world of Wiami' },
     ],

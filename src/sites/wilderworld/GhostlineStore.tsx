@@ -56,8 +56,8 @@ export default function GhostlineStore() {
             >
               <span className={styles.railThumb}>
                 <video
-                  src={pass.video}
-                  poster={`/images/wilder-world/mobile/${pass.poster}_mobile.webp`}
+                  src={pass.thumbnailVideo ?? pass.video}
+                  poster={pass.thumbnailPoster ?? `/images/wilder-world/mobile/${pass.poster}_mobile.webp`}
                   muted
                   playsInline
                   preload="metadata"

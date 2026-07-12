@@ -22,6 +22,8 @@ export type GhostlinePass = {
   contents: string[];
   video: string;
   heroVideo?: string;
+  thumbnailVideo?: string;
+  thumbnailPoster?: string;
   poster: string;
   media: GhostlineMedia[];
 };
@@ -59,10 +61,12 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
       'Customization · Basic customization · Standard plate',
     ],
     video: '/videos/wiami-race.mp4',
-    heroVideo: '/videos/radeon-ghostline-hero.mp4',
+    heroVideo: '/videos/radeon-ghostline-showcase.mp4',
+    thumbnailVideo: '/videos/radeon-ghostline-showcase.mp4',
+    thumbnailPoster: '/images/wilder-world/radeon-ghostline-showcase-poster.jpg',
     poster: 'race',
     media: [
-      { type: 'video', src: '/videos/radeon-ghostline-hero.mp4', label: 'Radeon Ghostline presentation', alt: 'Radeon Ghostline presentation in Wilder World' },
+      { type: 'video', src: '/videos/radeon-ghostline-showcase.mp4', label: 'Radeon Ghostline presentation', alt: 'Radeon Ghostline presentation in Wilder World' },
       { type: 'image', src: '/images/wilder-world/race_gameplay.png', label: 'Street-racing gameplay', alt: 'Wilder World street-racing gameplay' },
       { type: 'image', src: '/images/wilder-world/race_open_world.png', label: 'Open-world driving', alt: 'Vehicle driving through the open world of Wiami' },
     ],
@@ -89,9 +93,12 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
       'Customization · Full customization · Custom plate',
     ],
     video: '/videos/wilder_construction.mp4',
+    heroVideo: '/videos/vera-solis-showcase.mp4',
+    thumbnailVideo: '/videos/vera-solis-showcase.mp4',
+    thumbnailPoster: '/images/wilder-world/vera-solis-showcase-poster.jpg',
     poster: 'build',
     media: [
-      { type: 'video', src: '/videos/wilder_construction.mp4', label: 'Vera Solis presentation', alt: 'Vera Solis presentation in Wilder World' },
+      { type: 'video', src: '/videos/vera-solis-showcase.mp4', label: 'Vera Solis presentation', alt: 'Vera Solis presentation in Wilder World' },
       { type: 'image', src: '/images/wilder-world/race_deep_customization.png', label: 'Deep customization', alt: 'Wilder World vehicle customization' },
       { type: 'image', src: '/images/wilder-world/race_nos.png', label: 'Performance', alt: 'High-performance Wilder World vehicle' },
     ],

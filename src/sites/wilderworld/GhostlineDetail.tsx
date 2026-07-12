@@ -55,7 +55,7 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
                 {media.type === 'video' ? (
                   <video
                     src={media.src}
-                    poster={`/images/wilder-world/mobile/${pass.poster}_mobile.webp`}
+                    poster={pass.thumbnailPoster ?? `/images/wilder-world/mobile/${pass.poster}_mobile.webp`}
                     muted
                     playsInline
                     preload="metadata"

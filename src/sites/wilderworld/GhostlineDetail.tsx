@@ -112,10 +112,7 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
             ))}
           </section>
           <aside className={styles.notice}>
-            <span>
-              This pass does not include access to Wilder World. To play, EARLY ACCESS on Epic
-              Games is required.
-            </span>
+            <span>This pass includes SUPER EARLY ACCESS to Wilder World.</span>
             <a href={EARLY_ACCESS_URL} target="_blank" rel="noopener noreferrer">
               <ExternalLink size={13} aria-hidden /> View
             </a>

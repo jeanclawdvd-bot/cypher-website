@@ -1,7 +1,7 @@
 /** Ghostline drop: two passes, identical access package, different vehicle.
  *  Single source of truth for /ghostline, /ghostline/[id], and checkout. */
 
-export type IncludeLine = { label: string; detail?: string };
+export type IncludeLine = { label: string; detail?: string; children?: IncludeLine[] };
 
 export type GhostlineMedia = {
   type: 'video' | 'image';
@@ -25,20 +25,15 @@ export type GhostlinePass = {
   media: GhostlineMedia[];
 };
 
-/** Shared access package: everything except the car is identical. */
-const ACCESS: IncludeLine[] = [
-  { label: 'Full compound access', detail: '3 months' },
-  { label: 'Garage' },
-  { label: 'Full apartment' },
-  { label: 'Weapon and gun room', detail: 'Display all assets' },
-];
-
-const ACCESS_CONTENTS = [
-  'Full compound access (3 months)',
-  'Garage',
-  'Full apartment',
-  'Weapon and gun room',
-];
+const PERSONAL_COMPOUND: IncludeLine = {
+  label: 'Personal Compound',
+  detail: 'Full access · 3 months',
+  children: [
+    { label: 'Garage', detail: 'Display your vehicles' },
+    { label: 'Apartment', detail: 'Display your collectibles' },
+    { label: 'Weapon & Gear Room', detail: 'Display your weapons and gear' },
+  ],
+};
 
 export const GHOSTLINE_PASSES: GhostlinePass[] = [
   {
@@ -48,9 +43,20 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     price: '$19',
     priceCents: 1900,
     blurb:
-      'A street car tuned for Wiami’s alleys, bridges, and neon-lit straights. Agile, understated, and ready for whatever the city throws at it.',
-    includes: [{ label: '1 Vehicle', detail: 'Radeon Ghostline' }, ...ACCESS],
-    contents: ['Radeon Ghostline (standard car)', ...ACCESS_CONTENTS],
+      'A street car tuned for Wiami’s alleys, bridges, and neon-lit straights. Agile, understated, and ready for whatever the city throws at it. The car is yours forever, and Personal Compound access is included for 3 months.',
+    includes: [
+      {
+        label: '1 Vehicle',
+        detail: 'Radeon Ghostline · Standard · Lifetime ownership',
+      },
+      PERSONAL_COMPOUND,
+      { label: 'Customization', detail: 'Basic customization · Standard plate' },
+    ],
+    contents: [
+      'Radeon Ghostline · Standard · Lifetime ownership',
+      'Personal Compound · Full access · 3 months',
+      'Customization · Basic customization · Standard plate',
+    ],
     video: '/videos/wiami-race.mp4',
     poster: 'race',
     media: [
@@ -66,9 +72,20 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
     price: '$59',
     priceCents: 5900,
     blurb:
-      'A sports car built to chase the edge of speed. Sleek, aggressive, and tuned to make every second on the road feel like a countdown.',
-    includes: [{ label: '1 Vehicle', detail: 'Vera Solace \u2014 Premium' }, ...ACCESS],
-    contents: ['Vera Solace (premium car)', ...ACCESS_CONTENTS],
+      'A sports car built to chase the edge of speed. Sleek, aggressive, and tuned to make every second on the road feel like a countdown. The car is yours forever, and Personal Compound access is included for 3 months.',
+    includes: [
+      {
+        label: '1 Vehicle',
+        detail: 'Vera Solace · Premium · Lifetime ownership',
+      },
+      PERSONAL_COMPOUND,
+      { label: 'Customization', detail: 'Full customization · Custom plate' },
+    ],
+    contents: [
+      'Vera Solace · Premium · Lifetime ownership',
+      'Personal Compound · Full access · 3 months',
+      'Customization · Full customization · Custom plate',
+    ],
     video: '/videos/wilder_construction.mp4',
     poster: 'build',
     media: [

@@ -88,6 +88,18 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
                 <span>
                   {line.label}
                   {line.detail && <span className={styles.incDetail}>{line.detail}</span>}
+                  {line.children && (
+                    <ul className={styles.incChildren}>
+                      {line.children.map((child) => (
+                        <li key={child.label}>
+                          <span>{child.label}</span>
+                          {child.detail && (
+                            <span className={styles.incChildDetail}>{child.detail}</span>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </span>
               </div>
             ))}

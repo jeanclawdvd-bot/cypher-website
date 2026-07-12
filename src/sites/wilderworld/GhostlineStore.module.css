@@ -455,8 +455,36 @@
   font-size: 13.5px;
   font-weight: 400;
   color: rgba(230, 232, 235, 0.55);
-  text-decoration: underline;
-  text-underline-offset: 3px;
+}
+
+.incChildren {
+  display: grid;
+  gap: 8px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.incChildren li {
+  position: relative;
+  padding-left: 16px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: rgba(230, 232, 235, 0.82);
+}
+
+.incChildren li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: rgba(230, 232, 235, 0.42);
+}
+
+.incChildDetail {
+  display: block;
+  margin-top: 3px;
+  font-weight: 400;
+  color: rgba(230, 232, 235, 0.55);
 }
 
 .notice {

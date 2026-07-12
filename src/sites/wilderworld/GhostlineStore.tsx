@@ -23,7 +23,7 @@ export default function GhostlineStore() {
           <video
             key={featured.id}
             className={styles.featuredVideo}
-            src={featured.video}
+            src={featured.heroVideo ?? featured.video}
             autoPlay
             loop
             muted

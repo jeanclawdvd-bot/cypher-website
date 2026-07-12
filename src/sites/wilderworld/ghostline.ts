@@ -21,6 +21,7 @@ export type GhostlinePass = {
   includes: IncludeLine[];
   contents: string[];
   video: string;
+  heroVideo?: string;
   poster: string;
   media: GhostlineMedia[];
 };
@@ -58,6 +59,7 @@ export const GHOSTLINE_PASSES: GhostlinePass[] = [
       'Customization · Basic customization · Standard plate',
     ],
     video: '/videos/wiami-race.mp4',
+    heroVideo: '/videos/radeon-ghostline-hero.mp4',
     poster: 'race',
     media: [
       { type: 'video', src: '/videos/wiami-race.mp4', label: 'Ghostline on the streets of Wiami', alt: 'Ghostline driving through Wiami' },

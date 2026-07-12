@@ -302,14 +302,21 @@
   display: grid;
   grid-template-columns: 1.45fr 1fr;
   gap: 48px;
-  align-items: start;
+  align-items: stretch;
+}
+
+.detailMedia {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
 }
 
 .viewer {
   position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
   border: 1px solid rgba(255, 255, 255, 0.18);
   background: #0a0a0a;
-  aspect-ratio: 16 / 9.5;
   overflow: hidden;
 }
 
@@ -329,11 +336,11 @@
 }
 
 .thumbRow {
-  margin-top: 22px;
-  display: flex;
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   align-items: center;
-  justify-content: center;
-  gap: 16px;
+  gap: 12px;
 }
 
 .thumbArrow {
@@ -356,7 +363,7 @@
   padding: 0;
   cursor: pointer;
   position: relative;
-  width: 104px;
+  width: 100%;
   aspect-ratio: 16 / 9;
   border: 1px solid rgba(255, 255, 255, 0.12);
   overflow: hidden;
@@ -516,21 +523,23 @@
     gap: 28px;
   }
 
+  .detailMedia {
+    display: block;
+  }
+
+  .viewer {
+    aspect-ratio: 16 / 9.5;
+  }
+
   .thumbRow {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 6px;
     width: 100%;
   }
 
-  .thumbArrow {
-    flex: 0 0 28px;
-    padding: 4px;
-    justify-content: center;
-  }
-
   .thumb {
-    width: auto;
+    width: 100%;
     min-width: 0;
-    flex: 1 1 0;
   }
 }
 

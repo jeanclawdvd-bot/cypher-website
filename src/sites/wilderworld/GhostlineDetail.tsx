@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowUpRight, Check, ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
+import { ArrowUpRight, Check, ExternalLink } from 'lucide-react';
 import type { GhostlinePass } from './ghostline';
 import styles from './GhostlineStore.module.css';
 
@@ -15,14 +15,11 @@ const EARLY_ACCESS_URL =
 export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const activeMedia = pass.media[activeIndex];
-  const showPrevious = () =>
-    setActiveIndex((current) => (current + pass.media.length - 1) % pass.media.length);
-  const showNext = () => setActiveIndex((current) => (current + 1) % pass.media.length);
 
   return (
     <div className={styles.page}>
       <div className={styles.detailRow}>
-        <div>
+        <div className={styles.detailMedia}>
           <div className={styles.viewer}>
             {activeMedia.type === 'video' ? (
               <video
@@ -49,14 +46,6 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
             {activeIndex + 1} / {pass.media.length} — {activeMedia.label}
           </p>
           <div className={styles.thumbRow} aria-label={`${pass.name} media gallery`}>
-            <button
-              type="button"
-              className={styles.thumbArrow}
-              onClick={showPrevious}
-              aria-label="Previous image"
-            >
-              <ChevronLeft size={20} />
-            </button>
             {pass.media.map((media, index) => (
               <button
                 type="button"
@@ -79,14 +68,6 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
                 )}
               </button>
             ))}
-            <button
-              type="button"
-              className={styles.thumbArrow}
-              onClick={showNext}
-              aria-label="Next image"
-            >
-              <ChevronRight size={20} />
-            </button>
           </div>
         </div>
 

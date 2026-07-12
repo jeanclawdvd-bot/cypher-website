@@ -106,6 +106,9 @@
   font: inherit;
   text-align: left;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  min-height: 0;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -119,6 +122,15 @@
     border-color var(--transition-normal, 0.2s ease);
 }
 
+.railItem::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, transparent 38%, rgba(0, 0, 0, 0.82) 100%);
+  pointer-events: none;
+}
+
 .railItem:hover {
   background: #141414;
   border-color: rgba(255, 255, 255, 0.28);
@@ -130,21 +142,27 @@
 }
 
 .railThumb {
-  width: 172px;
-  aspect-ratio: 16 / 9;
-  flex-shrink: 0;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   background: #000;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 0;
 }
 
 .railThumb video {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 .railLabel {
+  position: absolute;
+  left: 18px;
+  bottom: 16px;
+  z-index: 2;
   font-size: 15.5px;
   font-weight: 700;
   line-height: 1.3;
@@ -485,6 +503,10 @@
     grid-template-rows: none;
   }
 
+  .railItem {
+    aspect-ratio: 16 / 9;
+  }
+
   .passGrid {
     grid-template-columns: 1fr;
   }
@@ -562,15 +584,18 @@
   .railItem {
     min-width: 0;
     height: 92px;
+    aspect-ratio: auto;
     gap: 8px;
     padding: 7px;
   }
 
   .railThumb {
-    width: 62px;
+    width: 100%;
   }
 
   .railLabel {
+    left: 10px;
+    bottom: 9px;
     min-width: 0;
     font-size: 13px;
   }

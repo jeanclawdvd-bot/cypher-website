@@ -17,7 +17,7 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
   const activeMedia = pass.media[activeIndex];
 
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} ${styles.detailPage}`}>
       <div className={styles.detailRow}>
         <div className={styles.detailMedia}>
           <div className={styles.viewer}>

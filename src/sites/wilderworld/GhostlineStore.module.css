@@ -521,7 +521,7 @@
 /* ── Responsive ── */
 
 @media (min-width: 1081px) {
-  .page {
+  .detailPage {
     height: 100dvh;
     padding-top: calc(var(--nav-height, 84px) + 16px);
     padding-bottom: 24px;

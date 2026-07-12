@@ -42,9 +42,6 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
               />
             )}
           </div>
-          <p className={styles.viewerCap}>
-            {activeIndex + 1} / {pass.media.length} — {activeMedia.label}
-          </p>
           <div className={styles.thumbRow} aria-label={`${pass.name} media gallery`}>
             {pass.media.map((media, index) => (
               <button
@@ -69,6 +66,9 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
               </button>
             ))}
           </div>
+          <p className={styles.viewerCap}>
+            {activeIndex + 1} / {pass.media.length} — {activeMedia.label}
+          </p>
         </div>
 
         <div>

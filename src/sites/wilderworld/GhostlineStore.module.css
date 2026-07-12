@@ -533,7 +533,9 @@
   }
 
   .detailInfo {
+    display: flex;
     min-height: 0;
+    flex-direction: column;
   }
 
   .detailName {
@@ -552,6 +554,10 @@
   }
 
   .includes {
+    display: flex;
+    flex: 1 1 auto;
+    min-height: 0;
+    flex-direction: column;
     padding: 14px 20px 6px;
   }
 
@@ -561,6 +567,8 @@
   }
 
   .incLine {
+    flex: 1 1 0;
+    align-items: center;
     gap: 12px;
     padding: 8px 0;
     font-size: 14px;

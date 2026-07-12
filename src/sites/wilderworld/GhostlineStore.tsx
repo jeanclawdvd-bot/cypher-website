@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 import { SectionHeader } from '@/components/SectionHeader';
@@ -55,12 +56,12 @@ export default function GhostlineStore() {
               aria-label={`Preview ${pass.name}`}
             >
               <span className={styles.railThumb}>
-                <video
-                  src={pass.thumbnailVideo ?? pass.video}
-                  poster={pass.thumbnailPoster ?? `/images/wilder-world/mobile/${pass.poster}_mobile.webp`}
-                  muted
-                  playsInline
-                  preload="metadata"
+                <Image
+                  src={pass.thumbnailPoster ?? `/images/wilder-world/mobile/${pass.poster}_mobile.webp`}
+                  alt=""
+                  fill
+                  unoptimized
+                  sizes="(max-width: 980px) 50vw, 220px"
                 />
               </span>
               <span className={styles.railLabel}>

@@ -43,6 +43,11 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
               />
             )}
           </div>
+          <div className={styles.mediaPreloads} aria-hidden="true">
+            {pass.media.filter((media) => media.type === 'video').map((media) => (
+              <video key={media.src} src={media.src} muted playsInline preload="auto" />
+            ))}
+          </div>
           <div className={styles.thumbRow} aria-label={`${pass.name} media gallery`}>
             {pass.media.map((media, index) => (
               <button
@@ -53,17 +58,15 @@ export default function GhostlineDetail({ pass }: { pass: GhostlinePass }) {
                 aria-label={`View ${media.label}`}
                 aria-pressed={index === activeIndex}
               >
-                {media.type === 'video' ? (
-                  <video
-                    src={media.src}
-                    poster={media.poster ?? pass.thumbnailPoster ?? `/images/wilder-world/mobile/${pass.poster}_mobile.webp`}
-                    muted
-                    playsInline
-                    preload="auto"
-                  />
-                ) : (
-                  <Image src={media.src} alt="" fill sizes="104px" />
-                )}
+                <Image
+                  src={media.type === 'video'
+                    ? media.poster ?? pass.thumbnailPoster ?? `/images/wilder-world/mobile/${pass.poster}_mobile.webp`
+                    : media.src}
+                  alt=""
+                  fill
+                  unoptimized
+                  sizes="(max-width: 980px) 33vw, 220px"
+                />
               </button>
             ))}
           </div>

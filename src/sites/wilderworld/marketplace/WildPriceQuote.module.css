@@ -1,0 +1,4 @@
+.quote{display:block;font-family:var(--font-sans),Arial,sans-serif;font-size:11px;font-weight:400;line-height:1.65;letter-spacing:normal;text-transform:none;color:#a2a8aa;margin-top:5px;font-variant-numeric:tabular-nums}.quote span{font-size:10px;color:#7d858a}
+.quote.compact{display:inline-flex;align-items:center;gap:5px;margin:0;white-space:nowrap;line-height:1.4;cursor:help}
+.compact.stale::after{content:'';width:4px;height:4px;border-radius:50%;background:#b79a68;flex-shrink:0}
+.compact:focus-visible{outline:1px solid var(--ww-orange,#ff6434);outline-offset:3px}

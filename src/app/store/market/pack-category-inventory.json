@@ -1,0 +1,365 @@
+{
+  "pack-weapons": {
+    "observedAt": "2026-11-08T08:16:34.096648+00:00",
+    "rows": [
+      {
+        "group": "Ranged Weapon",
+        "category": "Assault Rifle",
+        "type": "Primary Weapon",
+        "count": 968
+      },
+      {
+        "group": "Ranged Weapon",
+        "category": "Exotic",
+        "type": "Primary Weapon",
+        "count": 93
+      },
+      {
+        "group": "Ranged Weapon",
+        "category": "Explosive",
+        "type": "Primary Weapon",
+        "count": 111
+      },
+      {
+        "group": "Ranged Weapon",
+        "category": "Handgun",
+        "type": "Secondary Weapon",
+        "count": 546
+      },
+      {
+        "group": "Ranged Weapon",
+        "category": "LMG",
+        "type": "Primary Weapon",
+        "count": 199
+      },
+      {
+        "group": "Ranged Weapon",
+        "category": "Marksman Rifle",
+        "type": "Primary Weapon",
+        "count": 394
+      },
+      {
+        "group": "Ranged Weapon",
+        "category": "SMG",
+        "type": "Primary Weapon",
+        "count": 140
+      },
+      {
+        "group": "Ranged Weapon",
+        "category": "Shotgun",
+        "type": "Primary Weapon",
+        "count": 262
+      },
+      {
+        "group": "Ranged Weapon",
+        "category": "Sniper Rifle",
+        "type": "Primary Weapon",
+        "count": 133
+      },
+      {
+        "group": "Weapon Attachment",
+        "category": "Barrel",
+        "type": "Compensator",
+        "count": 194
+      },
+      {
+        "group": "Weapon Attachment",
+        "category": "Barrel",
+        "type": "Supressor",
+        "count": 1338
+      },
+      {
+        "group": "Weapon Attachment",
+        "category": "Grips",
+        "type": "Grip",
+        "count": 497
+      },
+      {
+        "group": "Weapon Attachment",
+        "category": "Magazine",
+        "type": "Magazine",
+        "count": 539
+      },
+      {
+        "group": "Weapon Attachment",
+        "category": "Optics",
+        "type": "Ironsight",
+        "count": 1079
+      },
+      {
+        "group": "Weapon Attachment",
+        "category": "Optics",
+        "type": "Scope",
+        "count": 960
+      },
+      {
+        "group": "Weapon Attachment",
+        "category": "Stocks",
+        "type": "Stock",
+        "count": 717
+      }
+    ]
+  },
+  "pack-wheels": {
+    "observedAt": "2026-11-08T08:16:33.958986+00:00",
+    "rows": [
+      {
+        "group": "Engine Performance",
+        "category": "Electrical System",
+        "type": "ECU Remap",
+        "count": 425
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Electrical System",
+        "type": "Ignition Cables",
+        "count": 402
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Electrical System",
+        "type": "Spark Plugs",
+        "count": 416
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Engine",
+        "type": "Camshaft",
+        "count": 426
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Engine",
+        "type": "Cylinder Head",
+        "count": 398
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Engine",
+        "type": "Engine Block",
+        "count": 409
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Engine",
+        "type": "Pistons",
+        "count": 395
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Engine",
+        "type": "Valves",
+        "count": 413
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Exhaust",
+        "type": "Catalytic Converter",
+        "count": 399
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Exhaust",
+        "type": "Exhaust Manifold",
+        "count": 383
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Exhaust",
+        "type": "Exhaust Midpipe",
+        "count": 409
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Exhaust",
+        "type": "Exhaust Tips",
+        "count": 428
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Fuel System",
+        "type": "Fuel Filter",
+        "count": 416
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Fuel System",
+        "type": "Fuel Pump",
+        "count": 408
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Fuel System",
+        "type": "Induction",
+        "count": 431
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Fuel System",
+        "type": "Race Fuel",
+        "count": 433
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Intake System",
+        "type": "Air Filter",
+        "count": 396
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Intake System",
+        "type": "ITB Bodies",
+        "count": 390
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Intake System",
+        "type": "Intake",
+        "count": 398
+      },
+      {
+        "group": "Engine Performance",
+        "category": "Intake System",
+        "type": "Turbocharger",
+        "count": 395
+      }
+    ]
+  },
+  "pack-avatars": {
+    "observedAt": "2026-11-08T08:16:34.685292+00:00",
+    "rows": [
+      {
+        "group": "Armor",
+        "category": "Boots",
+        "type": "Trinity MKI",
+        "count": 360
+      },
+      {
+        "group": "Armor",
+        "category": "Boots",
+        "type": "Trinity MKII",
+        "count": 558
+      },
+      {
+        "group": "Armor",
+        "category": "Calf",
+        "type": "Trinity MKI",
+        "count": 249
+      },
+      {
+        "group": "Armor",
+        "category": "Calf",
+        "type": "Trinity MKII",
+        "count": 414
+      },
+      {
+        "group": "Armor",
+        "category": "Chest",
+        "type": "Trinity MKI",
+        "count": 390
+      },
+      {
+        "group": "Armor",
+        "category": "Chest",
+        "type": "Trinity MKII",
+        "count": 558
+      },
+      {
+        "group": "Armor",
+        "category": "Forearms",
+        "type": "Trinity MKI",
+        "count": 241
+      },
+      {
+        "group": "Armor",
+        "category": "Forearms",
+        "type": "Trinity MKII",
+        "count": 470
+      },
+      {
+        "group": "Armor",
+        "category": "Gloves",
+        "type": "Trinity MKI",
+        "count": 417
+      },
+      {
+        "group": "Armor",
+        "category": "Gloves",
+        "type": "Trinity MKII",
+        "count": 594
+      },
+      {
+        "group": "Armor",
+        "category": "Helmet",
+        "type": "Trinity MKI",
+        "count": 483
+      },
+      {
+        "group": "Armor",
+        "category": "Helmet",
+        "type": "Trinity MKII",
+        "count": 463
+      },
+      {
+        "group": "Armor",
+        "category": "Hips",
+        "type": "Trinity MKI",
+        "count": 361
+      },
+      {
+        "group": "Armor",
+        "category": "Hips",
+        "type": "Trinity MKII",
+        "count": 556
+      },
+      {
+        "group": "Armor",
+        "category": "Shoulder Pad",
+        "type": "Trinity MKI",
+        "count": 87
+      },
+      {
+        "group": "Armor",
+        "category": "Shoulder Pad",
+        "type": "Trinity MKII",
+        "count": 129
+      },
+      {
+        "group": "Armor",
+        "category": "Thigh",
+        "type": "Trinity MKI",
+        "count": 243
+      },
+      {
+        "group": "Armor",
+        "category": "Thigh",
+        "type": "Trinity MKII",
+        "count": 407
+      },
+      {
+        "group": "Armor",
+        "category": "Undersuit",
+        "type": "Trinity MKI",
+        "count": 368
+      },
+      {
+        "group": "Armor",
+        "category": "Undersuit",
+        "type": "Trinity MKII",
+        "count": 585
+      },
+      {
+        "group": "Armor",
+        "category": "Upper Arm",
+        "type": "Trinity MKI",
+        "count": 97
+      },
+      {
+        "group": "Armor",
+        "category": "Upper Arm",
+        "type": "Trinity MKII",
+        "count": 140
+      }
+    ]
+  }
+}

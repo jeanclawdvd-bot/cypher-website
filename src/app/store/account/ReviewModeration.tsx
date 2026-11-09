@@ -1,0 +1,16 @@
+'use client';
+import {useEffect,useState} from 'react';
+import {accountErrorMessage,storeAccountApi,type ModerationReview} from '@/sites/wilderworld/marketplace/account-client';
+import ReviewSubject from './ReviewSubject';
+import styles from './ReviewModeration.module.css';
+
+function ModerationCard({review,busy,onDecision}:{review:ModerationReview;busy:boolean;onDecision:(review:ModerationReview,decision:'published'|'rejected',reason:string)=>Promise<void>}){
+ const [reason,setReason]=useState('');
+ return <article className={styles.card}><p><ReviewSubject productId={review.productId} variantId={review.variantId}/> · {review.rating} / 5</p><h3>{review.title}</h3><p className={styles.body}>{review.body}</p><small>{review.authorDisplayName} · {review.moderation} · Revision {review.moderationRevision}</small><label>Decision reason<textarea value={reason} onChange={event=>setReason(event.target.value)} maxLength={500} rows={2} disabled={busy} placeholder="Why should this review be published or rejected?"/></label><div className={styles.actions}><button disabled={busy||reason.trim().length<3} onClick={()=>onDecision(review,'published',reason)}>Publish review</button><button disabled={busy||reason.trim().length<3} onClick={()=>onDecision(review,'rejected',reason)}>Reject review</button></div></article>;
+}
+export default function ReviewModeration({csrfToken}:{csrfToken?:string}){
+ const [state,setState]=useState('pending'),[reviews,setReviews]=useState<ModerationReview[]>([]),[loading,setLoading]=useState(true),[busy,setBusy]=useState(false),[error,setError]=useState(''),[notice,setNotice]=useState(''),[version,setVersion]=useState(0);
+ useEffect(()=>{const controller=new AbortController();setLoading(true);setError('');storeAccountApi.moderationQueue(state,controller.signal).then(result=>{if(!controller.signal.aborted)setReviews(result.reviews);}).catch(reason=>{if(!controller.signal.aborted){setReviews([]);setError(accountErrorMessage(reason));}}).finally(()=>{if(!controller.signal.aborted)setLoading(false);});return()=>controller.abort();},[state,version]);
+ async function decide(review:ModerationReview,decision:'published'|'rejected',reason:string){if(busy)return;setBusy(true);setError('');setNotice('');try{await storeAccountApi.moderate(review.id,{decision,reason,expectedRevision:review.moderationRevision,idempotencyKey:crypto.randomUUID()},csrfToken);setNotice(`Review ${decision}. The decision is recorded in the local audit history.`);setVersion(value=>value+1);}catch(error){setError(accountErrorMessage(error));}finally{setBusy(false);}}
+ return <section className={styles.panel}><header><div><h2>Review moderation</h2><p>Local preview only. Your own reviews require another moderator.</p></div><label>Queue<select value={state} disabled={busy} onChange={event=>setState(event.target.value)}><option value="pending">Pending</option><option value="published">Published</option><option value="rejected">Rejected</option></select></label></header>{error&&<p role="alert">{error}</p>}{notice&&<p role="status">{notice}</p>}{loading?<p role="status">Loading reviews…</p>:reviews.length?reviews.map(review=><ModerationCard key={review.id+':'+review.moderationRevision} review={review} busy={busy} onDecision={decide}/>):<p>No reviews in this queue.</p>}</section>;
+}

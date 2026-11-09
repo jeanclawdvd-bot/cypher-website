@@ -5,6 +5,14 @@ import type { NewsItem } from '@/app/api/news/route';
 import { FadeInImage } from '@/components/FadeInImage';
 import styles from './Landing.module.css';
 
+function isNewsItem(value: unknown): value is NewsItem {
+  if (typeof value !== 'object' || value === null) return false;
+  return 'title' in value && typeof value.title === 'string'
+    && 'url' in value && typeof value.url === 'string'
+    && 'image' in value && (value.image === null || typeof value.image === 'string')
+    && 'date' in value && (value.date === null || typeof value.date === 'string');
+}
+
 function formatDate(date: string | null): string | null {
   if (!date) return null;
   const parsed = new Date(date);
@@ -23,8 +31,11 @@ export default function NewsCarousel() {
     let active = true;
     fetch('/api/news')
       .then((res) => res.json())
-      .then((data: { items?: NewsItem[] }) => {
-        if (active && Array.isArray(data.items)) setItems(data.items);
+      .then((data: unknown) => {
+        if (active && typeof data === 'object' && data !== null
+          && 'items' in data && Array.isArray(data.items)) {
+          setItems(data.items.filter(isNewsItem));
+        }
       })
       .catch(() => {});
     return () => {

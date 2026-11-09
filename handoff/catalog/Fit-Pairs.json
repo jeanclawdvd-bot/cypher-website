@@ -1,0 +1,172 @@
+[
+  {
+    "style": "Undertow Ledger",
+    "fits": [
+      {
+        "fit": "Men",
+        "reviewId": "P078",
+        "sku": "BTWR_001"
+      },
+      {
+        "fit": "Women",
+        "reviewId": "P079",
+        "sku": "BTWR_001_F"
+      }
+    ],
+    "caution": "BTWR_001_A and BTWR_001_B omit components 3 and 2+3 respectively. They are configuration variants, not alternate fits, and must not silently inherit the full female assembly.",
+    "gameCompatibilityValidated": false
+  },
+  {
+    "style": "Common Ground",
+    "fits": [
+      {
+        "fit": "Men",
+        "reviewId": "P063",
+        "sku": "BTWR_002"
+      },
+      {
+        "fit": "Women",
+        "reviewId": "P064",
+        "sku": "BTWR_002_F"
+      }
+    ],
+    "caution": "A is an artwork/material distinction here, not a female suffix. Existing source aliases and native material overrides must be retained; do not collapse the two artworks merely because the female mesh is shared.",
+    "gameCompatibilityValidated": false
+  },
+  {
+    "style": "Common Ground / 02",
+    "fits": [
+      {
+        "fit": "Men",
+        "reviewId": "P065",
+        "sku": "BTWR_002_A"
+      },
+      {
+        "fit": "Women",
+        "reviewId": "P066",
+        "sku": "BTWR_002_A_F"
+      }
+    ],
+    "caution": "A is an artwork/material distinction here, not a female suffix. Existing source aliases and native material overrides must be retained; do not collapse the two artworks merely because the female mesh is shared.",
+    "gameCompatibilityValidated": false
+  },
+  {
+    "style": "Wrong Exit",
+    "fits": [
+      {
+        "fit": "Men",
+        "reviewId": "P083",
+        "sku": "BTWR_004"
+      },
+      {
+        "fit": "Women",
+        "reviewId": "P084",
+        "sku": "BTWR_004_F"
+      }
+    ],
+    "caution": "Base/A artwork and each fit remain separately identified even if displayed on one style page.",
+    "gameCompatibilityValidated": false
+  },
+  {
+    "style": "Wrong Exit / 02",
+    "fits": [
+      {
+        "fit": "Men",
+        "reviewId": "P085",
+        "sku": "BTWR_004_A"
+      },
+      {
+        "fit": "Women",
+        "reviewId": "P086",
+        "sku": "BTWR_004_A_F"
+      }
+    ],
+    "caution": "Base/A artwork and each fit remain separately identified even if displayed on one style page.",
+    "gameCompatibilityValidated": false
+  },
+  {
+    "style": "Marble Debt",
+    "fits": [
+      {
+        "fit": "Men",
+        "reviewId": "P098",
+        "sku": "FTWR_005"
+      },
+      {
+        "fit": "Women",
+        "reviewId": "P099",
+        "sku": "FTWR_005_A"
+      }
+    ],
+    "caution": "Native source material bindings differ (MI_SUIT_003 versus MI_SUIT_002). Shared footwear design is supported; exact finish equivalence must not be inferred.",
+    "gameCompatibilityValidated": false
+  },
+  {
+    "style": "Borrowed Body",
+    "fits": [
+      {
+        "fit": "Men",
+        "reviewId": "P087",
+        "sku": "SUIT_001"
+      },
+      {
+        "fit": "Women",
+        "reviewId": "P088",
+        "sku": "SUIT_001_A"
+      }
+    ],
+    "caution": "Separate fit meshes are native render bindings, not proof that an existing NFT grants both fits. Current suit-only product previews intentionally exclude gloves and footwear.",
+    "gameCompatibilityValidated": false
+  },
+  {
+    "style": "Exit Velocity",
+    "fits": [
+      {
+        "fit": "Men",
+        "reviewId": "P091",
+        "sku": "SUIT_002"
+      },
+      {
+        "fit": "Women",
+        "reviewId": "P092",
+        "sku": "SUIT_002_A"
+      }
+    ],
+    "caution": "Keep SUIT_002 distinct from SUIT_003/004: equal counts across those families do not establish the same design.",
+    "gameCompatibilityValidated": false
+  },
+  {
+    "style": "Duplicate Citizen",
+    "fits": [
+      {
+        "fit": "Men",
+        "reviewId": "P089",
+        "sku": "SUIT_003"
+      },
+      {
+        "fit": "Women",
+        "reviewId": "P090",
+        "sku": "SUIT_003_A"
+      }
+    ],
+    "caution": "Keep SUIT_003 distinct from the other suit families; original paneling/collar and authored material design differ.",
+    "gameCompatibilityValidated": false
+  },
+  {
+    "style": "Permanent Guest",
+    "fits": [
+      {
+        "fit": "Men",
+        "reviewId": "P093",
+        "sku": "SUIT_004"
+      },
+      {
+        "fit": "Women",
+        "reviewId": "P094",
+        "sku": "SUIT_004_A"
+      }
+    ],
+    "caution": "Keep SUIT_004 distinct from SUIT_002/003 despite equal mesh counts.",
+    "gameCompatibilityValidated": false
+  }
+]

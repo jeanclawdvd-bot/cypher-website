@@ -1,0 +1,32 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "bytes": 116332
+  },
+  {
+    "route": "/store/browse",
+    "status": 200,
+    "bytes": 86436
+  },
+  {
+    "route": "/store/EYWR_008?color=CONCEPT-EYWR_008-01",
+    "status": 200,
+    "bytes": 131664
+  },
+  {
+    "route": "/store/collections/totems",
+    "status": 200,
+    "bytes": 62702
+  },
+  {
+    "route": "/store/account",
+    "status": 200,
+    "bytes": 47809
+  },
+  {
+    "route": "/lifestyle-review/",
+    "status": 200,
+    "bytes": 146290
+  }
+]

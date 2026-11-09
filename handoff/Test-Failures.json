@@ -1,0 +1,28 @@
+{
+  "passed": 635,
+  "failed": 19,
+  "files": 94,
+  "failedFiles": 16,
+  "durationSeconds": 155.01,
+  "failures": [
+    " src/app/shopping-entrypoints.test.tsx > Global brand shell > uses shopping navigation and preserves the footer for Wilder World",
+    " src/lib/wilderCollections.test.ts > wilderCollections config invariants > source default path > every entry without an explicit source resolves to opensea",
+    " src/lib/wilderCollections.test.ts > wilderCollections config invariants > source default path > locks the total entry count",
+    " src/app/store/account/Wallets.test.tsx > Wallets > keeps an already submitted link save stable if the provider changes (success true)",
+    " src/app/store/market/originals-ui.test.tsx > Original collection shopping > defaults to all inventory and opens real product links",
+    " src/sites/wilderworld/accessories/catalog.test.ts > accessory catalog import > gives every visible style an independent identity and image while retaining its real source SKU",
+    " src/sites/wilderworld/accessories/product-detail.test.tsx > individual accessory shopping preview > completes a functional local demo selection without payment or an actual order",
+    " src/sites/wilderworld/accessories/store-browse.test.tsx > store category gallery and browsing > uses one large image per category, mixes lifestyle and product photos, and scrolls the category rail",
+    " src/sites/wilderworld/accessories/store-browse.test.tsx > store category gallery and browsing > leads with campaign headlines above the imagery and keeps compact editorial titles above their images",
+    " src/sites/wilderworld/collections/source-token-audit.test.ts > full current source to token audit > retains every source ID and concept while leaving production token mappings unresolved",
+    " src/sites/wilderworld/marketplace/finish-filter-ui.test.tsx > color and material browsing > never substitutes another photo for a pending selected finish, and changes study badges only in presentation",
+    " src/sites/wilderworld/marketplace/frank-wilder-totems.test.ts > Frank Wilder design intake > keeps pendant descriptions and every gallery entry separate from historical chain assemblies",
+    " src/sites/wilderworld/marketplace/limited-editions.test.ts > new-store limited edition proposal > keeps the separate handoff report identical to the displayed proposal",
+    " src/sites/wilderworld/marketplace/object-lifestyle.test.ts > exact product object lifestyle coverage > gives every retained furniture object, sculpture and rim an assigned scene without changing material images",
+    " src/sites/wilderworld/marketplace/object-lifestyle.test.ts > exact product object lifestyle coverage > adds seventeen reviewed scenes for forty exact products while preserving the approved rim cover",
+    " src/sites/wilderworld/marketplace/preview-currency.test.tsx > explicit demo currency conversion > visibly identifies the small WILD equivalent as demo data",
+    " src/sites/wilderworld/marketplace/preview-prices.test.ts > approved display-only price rollout > matches the exact reviewed 63-price proposal and retains all 163 earlier prices",
+    " src/sites/wilderworld/marketplace/ProductMarketPanel.test.tsx > product market preview > clears draft amounts when switching currencies so values are never reinterpreted",
+    " src/sites/wilderworld/marketplace/runtime-coverage.test.ts > live catalog material and editorial coverage > keeps nine explicit plans per product and exposes only reviewed clothing imagery"
+  ]
+}

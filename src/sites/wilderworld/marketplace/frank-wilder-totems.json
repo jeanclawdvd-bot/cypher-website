@@ -1,0 +1,2669 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-07",
+  "scope": "Ten Frank Wilder pendant/totem designs; Emperor Ring excluded. Physical product records provide design references, not mint permissions or digital ownership.",
+  "legacyTrinity": {
+    "productId": "totem-trinity-legacy",
+    "storeVisible": false,
+    "historicalRecordPreserved": true,
+    "existingOwnershipUnchanged": true,
+    "remintAllowed": false,
+    "newIssuanceAllowed": false
+  },
+  "products": [
+    {
+      "id": "totem-fw-hermes-ii",
+      "name": "Hermes II",
+      "handle": "hermes-ii",
+      "brand": "Frank Wilder",
+      "description": "Hermes II, a Frank Wilder totem design being prepared for Wilder World. Nine proposed finish studies show the pendant alone in close-up; only reviewed previews are shown. Game-chain use, model integration and release details remain pending.",
+      "collectionId": "clothing",
+      "section": "totems",
+      "itemType": "totem",
+      "subcategory": "totems",
+      "status": "model_integration_pending",
+      "storeVisible": true,
+      "purchaseEnabled": false,
+      "image": "/images/marketplace/frank-wilder-totems/v2/hermes-ii-sterling.webp",
+      "imageKind": "image_concept",
+      "sourceIds": [
+        "gid://shopify/Product/7909385404502"
+      ],
+      "sourceAssets": [],
+      "source": {
+        "type": "physical_product_reference",
+        "shopifyProductId": "gid://shopify/Product/7909385404502",
+        "shopifyVariantIds": [
+          "gid://shopify/ProductVariant/44964067377238",
+          "gid://shopify/ProductVariant/44964067410006",
+          "gid://shopify/ProductVariant/44964067442774",
+          "gid://shopify/ProductVariant/44964067475542"
+        ],
+        "sourceUrl": "https://frankwilder.com/products/hermes-ii",
+        "referenceImageUrl": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_add-subtle-shadows-under-_Bm2nFdHoQR_1.png?v=1781638158",
+        "referencePath": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-frank-wilder-totems-20261107\\references\\hermes-ii.png",
+        "referenceSha256": "870618cf70d5f46c43e2e872e87bb196762fd8e0b85ab33cf2b01277edac48d3",
+        "catalogSnapshot": "outputs/ww-frank-wilder-totems-20261107/public-catalog.json",
+        "referenceManifest": "outputs/ww-frank-wilder-totems-20261107/reference-manifest.json",
+        "digitalSourceBindingVerified": false
+      },
+      "preview": {
+        "variantId": "MAT-totem-fw-hermes-ii-sterling",
+        "name": "Sterling Silver",
+        "swatch": "#C3C5C7",
+        "renderMethod": "image_concept",
+        "sourceReference": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_add-subtle-shadows-under-_Bm2nFdHoQR_1.png?v=1781638158",
+        "geometryUnchanged": false,
+        "gameMaterialImplemented": false,
+        "otherMaterialConcepts": "nine_requested_finish_studies",
+        "plannedMaterialIds": [
+          "sterling",
+          "yellow-gold",
+          "rose-gold",
+          "black-rhodium",
+          "platinum",
+          "titanium",
+          "copper",
+          "ceramic-white",
+          "cobalt"
+        ],
+        "chainReference": {
+          "status": "visual_concept_only",
+          "sourceAssets": [],
+          "assemblyApproved": false,
+          "compatibilityApproved": false
+        },
+        "background": "dark charcoal"
+      },
+      "modelIntake": {
+        "status": "pending",
+        "currentStage": "model_upload",
+        "stages": [
+          {
+            "id": "model_upload",
+            "label": "Model upload",
+            "status": "pending",
+            "dependsOn": [],
+            "evidence": [],
+            "filePath": null,
+            "fileSha256": null,
+            "submittedBy": null,
+            "receivedAt": null
+          },
+          {
+            "id": "source_binding",
+            "label": "Source binding",
+            "status": "pending",
+            "dependsOn": [
+              "model_upload"
+            ],
+            "evidence": [],
+            "sourceAssets": [],
+            "meshHash": null,
+            "materialBindings": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "compatibility_validation",
+            "label": "Compatibility validation",
+            "status": "pending",
+            "dependsOn": [
+              "source_binding"
+            ],
+            "evidence": [],
+            "avatarFits": null,
+            "equipmentSlot": null,
+            "chainAssembly": null,
+            "clippingChecks": null,
+            "testedGameBuild": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "entitlement_readiness",
+            "label": "Entitlement readiness",
+            "status": "pending",
+            "dependsOn": [
+              "compatibility_validation"
+            ],
+            "evidence": [],
+            "approvedEditionId": null,
+            "mintPermission": null,
+            "ownershipChecks": null,
+            "gameDeliveryAdapter": null,
+            "verifiedBy": null
+          }
+        ]
+      },
+      "onchain": {
+        "logicalCollectionId": "clothing",
+        "proposedContractTarget": "WilderClothing",
+        "contractAddress": null,
+        "onchainTokenId": null,
+        "approvedEditionId": null,
+        "mintPermission": null,
+        "productionRecipeId": null
+      },
+      "price": null,
+      "priceCents": null,
+      "supplyCap": null,
+      "editionQuantity": null,
+      "compatibility": null,
+      "proposedGrant": {
+        "status": "unapproved",
+        "selectedFinishOnly": true,
+        "contents": null,
+        "chainIncluded": null,
+        "quantity": null
+      },
+      "fulfillment": {
+        "paymentConfirmation": "not_enabled",
+        "mintSettlement": "not_enabled",
+        "gameEntitlementDelivery": "pending_model_integration",
+        "physicalPurchaseGrantsDigitalRights": false
+      },
+      "unresolved": [
+        "Digital model upload and source binding",
+        "Avatar compatibility and chain assembly",
+        "Approved item contents and selected finish",
+        "Price, edition quantities and supply permission",
+        "Payment, mint settlement and game entitlement delivery"
+      ],
+      "materialConcepts": [
+        {
+          "id": "MAT-totem-fw-hermes-ii-sterling",
+          "productId": "totem-fw-hermes-ii",
+          "materialId": "sterling",
+          "name": "Sterling",
+          "sourceProductId": "gid://shopify/Product/7909385404502",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hermes-ii-yellow-gold",
+          "productId": "totem-fw-hermes-ii",
+          "materialId": "yellow-gold",
+          "name": "Yellow gold",
+          "sourceProductId": "gid://shopify/Product/7909385404502",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hermes-ii-rose-gold",
+          "productId": "totem-fw-hermes-ii",
+          "materialId": "rose-gold",
+          "name": "Rose gold",
+          "sourceProductId": "gid://shopify/Product/7909385404502",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hermes-ii-black-rhodium",
+          "productId": "totem-fw-hermes-ii",
+          "materialId": "black-rhodium",
+          "name": "Black rhodium",
+          "sourceProductId": "gid://shopify/Product/7909385404502",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hermes-ii-platinum",
+          "productId": "totem-fw-hermes-ii",
+          "materialId": "platinum",
+          "name": "Platinum",
+          "sourceProductId": "gid://shopify/Product/7909385404502",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hermes-ii-titanium",
+          "productId": "totem-fw-hermes-ii",
+          "materialId": "titanium",
+          "name": "Titanium",
+          "sourceProductId": "gid://shopify/Product/7909385404502",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hermes-ii-copper",
+          "productId": "totem-fw-hermes-ii",
+          "materialId": "copper",
+          "name": "Copper",
+          "sourceProductId": "gid://shopify/Product/7909385404502",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hermes-ii-ceramic-white",
+          "productId": "totem-fw-hermes-ii",
+          "materialId": "ceramic-white",
+          "name": "Ceramic white",
+          "sourceProductId": "gid://shopify/Product/7909385404502",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hermes-ii-cobalt",
+          "productId": "totem-fw-hermes-ii",
+          "materialId": "cobalt",
+          "name": "Cobalt",
+          "sourceProductId": "gid://shopify/Product/7909385404502",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        }
+      ]
+    },
+    {
+      "id": "totem-fw-hercules-ii",
+      "name": "Hercules II Totem",
+      "handle": "hercules-ii",
+      "brand": "Frank Wilder",
+      "description": "Hercules II Totem, a Frank Wilder totem design being prepared for Wilder World. Nine proposed finish studies show the pendant alone in close-up; only reviewed previews are shown. Game-chain use, model integration and release details remain pending.",
+      "collectionId": "clothing",
+      "section": "totems",
+      "itemType": "totem",
+      "subcategory": "totems",
+      "status": "model_integration_pending",
+      "storeVisible": true,
+      "purchaseEnabled": false,
+      "image": "/images/marketplace/frank-wilder-totems/v2/hercules-ii-sterling.webp",
+      "imageKind": "image_concept",
+      "sourceIds": [
+        "gid://shopify/Product/7986908397654"
+      ],
+      "sourceAssets": [],
+      "source": {
+        "type": "physical_product_reference",
+        "shopifyProductId": "gid://shopify/Product/7986908397654",
+        "shopifyVariantIds": [
+          "gid://shopify/ProductVariant/45508600004694",
+          "gid://shopify/ProductVariant/45508600037462",
+          "gid://shopify/ProductVariant/45524109492310",
+          "gid://shopify/ProductVariant/45524109525078",
+          "gid://shopify/ProductVariant/45524109557846",
+          "gid://shopify/ProductVariant/45524109590614",
+          "gid://shopify/ProductVariant/45508600070230",
+          "gid://shopify/ProductVariant/45508600102998",
+          "gid://shopify/ProductVariant/45524109623382",
+          "gid://shopify/ProductVariant/45524109656150",
+          "gid://shopify/ProductVariant/45524109688918",
+          "gid://shopify/ProductVariant/45524109721686"
+        ],
+        "sourceUrl": "https://frankwilder.com/products/hercules-ii",
+        "referenceImageUrl": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_render-this-pendant-img1-_eIXZXa4dqL_1.png?v=1785714953",
+        "referencePath": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-frank-wilder-totems-20261107\\references\\hercules-ii.png",
+        "referenceSha256": "32f7506e1eed1a572296e202badc2c1a8f4b4fa33cac920ce2f9e5b98a9e20e4",
+        "catalogSnapshot": "outputs/ww-frank-wilder-totems-20261107/public-catalog.json",
+        "referenceManifest": "outputs/ww-frank-wilder-totems-20261107/reference-manifest.json",
+        "digitalSourceBindingVerified": false
+      },
+      "preview": {
+        "variantId": "MAT-totem-fw-hercules-ii-sterling",
+        "name": "Sterling Silver",
+        "swatch": "#C3C5C7",
+        "renderMethod": "image_concept",
+        "sourceReference": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_render-this-pendant-img1-_eIXZXa4dqL_1.png?v=1785714953",
+        "geometryUnchanged": false,
+        "gameMaterialImplemented": false,
+        "otherMaterialConcepts": "nine_requested_finish_studies",
+        "plannedMaterialIds": [
+          "sterling",
+          "yellow-gold",
+          "rose-gold",
+          "black-rhodium",
+          "platinum",
+          "titanium",
+          "copper",
+          "ceramic-white",
+          "cobalt"
+        ],
+        "chainReference": {
+          "status": "visual_concept_only",
+          "sourceAssets": [],
+          "assemblyApproved": false,
+          "compatibilityApproved": false
+        },
+        "background": "dark charcoal"
+      },
+      "modelIntake": {
+        "status": "pending",
+        "currentStage": "model_upload",
+        "stages": [
+          {
+            "id": "model_upload",
+            "label": "Model upload",
+            "status": "pending",
+            "dependsOn": [],
+            "evidence": [],
+            "filePath": null,
+            "fileSha256": null,
+            "submittedBy": null,
+            "receivedAt": null
+          },
+          {
+            "id": "source_binding",
+            "label": "Source binding",
+            "status": "pending",
+            "dependsOn": [
+              "model_upload"
+            ],
+            "evidence": [],
+            "sourceAssets": [],
+            "meshHash": null,
+            "materialBindings": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "compatibility_validation",
+            "label": "Compatibility validation",
+            "status": "pending",
+            "dependsOn": [
+              "source_binding"
+            ],
+            "evidence": [],
+            "avatarFits": null,
+            "equipmentSlot": null,
+            "chainAssembly": null,
+            "clippingChecks": null,
+            "testedGameBuild": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "entitlement_readiness",
+            "label": "Entitlement readiness",
+            "status": "pending",
+            "dependsOn": [
+              "compatibility_validation"
+            ],
+            "evidence": [],
+            "approvedEditionId": null,
+            "mintPermission": null,
+            "ownershipChecks": null,
+            "gameDeliveryAdapter": null,
+            "verifiedBy": null
+          }
+        ]
+      },
+      "onchain": {
+        "logicalCollectionId": "clothing",
+        "proposedContractTarget": "WilderClothing",
+        "contractAddress": null,
+        "onchainTokenId": null,
+        "approvedEditionId": null,
+        "mintPermission": null,
+        "productionRecipeId": null
+      },
+      "price": null,
+      "priceCents": null,
+      "supplyCap": null,
+      "editionQuantity": null,
+      "compatibility": null,
+      "proposedGrant": {
+        "status": "unapproved",
+        "selectedFinishOnly": true,
+        "contents": null,
+        "chainIncluded": null,
+        "quantity": null
+      },
+      "fulfillment": {
+        "paymentConfirmation": "not_enabled",
+        "mintSettlement": "not_enabled",
+        "gameEntitlementDelivery": "pending_model_integration",
+        "physicalPurchaseGrantsDigitalRights": false
+      },
+      "unresolved": [
+        "Digital model upload and source binding",
+        "Avatar compatibility and chain assembly",
+        "Approved item contents and selected finish",
+        "Price, edition quantities and supply permission",
+        "Payment, mint settlement and game entitlement delivery"
+      ],
+      "materialConcepts": [
+        {
+          "id": "MAT-totem-fw-hercules-ii-sterling",
+          "productId": "totem-fw-hercules-ii",
+          "materialId": "sterling",
+          "name": "Sterling",
+          "sourceProductId": "gid://shopify/Product/7986908397654",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-ii-yellow-gold",
+          "productId": "totem-fw-hercules-ii",
+          "materialId": "yellow-gold",
+          "name": "Yellow gold",
+          "sourceProductId": "gid://shopify/Product/7986908397654",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-ii-rose-gold",
+          "productId": "totem-fw-hercules-ii",
+          "materialId": "rose-gold",
+          "name": "Rose gold",
+          "sourceProductId": "gid://shopify/Product/7986908397654",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-ii-black-rhodium",
+          "productId": "totem-fw-hercules-ii",
+          "materialId": "black-rhodium",
+          "name": "Black rhodium",
+          "sourceProductId": "gid://shopify/Product/7986908397654",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-ii-platinum",
+          "productId": "totem-fw-hercules-ii",
+          "materialId": "platinum",
+          "name": "Platinum",
+          "sourceProductId": "gid://shopify/Product/7986908397654",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-ii-titanium",
+          "productId": "totem-fw-hercules-ii",
+          "materialId": "titanium",
+          "name": "Titanium",
+          "sourceProductId": "gid://shopify/Product/7986908397654",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-ii-copper",
+          "productId": "totem-fw-hercules-ii",
+          "materialId": "copper",
+          "name": "Copper",
+          "sourceProductId": "gid://shopify/Product/7986908397654",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-ii-ceramic-white",
+          "productId": "totem-fw-hercules-ii",
+          "materialId": "ceramic-white",
+          "name": "Ceramic white",
+          "sourceProductId": "gid://shopify/Product/7986908397654",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-ii-cobalt",
+          "productId": "totem-fw-hercules-ii",
+          "materialId": "cobalt",
+          "name": "Cobalt",
+          "sourceProductId": "gid://shopify/Product/7986908397654",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        }
+      ]
+    },
+    {
+      "id": "totem-fw-hercules",
+      "name": "Hercules",
+      "handle": "hercules",
+      "brand": "Frank Wilder",
+      "description": "Hercules, a Frank Wilder totem design being prepared for Wilder World. Nine proposed finish studies show the pendant alone in close-up; only reviewed previews are shown. Game-chain use, model integration and release details remain pending.",
+      "collectionId": "clothing",
+      "section": "totems",
+      "itemType": "totem",
+      "subcategory": "totems",
+      "status": "model_integration_pending",
+      "storeVisible": true,
+      "purchaseEnabled": false,
+      "image": "/images/marketplace/frank-wilder-totems/v2/hercules-sterling.webp",
+      "imageKind": "image_concept",
+      "sourceIds": [
+        "gid://shopify/Product/7987717800022"
+      ],
+      "sourceAssets": [],
+      "source": {
+        "type": "physical_product_reference",
+        "shopifyProductId": "gid://shopify/Product/7987717800022",
+        "shopifyVariantIds": [
+          "gid://shopify/ProductVariant/45597869146198",
+          "gid://shopify/ProductVariant/45597999136854",
+          "gid://shopify/ProductVariant/45597946675286",
+          "gid://shopify/ProductVariant/45597999169622",
+          "gid://shopify/ProductVariant/45597946708054",
+          "gid://shopify/ProductVariant/45597999202390",
+          "gid://shopify/ProductVariant/45597869178966",
+          "gid://shopify/ProductVariant/45597999235158",
+          "gid://shopify/ProductVariant/45597946740822",
+          "gid://shopify/ProductVariant/45597999267926",
+          "gid://shopify/ProductVariant/45597946773590",
+          "gid://shopify/ProductVariant/45597999300694"
+        ],
+        "sourceUrl": "https://frankwilder.com/products/hercules",
+        "referenceImageUrl": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_remove-only-the-chain-kee_xS7b9RDjfW.png?v=1787549300",
+        "referencePath": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-frank-wilder-totems-20261107\\references\\hercules.png",
+        "referenceSha256": "dee833e47032f409d0ce4af883967a067a1d6a77df2a34863c5225a9815b259d",
+        "catalogSnapshot": "outputs/ww-frank-wilder-totems-20261107/public-catalog.json",
+        "referenceManifest": "outputs/ww-frank-wilder-totems-20261107/reference-manifest.json",
+        "digitalSourceBindingVerified": false
+      },
+      "preview": {
+        "variantId": "MAT-totem-fw-hercules-sterling",
+        "name": "Sterling Silver",
+        "swatch": "#C3C5C7",
+        "renderMethod": "image_concept",
+        "sourceReference": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_remove-only-the-chain-kee_xS7b9RDjfW.png?v=1787549300",
+        "geometryUnchanged": false,
+        "gameMaterialImplemented": false,
+        "otherMaterialConcepts": "nine_requested_finish_studies",
+        "plannedMaterialIds": [
+          "sterling",
+          "yellow-gold",
+          "rose-gold",
+          "black-rhodium",
+          "platinum",
+          "titanium",
+          "copper",
+          "ceramic-white",
+          "cobalt"
+        ],
+        "chainReference": {
+          "status": "visual_concept_only",
+          "sourceAssets": [],
+          "assemblyApproved": false,
+          "compatibilityApproved": false
+        },
+        "background": "dark charcoal"
+      },
+      "modelIntake": {
+        "status": "pending",
+        "currentStage": "model_upload",
+        "stages": [
+          {
+            "id": "model_upload",
+            "label": "Model upload",
+            "status": "pending",
+            "dependsOn": [],
+            "evidence": [],
+            "filePath": null,
+            "fileSha256": null,
+            "submittedBy": null,
+            "receivedAt": null
+          },
+          {
+            "id": "source_binding",
+            "label": "Source binding",
+            "status": "pending",
+            "dependsOn": [
+              "model_upload"
+            ],
+            "evidence": [],
+            "sourceAssets": [],
+            "meshHash": null,
+            "materialBindings": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "compatibility_validation",
+            "label": "Compatibility validation",
+            "status": "pending",
+            "dependsOn": [
+              "source_binding"
+            ],
+            "evidence": [],
+            "avatarFits": null,
+            "equipmentSlot": null,
+            "chainAssembly": null,
+            "clippingChecks": null,
+            "testedGameBuild": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "entitlement_readiness",
+            "label": "Entitlement readiness",
+            "status": "pending",
+            "dependsOn": [
+              "compatibility_validation"
+            ],
+            "evidence": [],
+            "approvedEditionId": null,
+            "mintPermission": null,
+            "ownershipChecks": null,
+            "gameDeliveryAdapter": null,
+            "verifiedBy": null
+          }
+        ]
+      },
+      "onchain": {
+        "logicalCollectionId": "clothing",
+        "proposedContractTarget": "WilderClothing",
+        "contractAddress": null,
+        "onchainTokenId": null,
+        "approvedEditionId": null,
+        "mintPermission": null,
+        "productionRecipeId": null
+      },
+      "price": null,
+      "priceCents": null,
+      "supplyCap": null,
+      "editionQuantity": null,
+      "compatibility": null,
+      "proposedGrant": {
+        "status": "unapproved",
+        "selectedFinishOnly": true,
+        "contents": null,
+        "chainIncluded": null,
+        "quantity": null
+      },
+      "fulfillment": {
+        "paymentConfirmation": "not_enabled",
+        "mintSettlement": "not_enabled",
+        "gameEntitlementDelivery": "pending_model_integration",
+        "physicalPurchaseGrantsDigitalRights": false
+      },
+      "unresolved": [
+        "Digital model upload and source binding",
+        "Avatar compatibility and chain assembly",
+        "Approved item contents and selected finish",
+        "Price, edition quantities and supply permission",
+        "Payment, mint settlement and game entitlement delivery"
+      ],
+      "materialConcepts": [
+        {
+          "id": "MAT-totem-fw-hercules-sterling",
+          "productId": "totem-fw-hercules",
+          "materialId": "sterling",
+          "name": "Sterling",
+          "sourceProductId": "gid://shopify/Product/7987717800022",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-yellow-gold",
+          "productId": "totem-fw-hercules",
+          "materialId": "yellow-gold",
+          "name": "Yellow gold",
+          "sourceProductId": "gid://shopify/Product/7987717800022",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-rose-gold",
+          "productId": "totem-fw-hercules",
+          "materialId": "rose-gold",
+          "name": "Rose gold",
+          "sourceProductId": "gid://shopify/Product/7987717800022",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-black-rhodium",
+          "productId": "totem-fw-hercules",
+          "materialId": "black-rhodium",
+          "name": "Black rhodium",
+          "sourceProductId": "gid://shopify/Product/7987717800022",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-platinum",
+          "productId": "totem-fw-hercules",
+          "materialId": "platinum",
+          "name": "Platinum",
+          "sourceProductId": "gid://shopify/Product/7987717800022",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-titanium",
+          "productId": "totem-fw-hercules",
+          "materialId": "titanium",
+          "name": "Titanium",
+          "sourceProductId": "gid://shopify/Product/7987717800022",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-copper",
+          "productId": "totem-fw-hercules",
+          "materialId": "copper",
+          "name": "Copper",
+          "sourceProductId": "gid://shopify/Product/7987717800022",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-ceramic-white",
+          "productId": "totem-fw-hercules",
+          "materialId": "ceramic-white",
+          "name": "Ceramic white",
+          "sourceProductId": "gid://shopify/Product/7987717800022",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-hercules-cobalt",
+          "productId": "totem-fw-hercules",
+          "materialId": "cobalt",
+          "name": "Cobalt",
+          "sourceProductId": "gid://shopify/Product/7987717800022",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        }
+      ]
+    },
+    {
+      "id": "totem-fw-deadusa",
+      "name": "Deadusa",
+      "handle": "deadusa",
+      "brand": "Frank Wilder",
+      "description": "Deadusa, a Frank Wilder totem design being prepared for Wilder World. Nine proposed finish studies show the pendant alone in close-up; only reviewed previews are shown. Game-chain use, model integration and release details remain pending.",
+      "collectionId": "clothing",
+      "section": "totems",
+      "itemType": "totem",
+      "subcategory": "totems",
+      "status": "model_integration_pending",
+      "storeVisible": true,
+      "purchaseEnabled": false,
+      "image": "/images/marketplace/frank-wilder-totems/v2/deadusa-sterling.webp",
+      "imageKind": "image_concept",
+      "sourceIds": [
+        "gid://shopify/Product/7988160069718"
+      ],
+      "sourceAssets": [],
+      "source": {
+        "type": "physical_product_reference",
+        "shopifyProductId": "gid://shopify/Product/7988160069718",
+        "shopifyVariantIds": [
+          "gid://shopify/ProductVariant/45517443760214",
+          "gid://shopify/ProductVariant/45517443792982",
+          "gid://shopify/ProductVariant/45517444022358",
+          "gid://shopify/ProductVariant/45517444055126",
+          "gid://shopify/ProductVariant/45517444284502",
+          "gid://shopify/ProductVariant/45517444317270",
+          "gid://shopify/ProductVariant/45517443891286",
+          "gid://shopify/ProductVariant/45517443924054",
+          "gid://shopify/ProductVariant/45517444153430",
+          "gid://shopify/ProductVariant/45517444186198",
+          "gid://shopify/ProductVariant/45517444415574",
+          "gid://shopify/ProductVariant/45517444448342"
+        ],
+        "sourceUrl": "https://frankwilder.com/products/deadusa",
+        "referenceImageUrl": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_remove-only-the-chain-kee_6AnOBopiJO.png?v=1787549919",
+        "referencePath": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-frank-wilder-totems-20261107\\references\\deadusa.png",
+        "referenceSha256": "d3abdf70a03389f317727250a4363b72f5638c719429b70e24d9a393ed9190d2",
+        "catalogSnapshot": "outputs/ww-frank-wilder-totems-20261107/public-catalog.json",
+        "referenceManifest": "outputs/ww-frank-wilder-totems-20261107/reference-manifest.json",
+        "digitalSourceBindingVerified": false
+      },
+      "preview": {
+        "variantId": "MAT-totem-fw-deadusa-sterling",
+        "name": "Sterling Silver",
+        "swatch": "#C3C5C7",
+        "renderMethod": "image_concept",
+        "sourceReference": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_remove-only-the-chain-kee_6AnOBopiJO.png?v=1787549919",
+        "geometryUnchanged": false,
+        "gameMaterialImplemented": false,
+        "otherMaterialConcepts": "nine_requested_finish_studies",
+        "plannedMaterialIds": [
+          "sterling",
+          "yellow-gold",
+          "rose-gold",
+          "black-rhodium",
+          "platinum",
+          "titanium",
+          "copper",
+          "ceramic-white",
+          "cobalt"
+        ],
+        "chainReference": {
+          "status": "visual_concept_only",
+          "sourceAssets": [],
+          "assemblyApproved": false,
+          "compatibilityApproved": false
+        },
+        "background": "dark charcoal"
+      },
+      "modelIntake": {
+        "status": "pending",
+        "currentStage": "model_upload",
+        "stages": [
+          {
+            "id": "model_upload",
+            "label": "Model upload",
+            "status": "pending",
+            "dependsOn": [],
+            "evidence": [],
+            "filePath": null,
+            "fileSha256": null,
+            "submittedBy": null,
+            "receivedAt": null
+          },
+          {
+            "id": "source_binding",
+            "label": "Source binding",
+            "status": "pending",
+            "dependsOn": [
+              "model_upload"
+            ],
+            "evidence": [],
+            "sourceAssets": [],
+            "meshHash": null,
+            "materialBindings": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "compatibility_validation",
+            "label": "Compatibility validation",
+            "status": "pending",
+            "dependsOn": [
+              "source_binding"
+            ],
+            "evidence": [],
+            "avatarFits": null,
+            "equipmentSlot": null,
+            "chainAssembly": null,
+            "clippingChecks": null,
+            "testedGameBuild": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "entitlement_readiness",
+            "label": "Entitlement readiness",
+            "status": "pending",
+            "dependsOn": [
+              "compatibility_validation"
+            ],
+            "evidence": [],
+            "approvedEditionId": null,
+            "mintPermission": null,
+            "ownershipChecks": null,
+            "gameDeliveryAdapter": null,
+            "verifiedBy": null
+          }
+        ]
+      },
+      "onchain": {
+        "logicalCollectionId": "clothing",
+        "proposedContractTarget": "WilderClothing",
+        "contractAddress": null,
+        "onchainTokenId": null,
+        "approvedEditionId": null,
+        "mintPermission": null,
+        "productionRecipeId": null
+      },
+      "price": null,
+      "priceCents": null,
+      "supplyCap": null,
+      "editionQuantity": null,
+      "compatibility": null,
+      "proposedGrant": {
+        "status": "unapproved",
+        "selectedFinishOnly": true,
+        "contents": null,
+        "chainIncluded": null,
+        "quantity": null
+      },
+      "fulfillment": {
+        "paymentConfirmation": "not_enabled",
+        "mintSettlement": "not_enabled",
+        "gameEntitlementDelivery": "pending_model_integration",
+        "physicalPurchaseGrantsDigitalRights": false
+      },
+      "unresolved": [
+        "Digital model upload and source binding",
+        "Avatar compatibility and chain assembly",
+        "Approved item contents and selected finish",
+        "Price, edition quantities and supply permission",
+        "Payment, mint settlement and game entitlement delivery"
+      ],
+      "materialConcepts": [
+        {
+          "id": "MAT-totem-fw-deadusa-sterling",
+          "productId": "totem-fw-deadusa",
+          "materialId": "sterling",
+          "name": "Sterling",
+          "sourceProductId": "gid://shopify/Product/7988160069718",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-deadusa-yellow-gold",
+          "productId": "totem-fw-deadusa",
+          "materialId": "yellow-gold",
+          "name": "Yellow gold",
+          "sourceProductId": "gid://shopify/Product/7988160069718",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-deadusa-rose-gold",
+          "productId": "totem-fw-deadusa",
+          "materialId": "rose-gold",
+          "name": "Rose gold",
+          "sourceProductId": "gid://shopify/Product/7988160069718",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-deadusa-black-rhodium",
+          "productId": "totem-fw-deadusa",
+          "materialId": "black-rhodium",
+          "name": "Black rhodium",
+          "sourceProductId": "gid://shopify/Product/7988160069718",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-deadusa-platinum",
+          "productId": "totem-fw-deadusa",
+          "materialId": "platinum",
+          "name": "Platinum",
+          "sourceProductId": "gid://shopify/Product/7988160069718",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-deadusa-titanium",
+          "productId": "totem-fw-deadusa",
+          "materialId": "titanium",
+          "name": "Titanium",
+          "sourceProductId": "gid://shopify/Product/7988160069718",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-deadusa-copper",
+          "productId": "totem-fw-deadusa",
+          "materialId": "copper",
+          "name": "Copper",
+          "sourceProductId": "gid://shopify/Product/7988160069718",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-deadusa-ceramic-white",
+          "productId": "totem-fw-deadusa",
+          "materialId": "ceramic-white",
+          "name": "Ceramic white",
+          "sourceProductId": "gid://shopify/Product/7988160069718",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-deadusa-cobalt",
+          "productId": "totem-fw-deadusa",
+          "materialId": "cobalt",
+          "name": "Cobalt",
+          "sourceProductId": "gid://shopify/Product/7988160069718",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        }
+      ]
+    },
+    {
+      "id": "totem-fw-da-vinci",
+      "name": "Da Vinci",
+      "handle": "da-vinci",
+      "brand": "Frank Wilder",
+      "description": "Da Vinci, a Frank Wilder totem design being prepared for Wilder World. Nine proposed finish studies show the pendant alone in close-up; only reviewed previews are shown. Game-chain use, model integration and release details remain pending.",
+      "collectionId": "clothing",
+      "section": "totems",
+      "itemType": "totem",
+      "subcategory": "totems",
+      "status": "model_integration_pending",
+      "storeVisible": true,
+      "purchaseEnabled": false,
+      "image": "/images/marketplace/frank-wilder-totems/v2/da-vinci-sterling.webp",
+      "imageKind": "image_concept",
+      "sourceIds": [
+        "gid://shopify/Product/8019100303446"
+      ],
+      "sourceAssets": [],
+      "source": {
+        "type": "physical_product_reference",
+        "shopifyProductId": "gid://shopify/Product/8019100303446",
+        "shopifyVariantIds": [
+          "gid://shopify/ProductVariant/45681234772054",
+          "gid://shopify/ProductVariant/45681234804822",
+          "gid://shopify/ProductVariant/45681234837590",
+          "gid://shopify/ProductVariant/45681234870358",
+          "gid://shopify/ProductVariant/45681234903126",
+          "gid://shopify/ProductVariant/45681234935894",
+          "gid://shopify/ProductVariant/45681234968662",
+          "gid://shopify/ProductVariant/45681235001430",
+          "gid://shopify/ProductVariant/45681235034198",
+          "gid://shopify/ProductVariant/45681235066966",
+          "gid://shopify/ProductVariant/45681235099734",
+          "gid://shopify/ProductVariant/45681235132502"
+        ],
+        "sourceUrl": "https://frankwilder.com/products/da-vinci",
+        "referenceImageUrl": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_render-the-prompt-as-seen_vQKzbM1a47.png?v=1788244214",
+        "referencePath": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-frank-wilder-totems-20261107\\references\\da-vinci.png",
+        "referenceSha256": "d45bed90809a0b53b256c5f10f11bd80b7bda6327865c6326417a78f2fb4325f",
+        "catalogSnapshot": "outputs/ww-frank-wilder-totems-20261107/public-catalog.json",
+        "referenceManifest": "outputs/ww-frank-wilder-totems-20261107/reference-manifest.json",
+        "digitalSourceBindingVerified": false
+      },
+      "preview": {
+        "variantId": "MAT-totem-fw-da-vinci-sterling",
+        "name": "Sterling Silver",
+        "swatch": "#C3C5C7",
+        "renderMethod": "image_concept",
+        "sourceReference": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_render-the-prompt-as-seen_vQKzbM1a47.png?v=1788244214",
+        "geometryUnchanged": false,
+        "gameMaterialImplemented": false,
+        "otherMaterialConcepts": "nine_requested_finish_studies",
+        "plannedMaterialIds": [
+          "sterling",
+          "yellow-gold",
+          "rose-gold",
+          "black-rhodium",
+          "platinum",
+          "titanium",
+          "copper",
+          "ceramic-white",
+          "cobalt"
+        ],
+        "chainReference": {
+          "status": "visual_concept_only",
+          "sourceAssets": [],
+          "assemblyApproved": false,
+          "compatibilityApproved": false
+        },
+        "background": "dark charcoal"
+      },
+      "modelIntake": {
+        "status": "pending",
+        "currentStage": "model_upload",
+        "stages": [
+          {
+            "id": "model_upload",
+            "label": "Model upload",
+            "status": "pending",
+            "dependsOn": [],
+            "evidence": [],
+            "filePath": null,
+            "fileSha256": null,
+            "submittedBy": null,
+            "receivedAt": null
+          },
+          {
+            "id": "source_binding",
+            "label": "Source binding",
+            "status": "pending",
+            "dependsOn": [
+              "model_upload"
+            ],
+            "evidence": [],
+            "sourceAssets": [],
+            "meshHash": null,
+            "materialBindings": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "compatibility_validation",
+            "label": "Compatibility validation",
+            "status": "pending",
+            "dependsOn": [
+              "source_binding"
+            ],
+            "evidence": [],
+            "avatarFits": null,
+            "equipmentSlot": null,
+            "chainAssembly": null,
+            "clippingChecks": null,
+            "testedGameBuild": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "entitlement_readiness",
+            "label": "Entitlement readiness",
+            "status": "pending",
+            "dependsOn": [
+              "compatibility_validation"
+            ],
+            "evidence": [],
+            "approvedEditionId": null,
+            "mintPermission": null,
+            "ownershipChecks": null,
+            "gameDeliveryAdapter": null,
+            "verifiedBy": null
+          }
+        ]
+      },
+      "onchain": {
+        "logicalCollectionId": "clothing",
+        "proposedContractTarget": "WilderClothing",
+        "contractAddress": null,
+        "onchainTokenId": null,
+        "approvedEditionId": null,
+        "mintPermission": null,
+        "productionRecipeId": null
+      },
+      "price": null,
+      "priceCents": null,
+      "supplyCap": null,
+      "editionQuantity": null,
+      "compatibility": null,
+      "proposedGrant": {
+        "status": "unapproved",
+        "selectedFinishOnly": true,
+        "contents": null,
+        "chainIncluded": null,
+        "quantity": null
+      },
+      "fulfillment": {
+        "paymentConfirmation": "not_enabled",
+        "mintSettlement": "not_enabled",
+        "gameEntitlementDelivery": "pending_model_integration",
+        "physicalPurchaseGrantsDigitalRights": false
+      },
+      "unresolved": [
+        "Digital model upload and source binding",
+        "Avatar compatibility and chain assembly",
+        "Approved item contents and selected finish",
+        "Price, edition quantities and supply permission",
+        "Payment, mint settlement and game entitlement delivery"
+      ],
+      "materialConcepts": [
+        {
+          "id": "MAT-totem-fw-da-vinci-sterling",
+          "productId": "totem-fw-da-vinci",
+          "materialId": "sterling",
+          "name": "Sterling",
+          "sourceProductId": "gid://shopify/Product/8019100303446",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-da-vinci-yellow-gold",
+          "productId": "totem-fw-da-vinci",
+          "materialId": "yellow-gold",
+          "name": "Yellow gold",
+          "sourceProductId": "gid://shopify/Product/8019100303446",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-da-vinci-rose-gold",
+          "productId": "totem-fw-da-vinci",
+          "materialId": "rose-gold",
+          "name": "Rose gold",
+          "sourceProductId": "gid://shopify/Product/8019100303446",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-da-vinci-black-rhodium",
+          "productId": "totem-fw-da-vinci",
+          "materialId": "black-rhodium",
+          "name": "Black rhodium",
+          "sourceProductId": "gid://shopify/Product/8019100303446",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-da-vinci-platinum",
+          "productId": "totem-fw-da-vinci",
+          "materialId": "platinum",
+          "name": "Platinum",
+          "sourceProductId": "gid://shopify/Product/8019100303446",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-da-vinci-titanium",
+          "productId": "totem-fw-da-vinci",
+          "materialId": "titanium",
+          "name": "Titanium",
+          "sourceProductId": "gid://shopify/Product/8019100303446",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-da-vinci-copper",
+          "productId": "totem-fw-da-vinci",
+          "materialId": "copper",
+          "name": "Copper",
+          "sourceProductId": "gid://shopify/Product/8019100303446",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-da-vinci-ceramic-white",
+          "productId": "totem-fw-da-vinci",
+          "materialId": "ceramic-white",
+          "name": "Ceramic white",
+          "sourceProductId": "gid://shopify/Product/8019100303446",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-da-vinci-cobalt",
+          "productId": "totem-fw-da-vinci",
+          "materialId": "cobalt",
+          "name": "Cobalt",
+          "sourceProductId": "gid://shopify/Product/8019100303446",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        }
+      ]
+    },
+    {
+      "id": "totem-fw-emperor",
+      "name": "Emperor",
+      "handle": "emperor",
+      "brand": "Frank Wilder",
+      "description": "Emperor, a Frank Wilder totem design being prepared for Wilder World. Nine proposed finish studies show the pendant alone in close-up; only reviewed previews are shown. Game-chain use, model integration and release details remain pending.",
+      "collectionId": "clothing",
+      "section": "totems",
+      "itemType": "totem",
+      "subcategory": "totems",
+      "status": "model_integration_pending",
+      "storeVisible": true,
+      "purchaseEnabled": false,
+      "image": "/images/marketplace/frank-wilder-totems/v2/emperor-sterling.webp",
+      "imageKind": "image_concept",
+      "sourceIds": [
+        "gid://shopify/Product/8019951157334"
+      ],
+      "sourceAssets": [],
+      "source": {
+        "type": "physical_product_reference",
+        "shopifyProductId": "gid://shopify/Product/8019951157334",
+        "shopifyVariantIds": [
+          "gid://shopify/ProductVariant/45684664991830",
+          "gid://shopify/ProductVariant/45684665024598",
+          "gid://shopify/ProductVariant/45684665057366",
+          "gid://shopify/ProductVariant/45684665090134",
+          "gid://shopify/ProductVariant/45684665122902",
+          "gid://shopify/ProductVariant/45684665155670",
+          "gid://shopify/ProductVariant/45684665188438",
+          "gid://shopify/ProductVariant/45684665221206",
+          "gid://shopify/ProductVariant/45684665253974",
+          "gid://shopify/ProductVariant/45684665286742",
+          "gid://shopify/ProductVariant/45684665319510",
+          "gid://shopify/ProductVariant/45684665352278"
+        ],
+        "sourceUrl": "https://frankwilder.com/products/emperor",
+        "referenceImageUrl": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_render-the-exact-same-wit_gO6lLndSXO.jpg?v=1788300598",
+        "referencePath": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-frank-wilder-totems-20261107\\references\\emperor.png",
+        "referenceSha256": "fd06ef3c736e67b353b967825f926d407cbd38ff9175f9dbf5d4871547d61cdb",
+        "catalogSnapshot": "outputs/ww-frank-wilder-totems-20261107/public-catalog.json",
+        "referenceManifest": "outputs/ww-frank-wilder-totems-20261107/reference-manifest.json",
+        "digitalSourceBindingVerified": false
+      },
+      "preview": {
+        "variantId": "MAT-totem-fw-emperor-sterling",
+        "name": "Sterling Silver",
+        "swatch": "#C3C5C7",
+        "renderMethod": "image_concept",
+        "sourceReference": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_render-the-exact-same-wit_gO6lLndSXO.jpg?v=1788300598",
+        "geometryUnchanged": false,
+        "gameMaterialImplemented": false,
+        "otherMaterialConcepts": "nine_requested_finish_studies",
+        "plannedMaterialIds": [
+          "sterling",
+          "yellow-gold",
+          "rose-gold",
+          "black-rhodium",
+          "platinum",
+          "titanium",
+          "copper",
+          "ceramic-white",
+          "cobalt"
+        ],
+        "chainReference": {
+          "status": "visual_concept_only",
+          "sourceAssets": [],
+          "assemblyApproved": false,
+          "compatibilityApproved": false
+        },
+        "background": "dark charcoal"
+      },
+      "modelIntake": {
+        "status": "pending",
+        "currentStage": "model_upload",
+        "stages": [
+          {
+            "id": "model_upload",
+            "label": "Model upload",
+            "status": "pending",
+            "dependsOn": [],
+            "evidence": [],
+            "filePath": null,
+            "fileSha256": null,
+            "submittedBy": null,
+            "receivedAt": null
+          },
+          {
+            "id": "source_binding",
+            "label": "Source binding",
+            "status": "pending",
+            "dependsOn": [
+              "model_upload"
+            ],
+            "evidence": [],
+            "sourceAssets": [],
+            "meshHash": null,
+            "materialBindings": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "compatibility_validation",
+            "label": "Compatibility validation",
+            "status": "pending",
+            "dependsOn": [
+              "source_binding"
+            ],
+            "evidence": [],
+            "avatarFits": null,
+            "equipmentSlot": null,
+            "chainAssembly": null,
+            "clippingChecks": null,
+            "testedGameBuild": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "entitlement_readiness",
+            "label": "Entitlement readiness",
+            "status": "pending",
+            "dependsOn": [
+              "compatibility_validation"
+            ],
+            "evidence": [],
+            "approvedEditionId": null,
+            "mintPermission": null,
+            "ownershipChecks": null,
+            "gameDeliveryAdapter": null,
+            "verifiedBy": null
+          }
+        ]
+      },
+      "onchain": {
+        "logicalCollectionId": "clothing",
+        "proposedContractTarget": "WilderClothing",
+        "contractAddress": null,
+        "onchainTokenId": null,
+        "approvedEditionId": null,
+        "mintPermission": null,
+        "productionRecipeId": null
+      },
+      "price": null,
+      "priceCents": null,
+      "supplyCap": null,
+      "editionQuantity": null,
+      "compatibility": null,
+      "proposedGrant": {
+        "status": "unapproved",
+        "selectedFinishOnly": true,
+        "contents": null,
+        "chainIncluded": null,
+        "quantity": null
+      },
+      "fulfillment": {
+        "paymentConfirmation": "not_enabled",
+        "mintSettlement": "not_enabled",
+        "gameEntitlementDelivery": "pending_model_integration",
+        "physicalPurchaseGrantsDigitalRights": false
+      },
+      "unresolved": [
+        "Digital model upload and source binding",
+        "Avatar compatibility and chain assembly",
+        "Approved item contents and selected finish",
+        "Price, edition quantities and supply permission",
+        "Payment, mint settlement and game entitlement delivery"
+      ],
+      "materialConcepts": [
+        {
+          "id": "MAT-totem-fw-emperor-sterling",
+          "productId": "totem-fw-emperor",
+          "materialId": "sterling",
+          "name": "Sterling",
+          "sourceProductId": "gid://shopify/Product/8019951157334",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-emperor-yellow-gold",
+          "productId": "totem-fw-emperor",
+          "materialId": "yellow-gold",
+          "name": "Yellow gold",
+          "sourceProductId": "gid://shopify/Product/8019951157334",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-emperor-rose-gold",
+          "productId": "totem-fw-emperor",
+          "materialId": "rose-gold",
+          "name": "Rose gold",
+          "sourceProductId": "gid://shopify/Product/8019951157334",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-emperor-black-rhodium",
+          "productId": "totem-fw-emperor",
+          "materialId": "black-rhodium",
+          "name": "Black rhodium",
+          "sourceProductId": "gid://shopify/Product/8019951157334",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-emperor-platinum",
+          "productId": "totem-fw-emperor",
+          "materialId": "platinum",
+          "name": "Platinum",
+          "sourceProductId": "gid://shopify/Product/8019951157334",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-emperor-titanium",
+          "productId": "totem-fw-emperor",
+          "materialId": "titanium",
+          "name": "Titanium",
+          "sourceProductId": "gid://shopify/Product/8019951157334",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-emperor-copper",
+          "productId": "totem-fw-emperor",
+          "materialId": "copper",
+          "name": "Copper",
+          "sourceProductId": "gid://shopify/Product/8019951157334",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-emperor-ceramic-white",
+          "productId": "totem-fw-emperor",
+          "materialId": "ceramic-white",
+          "name": "Ceramic white",
+          "sourceProductId": "gid://shopify/Product/8019951157334",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-emperor-cobalt",
+          "productId": "totem-fw-emperor",
+          "materialId": "cobalt",
+          "name": "Cobalt",
+          "sourceProductId": "gid://shopify/Product/8019951157334",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        }
+      ]
+    },
+    {
+      "id": "totem-fw-achilles",
+      "name": "Achilles",
+      "handle": "achilles",
+      "brand": "Frank Wilder",
+      "description": "Achilles, a Frank Wilder totem design being prepared for Wilder World. Nine proposed finish studies show the pendant alone in close-up; only reviewed previews are shown. Game-chain use, model integration and release details remain pending.",
+      "collectionId": "clothing",
+      "section": "totems",
+      "itemType": "totem",
+      "subcategory": "totems",
+      "status": "model_integration_pending",
+      "storeVisible": true,
+      "purchaseEnabled": false,
+      "image": "/images/marketplace/frank-wilder-totems/v2/achilles-sterling.webp",
+      "imageKind": "image_concept",
+      "sourceIds": [
+        "gid://shopify/Product/8022120890454"
+      ],
+      "sourceAssets": [],
+      "source": {
+        "type": "physical_product_reference",
+        "shopifyProductId": "gid://shopify/Product/8022120890454",
+        "shopifyVariantIds": [
+          "gid://shopify/ProductVariant/45690683621462",
+          "gid://shopify/ProductVariant/45690683654230",
+          "gid://shopify/ProductVariant/45690683686998",
+          "gid://shopify/ProductVariant/45690683719766",
+          "gid://shopify/ProductVariant/45690683752534",
+          "gid://shopify/ProductVariant/45690683785302",
+          "gid://shopify/ProductVariant/45690683818070",
+          "gid://shopify/ProductVariant/45690683850838",
+          "gid://shopify/ProductVariant/45690683883606",
+          "gid://shopify/ProductVariant/45690683916374",
+          "gid://shopify/ProductVariant/45690683949142",
+          "gid://shopify/ProductVariant/45690683981910"
+        ],
+        "sourceUrl": "https://frankwilder.com/products/achilles",
+        "referenceImageUrl": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_render-this-statue-img1-w_ksJWKBC16B_1.png?v=1788418860",
+        "referencePath": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-frank-wilder-totems-20261107\\references\\achilles.png",
+        "referenceSha256": "f2c487ef8388e7a5e9f2f50f1037986f11b7ad7eae547b135fa7fe2796d0e225",
+        "catalogSnapshot": "outputs/ww-frank-wilder-totems-20261107/public-catalog.json",
+        "referenceManifest": "outputs/ww-frank-wilder-totems-20261107/reference-manifest.json",
+        "digitalSourceBindingVerified": false
+      },
+      "preview": {
+        "variantId": "MAT-totem-fw-achilles-sterling",
+        "name": "Sterling Silver",
+        "swatch": "#C3C5C7",
+        "renderMethod": "image_concept",
+        "sourceReference": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_render-this-statue-img1-w_ksJWKBC16B_1.png?v=1788418860",
+        "geometryUnchanged": false,
+        "gameMaterialImplemented": false,
+        "otherMaterialConcepts": "nine_requested_finish_studies",
+        "plannedMaterialIds": [
+          "sterling",
+          "yellow-gold",
+          "rose-gold",
+          "black-rhodium",
+          "platinum",
+          "titanium",
+          "copper",
+          "ceramic-white",
+          "cobalt"
+        ],
+        "chainReference": {
+          "status": "visual_concept_only",
+          "sourceAssets": [],
+          "assemblyApproved": false,
+          "compatibilityApproved": false
+        },
+        "background": "dark charcoal"
+      },
+      "modelIntake": {
+        "status": "pending",
+        "currentStage": "model_upload",
+        "stages": [
+          {
+            "id": "model_upload",
+            "label": "Model upload",
+            "status": "pending",
+            "dependsOn": [],
+            "evidence": [],
+            "filePath": null,
+            "fileSha256": null,
+            "submittedBy": null,
+            "receivedAt": null
+          },
+          {
+            "id": "source_binding",
+            "label": "Source binding",
+            "status": "pending",
+            "dependsOn": [
+              "model_upload"
+            ],
+            "evidence": [],
+            "sourceAssets": [],
+            "meshHash": null,
+            "materialBindings": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "compatibility_validation",
+            "label": "Compatibility validation",
+            "status": "pending",
+            "dependsOn": [
+              "source_binding"
+            ],
+            "evidence": [],
+            "avatarFits": null,
+            "equipmentSlot": null,
+            "chainAssembly": null,
+            "clippingChecks": null,
+            "testedGameBuild": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "entitlement_readiness",
+            "label": "Entitlement readiness",
+            "status": "pending",
+            "dependsOn": [
+              "compatibility_validation"
+            ],
+            "evidence": [],
+            "approvedEditionId": null,
+            "mintPermission": null,
+            "ownershipChecks": null,
+            "gameDeliveryAdapter": null,
+            "verifiedBy": null
+          }
+        ]
+      },
+      "onchain": {
+        "logicalCollectionId": "clothing",
+        "proposedContractTarget": "WilderClothing",
+        "contractAddress": null,
+        "onchainTokenId": null,
+        "approvedEditionId": null,
+        "mintPermission": null,
+        "productionRecipeId": null
+      },
+      "price": null,
+      "priceCents": null,
+      "supplyCap": null,
+      "editionQuantity": null,
+      "compatibility": null,
+      "proposedGrant": {
+        "status": "unapproved",
+        "selectedFinishOnly": true,
+        "contents": null,
+        "chainIncluded": null,
+        "quantity": null
+      },
+      "fulfillment": {
+        "paymentConfirmation": "not_enabled",
+        "mintSettlement": "not_enabled",
+        "gameEntitlementDelivery": "pending_model_integration",
+        "physicalPurchaseGrantsDigitalRights": false
+      },
+      "unresolved": [
+        "Digital model upload and source binding",
+        "Avatar compatibility and chain assembly",
+        "Approved item contents and selected finish",
+        "Price, edition quantities and supply permission",
+        "Payment, mint settlement and game entitlement delivery"
+      ],
+      "materialConcepts": [
+        {
+          "id": "MAT-totem-fw-achilles-sterling",
+          "productId": "totem-fw-achilles",
+          "materialId": "sterling",
+          "name": "Sterling",
+          "sourceProductId": "gid://shopify/Product/8022120890454",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-achilles-yellow-gold",
+          "productId": "totem-fw-achilles",
+          "materialId": "yellow-gold",
+          "name": "Yellow gold",
+          "sourceProductId": "gid://shopify/Product/8022120890454",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-achilles-rose-gold",
+          "productId": "totem-fw-achilles",
+          "materialId": "rose-gold",
+          "name": "Rose gold",
+          "sourceProductId": "gid://shopify/Product/8022120890454",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-achilles-black-rhodium",
+          "productId": "totem-fw-achilles",
+          "materialId": "black-rhodium",
+          "name": "Black rhodium",
+          "sourceProductId": "gid://shopify/Product/8022120890454",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-achilles-platinum",
+          "productId": "totem-fw-achilles",
+          "materialId": "platinum",
+          "name": "Platinum",
+          "sourceProductId": "gid://shopify/Product/8022120890454",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-achilles-titanium",
+          "productId": "totem-fw-achilles",
+          "materialId": "titanium",
+          "name": "Titanium",
+          "sourceProductId": "gid://shopify/Product/8022120890454",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-achilles-copper",
+          "productId": "totem-fw-achilles",
+          "materialId": "copper",
+          "name": "Copper",
+          "sourceProductId": "gid://shopify/Product/8022120890454",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-achilles-ceramic-white",
+          "productId": "totem-fw-achilles",
+          "materialId": "ceramic-white",
+          "name": "Ceramic white",
+          "sourceProductId": "gid://shopify/Product/8022120890454",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-achilles-cobalt",
+          "productId": "totem-fw-achilles",
+          "materialId": "cobalt",
+          "name": "Cobalt",
+          "sourceProductId": "gid://shopify/Product/8022120890454",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        }
+      ]
+    },
+    {
+      "id": "totem-fw-queen-isis",
+      "name": "Queen Isis",
+      "handle": "queen-isis",
+      "brand": "Frank Wilder",
+      "description": "Queen Isis, a Frank Wilder totem design being prepared for Wilder World. Nine proposed finish studies show the pendant alone in close-up; only reviewed previews are shown. Game-chain use, model integration and release details remain pending.",
+      "collectionId": "clothing",
+      "section": "totems",
+      "itemType": "totem",
+      "subcategory": "totems",
+      "status": "model_integration_pending",
+      "storeVisible": true,
+      "purchaseEnabled": false,
+      "image": "/images/marketplace/frank-wilder-totems/v2/queen-isis-sterling.webp",
+      "imageKind": "image_concept",
+      "sourceIds": [
+        "gid://shopify/Product/8053565259862"
+      ],
+      "sourceAssets": [],
+      "source": {
+        "type": "physical_product_reference",
+        "shopifyProductId": "gid://shopify/Product/8053565259862",
+        "shopifyVariantIds": [
+          "gid://shopify/ProductVariant/45768841953366",
+          "gid://shopify/ProductVariant/45768841986134",
+          "gid://shopify/ProductVariant/45768842018902",
+          "gid://shopify/ProductVariant/45768842051670",
+          "gid://shopify/ProductVariant/45768842084438",
+          "gid://shopify/ProductVariant/45768842117206",
+          "gid://shopify/ProductVariant/45768842149974",
+          "gid://shopify/ProductVariant/45768842182742",
+          "gid://shopify/ProductVariant/45768842215510",
+          "gid://shopify/ProductVariant/45768842248278",
+          "gid://shopify/ProductVariant/45768842281046",
+          "gid://shopify/ProductVariant/45768842313814"
+        ],
+        "sourceUrl": "https://frankwilder.com/products/queen-isis",
+        "referenceImageUrl": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_render-this-pendant-keep-_s7RBj8Il8e_1.png?v=1789479246",
+        "referencePath": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-frank-wilder-totems-20261107\\references\\queen-isis.png",
+        "referenceSha256": "65e921811ef9f2618a6dbed0c57c4e4441a82842788dcd182533044c3a717eb9",
+        "catalogSnapshot": "outputs/ww-frank-wilder-totems-20261107/public-catalog.json",
+        "referenceManifest": "outputs/ww-frank-wilder-totems-20261107/reference-manifest.json",
+        "digitalSourceBindingVerified": false
+      },
+      "preview": {
+        "variantId": "MAT-totem-fw-queen-isis-sterling",
+        "name": "Sterling Silver",
+        "swatch": "#C3C5C7",
+        "renderMethod": "image_concept",
+        "sourceReference": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_render-this-pendant-keep-_s7RBj8Il8e_1.png?v=1789479246",
+        "geometryUnchanged": false,
+        "gameMaterialImplemented": false,
+        "otherMaterialConcepts": "nine_requested_finish_studies",
+        "plannedMaterialIds": [
+          "sterling",
+          "yellow-gold",
+          "rose-gold",
+          "black-rhodium",
+          "platinum",
+          "titanium",
+          "copper",
+          "ceramic-white",
+          "cobalt"
+        ],
+        "chainReference": {
+          "status": "visual_concept_only",
+          "sourceAssets": [],
+          "assemblyApproved": false,
+          "compatibilityApproved": false
+        },
+        "background": "dark charcoal"
+      },
+      "modelIntake": {
+        "status": "pending",
+        "currentStage": "model_upload",
+        "stages": [
+          {
+            "id": "model_upload",
+            "label": "Model upload",
+            "status": "pending",
+            "dependsOn": [],
+            "evidence": [],
+            "filePath": null,
+            "fileSha256": null,
+            "submittedBy": null,
+            "receivedAt": null
+          },
+          {
+            "id": "source_binding",
+            "label": "Source binding",
+            "status": "pending",
+            "dependsOn": [
+              "model_upload"
+            ],
+            "evidence": [],
+            "sourceAssets": [],
+            "meshHash": null,
+            "materialBindings": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "compatibility_validation",
+            "label": "Compatibility validation",
+            "status": "pending",
+            "dependsOn": [
+              "source_binding"
+            ],
+            "evidence": [],
+            "avatarFits": null,
+            "equipmentSlot": null,
+            "chainAssembly": null,
+            "clippingChecks": null,
+            "testedGameBuild": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "entitlement_readiness",
+            "label": "Entitlement readiness",
+            "status": "pending",
+            "dependsOn": [
+              "compatibility_validation"
+            ],
+            "evidence": [],
+            "approvedEditionId": null,
+            "mintPermission": null,
+            "ownershipChecks": null,
+            "gameDeliveryAdapter": null,
+            "verifiedBy": null
+          }
+        ]
+      },
+      "onchain": {
+        "logicalCollectionId": "clothing",
+        "proposedContractTarget": "WilderClothing",
+        "contractAddress": null,
+        "onchainTokenId": null,
+        "approvedEditionId": null,
+        "mintPermission": null,
+        "productionRecipeId": null
+      },
+      "price": null,
+      "priceCents": null,
+      "supplyCap": null,
+      "editionQuantity": null,
+      "compatibility": null,
+      "proposedGrant": {
+        "status": "unapproved",
+        "selectedFinishOnly": true,
+        "contents": null,
+        "chainIncluded": null,
+        "quantity": null
+      },
+      "fulfillment": {
+        "paymentConfirmation": "not_enabled",
+        "mintSettlement": "not_enabled",
+        "gameEntitlementDelivery": "pending_model_integration",
+        "physicalPurchaseGrantsDigitalRights": false
+      },
+      "unresolved": [
+        "Digital model upload and source binding",
+        "Avatar compatibility and chain assembly",
+        "Approved item contents and selected finish",
+        "Price, edition quantities and supply permission",
+        "Payment, mint settlement and game entitlement delivery"
+      ],
+      "materialConcepts": [
+        {
+          "id": "MAT-totem-fw-queen-isis-sterling",
+          "productId": "totem-fw-queen-isis",
+          "materialId": "sterling",
+          "name": "Sterling",
+          "sourceProductId": "gid://shopify/Product/8053565259862",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-queen-isis-yellow-gold",
+          "productId": "totem-fw-queen-isis",
+          "materialId": "yellow-gold",
+          "name": "Yellow gold",
+          "sourceProductId": "gid://shopify/Product/8053565259862",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-queen-isis-rose-gold",
+          "productId": "totem-fw-queen-isis",
+          "materialId": "rose-gold",
+          "name": "Rose gold",
+          "sourceProductId": "gid://shopify/Product/8053565259862",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-queen-isis-black-rhodium",
+          "productId": "totem-fw-queen-isis",
+          "materialId": "black-rhodium",
+          "name": "Black rhodium",
+          "sourceProductId": "gid://shopify/Product/8053565259862",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-queen-isis-platinum",
+          "productId": "totem-fw-queen-isis",
+          "materialId": "platinum",
+          "name": "Platinum",
+          "sourceProductId": "gid://shopify/Product/8053565259862",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-queen-isis-titanium",
+          "productId": "totem-fw-queen-isis",
+          "materialId": "titanium",
+          "name": "Titanium",
+          "sourceProductId": "gid://shopify/Product/8053565259862",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-queen-isis-copper",
+          "productId": "totem-fw-queen-isis",
+          "materialId": "copper",
+          "name": "Copper",
+          "sourceProductId": "gid://shopify/Product/8053565259862",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-queen-isis-ceramic-white",
+          "productId": "totem-fw-queen-isis",
+          "materialId": "ceramic-white",
+          "name": "Ceramic white",
+          "sourceProductId": "gid://shopify/Product/8053565259862",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-queen-isis-cobalt",
+          "productId": "totem-fw-queen-isis",
+          "materialId": "cobalt",
+          "name": "Cobalt",
+          "sourceProductId": "gid://shopify/Product/8053565259862",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        }
+      ]
+    },
+    {
+      "id": "totem-fw-faceless-pharaoh",
+      "name": "Faceless Pharaoh",
+      "handle": "faceless-pharaoh",
+      "brand": "Frank Wilder",
+      "description": "Faceless Pharaoh, a Frank Wilder totem design being prepared for Wilder World. Nine proposed finish studies show the pendant alone in close-up; only reviewed previews are shown. Game-chain use, model integration and release details remain pending.",
+      "collectionId": "clothing",
+      "section": "totems",
+      "itemType": "totem",
+      "subcategory": "totems",
+      "status": "model_integration_pending",
+      "storeVisible": true,
+      "purchaseEnabled": false,
+      "image": "/images/marketplace/frank-wilder-totems/v2/faceless-pharaoh-sterling.webp",
+      "imageKind": "image_concept",
+      "sourceIds": [
+        "gid://shopify/Product/8053622210646"
+      ],
+      "sourceAssets": [],
+      "source": {
+        "type": "physical_product_reference",
+        "shopifyProductId": "gid://shopify/Product/8053622210646",
+        "shopifyVariantIds": [
+          "gid://shopify/ProductVariant/45768919679062",
+          "gid://shopify/ProductVariant/45768919711830",
+          "gid://shopify/ProductVariant/45768919744598",
+          "gid://shopify/ProductVariant/45768919777366",
+          "gid://shopify/ProductVariant/45768919810134",
+          "gid://shopify/ProductVariant/45768919842902",
+          "gid://shopify/ProductVariant/45768919875670",
+          "gid://shopify/ProductVariant/45768919908438",
+          "gid://shopify/ProductVariant/45768919941206",
+          "gid://shopify/ProductVariant/45768919973974",
+          "gid://shopify/ProductVariant/45768920006742",
+          "gid://shopify/ProductVariant/45768920039510"
+        ],
+        "sourceUrl": "https://frankwilder.com/products/faceless-pharaoh",
+        "referenceImageUrl": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_remove-the-chain-from-thi_jUimrwVLD0.png?v=1789497889",
+        "referencePath": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-frank-wilder-totems-20261107\\references\\faceless-pharaoh.png",
+        "referenceSha256": "54804970cad973c24612cfc563b64879cc067e8748efa165cafffc749b564437",
+        "catalogSnapshot": "outputs/ww-frank-wilder-totems-20261107/public-catalog.json",
+        "referenceManifest": "outputs/ww-frank-wilder-totems-20261107/reference-manifest.json",
+        "digitalSourceBindingVerified": false
+      },
+      "preview": {
+        "variantId": "MAT-totem-fw-faceless-pharaoh-sterling",
+        "name": "Sterling Silver",
+        "swatch": "#C3C5C7",
+        "renderMethod": "image_concept",
+        "sourceReference": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_remove-the-chain-from-thi_jUimrwVLD0.png?v=1789497889",
+        "geometryUnchanged": false,
+        "gameMaterialImplemented": false,
+        "otherMaterialConcepts": "nine_requested_finish_studies",
+        "plannedMaterialIds": [
+          "sterling",
+          "yellow-gold",
+          "rose-gold",
+          "black-rhodium",
+          "platinum",
+          "titanium",
+          "copper",
+          "ceramic-white",
+          "cobalt"
+        ],
+        "chainReference": {
+          "status": "visual_concept_only",
+          "sourceAssets": [],
+          "assemblyApproved": false,
+          "compatibilityApproved": false
+        },
+        "background": "dark charcoal"
+      },
+      "modelIntake": {
+        "status": "pending",
+        "currentStage": "model_upload",
+        "stages": [
+          {
+            "id": "model_upload",
+            "label": "Model upload",
+            "status": "pending",
+            "dependsOn": [],
+            "evidence": [],
+            "filePath": null,
+            "fileSha256": null,
+            "submittedBy": null,
+            "receivedAt": null
+          },
+          {
+            "id": "source_binding",
+            "label": "Source binding",
+            "status": "pending",
+            "dependsOn": [
+              "model_upload"
+            ],
+            "evidence": [],
+            "sourceAssets": [],
+            "meshHash": null,
+            "materialBindings": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "compatibility_validation",
+            "label": "Compatibility validation",
+            "status": "pending",
+            "dependsOn": [
+              "source_binding"
+            ],
+            "evidence": [],
+            "avatarFits": null,
+            "equipmentSlot": null,
+            "chainAssembly": null,
+            "clippingChecks": null,
+            "testedGameBuild": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "entitlement_readiness",
+            "label": "Entitlement readiness",
+            "status": "pending",
+            "dependsOn": [
+              "compatibility_validation"
+            ],
+            "evidence": [],
+            "approvedEditionId": null,
+            "mintPermission": null,
+            "ownershipChecks": null,
+            "gameDeliveryAdapter": null,
+            "verifiedBy": null
+          }
+        ]
+      },
+      "onchain": {
+        "logicalCollectionId": "clothing",
+        "proposedContractTarget": "WilderClothing",
+        "contractAddress": null,
+        "onchainTokenId": null,
+        "approvedEditionId": null,
+        "mintPermission": null,
+        "productionRecipeId": null
+      },
+      "price": null,
+      "priceCents": null,
+      "supplyCap": null,
+      "editionQuantity": null,
+      "compatibility": null,
+      "proposedGrant": {
+        "status": "unapproved",
+        "selectedFinishOnly": true,
+        "contents": null,
+        "chainIncluded": null,
+        "quantity": null
+      },
+      "fulfillment": {
+        "paymentConfirmation": "not_enabled",
+        "mintSettlement": "not_enabled",
+        "gameEntitlementDelivery": "pending_model_integration",
+        "physicalPurchaseGrantsDigitalRights": false
+      },
+      "unresolved": [
+        "Digital model upload and source binding",
+        "Avatar compatibility and chain assembly",
+        "Approved item contents and selected finish",
+        "Price, edition quantities and supply permission",
+        "Payment, mint settlement and game entitlement delivery"
+      ],
+      "materialConcepts": [
+        {
+          "id": "MAT-totem-fw-faceless-pharaoh-sterling",
+          "productId": "totem-fw-faceless-pharaoh",
+          "materialId": "sterling",
+          "name": "Sterling",
+          "sourceProductId": "gid://shopify/Product/8053622210646",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-faceless-pharaoh-yellow-gold",
+          "productId": "totem-fw-faceless-pharaoh",
+          "materialId": "yellow-gold",
+          "name": "Yellow gold",
+          "sourceProductId": "gid://shopify/Product/8053622210646",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-faceless-pharaoh-rose-gold",
+          "productId": "totem-fw-faceless-pharaoh",
+          "materialId": "rose-gold",
+          "name": "Rose gold",
+          "sourceProductId": "gid://shopify/Product/8053622210646",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-faceless-pharaoh-black-rhodium",
+          "productId": "totem-fw-faceless-pharaoh",
+          "materialId": "black-rhodium",
+          "name": "Black rhodium",
+          "sourceProductId": "gid://shopify/Product/8053622210646",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-faceless-pharaoh-platinum",
+          "productId": "totem-fw-faceless-pharaoh",
+          "materialId": "platinum",
+          "name": "Platinum",
+          "sourceProductId": "gid://shopify/Product/8053622210646",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-faceless-pharaoh-titanium",
+          "productId": "totem-fw-faceless-pharaoh",
+          "materialId": "titanium",
+          "name": "Titanium",
+          "sourceProductId": "gid://shopify/Product/8053622210646",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-faceless-pharaoh-copper",
+          "productId": "totem-fw-faceless-pharaoh",
+          "materialId": "copper",
+          "name": "Copper",
+          "sourceProductId": "gid://shopify/Product/8053622210646",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-faceless-pharaoh-ceramic-white",
+          "productId": "totem-fw-faceless-pharaoh",
+          "materialId": "ceramic-white",
+          "name": "Ceramic white",
+          "sourceProductId": "gid://shopify/Product/8053622210646",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-faceless-pharaoh-cobalt",
+          "productId": "totem-fw-faceless-pharaoh",
+          "materialId": "cobalt",
+          "name": "Cobalt",
+          "sourceProductId": "gid://shopify/Product/8053622210646",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        }
+      ]
+    },
+    {
+      "id": "totem-fw-fragment",
+      "name": "Fragment",
+      "handle": "fragment",
+      "brand": "Frank Wilder",
+      "description": "Fragment, a Frank Wilder totem design being prepared for Wilder World. Nine proposed finish studies show the pendant alone in close-up; only reviewed previews are shown. Game-chain use, model integration and release details remain pending.",
+      "collectionId": "clothing",
+      "section": "totems",
+      "itemType": "totem",
+      "subcategory": "totems",
+      "status": "model_integration_pending",
+      "storeVisible": true,
+      "purchaseEnabled": false,
+      "image": "/images/marketplace/frank-wilder-totems/v2/fragment-sterling.webp",
+      "imageKind": "image_concept",
+      "sourceIds": [
+        "gid://shopify/Product/8057689964630"
+      ],
+      "sourceAssets": [],
+      "source": {
+        "type": "physical_product_reference",
+        "shopifyProductId": "gid://shopify/Product/8057689964630",
+        "shopifyVariantIds": [
+          "gid://shopify/ProductVariant/45777644290134",
+          "gid://shopify/ProductVariant/45777644322902",
+          "gid://shopify/ProductVariant/45777644486742",
+          "gid://shopify/ProductVariant/45777644519510"
+        ],
+        "sourceUrl": "https://frankwilder.com/products/fragment",
+        "referenceImageUrl": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_render-this-exact-pendant_VXEvb96MMU.png?v=1789624966",
+        "referencePath": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-frank-wilder-totems-20261107\\references\\fragment.png",
+        "referenceSha256": "5cb53a2279a0630db4ca55cf30e928fadd03368e4638754aa67b104b29dcdbe5",
+        "catalogSnapshot": "outputs/ww-frank-wilder-totems-20261107/public-catalog.json",
+        "referenceManifest": "outputs/ww-frank-wilder-totems-20261107/reference-manifest.json",
+        "digitalSourceBindingVerified": false
+      },
+      "preview": {
+        "variantId": "MAT-totem-fw-fragment-sterling",
+        "name": "Sterling Silver",
+        "swatch": "#C3C5C7",
+        "renderMethod": "image_concept",
+        "sourceReference": "https://cdn.shopify.com/s/files/1/0699/1845/7942/files/magnific_render-this-exact-pendant_VXEvb96MMU.png?v=1789624966",
+        "geometryUnchanged": false,
+        "gameMaterialImplemented": false,
+        "otherMaterialConcepts": "nine_requested_finish_studies",
+        "plannedMaterialIds": [
+          "sterling",
+          "yellow-gold",
+          "rose-gold",
+          "black-rhodium",
+          "platinum",
+          "titanium",
+          "copper",
+          "ceramic-white",
+          "cobalt"
+        ],
+        "chainReference": {
+          "status": "visual_concept_only",
+          "sourceAssets": [],
+          "assemblyApproved": false,
+          "compatibilityApproved": false
+        },
+        "background": "dark charcoal"
+      },
+      "modelIntake": {
+        "status": "pending",
+        "currentStage": "model_upload",
+        "stages": [
+          {
+            "id": "model_upload",
+            "label": "Model upload",
+            "status": "pending",
+            "dependsOn": [],
+            "evidence": [],
+            "filePath": null,
+            "fileSha256": null,
+            "submittedBy": null,
+            "receivedAt": null
+          },
+          {
+            "id": "source_binding",
+            "label": "Source binding",
+            "status": "pending",
+            "dependsOn": [
+              "model_upload"
+            ],
+            "evidence": [],
+            "sourceAssets": [],
+            "meshHash": null,
+            "materialBindings": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "compatibility_validation",
+            "label": "Compatibility validation",
+            "status": "pending",
+            "dependsOn": [
+              "source_binding"
+            ],
+            "evidence": [],
+            "avatarFits": null,
+            "equipmentSlot": null,
+            "chainAssembly": null,
+            "clippingChecks": null,
+            "testedGameBuild": null,
+            "verifiedBy": null
+          },
+          {
+            "id": "entitlement_readiness",
+            "label": "Entitlement readiness",
+            "status": "pending",
+            "dependsOn": [
+              "compatibility_validation"
+            ],
+            "evidence": [],
+            "approvedEditionId": null,
+            "mintPermission": null,
+            "ownershipChecks": null,
+            "gameDeliveryAdapter": null,
+            "verifiedBy": null
+          }
+        ]
+      },
+      "onchain": {
+        "logicalCollectionId": "clothing",
+        "proposedContractTarget": "WilderClothing",
+        "contractAddress": null,
+        "onchainTokenId": null,
+        "approvedEditionId": null,
+        "mintPermission": null,
+        "productionRecipeId": null
+      },
+      "price": null,
+      "priceCents": null,
+      "supplyCap": null,
+      "editionQuantity": null,
+      "compatibility": null,
+      "proposedGrant": {
+        "status": "unapproved",
+        "selectedFinishOnly": true,
+        "contents": null,
+        "chainIncluded": null,
+        "quantity": null
+      },
+      "fulfillment": {
+        "paymentConfirmation": "not_enabled",
+        "mintSettlement": "not_enabled",
+        "gameEntitlementDelivery": "pending_model_integration",
+        "physicalPurchaseGrantsDigitalRights": false
+      },
+      "unresolved": [
+        "Digital model upload and source binding",
+        "Avatar compatibility and chain assembly",
+        "Approved item contents and selected finish",
+        "Price, edition quantities and supply permission",
+        "Payment, mint settlement and game entitlement delivery"
+      ],
+      "materialConcepts": [
+        {
+          "id": "MAT-totem-fw-fragment-sterling",
+          "productId": "totem-fw-fragment",
+          "materialId": "sterling",
+          "name": "Sterling",
+          "sourceProductId": "gid://shopify/Product/8057689964630",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-fragment-yellow-gold",
+          "productId": "totem-fw-fragment",
+          "materialId": "yellow-gold",
+          "name": "Yellow gold",
+          "sourceProductId": "gid://shopify/Product/8057689964630",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-fragment-rose-gold",
+          "productId": "totem-fw-fragment",
+          "materialId": "rose-gold",
+          "name": "Rose gold",
+          "sourceProductId": "gid://shopify/Product/8057689964630",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-fragment-black-rhodium",
+          "productId": "totem-fw-fragment",
+          "materialId": "black-rhodium",
+          "name": "Black rhodium",
+          "sourceProductId": "gid://shopify/Product/8057689964630",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-fragment-platinum",
+          "productId": "totem-fw-fragment",
+          "materialId": "platinum",
+          "name": "Platinum",
+          "sourceProductId": "gid://shopify/Product/8057689964630",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-fragment-titanium",
+          "productId": "totem-fw-fragment",
+          "materialId": "titanium",
+          "name": "Titanium",
+          "sourceProductId": "gid://shopify/Product/8057689964630",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-fragment-copper",
+          "productId": "totem-fw-fragment",
+          "materialId": "copper",
+          "name": "Copper",
+          "sourceProductId": "gid://shopify/Product/8057689964630",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-fragment-ceramic-white",
+          "productId": "totem-fw-fragment",
+          "materialId": "ceramic-white",
+          "name": "Ceramic white",
+          "sourceProductId": "gid://shopify/Product/8057689964630",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        },
+        {
+          "id": "MAT-totem-fw-fragment-cobalt",
+          "productId": "totem-fw-fragment",
+          "materialId": "cobalt",
+          "name": "Cobalt",
+          "sourceProductId": "gid://shopify/Product/8057689964630",
+          "gameVariantId": null,
+          "onchainTokenId": null,
+          "approvedEditionId": null,
+          "gameMaterialImplemented": false
+        }
+      ]
+    }
+  ]
+}

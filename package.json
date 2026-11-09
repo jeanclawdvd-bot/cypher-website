@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predev": "node scripts/predev.mjs",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node scripts/run-framework.mjs dev",
+    "build": "node scripts/run-framework.mjs build",
+    "start": "node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js dev --config dist/server/wrangler.json --local --persist-to .wrangler/state --ip 127.0.0.1 --inspector-port 0",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
@@ -18,18 +17,21 @@
     "@tanstack/react-query": "^5.101.2",
     "@types/mixpanel-browser": "^2.60.0",
     "clsx": "^2.1.1",
+    "ethers": "6.17.0",
     "lucide-react": "^0.469.0",
     "mixpanel-browser": "^2.80.0",
-    "next": "^15.2.0",
+    "next": "16.3.4",
     "prism-react-renderer": "^2.3.1",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
     "recharts": "^3.9.1",
     "server-only": "^0.0.1",
     "three": "^0.183.1",
     "zustand": "^5.0.14"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@cloudflare/workers-types": "4.20260515.1",
     "@playwright/test": "^1.58.2",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
@@ -38,15 +40,30 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@types/three": "^0.183.1",
-    "@vitejs/plugin-react": "^6.0.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
     "eslint": "^9.18.0",
     "eslint-config-next": "^15.2.0",
     "jsdom": "^29.1.1",
+    "json-rpc-2.0": "1.7.1",
     "playwright": "^1.58.2",
+    "raw-body": "3.0.2",
+    "react-server-dom-webpack": "19.2.6",
     "typescript": "^5.7.3",
-    "vitest": "^4.1.9"
+    "vinext": "1.0.0-beta.5",
+    "vite": "8.0.13",
+    "vitest": "^4.1.9",
+    "wrangler": "4.92.0"
   },
   "overrides": {
-    "postcss": "^8.5.10"
-  }
+    "postcss": "^8.5.10",
+    "miniflare": {
+      "sharp": "0.35.4"
+    }
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "packageManager": "pnpm@11.25.0"
 }

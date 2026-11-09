@@ -1,0 +1,153 @@
+{
+  "status": "Local reference-only restorations; no price, edition supply, onchain ID or compatibility invented",
+  "historicalExclusionsPreserved": true,
+  "products": [
+    {
+      "id": "BTWR_003_F",
+      "name": "Five-Pocket Slim Trousers",
+      "department": "clothing",
+      "subcategory": "bottomwear",
+      "description": "A distinct fitted trouser cut with five pockets and rolled cuffs.",
+      "image": "/images/marketplace/female-restorations-v1/BTWR_003_F.webp",
+      "gallery": [
+        "/images/marketplace/female-restorations-v1/BTWR_003_F.webp"
+      ],
+      "variants": [
+        {
+          "id": "CONCEPT-BTWR_003_F-01",
+          "name": "Source white",
+          "image": "/images/marketplace/female-restorations-v1/BTWR_003_F.webp",
+          "thumbnail": "/images/marketplace/female-restorations-v1/BTWR_003_F-card.webp",
+          "srcSet": "/images/marketplace/female-restorations-v1/BTWR_003_F-card.webp 640w, /images/marketplace/female-restorations-v1/BTWR_003_F.webp 1254w",
+          "swatch": "#dededa",
+          "status": "Source appearance study; material binding unverified"
+        }
+      ],
+      "status": "Reference preview",
+      "imageKind": "image_concept",
+      "sourceAssets": [
+        "/Game/Avatars/Shared/Customization/Accessories/Human/Female/BTWR/BTWR_003/SK_BTWR_003_Female"
+      ],
+      "sourceIds": [
+        "BTWR_003_F"
+      ],
+      "priceCents": null,
+      "gender": "Women",
+      "purchaseEnabled": false,
+      "onchain": {
+        "contract": null,
+        "tokenId": null,
+        "editionId": null
+      },
+      "restoration": {
+        "status": "distinct_female_cut_restored_by_user",
+        "supersedesMerchandisingExclusionForThisIdOnly": true,
+        "sourceFile": "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\BTWR\\BTWR_003\\SK_BTWR_003_Female.uasset",
+        "sourceSha256": "850760e5e466483c7c348eb671bee30976e2ebd45f74ae28556d024f2864bb72",
+        "sourceThumbnail": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-accessory-thumbnails\\body\\BTWR_003_F.png",
+        "gameCompatibilityConfirmed": false,
+        "legacyMintRightsGranted": false,
+        "referenceMaster": "outputs/ww-fashion-catalog/product-images/BTWR_003_F-isolated-v1.png",
+        "review": "outputs/ww-female-product-review-20261107/female-identity-review.json"
+      }
+    },
+    {
+      "id": "TPWR_005",
+      "name": "Scoop-Neck Crop Top",
+      "department": "clothing",
+      "subcategory": "topwear",
+      "description": "A cropped technical top with a scoop neckline and a patterned contrast panel.",
+      "image": "/images/marketplace/female-restorations-v1/TPWR_005.webp",
+      "gallery": [
+        "/images/marketplace/female-restorations-v1/TPWR_005.webp"
+      ],
+      "variants": [
+        {
+          "id": "CONCEPT-TPWR_005-01",
+          "name": "Source white",
+          "image": "/images/marketplace/female-restorations-v1/TPWR_005.webp",
+          "thumbnail": "/images/marketplace/female-restorations-v1/TPWR_005-card.webp",
+          "srcSet": "/images/marketplace/female-restorations-v1/TPWR_005-card.webp 640w, /images/marketplace/female-restorations-v1/TPWR_005.webp 1254w",
+          "swatch": "#dededa",
+          "status": "Source appearance study; material binding unverified"
+        }
+      ],
+      "status": "Reference preview",
+      "imageKind": "image_concept",
+      "sourceAssets": [
+        "/Game/Avatars/Shared/Customization/Accessories/Human/Female/TPWR/TPWR_005/SK_TPWR_005_Female"
+      ],
+      "sourceIds": [
+        "TPWR_005"
+      ],
+      "priceCents": null,
+      "gender": "Women",
+      "purchaseEnabled": false,
+      "onchain": {
+        "contract": null,
+        "tokenId": null,
+        "editionId": null
+      },
+      "restoration": {
+        "status": "distinct_female_cut_restored_by_user",
+        "supersedesMerchandisingExclusionForThisIdOnly": true,
+        "sourceFile": "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\TPWR\\TPWR_005\\SK_TPWR_005_Female.uasset",
+        "sourceSha256": "0e8e5a1b7422573791caba23cd1e2970faa12948896b0bbd96550e00e305eb8f",
+        "sourceThumbnail": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-accessory-thumbnails\\body\\TPWR_005.png",
+        "gameCompatibilityConfirmed": false,
+        "legacyMintRightsGranted": false,
+        "referenceMaster": "outputs/ww-female-product-review-20261107/masters/TPWR_005.png",
+        "review": "outputs/ww-female-product-review-20261107/female-identity-review.json"
+      }
+    },
+    {
+      "id": "TPWR_006",
+      "name": "V-Neck Crop Top",
+      "department": "clothing",
+      "subcategory": "topwear",
+      "description": "A cropped technical top with a V neckline and geometric panel lines.",
+      "image": "/images/marketplace/female-restorations-v1/TPWR_006.webp",
+      "gallery": [
+        "/images/marketplace/female-restorations-v1/TPWR_006.webp"
+      ],
+      "variants": [
+        {
+          "id": "CONCEPT-TPWR_006-01",
+          "name": "Source white",
+          "image": "/images/marketplace/female-restorations-v1/TPWR_006.webp",
+          "thumbnail": "/images/marketplace/female-restorations-v1/TPWR_006-card.webp",
+          "srcSet": "/images/marketplace/female-restorations-v1/TPWR_006-card.webp 640w, /images/marketplace/female-restorations-v1/TPWR_006.webp 1254w",
+          "swatch": "#dededa",
+          "status": "Source appearance study; material binding unverified"
+        }
+      ],
+      "status": "Reference preview",
+      "imageKind": "image_concept",
+      "sourceAssets": [
+        "/Game/Avatars/Shared/Customization/Accessories/Human/Female/TPWR/TPWR_006/SK_TPWR_006_Female"
+      ],
+      "sourceIds": [
+        "TPWR_006"
+      ],
+      "priceCents": null,
+      "gender": "Women",
+      "purchaseEnabled": false,
+      "onchain": {
+        "contract": null,
+        "tokenId": null,
+        "editionId": null
+      },
+      "restoration": {
+        "status": "distinct_female_cut_restored_by_user",
+        "supersedesMerchandisingExclusionForThisIdOnly": true,
+        "sourceFile": "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\TPWR\\TPWR_006\\SK_TPWR_006_Female.uasset",
+        "sourceSha256": "ea6e6444d332f0d89642f8e4dc9464ad05f7c2042755c500fb76b3d190e3ea0c",
+        "sourceThumbnail": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-accessory-thumbnails\\body\\TPWR_006.png",
+        "gameCompatibilityConfirmed": false,
+        "legacyMintRightsGranted": false,
+        "referenceMaster": "outputs/ww-female-product-review-20261107/masters/TPWR_006.png",
+        "review": "outputs/ww-female-product-review-20261107/female-identity-review.json"
+      }
+    }
+  ]
+}

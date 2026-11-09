@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "status": "approved_for_preview_only",
+  "currency": "USD",
+  "approvedOn": "2026-11-08",
+  "approval": "Use these as preview prices",
+  "sourceProposal": "outputs/ww-edition-supply-20261108/Full-Pricebook-Draft.json",
+  "sourceSha256": "2b53bfd014465700e7d2c0bb7650e1ba4b2e52c08fa0516e7c867eb50a130f7e",
+  "productionPriceApproved": false,
+  "checkoutEnabled": false,
+  "mintingEnabled": false,
+  "pricingUnit": "One selected finish; all variants of each product share the same preview price.",
+  "products": {
+    "BTWR_003_F": {
+      "priceCents": 700,
+      "rationale": "Matches the 23 priced bottomwear styles."
+    },
+    "TPWR_005": {
+      "priceCents": 500,
+      "rationale": "Matches the nine priced tops; no gender surcharge."
+    },
+    "TPWR_006": {
+      "priceCents": 500,
+      "rationale": "Matches the nine priced tops; no gender surcharge."
+    },
+    "rim-preview-wertone-wantide-2010": {
+      "priceCents": 1200,
+      "rationale": "Signature rim-set price; one compatible set, with no performance upgrade premium."
+    },
+    "rim-preview-worsche-911-wt1-98": {
+      "priceCents": 1200,
+      "rationale": "Signature rim-set price; one compatible set, with no performance upgrade premium."
+    },
+    "rim-preview-wertone-v1": {
+      "priceCents": 1200,
+      "rationale": "Signature rim-set price; one compatible set, with no performance upgrade premium."
+    },
+    "rim-preview-wertone-v2": {
+      "priceCents": 1200,
+      "rationale": "Signature rim-set price; one compatible set, with no performance upgrade premium."
+    },
+    "rim-preview-wheel-001": {
+      "priceCents": 900,
+      "rationale": "Entry rim-set price within the existing signature price band."
+    },
+    "rim-preview-wheel-003": {
+      "priceCents": 900,
+      "rationale": "Entry rim-set price within the existing signature price band."
+    },
+    "rim-preview-lambos-v1": {
+      "priceCents": 1200,
+      "rationale": "Signature rim-set price; one compatible set, with no performance upgrade premium."
+    },
+    "rim-preview-lambos-v2": {
+      "priceCents": 1200,
+      "rationale": "Signature rim-set price; one compatible set, with no performance upgrade premium."
+    },
+    "furniture-sofa": {
+      "priceCents": 1900,
+      "rationale": "Apartment anchor piece at the current statement-piece price point."
+    },
+    "furniture-chair": {
+      "priceCents": 1200,
+      "rationale": "Signature lounge seating."
+    },
+    "furniture-workchair": {
+      "priceCents": 900,
+      "rationale": "Everyday workspace seating."
+    },
+    "furniture-coffetable": {
+      "priceCents": 900,
+      "rationale": "Everyday apartment table."
+    },
+    "furniture-workdesk": {
+      "priceCents": 1200,
+      "rationale": "Signature workspace anchor."
+    },
+    "vehicle-ghostline": {
+      "priceCents": 2900,
+      "rationale": "A separate vehicle tier above the $19 fashion statement ceiling; fitment and gameplay approval remain pending."
+    },
+    "vehicle-vera-solis": {
+      "priceCents": 2900,
+      "rationale": "A separate vehicle tier above the $19 fashion statement ceiling; fitment and gameplay approval remain pending."
+    },
+    "totem-fw-hermes-ii": {
+      "priceCents": 1500,
+      "rationale": "One Frank Wilder digital pendant edition. Physical jewelry prices and speculative resale value are excluded."
+    },
+    "totem-fw-hercules-ii": {
+      "priceCents": 1500,
+      "rationale": "One Frank Wilder digital pendant edition. Physical jewelry prices and speculative resale value are excluded."
+    },
+    "totem-fw-hercules": {
+      "priceCents": 1500,
+      "rationale": "One Frank Wilder digital pendant edition. Physical jewelry prices and speculative resale value are excluded."
+    },
+    "totem-fw-deadusa": {
+      "priceCents": 1500,
+      "rationale": "One Frank Wilder digital pendant edition. Physical jewelry prices and speculative resale value are excluded."
+    },
+    "totem-fw-da-vinci": {
+      "priceCents": 1500,
+      "rationale": "One Frank Wilder digital pendant edition. Physical jewelry prices and speculative resale value are excluded."
+    },
+    "totem-fw-emperor": {
+      "priceCents": 1500,
+      "rationale": "One Frank Wilder digital pendant edition. Physical jewelry prices and speculative resale value are excluded."
+    },
+    "totem-fw-achilles": {
+      "priceCents": 1500,
+      "rationale": "One Frank Wilder digital pendant edition. Physical jewelry prices and speculative resale value are excluded."
+    },
+    "totem-fw-queen-isis": {
+      "priceCents": 1500,
+      "rationale": "One Frank Wilder digital pendant edition. Physical jewelry prices and speculative resale value are excluded."
+    },
+    "totem-fw-faceless-pharaoh": {
+      "priceCents": 1500,
+      "rationale": "One Frank Wilder digital pendant edition. Physical jewelry prices and speculative resale value are excluded."
+    },
+    "totem-fw-fragment": {
+      "priceCents": 1500,
+      "rationale": "One Frank Wilder digital pendant edition. Physical jewelry prices and speculative resale value are excluded."
+    },
+    "home-object-043-sm-bench": {
+      "priceCents": 700,
+      "rationale": "Everyday complete seating at the essentials price point."
+    },
+    "home-assembled-bar-stool": {
+      "priceCents": 700,
+      "rationale": "Everyday complete seating at the essentials price point."
+    },
+    "home-object-044-sm-bench-02": {
+      "priceCents": 700,
+      "rationale": "Everyday complete seating at the essentials price point."
+    },
+    "home-object-123-sm-shelf-01": {
+      "priceCents": 900,
+      "rationale": "Complete shelving unit; no storage-capacity gameplay benefit assumed."
+    },
+    "home-object-206-workbench-02": {
+      "priceCents": 700,
+      "rationale": "Everyday complete table or work surface."
+    },
+    "home-object-060-sm-clubchair02": {
+      "priceCents": 700,
+      "rationale": "Everyday complete seating at the essentials price point."
+    },
+    "home-object-041-sm-bar-table-01a": {
+      "priceCents": 700,
+      "rationale": "Everyday complete table or work surface."
+    },
+    "home-object-093-sm-lobbytable": {
+      "priceCents": 700,
+      "rationale": "Everyday complete table or work surface."
+    },
+    "home-object-205-sofa": {
+      "priceCents": 1500,
+      "rationale": "Complete sofa below the apartment hero piece."
+    },
+    "home-object-057-sm-chair": {
+      "priceCents": 700,
+      "rationale": "Everyday complete seating at the essentials price point."
+    },
+    "home-object-038-sm-armory-table": {
+      "priceCents": 700,
+      "rationale": "Everyday complete table or work surface."
+    },
+    "home-object-080-sm-floor-mat-01a": {
+      "priceCents": 300,
+      "rationale": "Entry-level floor accessory."
+    },
+    "home-object-050-sm-carpet": {
+      "priceCents": 700,
+      "rationale": "Patterned room accent within the essentials band."
+    },
+    "home-object-061-sm-coffeemug-01": {
+      "priceCents": 300,
+      "rationale": "Small placeable accessory at the lowest existing price point."
+    },
+    "home-object-072-sm-cutting-board-01a": {
+      "priceCents": 300,
+      "rationale": "Small placeable accessory at the lowest existing price point."
+    },
+    "home-object-113-sm-philosopher": {
+      "priceCents": 900,
+      "rationale": "Accessible collectible bust price, independent of depicted material or lore."
+    },
+    "home-object-099-sm-monitor": {
+      "priceCents": 500,
+      "rationale": "Decorative display object; no functional screen claim."
+    },
+    "home-object-196-sm-trashbin": {
+      "priceCents": 300,
+      "rationale": "Small placeable accessory at the lowest existing price point."
+    },
+    "statue-abstract-sculpture": {
+      "priceCents": 1200,
+      "rationale": "Signature complete display object; no guild or business permission included."
+    },
+    "statue-black-cat": {
+      "priceCents": 1200,
+      "rationale": "Signature complete display object; no guild or business permission included."
+    },
+    "statue-classical-bust": {
+      "priceCents": 900,
+      "rationale": "Accessible collectible bust price, independent of depicted material or lore."
+    },
+    "statue-gold-bust-02": {
+      "priceCents": 900,
+      "rationale": "Accessible collectible bust price, independent of depicted material or lore."
+    },
+    "statue-green-marble-bust": {
+      "priceCents": 900,
+      "rationale": "Accessible collectible bust price, independent of depicted material or lore."
+    },
+    "statue-lion-head-bust": {
+      "priceCents": 900,
+      "rationale": "Accessible collectible bust price, independent of depicted material or lore."
+    },
+    "statue-metallic-crab-claw": {
+      "priceCents": 1200,
+      "rationale": "Signature complete display object; no guild or business permission included."
+    },
+    "statue-ringed-sculpture-01": {
+      "priceCents": 1200,
+      "rationale": "Signature complete display object; no guild or business permission included."
+    },
+    "statue-roman-bust": {
+      "priceCents": 900,
+      "rationale": "Accessible collectible bust price, independent of depicted material or lore."
+    },
+    "statue-roman-face-02": {
+      "priceCents": 900,
+      "rationale": "Accessible collectible bust price, independent of depicted material or lore."
+    },
+    "statue-roman-face-sculpture": {
+      "priceCents": 900,
+      "rationale": "Accessible collectible bust price, independent of depicted material or lore."
+    },
+    "statue-tiger-head": {
+      "priceCents": 900,
+      "rationale": "Accessible collectible bust price, independent of depicted material or lore."
+    },
+    "statue-winged-bust": {
+      "priceCents": 900,
+      "rationale": "Accessible collectible bust price, independent of depicted material or lore."
+    },
+    "guild-memelord": {
+      "priceCents": 1200,
+      "rationale": "Signature complete display object; no guild or business permission included."
+    },
+    "guild-satoshi": {
+      "priceCents": 1200,
+      "rationale": "Signature complete display object; no guild or business permission included."
+    },
+    "totem-chain-jwlr-002": {
+      "priceCents": 900,
+      "rationale": "Native triangular pendant at the signature entry price."
+    },
+    "totem-chain-jwlr-002-a": {
+      "priceCents": 500,
+      "rationale": "Standalone chain at an accessible accessory price."
+    }
+  }
+}

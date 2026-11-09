@@ -1,0 +1,2176 @@
+{
+  "vehicles": {
+    "image": "/images/marketplace/wiami-campaign-v2/vehicles-natural-pose-v3.webp",
+    "position": "50% 58%",
+    "kind": "editorial",
+    "productIds": [
+      "vehicle-ghostline",
+      "JCKT_001"
+    ],
+    "series": [
+      {
+        "id": "ghostline-borrowed-horizon-02",
+        "image": "/images/marketplace/wiami-lifestyle-v1/ghostline-borrowed-horizon-02.webp",
+        "position": "50% 52%",
+        "productIds": [
+          "vehicle-ghostline",
+          "JCKT_001"
+        ],
+        "label": "Editorial preview",
+        "alt": "Radeon Ghostline in Sea Glass and Borrowed Horizon in Black Lap at a Wiami gallery after dusk",
+        "kind": "editorial"
+      },
+      {
+        "id": "ghostline-borrowed-horizon-03",
+        "image": "/images/marketplace/wiami-lifestyle-v1/ghostline-borrowed-horizon-03.webp",
+        "position": "50% 53%",
+        "productIds": [
+          "vehicle-ghostline",
+          "JCKT_001"
+        ],
+        "label": "Editorial preview",
+        "alt": "Borrowed Horizon in Black Lap worn beside the Sea Glass Radeon Ghostline at a Wiami marina pavilion",
+        "kind": "editorial"
+      }
+    ]
+  },
+  "rims": {
+    "image": "/images/marketplace/wiami-campaign-v1/rims-upright-v2.webp",
+    "position": "50% 50%",
+    "kind": "product-scene",
+    "productIds": [
+      "rim-preview-wertone-wantide-2010"
+    ],
+    "series": [
+      {
+        "id": "wiami-object-rim-01-v1",
+        "image": "/images/marketplace/wiami-product-scenes/rim-01-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "rim-preview-worsche-911-wt1-98",
+          "rim-preview-wertone-v1"
+        ],
+        "label": "Wiami scene",
+        "alt": "Collector garage / 01 — Countercurrent, Portline",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-rim-01-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "rim-preview-worsche-911-wt1-98": null,
+          "rim-preview-wertone-v1": null
+        }
+      },
+      {
+        "id": "wiami-object-rim-02-v1",
+        "image": "/images/marketplace/wiami-product-scenes/rim-02-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "rim-preview-wertone-v2",
+          "rim-preview-wheel-001"
+        ],
+        "label": "Wiami scene",
+        "alt": "Collector garage / 02 — Tide Index, South Loop",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-rim-02-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "rim-preview-wertone-v2": null,
+          "rim-preview-wheel-001": null
+        }
+      },
+      {
+        "id": "wiami-object-rim-03-v1",
+        "image": "/images/marketplace/wiami-product-scenes/rim-03-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "rim-preview-wheel-003",
+          "rim-preview-lambos-v1"
+        ],
+        "label": "Wiami scene",
+        "alt": "Collector garage / 03 — Glassline, Night Ferry",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-rim-03-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "rim-preview-wheel-003": null,
+          "rim-preview-lambos-v1": null
+        }
+      },
+      {
+        "id": "wiami-object-rim-04-v1",
+        "image": "/images/marketplace/wiami-product-scenes/rim-04-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "rim-preview-lambos-v2"
+        ],
+        "label": "Wiami scene",
+        "alt": "Palm Circuit atelier — Palm Circuit",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-rim-04-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "rim-preview-lambos-v2": null
+        }
+      }
+    ]
+  },
+  "topwear": {
+    "image": "/images/marketplace/wiami-campaign-v1/topwear.webp",
+    "position": "50% 0%",
+    "kind": "editorial",
+    "productIds": [
+      "TPWR_002_A_F"
+    ]
+  },
+  "jacket": {
+    "image": "/images/marketplace/campaign/after-hours-v2-20261108/built-for-after-hours-v2.webp",
+    "position": "50% 0%",
+    "kind": "editorial",
+    "productIds": [
+      "JCKT_001",
+      "EYWR_006_B"
+    ],
+    "label": "Editorial preview",
+    "alt": "Borrowed Horizon jacket and Poolside Alibi eyewear outside a coastal Wiami listening room",
+    "sourceManifest": "outputs/ww-after-hours-v2-20261108/integration.json",
+    "renderMethod": "image_concept",
+    "reviewStatus": "visually_reviewed",
+    "fitReview": {
+      "status": "visually_reviewed",
+      "checks": [
+        "adult model",
+        "complete head and natural anatomy",
+        "referenced jacket and accessory",
+        "distinct scene for each card"
+      ],
+      "nativeGameBindingVerified": false
+    }
+  },
+  "bottomwear": {
+    "image": "/images/marketplace/wiami-campaign-v1/bottomwear.webp",
+    "position": "50% 0%",
+    "kind": "editorial",
+    "productIds": [
+      "BTWR_001"
+    ]
+  },
+  "suit": {
+    "image": "/images/marketplace/wiami-fit-styling-v1/suit.webp",
+    "position": "50% 0%",
+    "kind": "editorial",
+    "productIds": [
+      "SUIT_002_A"
+    ],
+    "sourceManifest": "outputs/ww-fit-styling-20261107/suit-footwear-prompts.json",
+    "fitReview": {
+      "status": "visually_reviewed",
+      "checks": [
+        "wearable scale",
+        "natural contact and attachment",
+        "merchandise silhouette retained",
+        "full headgear margin"
+      ],
+      "nativeGameBindingVerified": false
+    }
+  },
+  "footwear": {
+    "image": "/images/marketplace/campaign/home-refinement-20261108/go-your-own-way.webp",
+    "position": "50% 100%",
+    "kind": "editorial",
+    "productIds": [
+      "FTWR_001"
+    ],
+    "sourceManifest": "outputs/ww-home-card-refinement-20261108/integration.json",
+    "fitReview": {
+      "status": "visually_reviewed",
+      "checks": [
+        "natural adult anatomy",
+        "referenced merchandise",
+        "intentional editorial framing"
+      ],
+      "nativeGameBindingVerified": false
+    },
+    "series": [
+      {
+        "id": "footwear-fit-styling-detail",
+        "image": "/images/marketplace/wiami-fit-styling-v1/footwear.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "FTWR_001"
+        ],
+        "label": "Editorial preview",
+        "alt": "Last Ferry boots worn at natural scale in a Wiami waterfront fashion editorial",
+        "sourceManifest": "outputs/ww-fit-styling-20261107/suit-footwear-prompts.json"
+      }
+    ],
+    "label": "Editorial preview",
+    "alt": "Last Ferry boots with charcoal tailoring outside a future-Wiami record store",
+    "renderMethod": "image_concept",
+    "reviewStatus": "visually_reviewed"
+  },
+  "headwear": {
+    "image": "/images/marketplace/campaign/home-refresh-20261108/top-off-the-look.webp",
+    "position": "50% 0%",
+    "kind": "editorial",
+    "productIds": [
+      "HDWR_011_A"
+    ],
+    "sourceManifest": "outputs/ww-home-card-refresh-20261108/provenance.json",
+    "fitReview": {
+      "status": "visually_reviewed",
+      "checks": [
+        "source merchandise silhouette",
+        "natural wearable scale where applicable",
+        "no unintended text",
+        "no chains on pendant scenes"
+      ],
+      "nativeGameBindingVerified": false
+    },
+    "label": "Editorial preview",
+    "alt": "A model wearing the Wilder wide-brim hat in a teal Wiami listening lounge",
+    "renderMethod": "image_concept",
+    "reviewStatus": "visually_reviewed"
+  },
+  "eyewear": {
+    "image": "/images/marketplace/wiami-campaign-v1/eyewear-wiami-v2.webp",
+    "position": "50% 0%",
+    "kind": "editorial",
+    "productIds": [
+      "EYWR_006"
+    ]
+  },
+  "jewelry": {
+    "image": "/images/marketplace/wiami-fit-styling-v1/jewelry.webp",
+    "position": "50% 0%",
+    "kind": "editorial",
+    "productIds": [
+      "JWLR_H14"
+    ],
+    "sourceManifest": "outputs/ww-fit-styling-20261107/jewelry.json",
+    "fitReview": {
+      "status": "visually_reviewed",
+      "checks": [
+        "wearable scale",
+        "natural contact and attachment",
+        "merchandise silhouette retained",
+        "full headgear margin"
+      ],
+      "nativeGameBindingVerified": false
+    }
+  },
+  "mask": {
+    "image": "/images/marketplace/campaign/home-refinement-20261108/keep-them-guessing.webp",
+    "position": "50% 0%",
+    "kind": "editorial",
+    "productIds": [
+      "MASK_002",
+      "TPWR_005"
+    ],
+    "label": "Editorial preview",
+    "alt": "Geometric Wilder bandanna and fitted technical top in a Wiami lift lobby",
+    "sourceManifest": "outputs/ww-home-card-refinement-20261108/integration.json",
+    "renderMethod": "image_concept",
+    "reviewStatus": "visually_reviewed",
+    "fitReview": {
+      "status": "visually_reviewed",
+      "checks": [
+        "natural adult anatomy",
+        "referenced merchandise",
+        "intentional editorial framing"
+      ],
+      "nativeGameBindingVerified": false
+    }
+  },
+  "extra": {
+    "image": "/images/marketplace/campaign/home-refinement-20261108/the-details-make-it.webp",
+    "position": "50% 0%",
+    "kind": "editorial",
+    "productIds": [
+      "XTRA_011",
+      "TPWR_006",
+      "BTWR_004_F"
+    ],
+    "label": "Editorial preview",
+    "alt": "Unsigned cuff with Wilder technical top and trousers in a coral Wiami apartment",
+    "sourceManifest": "outputs/ww-home-card-refinement-20261108/integration.json",
+    "renderMethod": "image_concept",
+    "reviewStatus": "visually_reviewed",
+    "fitReview": {
+      "status": "visually_reviewed",
+      "checks": [
+        "natural adult anatomy",
+        "referenced merchandise",
+        "intentional editorial framing"
+      ],
+      "nativeGameBindingVerified": false
+    }
+  },
+  "furniture": {
+    "image": "/images/marketplace/wiami-campaign-v1/furniture.webp",
+    "position": "50% 55%",
+    "kind": "product-scene",
+    "productIds": [
+      "furniture-chair",
+      "furniture-sofa"
+    ],
+    "series": [
+      {
+        "id": "wiami-object-breakfast-v1",
+        "image": "/images/marketplace/wiami-product-scenes/breakfast-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "home-assembled-bar-stool",
+          "home-object-041-sm-bar-table-01a"
+        ],
+        "label": "Wiami scene",
+        "alt": "Morning above the bay — Bar stool with base, Pedestal bar table, Coffee mug",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-breakfast-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "home-assembled-bar-stool": "MAT-home-assembled-bar-stool-cognac",
+          "home-object-041-sm-bar-table-01a": "MAT-home-object-041-sm-bar-table-01a-sandstone",
+          "home-object-061-sm-coffeemug-01": "MAT-home-object-061-sm-coffeemug-01-chalk"
+        }
+      },
+      {
+        "id": "wiami-object-reading-v1",
+        "image": "/images/marketplace/wiami-product-scenes/reading-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "home-object-057-sm-chair",
+          "home-object-093-sm-lobbytable",
+          "home-object-050-sm-carpet"
+        ],
+        "label": "Wiami scene",
+        "alt": "Afternoon reading room — Upholstered ottoman, Round lobby table, Patterned rug",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-reading-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "home-object-057-sm-chair": "MAT-home-object-057-sm-chair-moss",
+          "home-object-093-sm-lobbytable": "MAT-home-object-093-sm-lobbytable-walnut",
+          "home-object-050-sm-carpet": "MAT-home-object-050-sm-carpet-graphite"
+        }
+      },
+      {
+        "id": "wiami-object-den-v1",
+        "image": "/images/marketplace/wiami-product-scenes/den-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "home-object-205-sofa",
+          "home-object-123-sm-shelf-01"
+        ],
+        "label": "Wiami scene",
+        "alt": "Quiet room on the water — Straight sofa, Open shelving unit",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-den-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "home-object-205-sofa": "MAT-home-object-205-sofa-cognac",
+          "home-object-123-sm-shelf-01": "MAT-home-object-123-sm-shelf-01-walnut"
+        }
+      },
+      {
+        "id": "wiami-object-entry-v1",
+        "image": "/images/marketplace/wiami-product-scenes/entry-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "home-object-043-sm-bench",
+          "home-object-080-sm-floor-mat-01a",
+          "home-object-196-sm-trashbin"
+        ],
+        "label": "Wiami scene",
+        "alt": "Gallery arrival — Angular bench, Floor mat, Open-top trash bin",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-entry-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "home-object-043-sm-bench": "MAT-home-object-043-sm-bench-walnut",
+          "home-object-080-sm-floor-mat-01a": "MAT-home-object-080-sm-floor-mat-01a-sandstone",
+          "home-object-196-sm-trashbin": "MAT-home-object-196-sm-trashbin-silver"
+        }
+      },
+      {
+        "id": "wiami-object-waiting-v1",
+        "image": "/images/marketplace/wiami-product-scenes/waiting-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "home-object-044-sm-bench-02",
+          "home-object-060-sm-clubchair02"
+        ],
+        "label": "Wiami scene",
+        "alt": "Bay-side waiting room — Industrial bench, Pedestal bar stool",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-waiting-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "home-object-044-sm-bench-02": "MAT-home-object-044-sm-bench-02-silver",
+          "home-object-060-sm-clubchair02": "MAT-home-object-060-sm-clubchair02-oxblood"
+        }
+      }
+    ]
+  },
+  "workspace": {
+    "image": "/images/marketplace/wiami-campaign-v1/workspace.webp",
+    "position": "50% 54%",
+    "kind": "product-scene",
+    "productIds": [
+      "furniture-workdesk",
+      "furniture-coffetable"
+    ],
+    "series": [
+      {
+        "id": "wiami-object-studio-v1",
+        "image": "/images/marketplace/wiami-product-scenes/studio-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "home-object-206-workbench-02",
+          "furniture-workchair",
+          "home-object-099-sm-monitor"
+        ],
+        "label": "Wiami scene",
+        "alt": "Coastal design studio — Open-frame workbench, Trinity Apartment Work Chair, Desktop monitor",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-studio-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "home-object-206-workbench-02": "MAT-home-object-206-workbench-02-walnut",
+          "furniture-workchair": "MAT-furniture-workchair-chalk",
+          "home-object-099-sm-monitor": "MAT-home-object-099-sm-monitor-graphite"
+        }
+      },
+      {
+        "id": "wiami-object-atelier-v1",
+        "image": "/images/marketplace/wiami-product-scenes/atelier-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "home-object-038-sm-armory-table",
+          "home-object-072-sm-cutting-board-01a"
+        ],
+        "label": "Wiami scene",
+        "alt": "Materials atelier — Work table, Cutting board",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-atelier-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "home-object-038-sm-armory-table": "MAT-home-object-038-sm-armory-table-silver",
+          "home-object-072-sm-cutting-board-01a": "MAT-home-object-072-sm-cutting-board-01a-walnut"
+        }
+      }
+    ]
+  },
+  "statues": {
+    "image": "/images/marketplace/wiami-campaign-v1/statues.webp",
+    "position": "50% 30%",
+    "kind": "product-scene",
+    "productIds": [
+      "statue-classical-bust"
+    ],
+    "series": [
+      {
+        "id": "wiami-object-listeners-v1",
+        "image": "/images/marketplace/wiami-product-scenes/listeners-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "statue-winged-bust"
+        ],
+        "label": "Wiami scene",
+        "alt": "The listening room — The Listener, The Messenger",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-listeners-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "home-object-113-sm-philosopher": "MAT-home-object-113-sm-philosopher-chalk-marble",
+          "statue-winged-bust": "MAT-statue-winged-bust-antique-bronze"
+        }
+      },
+      {
+        "id": "wiami-object-predators-v1",
+        "image": "/images/marketplace/wiami-product-scenes/predators-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "statue-black-cat",
+          "statue-tiger-head"
+        ],
+        "label": "Wiami scene",
+        "alt": "After hours gallery — After Hours, Quiet Hunger",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-predators-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "statue-black-cat": "MAT-statue-black-cat-obsidian",
+          "statue-tiger-head": "MAT-statue-tiger-head-chalk-marble"
+        }
+      },
+      {
+        "id": "wiami-object-witnesses-v1",
+        "image": "/images/marketplace/wiami-product-scenes/witnesses-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "statue-gold-bust-02",
+          "statue-green-marble-bust",
+          "statue-lion-head-bust"
+        ],
+        "label": "Wiami scene",
+        "alt": "Garden witnesses — Lease of Light, Garden Witness, Bay Sentinel",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-witnesses-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "statue-gold-bust-02": "MAT-statue-gold-bust-02-brushed-gold",
+          "statue-green-marble-bust": "MAT-statue-green-marble-bust-celadon",
+          "statue-lion-head-bust": "MAT-statue-lion-head-bust-travertine"
+        }
+      },
+      {
+        "id": "wiami-object-orbits-v1",
+        "image": "/images/marketplace/wiami-product-scenes/orbits-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "statue-abstract-sculpture",
+          "statue-ringed-sculpture-01"
+        ],
+        "label": "Wiami scene",
+        "alt": "Collected orbits — Intervals, Open Orbit",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-orbits-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "statue-abstract-sculpture": "MAT-statue-abstract-sculpture-antique-bronze",
+          "statue-ringed-sculpture-01": "MAT-statue-ringed-sculpture-01-polished-chrome"
+        }
+      },
+      {
+        "id": "wiami-object-fragments-v1",
+        "image": "/images/marketplace/wiami-product-scenes/fragments-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "statue-metallic-crab-claw",
+          "statue-roman-face-02",
+          "statue-roman-face-sculpture"
+        ],
+        "label": "Wiami scene",
+        "alt": "Fragments by the sea — Salt Claim, Second Witness, Borrowed Face",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-fragments-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "statue-metallic-crab-claw": "MAT-statue-metallic-crab-claw-polished-chrome",
+          "statue-roman-face-02": "MAT-statue-roman-face-02-chalk-marble",
+          "statue-roman-face-sculpture": "MAT-statue-roman-face-sculpture-terracotta"
+        }
+      },
+      {
+        "id": "wiami-object-civic-v1",
+        "image": "/images/marketplace/wiami-product-scenes/civic-v1.webp",
+        "position": "50% 52%",
+        "kind": "product-scene",
+        "productIds": [
+          "statue-roman-bust",
+          "guild-memelord",
+          "guild-satoshi"
+        ],
+        "label": "Wiami scene",
+        "alt": "Civic collection — Civic Memory, Signal Saint, First Ledger",
+        "sourceManifest": "outputs/ww-nonclothing-lifestyle-20261107/wiami-object-civic-v1.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "statue-roman-bust": "MAT-statue-roman-bust-chalk-marble",
+          "guild-memelord": "MAT-guild-memelord-antique-bronze",
+          "guild-satoshi": "MAT-guild-satoshi-chalk-marble"
+        }
+      }
+    ]
+  },
+  "totems": {
+    "image": "/images/marketplace/campaign/home-refresh-20261108/keep-it-close.webp",
+    "position": "50% 65%",
+    "kind": "product-scene",
+    "productIds": [
+      "totem-fw-hercules-ii"
+    ],
+    "label": "Editorial preview",
+    "alt": "Hercules II silver pendant without a chain, photographed close up in a Wiami collector apartment",
+    "sourceManifest": "outputs/ww-home-card-refresh-20261108/provenance.json",
+    "renderMethod": "image_concept",
+    "reviewStatus": "visually_reviewed",
+    "fitReview": {
+      "status": "visually_reviewed",
+      "checks": [
+        "source merchandise silhouette",
+        "natural wearable scale where applicable",
+        "no unintended text",
+        "no chains on pendant scenes"
+      ],
+      "nativeGameBindingVerified": false
+    }
+  },
+  "unlisted-address-editorial": {
+    "id": "unlisted-address-terrace-v1",
+    "image": "/images/marketplace/wiami-product-scenes/BTWR_N30-wiami-editorial-v1.webp",
+    "position": "50% 50%",
+    "kind": "editorial",
+    "productIds": [
+      "BTWR_N30"
+    ],
+    "label": "Wiami editorial",
+    "alt": "Unlisted Address armored trousers in File Smoke, styled with a black bomber and off-white tee on a Wiami terrace"
+  },
+  "night-marshal-editorial": {
+    "id": "night-marshal-lounge-v1",
+    "image": "/images/marketplace/wiami-product-scenes/EYWR_H01-wiami-editorial-v1.webp",
+    "position": "50% 50%",
+    "kind": "editorial",
+    "productIds": [
+      "EYWR_H01"
+    ],
+    "label": "Wiami editorial",
+    "alt": "Night Marshal rectangular shield eyewear worn with an ivory technical jacket in a Wiami transit lounge"
+  },
+  "product-editorials-v2": {
+    "id": "wiami-clothing-group-001-v2",
+    "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-001-v2.webp",
+    "position": "50% 50%",
+    "kind": "editorial",
+    "productIds": [
+      "JCKT_001_A",
+      "BTWR_001_A",
+      "HDWR_001_A",
+      "FTWR_003"
+    ],
+    "label": "Wiami editorial",
+    "alt": "Borrowed Horizon / 02, Undertow Ledger / 02, Saint of Last Turns Helmet and Pavement Choir worn in a sunlit future-Wiami coastal lounge.",
+    "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-001-v2.json",
+    "renderMethod": "image_concept",
+    "reviewStatus": "pass",
+    "selectedVariants": {
+      "JCKT_001_A": "CONCEPT-JCKT_001_A-01",
+      "BTWR_001_A": "CONCEPT-BTWR_001_A-01",
+      "HDWR_001_A": "CONCEPT-HDWR_001_A-01",
+      "FTWR_003": "CONCEPT-FTWR_003-01"
+    },
+    "series": [
+      {
+        "id": "wiami-clothing-group-002-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-002-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_B",
+          "BTWR_001_B",
+          "HDWR_001_B",
+          "FTWR_004_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Borrowed Horizon / 03, Undertow Ledger / 03, Saint of Last Turns Crown and Grave Courtesy / 02 in a Wiami listening room.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-002-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_B": "CONCEPT-JCKT_001_B-02",
+          "BTWR_001_B": "CONCEPT-BTWR_001_B-02",
+          "HDWR_001_B": "CONCEPT-HDWR_001_B-02",
+          "FTWR_004_A": "CONCEPT-FTWR_004_A-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-003-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-003-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_C",
+          "BTWR_001_F",
+          "HDWR_002",
+          "FTWR_005"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A woman wears Borrowed Horizon 04, Undertow Ledger 04, Harbor Vigil and Marble Debt in a coastal Wiami courtyard.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-003-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_C": "CONCEPT-JCKT_001_C-03",
+          "BTWR_001_F": "CONCEPT-BTWR_001_F-03",
+          "HDWR_002": "CONCEPT-HDWR_002-03",
+          "FTWR_005": "CONCEPT-FTWR_005-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-004-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-004-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_D",
+          "BTWR_002",
+          "HDWR_002_A",
+          "FTWR_005_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A South Asian man wears Borrowed Horizon 05, Common Ground, Harbor Vigil 02 and Marble Debt 02 in a Wiami waterfront gallery.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-004-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_D": "CONCEPT-JCKT_001_D-01",
+          "BTWR_002": "CONCEPT-BTWR_002-01",
+          "HDWR_002_A": "CONCEPT-HDWR_002_A-01",
+          "FTWR_005_A": "CONCEPT-FTWR_005_A-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-005-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-005-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_E",
+          "BTWR_002_A",
+          "HDWR_003_A",
+          "FTWR_010"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A woman wears Borrowed Horizon 06, Common Ground 02, Empty Throne Helmet and Encore Exit beside jade glass stairs in Wiami.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-005-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_E": "CONCEPT-JCKT_001_E-02",
+          "BTWR_002_A": "CONCEPT-BTWR_002_A-02",
+          "HDWR_003_A": "CONCEPT-HDWR_003_A-02",
+          "FTWR_010": "CONCEPT-FTWR_010-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-006-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-006-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_F",
+          "BTWR_002_A_F",
+          "HDWR_006_A",
+          "FTWR_N30"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A Middle Eastern man wears Borrowed Horizon 07, Common Ground 03, Choir of One and Missing Step in a Wiami marina studio.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-006-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_F": "CONCEPT-JCKT_001_F-03",
+          "BTWR_002_A_F": "CONCEPT-BTWR_002_A_F-03",
+          "HDWR_006_A": "CONCEPT-HDWR_006_A-03",
+          "FTWR_N30": "CONCEPT-FTWR_N30-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-007-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-007-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_G",
+          "BTWR_002_F",
+          "HDWR_006_B",
+          "XTRA_002"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A Black man wears Borrowed Horizon 08, Common Ground 04, Choir of One 02 and Dock Receipt Belt on a Wiami rooftop.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-007-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_G": "CONCEPT-JCKT_001_G-01",
+          "BTWR_002_F": "CONCEPT-BTWR_002_F-01",
+          "HDWR_006_B": "CONCEPT-HDWR_006_B-01",
+          "XTRA_002": "CONCEPT-XTRA_002-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-008-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-008-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_H",
+          "BTWR_004",
+          "HDWR_006_C",
+          "XTRA_002_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "An East Asian woman wears Borrowed Horizon 09, Wrong Exit, Choir of One 03 and Dock Receipt Pouches in a Wiami design library.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-008-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_H": "CONCEPT-JCKT_001_H-02",
+          "BTWR_004": "CONCEPT-BTWR_004-02",
+          "HDWR_006_C": "CONCEPT-HDWR_006_C-02",
+          "XTRA_002_A": "CONCEPT-XTRA_002_A-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-009-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-009-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_I",
+          "BTWR_004_A",
+          "HDWR_007",
+          "XTRA_003"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A Latino man wears Borrowed Horizon 10, Wrong Exit 02, Civic Phantom Shield and Shared Waist in a Wiami skybridge cafe.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-009-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_I": "CONCEPT-JCKT_001_I-03",
+          "BTWR_004_A": "CONCEPT-BTWR_004_A-03",
+          "HDWR_007": "CONCEPT-HDWR_007-03",
+          "XTRA_003": "CONCEPT-XTRA_003-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-010-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-010-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_J",
+          "BTWR_004_A_F",
+          "HDWR_007_A",
+          "XTRA_003_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A South Asian woman wears Borrowed Horizon 11, Wrong Exit 03, Civic Phantom Shield 02 and Shared Waist 02 in a Wiami transit garden.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-010-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_J": "CONCEPT-JCKT_001_J-01",
+          "BTWR_004_A_F": "CONCEPT-BTWR_004_A_F-01",
+          "HDWR_007_A": "CONCEPT-HDWR_007_A-01",
+          "XTRA_003_A": "CONCEPT-XTRA_003_A-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-011-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-011-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_K",
+          "BTWR_004_F",
+          "HDWR_008",
+          "XTRA_004"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Two adult models show Borrowed Horizon 12, Wrong Exit 04, the cord-trim cap and ivory mechanical arm sleeves in a Wiami listening lounge.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-011-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_K": "CONCEPT-JCKT_001_K-02",
+          "BTWR_004_F": "CONCEPT-BTWR_004_F-02",
+          "HDWR_008": "CONCEPT-HDWR_008-02",
+          "XTRA_004": "CONCEPT-XTRA_004-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-012-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-012-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_L",
+          "BTWR_006",
+          "EYWR_002",
+          "XTRA_010_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A Middle Eastern woman wears Borrowed Horizon 13, deep teal joggers, round mint goggles and orange leather gloves at a Wiami coastal observatory.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-012-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_L": "CONCEPT-JCKT_001_L-03",
+          "BTWR_006": "CONCEPT-BTWR_006-03",
+          "EYWR_002": "CONCEPT-EYWR_002-03",
+          "XTRA_010_A": "CONCEPT-XTRA_010_A-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-013-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-013-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_M",
+          "BTWR_007",
+          "HDWR_009",
+          "XTRA_010_C"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A Black woman wears Borrowed Horizon 14, Late Checkout, Ninth Chicane and Front Row Ghost Chestpiece in a Wiami sculpture garden.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-013-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_M": "CONCEPT-JCKT_001_M-01",
+          "BTWR_007": "CONCEPT-BTWR_007-01",
+          "HDWR_009": "CONCEPT-HDWR_009-01",
+          "XTRA_010_C": "CONCEPT-XTRA_010_C-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-014-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-014-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_N",
+          "BTWR_010",
+          "EYWR_006_A",
+          "XTRA_010_D"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Two models show Borrowed Horizon 15, Floor Memory, Poolside Alibi 02 and Front Row Ghost Cape in a Wiami apartment salon.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-014-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_N": "CONCEPT-JCKT_001_N-02",
+          "BTWR_010": "CONCEPT-BTWR_010-02",
+          "EYWR_006_A": "CONCEPT-EYWR_006_A-02",
+          "XTRA_010_D": "CONCEPT-XTRA_010_D-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-015-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-015-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_001_O",
+          "BTWR_010_A",
+          "MASK_001_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A Latina woman wears Borrowed Horizon 16, Floor Memory 02 and Velvet Omission beside a Wiami marina railing.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-015-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_001_O": "CONCEPT-JCKT_001_O-03",
+          "BTWR_010_A": "CONCEPT-BTWR_010_A-03",
+          "MASK_001_A": "CONCEPT-MASK_001_A-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-016-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-016-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_002",
+          "BTWR_010_B",
+          "HDWR_009_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A South Asian man wears Floodline Archive, Floor Memory 03 and Ninth Chicane 02 in a Wiami listening bar.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-016-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_002": "CONCEPT-JCKT_002-01",
+          "BTWR_010_B": "CONCEPT-BTWR_010_B-01",
+          "HDWR_009_A": "CONCEPT-HDWR_009_A-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-017-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-017-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_002_1",
+          "BTWR_010_C",
+          "EYWR_006_B"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A woman with auburn hair wears Floodline Archive 02, Floor Memory 04 and Poolside Alibi 03 on a jade-glass Wiami stair landing.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-017-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_002_1": "CONCEPT-JCKT_002_1-02",
+          "BTWR_010_C": "CONCEPT-BTWR_010_C-02",
+          "EYWR_006_B": "CONCEPT-EYWR_006_B-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-018-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-018-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_002_2",
+          "BTWR_010_D",
+          "MASK_002_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A Middle Eastern man wears Floodline Archive 03, Floor Memory 05 and the orange Mute Witness 02 bandanna in a Wiami marina studio.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-018-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_002_2": "CONCEPT-JCKT_002_2-03",
+          "BTWR_010_D": "CONCEPT-BTWR_010_D-03",
+          "MASK_002_A": "CONCEPT-MASK_002_A-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-019-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-019-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_002_3",
+          "BTWR_010_E",
+          "HDWR_010"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A Black man wears Floodline Archive 04, Floor Memory 06 and the Concierge Afterlife hat at an oceanfront Wiami rooftop pavilion.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-019-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_002_3": "CONCEPT-JCKT_002_3-01",
+          "BTWR_010_E": "CONCEPT-BTWR_010_E-01",
+          "HDWR_010": "CONCEPT-HDWR_010-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-020-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-020-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_002_4",
+          "BTWR_010_F",
+          "EYWR_008"
+        ],
+        "label": "Wiami editorial",
+        "alt": "An East Asian woman wears Floodline Archive 05, Floor Memory 07 and Blind Index in a sunlit Wiami design library.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-020-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_002_4": "CONCEPT-JCKT_002_4-02",
+          "BTWR_010_F": "CONCEPT-BTWR_010_F-02",
+          "EYWR_008": "CONCEPT-EYWR_008-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-021-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-021-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_002_5",
+          "BTWR_010_G",
+          "MASK_002_B"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A Latino man wears Floodline Archive 06, Floor Memory 08 and Mute Witness 03 in a curved glass Wiami skybridge cafe.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-021-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_002_5": "CONCEPT-JCKT_002_5-03",
+          "BTWR_010_G": "CONCEPT-BTWR_010_G-03",
+          "MASK_002_B": "CONCEPT-MASK_002_B-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-022-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-022-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_002_A",
+          "BTWR_003_F",
+          "HDWR_010_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A South Asian woman wears Floodline Archive 07, Five-Pocket Slim Trousers and Concierge Afterlife 02 in a Wiami coastal apartment.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-022-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_002_A": "CONCEPT-JCKT_002_A-01",
+          "BTWR_003_F": "CONCEPT-BTWR_003_F-01",
+          "HDWR_010_A": "CONCEPT-HDWR_010_A-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-023-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-023-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_002_B",
+          "EYWR_009"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A man with sandy hair wears Floodline Archive 08 and Apex Debtor goggles backstage at a Wiami cultural venue.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-023-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_002_B": "CONCEPT-JCKT_002_B-02",
+          "EYWR_009": "CONCEPT-EYWR_009-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-024-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-024-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_002_C",
+          "MASK_002_C"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A Middle Eastern woman wears Floodline Archive 09 and Mute Witness 04 in a copper-toned Wiami waterfront atelier.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-024-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_002_C": "CONCEPT-JCKT_002_C-03",
+          "MASK_002_C": "CONCEPT-MASK_002_C-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-025-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-025-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_002_D",
+          "HDWR_011"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A male model wears Floodline Archive / 10 and the Storm Register wide-brim hat in a Wiami waterfront apartment.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-025-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_002_D": "CONCEPT-JCKT_002_D-01",
+          "HDWR_011": "CONCEPT-HDWR_011-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-026-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-026-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_002_E",
+          "EYWR_010"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A female model wears Floodline Archive / 11 and False Sunrise glasses in a quiet Wiami cafe.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-026-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_002_E": "CONCEPT-JCKT_002_E-02",
+          "EYWR_010": "CONCEPT-EYWR_010-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-027-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-027-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_002_F",
+          "MASK_002_FE"
+        ],
+        "label": "Wiami editorial",
+        "alt": "A female model wears Floodline Archive / 12 with the orange Mute Witness bandanna in a Wiami waterfront pavilion.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-027-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_002_F": "CONCEPT-JCKT_002_F-03",
+          "MASK_002_FE": "CONCEPT-MASK_002_FE-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-028-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-028-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_003",
+          "HDWR_012"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Long Goodbye and Dead Channel styled in minimal sea-facing gallery with satin titanium window frames.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-028-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_003": "CONCEPT-JCKT_003-01",
+          "HDWR_012": "CONCEPT-HDWR_012-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-029-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-029-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_005",
+          "EYWR_011"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Nocturne Concierge and Last Witness styled in Art Deco stair landing with pale jade structural glass.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-029-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_005": "CONCEPT-JCKT_005-02",
+          "EYWR_011": "CONCEPT-EYWR_011-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-030-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-030-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_005_A",
+          "MASK_002_FRANK"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Nocturne Concierge / 02 and Mute Witness / 06 styled in refined marina studio with ribbed aluminum shutters.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-030-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_005_A": "CONCEPT-JCKT_005_A-03",
+          "MASK_002_FRANK": "CONCEPT-MASK_002_FRANK-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-031-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-031-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_005_B",
+          "HDWR_012_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Nocturne Concierge / 03 and Dead Channel / 02 styled in rooftop palm pavilion with ocean horizon.",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-031-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_005_B": "CONCEPT-JCKT_005_B-01",
+          "HDWR_012_A": "CONCEPT-HDWR_012_A-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-032-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-032-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_010",
+          "EYWR_012"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Dead Air Broadcast and Double Exposure in a softly sunlit ceramic-and-metal design library Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-032-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_010": "CONCEPT-JCKT_010-02",
+          "EYWR_012": "CONCEPT-EYWR_012-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-033-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-033-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_010_A",
+          "MASK_002_GP"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Dead Air Broadcast / 02 and Mute Witness / 07 in a warm concrete skybridge cafe with curved glass enclosure Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-033-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_010_A": "CONCEPT-JCKT_010_A-03",
+          "MASK_002_GP": "CONCEPT-MASK_002_GP-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-034-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-034-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_010_B",
+          "HDWR_013"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Dead Air Broadcast / 03 and Unperson in a terraced coastal apartment lounge with understated future furniture Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-034-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_010_B": "CONCEPT-JCKT_010_B-01",
+          "HDWR_013": "CONCEPT-HDWR_013-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-035-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-035-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_013",
+          "EYWR_012_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Civic Hex and Double Exposure / 02 in a charcoal backstage fitting room with brushed metal lockers Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-035-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_013": "CONCEPT-JCKT_013-02",
+          "EYWR_012_A": "CONCEPT-EYWR_012_A-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-036-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-036-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_N30",
+          "MASK_003"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Administrative Night and Dredger's Keepsake in a copper-toned waterfront atelier with translucent ceiling Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-036-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_N30": "CONCEPT-JCKT_N30-03",
+          "MASK_003": "CONCEPT-MASK_003-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-037-v2",
+        "image": "/images/marketplace/wiami-fit-styling-v1/group-037.webp",
+        "position": "50% 0%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_N30_A",
+          "HDWR_015"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Administrative Night / 02 and Red Flag Society in a curved champagne-metal coastal transit lounge Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-fit-styling-20261107/group-037.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_N30_A": "CONCEPT-JCKT_N30_A-01",
+          "HDWR_015": "CONCEPT-HDWR_015-01"
+        },
+        "fitReview": {
+          "status": "visually_reviewed",
+          "checks": [
+            "wearable scale",
+            "natural contact and attachment",
+            "merchandise silhouette retained",
+            "full headgear margin"
+          ],
+          "nativeGameBindingVerified": false
+        }
+      },
+      {
+        "id": "wiami-clothing-group-038-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-038-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_N30_B",
+          "EYWR_013"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Administrative Night / 03 and Room Service Mirage in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-038-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_N30_B": "CONCEPT-JCKT_N30_B-02",
+          "EYWR_013": "CONCEPT-EYWR_013-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-039-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-039-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_N30_C",
+          "MASK_003_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Administrative Night / 04 and Dredger's Keepsake / 02 in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-039-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_N30_C": "CONCEPT-JCKT_N30_C-03",
+          "MASK_003_A": "CONCEPT-MASK_003_A-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-040-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-040-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_N30_D",
+          "HDWR_015_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Administrative Night / 05 and Red Flag Society / 02 in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-040-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_N30_D": "CONCEPT-JCKT_N30_D-01",
+          "HDWR_015_A": "CONCEPT-HDWR_015_A-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-041-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-041-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_N30_E",
+          "EYWR_014"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Administrative Night / 06 and Public Secret in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-041-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_N30_E": "CONCEPT-JCKT_N30_E-02",
+          "EYWR_014": "CONCEPT-EYWR_014-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-042-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-042-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_N30_F",
+          "MASK_003_B"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Administrative Night / 07 and Dredger's Keepsake / 03 in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-042-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_N30_F": "CONCEPT-JCKT_N30_F-03",
+          "MASK_003_B": "CONCEPT-MASK_003_B-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-043-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-043-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_PNX_0",
+          "JWLR_H03"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Second Ignition and Split Sermon in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-043-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_PNX_0": "CONCEPT-JCKT_PNX_0-01",
+          "JWLR_H03": "CONCEPT-JWLR_H03-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-044-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-044-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_PNX_1",
+          "HDWR_016"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Second Ignition / 02 and Sixth Author in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-044-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_PNX_1": "CONCEPT-JCKT_PNX_1-02",
+          "HDWR_016": "CONCEPT-HDWR_016-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-045-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-045-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_PNX_2",
+          "EYWR_015"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Second Ignition / 03 and Off-Record in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-045-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_PNX_2": "CONCEPT-JCKT_PNX_2-03",
+          "EYWR_015": "CONCEPT-EYWR_015-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-046-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-046-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_PNX_3",
+          "MASK_003_C"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Second Ignition / 04 and Dredger's Keepsake / 04 in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-046-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_PNX_3": "CONCEPT-JCKT_PNX_3-01",
+          "MASK_003_C": "CONCEPT-MASK_003_C-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-047-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-047-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_PNX_4",
+          "JWLR_H06"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Second Ignition / 05 and Lobby Reverie in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-047-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_PNX_4": "CONCEPT-JCKT_PNX_4-02",
+          "JWLR_H06": "CONCEPT-JWLR_H06-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-048-v2",
+        "image": "/images/marketplace/wiami-fit-styling-v1/group-048.webp",
+        "position": "50% 0%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_PNX_5",
+          "HDWR_FRD"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Second Ignition / 06 and Vacancy Pilot in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-fit-styling-20261107/group-048.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_PNX_5": "CONCEPT-JCKT_PNX_5-03",
+          "HDWR_FRD": "CONCEPT-HDWR_FRD-03"
+        },
+        "fitReview": {
+          "status": "visually_reviewed",
+          "checks": [
+            "wearable scale",
+            "natural contact and attachment",
+            "merchandise silhouette retained",
+            "full headgear margin"
+          ],
+          "nativeGameBindingVerified": false
+        }
+      },
+      {
+        "id": "wiami-clothing-group-049-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-049-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_PNX_6",
+          "EYWR_H03"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Second Ignition / 07 and Signal Mourner in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-049-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_PNX_6": "CONCEPT-JCKT_PNX_6-01",
+          "EYWR_H03": "CONCEPT-EYWR_H03-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-050-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-050-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "JCKT_PNX_7",
+          "MASK_H01"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Second Ignition / 08 and Pit Silence in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-050-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "JCKT_PNX_7": "CONCEPT-JCKT_PNX_7-02",
+          "MASK_H01": "CONCEPT-MASK_H01-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-051-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-051-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "TPWR_001",
+          "JWLR_H07"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Public Draft and Static Communion in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-051-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "TPWR_001": "CONCEPT-TPWR_001-03",
+          "JWLR_H07": "CONCEPT-JWLR_H07-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-052-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-052-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "TPWR_002"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Union Hours in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-052-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "TPWR_002": "CONCEPT-TPWR_002-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-053-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-053-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "TPWR_002_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Union Hours / 02 in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-053-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "TPWR_002_A": "CONCEPT-TPWR_002_A-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-054-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-054-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "TPWR_002_F"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Union Hours / 04 in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-054-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "TPWR_002_F": "CONCEPT-TPWR_002_F-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-055-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-055-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "TPWR_003"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Basement Anthem in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-055-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "TPWR_003": "CONCEPT-TPWR_003-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-056-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-056-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "TPWR_003_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Basement Anthem / 02 in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-056-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "TPWR_003_A": "CONCEPT-TPWR_003_A-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-057-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-057-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "TPWR_003_F"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Basement Anthem / 03 in a Wiami fashion editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-057-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "TPWR_003_F": "CONCEPT-TPWR_003_F-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-058-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-058-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "TPWR_004"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Minibar Gospel in a Wiami lifestyle editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-058-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "TPWR_004": "CONCEPT-TPWR_004-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-059-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-059-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "TPWR_005"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Scoop-Neck Crop Top in a Wiami lifestyle editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-059-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "TPWR_005": "CONCEPT-TPWR_005-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-060-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-060-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "TPWR_006"
+        ],
+        "label": "Wiami editorial",
+        "alt": "V-Neck Crop Top in a Wiami lifestyle editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-060-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "TPWR_006": "CONCEPT-TPWR_006-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-061-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-061-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "SUIT_001"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Borrowed Body in a Wiami lifestyle editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-061-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "SUIT_001": "CONCEPT-SUIT_001-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-062-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-062-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "SUIT_001_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Borrowed Body / 02 in a Wiami lifestyle editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-062-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "SUIT_001_A": "CONCEPT-SUIT_001_A-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-063-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-063-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "SUIT_002"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Exit Velocity in a Wiami lifestyle editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-063-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "SUIT_002": "CONCEPT-SUIT_002-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-064-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-064-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "SUIT_003"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Duplicate Citizen in a Wiami lifestyle editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-064-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "SUIT_003": "CONCEPT-SUIT_003-01"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-065-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-065-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "SUIT_003_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Duplicate Citizen / 02 in a Wiami lifestyle editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-065-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "SUIT_003_A": "CONCEPT-SUIT_003_A-02"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-066-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-066-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "SUIT_004"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Permanent Guest in a Wiami lifestyle editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-066-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "SUIT_004": "CONCEPT-SUIT_004-03"
+        }
+      },
+      {
+        "id": "wiami-clothing-group-067-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-clothing-group-067-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "SUIT_004_A"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Permanent Guest / 02 in a Wiami lifestyle editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-clothing-group-067-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "SUIT_004_A": "CONCEPT-SUIT_004_A-01"
+        }
+      },
+      {
+        "id": "wiami-object-vehicle-vera-solis-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-object-vehicle-vera-solis-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "vehicle-vera-solis"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Vera Solis in a Wiami lifestyle editorial",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-object-vehicle-vera-solis-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "vehicle-vera-solis": null
+        }
+      },
+      {
+        "id": "wiami-object-totem-fw-achilles-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-object-totem-fw-achilles-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "totem-fw-achilles"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Achilles in a close-up Wiami jewelry still-life",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-object-totem-fw-achilles-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "totem-fw-achilles": "MAT-totem-fw-achilles-sterling"
+        }
+      },
+      {
+        "id": "wiami-object-totem-fw-da-vinci-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-object-totem-fw-da-vinci-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "totem-fw-da-vinci"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Da Vinci in a close-up Wiami jewelry still-life",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-object-totem-fw-da-vinci-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "totem-fw-da-vinci": "MAT-totem-fw-da-vinci-sterling"
+        }
+      },
+      {
+        "id": "wiami-object-totem-fw-deadusa-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-object-totem-fw-deadusa-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "totem-fw-deadusa"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Deadusa in a close-up Wiami jewelry still-life",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-object-totem-fw-deadusa-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "totem-fw-deadusa": "MAT-totem-fw-deadusa-sterling"
+        }
+      },
+      {
+        "id": "wiami-object-totem-fw-emperor-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-object-totem-fw-emperor-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "totem-fw-emperor"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Emperor in a close-up Wiami jewelry still-life",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-object-totem-fw-emperor-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "totem-fw-emperor": "MAT-totem-fw-emperor-sterling"
+        }
+      },
+      {
+        "id": "wiami-object-totem-fw-faceless-pharaoh-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-object-totem-fw-faceless-pharaoh-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "totem-fw-faceless-pharaoh"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Faceless Pharaoh in a close-up Wiami jewelry still-life",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-object-totem-fw-faceless-pharaoh-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "totem-fw-faceless-pharaoh": "MAT-totem-fw-faceless-pharaoh-sterling"
+        }
+      },
+      {
+        "id": "wiami-object-totem-fw-fragment-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-object-totem-fw-fragment-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "totem-fw-fragment"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Fragment in a close-up Wiami jewelry still-life",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-object-totem-fw-fragment-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "totem-fw-fragment": "MAT-totem-fw-fragment-sterling"
+        }
+      },
+      {
+        "id": "wiami-object-totem-fw-hercules-ii-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-object-totem-fw-hercules-ii-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "totem-fw-hercules-ii"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Hercules II Totem in a close-up Wiami jewelry still-life",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-object-totem-fw-hercules-ii-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "totem-fw-hercules-ii": "MAT-totem-fw-hercules-ii-sterling"
+        }
+      },
+      {
+        "id": "wiami-object-totem-fw-hercules-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-object-totem-fw-hercules-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "totem-fw-hercules"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Hercules in a close-up Wiami jewelry still-life",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-object-totem-fw-hercules-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "totem-fw-hercules": "MAT-totem-fw-hercules-sterling"
+        }
+      },
+      {
+        "id": "wiami-object-totem-fw-hermes-ii-v2",
+        "image": "/images/marketplace/wiami-product-editorials-v2/wiami-object-totem-fw-hermes-ii-v2.webp",
+        "position": "50% 50%",
+        "kind": "editorial",
+        "productIds": [
+          "totem-fw-hermes-ii"
+        ],
+        "label": "Wiami editorial",
+        "alt": "Hermes II in a close-up Wiami jewelry still-life",
+        "sourceManifest": "outputs/ww-reference-fidelity-20261107/lifestyle-v2/wiami-object-totem-fw-hermes-ii-v2.json",
+        "renderMethod": "image_concept",
+        "reviewStatus": "pass",
+        "selectedVariants": {
+          "totem-fw-hermes-ii": "MAT-totem-fw-hermes-ii-sterling"
+        }
+      }
+    ]
+  },
+  "afterHours": {
+    "image": "/images/marketplace/campaign/after-hours-v2-20261108/after-hours-fixed-v2.webp",
+    "position": "50% 50%",
+    "kind": "editorial",
+    "productIds": [
+      "JCKT_002",
+      "XTRA_011"
+    ],
+    "label": "Editorial preview",
+    "alt": "Floodline Archive jacket and Unsigned cuff in a warm coastal listening room",
+    "sourceManifest": "outputs/ww-after-hours-v2-20261108/integration.json",
+    "fitReview": {
+      "status": "visually_reviewed",
+      "checks": [
+        "adult model",
+        "complete head and natural anatomy",
+        "referenced jacket and accessory",
+        "distinct scene for each card"
+      ],
+      "nativeGameBindingVerified": false
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "countMeaning": "Completed explorer instance inventory, not an approved edition cap or atomic chain snapshot.",
+  "collections": [
+    {
+      "collection": "pack-weapons",
+      "chainId": 9369,
+      "contract": "0x693de821fc5999ac3738720f53763fe8aafaf6ac",
+      "complete": true,
+      "tokenCount": 8170,
+      "errors": [],
+      "tokenStandard": "ERC-721",
+      "observedAt": "2026-11-08T08:16:34.096648+00:00",
+      "startedAt": "2026-11-08T08:13:55.909486+00:00",
+      "pageCount": 164,
+      "source": "https://z-chain-blockscout.eu-north-2.gateway.fm/api/v2/tokens/0x693de821fc5999ac3738720f53763fe8aafaf6ac/instances",
+      "evidenceFile": "outputs/ww-originals-grouping-20261108/pack-weapons-inventory.json",
+      "evidenceSha256": "270b03ef33c334c034e3ede7c64b4843b0013c7a8ab12deb2c4ce8b2e566f1fd"
+    },
+    {
+      "collection": "pack-wheels",
+      "chainId": 9369,
+      "contract": "0x6c6e92c542b525043926028cbfa61bfe0e76e69b",
+      "complete": true,
+      "tokenCount": 8170,
+      "errors": [],
+      "tokenStandard": "ERC-721",
+      "observedAt": "2026-11-08T08:16:33.958986+00:00",
+      "startedAt": "2026-11-08T08:13:55.910489+00:00",
+      "pageCount": 164,
+      "source": "https://z-chain-blockscout.eu-north-2.gateway.fm/api/v2/tokens/0x6c6e92c542b525043926028cbfa61bfe0e76e69b/instances",
+      "evidenceFile": "outputs/ww-originals-grouping-20261108/pack-wheels-inventory.json",
+      "evidenceSha256": "b7c9bf60b02b16b3b803a43dd9923543a1f29c6ae6dd8afb64e02811d351802d"
+    },
+    {
+      "collection": "pack-avatars",
+      "chainId": 9369,
+      "contract": "0xa5908ee83b7f61e92e0a68b22372cbca78751cb2",
+      "complete": true,
+      "tokenCount": 8170,
+      "errors": [],
+      "tokenStandard": "ERC-721",
+      "observedAt": "2026-11-08T08:16:34.685292+00:00",
+      "startedAt": "2026-11-08T08:13:55.910489+00:00",
+      "pageCount": 164,
+      "source": "https://z-chain-blockscout.eu-north-2.gateway.fm/api/v2/tokens/0xa5908ee83b7f61e92e0a68b22372cbca78751cb2/instances",
+      "evidenceFile": "outputs/ww-originals-grouping-20261108/pack-avatars-inventory.json",
+      "evidenceSha256": "309b8c3a77c30e54b2f2e8db8789c6aee3509d675a7a22cea68216bbd84cf843"
+    }
+  ]
+}

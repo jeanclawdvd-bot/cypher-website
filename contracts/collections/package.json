@@ -1,0 +1,22 @@
+{
+  "name": "wilder-collections-local",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "compile": "node scripts/compile.mjs",
+    "test": "node --test --test-concurrency=1 test/*.test.mjs",
+    "local:fixture": "node scripts/local-fixture.mjs",
+    "local:upgradeable": "node scripts/local-upgradeable-fixture.mjs"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "5.6.1",
+    "@openzeppelin/contracts-upgradeable": "5.6.1",
+    "ethers": "6.17.0",
+    "hardhat": "3.21.2",
+    "solc": "0.8.38"
+  }
+}

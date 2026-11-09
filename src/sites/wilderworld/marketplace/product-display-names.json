@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "scope": "Storefront merchandising names; original source IDs, product keys and onchain mappings are unchanged.",
+  "loreStatus": "New editorial naming concepts, not claims of established game lore.",
+  "products": {
+    "rim-preview-wertone-wantide-2010": {
+      "sourceName": "Wertone Wantide 2010",
+      "name": "Causeway",
+      "lore": "Named for the elevated roads that tie Wiami's islands together."
+    },
+    "rim-preview-worsche-911-wt1-98": {
+      "sourceName": "Worsche911 WT1 98",
+      "name": "Countercurrent",
+      "lore": "A three-spoke signature for taking the route against the flow."
+    },
+    "rim-preview-wertone-v1": {
+      "sourceName": "Wertone / V1",
+      "name": "Portline",
+      "lore": "A precise line between the working port and the after-hours city."
+    },
+    "rim-preview-wertone-v2": {
+      "sourceName": "Wertone / V2",
+      "name": "Tide Index",
+      "lore": "A record of motion measured against the coast."
+    },
+    "rim-preview-wheel-001": {
+      "sourceName": "WHEEL_001",
+      "name": "South Loop",
+      "lore": "A familiar circuit through the city's southern streets."
+    },
+    "rim-preview-wheel-003": {
+      "sourceName": "WHEEL_003",
+      "name": "Glassline",
+      "lore": "Named for the reflective towers along the water."
+    },
+    "rim-preview-lambos-v1": {
+      "sourceName": "Lambos V1",
+      "name": "Night Ferry",
+      "lore": "A tribute to the crossings that continue after the lights come on."
+    },
+    "rim-preview-lambos-v2": {
+      "sourceName": "Lambos V2",
+      "name": "Palm Circuit",
+      "lore": "A coastal route remembered by its turns and passing shadows."
+    },
+    "home-object-113-sm-philosopher": {
+      "sourceName": "Decorative bust",
+      "name": "The Listener",
+      "lore": "A quiet presence for rooms where the city is discussed."
+    },
+    "statue-abstract-sculpture": {
+      "sourceName": "Abstract Sculpture",
+      "name": "Intervals",
+      "lore": "An arrangement of pauses between the city's restless forms."
+    },
+    "statue-black-cat": {
+      "sourceName": "Black Cat",
+      "name": "After Hours",
+      "lore": "A small guardian of the hours when Wiami belongs to its residents."
+    },
+    "statue-classical-bust": {
+      "sourceName": "Classical Bust",
+      "name": "Last Watch",
+      "lore": "A figure held between vigilance and rest."
+    },
+    "statue-gold-bust-02": {
+      "sourceName": "Gold Bust 02",
+      "name": "Lease of Light",
+      "lore": "An image of authority borrowing its glow from the room."
+    },
+    "statue-green-marble-bust": {
+      "sourceName": "Green Marble Bust",
+      "name": "Garden Witness",
+      "lore": "A face carried from the city's hidden courtyards."
+    },
+    "statue-lion-head-bust": {
+      "sourceName": "Lion Head Bust",
+      "name": "Bay Sentinel",
+      "lore": "A watchful presence at the edge of the water."
+    },
+    "statue-metallic-crab-claw": {
+      "sourceName": "Metallic Crab Claw",
+      "name": "Salt Claim",
+      "lore": "A coastal form that keeps its grip on the room."
+    },
+    "statue-ringed-sculpture-01": {
+      "sourceName": "Ringed Sculpture 01",
+      "name": "Open Orbit",
+      "lore": "A study of return with no fixed beginning."
+    },
+    "statue-roman-bust": {
+      "sourceName": "Roman Bust",
+      "name": "Civic Memory",
+      "lore": "A reminder of the people a city chooses to remember."
+    },
+    "statue-roman-face-02": {
+      "sourceName": "Roman Face 02",
+      "name": "Second Witness",
+      "lore": "One account of the city among many."
+    },
+    "statue-roman-face-sculpture": {
+      "sourceName": "Roman Face Sculpture",
+      "name": "Borrowed Face",
+      "lore": "A familiar expression with its original story left open."
+    },
+    "statue-tiger-head": {
+      "sourceName": "Tiger Head",
+      "name": "Quiet Hunger",
+      "lore": "Strength held in reserve."
+    },
+    "statue-winged-bust": {
+      "sourceName": "Winged Bust",
+      "name": "The Messenger",
+      "lore": "A figure poised between the room and the horizon."
+    },
+    "guild-memelord": {
+      "sourceName": "Memelord",
+      "name": "The Meme Lord",
+      "lore": "A monument to the images that become a city's shared language."
+    },
+    "guild-satoshi": {
+      "sourceName": "Satoshi",
+      "name": "First Ledger",
+      "lore": "A quiet reference to the records from which new worlds grow."
+    }
+  }
+}

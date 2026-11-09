@@ -1,0 +1,652 @@
+{
+  "products": {
+    "BTWR_007": {
+      "productId": "BTWR_007",
+      "defaultVariantId": "CONCEPT-BTWR_007-01",
+      "variants": [
+        {
+          "id": "CONCEPT-BTWR_007-01",
+          "name": "Porcelain / Navy",
+          "swatch": "#E9E3D8",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_007-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#E9E3D8",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#283449"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_007-palette-01-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_007-palette-01-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_007-palette-01-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_007-palette-01-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_007-01.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_007-02",
+          "name": "Cobalt / Graphite",
+          "swatch": "#245BCE",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_007-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#245BCE",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#2C3038"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_007-palette-02-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_007-palette-02-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_007-palette-02-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_007-palette-02-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_007-02.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_007-03",
+          "name": "Apricot / Bone",
+          "swatch": "#E59064",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_007-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#E59064",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#E8E0CE"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_007-palette-03-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_007-palette-03-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_007-palette-03-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_007-palette-03-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_007-03.json"
+        }
+      ]
+    },
+    "BTWR_010": {
+      "productId": "BTWR_010",
+      "defaultVariantId": "CONCEPT-BTWR_010-01",
+      "variants": [
+        {
+          "id": "CONCEPT-BTWR_010-01",
+          "name": "Cobalt / Graphite",
+          "swatch": "#245BCE",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#245BCE",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#2C3038"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010-palette-01-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010-palette-01-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010-palette-01-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010-palette-01-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010-01.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010-02",
+          "name": "Apricot / Bone",
+          "swatch": "#E59064",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#E59064",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#E8E0CE"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010-palette-02-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010-palette-02-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010-palette-02-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010-palette-02-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010-02.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010-03",
+          "name": "Lagoon / Ink",
+          "swatch": "#69B9B3",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#69B9B3",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#233945"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010-palette-03-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010-palette-03-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010-palette-03-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010-palette-03-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010-03.json"
+        }
+      ]
+    },
+    "BTWR_010_C": {
+      "productId": "BTWR_010_C",
+      "defaultVariantId": "CONCEPT-BTWR_010_C-01",
+      "variants": [
+        {
+          "id": "CONCEPT-BTWR_010_C-01",
+          "name": "Lagoon / Ink",
+          "swatch": "#69B9B3",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_C-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#69B9B3",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#233945"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_C-palette-01-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_C-palette-01-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_C-palette-01-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_C-palette-01-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_C-01.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_C-02",
+          "name": "Aluminum / Carbon",
+          "swatch": "#BFC7CE",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_C-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#BFC7CE",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#2A2D32"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_C-palette-02-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_C-palette-02-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_C-palette-02-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_C-palette-02-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_C-02.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_C-03",
+          "name": "Racing Red / Black",
+          "swatch": "#C23843",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_C-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#C23843",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#232329"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_C-palette-03-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_C-palette-03-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_C-palette-03-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_C-palette-03-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_C-03.json"
+        }
+      ]
+    },
+    "BTWR_010_E": {
+      "productId": "BTWR_010_E",
+      "defaultVariantId": "CONCEPT-BTWR_010_E-01",
+      "variants": [
+        {
+          "id": "CONCEPT-BTWR_010_E-01",
+          "name": "Sand / Espresso",
+          "swatch": "#D5C3A1",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_E-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#D5C3A1",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#59483D"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_E-palette-01-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_E-palette-01-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_E-palette-01-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_E-palette-01-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_E-01.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_E-02",
+          "name": "Porcelain / Navy",
+          "swatch": "#E9E3D8",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_E-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#E9E3D8",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#283449"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_E-palette-02-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_E-palette-02-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_E-palette-02-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_E-palette-02-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_E-02.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_E-03",
+          "name": "Cobalt / Graphite",
+          "swatch": "#245BCE",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_E-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#245BCE",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#2C3038"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_E-palette-03-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_E-palette-03-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_E-palette-03-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_E-palette-03-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_E-03.json"
+        }
+      ]
+    },
+    "BTWR_010_F": {
+      "productId": "BTWR_010_F",
+      "defaultVariantId": "CONCEPT-BTWR_010_F-01",
+      "variants": [
+        {
+          "id": "CONCEPT-BTWR_010_F-01",
+          "name": "Aluminum / Carbon",
+          "swatch": "#BFC7CE",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_F-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#BFC7CE",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#2A2D32"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_F-palette-01-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_F-palette-01-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_F-palette-01-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_F-palette-01-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_F-01.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_F-02",
+          "name": "Racing Red / Black",
+          "swatch": "#C23843",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_F-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#C23843",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#232329"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_F-palette-02-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_F-palette-02-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_F-palette-02-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_F-palette-02-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_F-02.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_F-03",
+          "name": "Lilac / Cloud",
+          "swatch": "#BAA9D4",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_F-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#BAA9D4",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#E2E3E2"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_F-palette-03-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_F-palette-03-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_F-palette-03-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_F-palette-03-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_F-03.json"
+        }
+      ]
+    },
+    "BTWR_010_A": {
+      "productId": "BTWR_010_A",
+      "defaultVariantId": "CONCEPT-BTWR_010_A-01",
+      "variants": [
+        {
+          "id": "CONCEPT-BTWR_010_A-01",
+          "name": "Lilac / Cloud",
+          "swatch": "#BAA9D4",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_A-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#BAA9D4",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#E2E3E2"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_A-palette-01-v5.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_A-palette-01-v5-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_A-palette-01-v5-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_A-palette-01-v5.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_A-01.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_A-02",
+          "name": "Citron / Ink",
+          "swatch": "#D9E466",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_A-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#D9E466",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#263344"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_A-palette-02-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_A-palette-02-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_A-palette-02-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_A-palette-02-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_A-02.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_A-03",
+          "name": "Sand / Espresso",
+          "swatch": "#D5C3A1",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_A-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#D5C3A1",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#59483D"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_A-palette-03-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_A-palette-03-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_A-palette-03-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_A-palette-03-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_A-03.json"
+        }
+      ]
+    },
+    "BTWR_010_B": {
+      "productId": "BTWR_010_B",
+      "defaultVariantId": "CONCEPT-BTWR_010_B-01",
+      "variants": [
+        {
+          "id": "CONCEPT-BTWR_010_B-01",
+          "name": "Apricot / Bone",
+          "swatch": "#E59064",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_B-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#E59064",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#E8E0CE"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_B-palette-01-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_B-palette-01-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_B-palette-01-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_B-palette-01-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_B-01.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_B-02",
+          "name": "Lagoon / Ink",
+          "swatch": "#69B9B3",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_B-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#69B9B3",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#233945"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_B-palette-02-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_B-palette-02-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_B-palette-02-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_B-palette-02-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_B-02.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_B-03",
+          "name": "Aluminum / Carbon",
+          "swatch": "#BFC7CE",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_B-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#BFC7CE",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#2A2D32"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_B-palette-03-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_B-palette-03-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_B-palette-03-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_B-palette-03-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_B-03.json"
+        }
+      ]
+    },
+    "BTWR_010_D": {
+      "productId": "BTWR_010_D",
+      "defaultVariantId": "CONCEPT-BTWR_010_D-01",
+      "variants": [
+        {
+          "id": "CONCEPT-BTWR_010_D-01",
+          "name": "Citron / Ink",
+          "swatch": "#D9E466",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_D-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#D9E466",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#263344"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_D-palette-01-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_D-palette-01-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_D-palette-01-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_D-palette-01-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_D-01.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_D-02",
+          "name": "Sand / Espresso",
+          "swatch": "#D5C3A1",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_D-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#D5C3A1",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#59483D"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_D-palette-02-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_D-palette-02-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_D-palette-02-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_D-palette-02-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_D-02.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_D-03",
+          "name": "Porcelain / Navy",
+          "swatch": "#E9E3D8",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_D-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#E9E3D8",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#283449"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_D-palette-03-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_D-palette-03-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_D-palette-03-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_D-palette-03-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_D-03.json"
+        }
+      ]
+    },
+    "BTWR_010_G": {
+      "productId": "BTWR_010_G",
+      "defaultVariantId": "CONCEPT-BTWR_010_G-01",
+      "variants": [
+        {
+          "id": "CONCEPT-BTWR_010_G-01",
+          "name": "Racing Red / Black",
+          "swatch": "#C23843",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_G-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#C23843",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#232329"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_G-palette-01-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_G-palette-01-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_G-palette-01-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_G-palette-01-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_G-01.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_G-02",
+          "name": "Lilac / Cloud",
+          "swatch": "#BAA9D4",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_G-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#BAA9D4",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#E2E3E2"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_G-palette-02-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_G-palette-02-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_G-palette-02-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_G-palette-02-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_G-02.json"
+        },
+        {
+          "id": "CONCEPT-BTWR_010_G-03",
+          "name": "Citron / Ink",
+          "swatch": "#D9E466",
+          "sourceReference": "/images/accessories/colors/CONCEPT-BTWR_010_G-01.webp",
+          "reviewStatus": "pass",
+          "materialSpec": {
+            "family": "Reference-preserved textile and leather color study",
+            "baseColor": "#D9E466",
+            "roughness": null,
+            "metallic": null,
+            "pattern": null,
+            "textureBasis": "Exact approved product-photo edit; original construction and surface texture retained. Proposed main/contrast color regions are visual concepts, not implemented game materials.",
+            "contrastColor": "#263344"
+          },
+          "image": "/images/marketplace/bottomwear-palettes/BTWR_010_G-palette-03-v4.webp",
+          "thumbnail": "/images/marketplace/bottomwear-palettes/BTWR_010_G-palette-03-v4-card.webp",
+          "srcSet": "/images/marketplace/bottomwear-palettes/BTWR_010_G-palette-03-v4-card.webp 640w, /images/marketplace/bottomwear-palettes/BTWR_010_G-palette-03-v4.webp 1254w",
+          "renderMethod": "image_concept",
+          "presentationStatus": "reference_edit_verified",
+          "provenance": "outputs/ww-reference-fidelity-20261107/generation-bottom-palettes/CONCEPT-BTWR_010_G-03.json"
+        }
+      ]
+    }
+  }
+}

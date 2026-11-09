@@ -95,6 +95,11 @@ const HERO_IMAGES: Record<string, string> = {
   kicks: '/images/wilder-world/industries_kicks_hero.png',
 };
 
+const PACK_INDUSTRY_COLLECTIONS: Record<string, string> = {
+  avatars: 'pack-avatars',
+  weapons: 'pack-weapons',
+};
+
 export default function IndustriesPage() {
   return (
     <div className={styles.page}>
@@ -125,7 +130,7 @@ export default function IndustriesPage() {
       <div className={styles.industryList}>
         {INDUSTRIES.map((it) => {
           const industry = WILDER_INDUSTRIES.find((i) => i.id === it.id);
-          const slug = industry?.collections[0]?.slug;
+          const slug = industry?.collections[0]?.slug ?? PACK_INDUSTRY_COLLECTIONS[it.id];
           const href = slug ? `/market?c=${slug}` : '/market';
           const heroImage = HERO_IMAGES[it.id];
           return (

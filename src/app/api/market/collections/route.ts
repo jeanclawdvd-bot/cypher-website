@@ -1,4 +1,6 @@
 import { NextResponse } from 'next/server';
+import { collectionQuantity, observedInventoryQuantity, validCollectionCount, type OriginalCollectionQuantity } from '@/lib/originals-counts';
+import { fetchExplorerCollection, originalProvenance, type OriginalDataProvenance } from '@/lib/originals-data';
 import {
   ALL_ENTRIES,
   getEntrySource,
@@ -14,6 +16,8 @@ import {
 export const revalidate = 300;
 
 export type MarketCollection = {
+  provenance?: OriginalDataProvenance;
+  tokenStandard?: string | null;
   slug: string;
   name: string;
   image: string | null;
@@ -24,6 +28,7 @@ export type MarketCollection = {
   listedCount: number | null;
   owners: number | null;
   totalSupply: number | null;
+  quantity?: OriginalCollectionQuantity | null;
   launched: string | null;
 };
 
@@ -70,17 +75,23 @@ export async function GET() {
         openseaFetch<OpenSeaStats>(`/collections/${encodeURIComponent(c.slug)}/stats`),
         fetchTopOfferEth(c.slug),
       ]);
+      const explorer = !detail || !stats ? await fetchExplorerCollection(c) : null;
+      const quantity = collectionQuantity(detail?.total_supply, 'opensea', new Date().toISOString(), explorer?.tokenStandard ?? null)
+        ?? collectionQuantity(explorer?.totalSupply, 'blockscout', explorer?.provenance.retrievedAt ?? '', explorer?.tokenStandard ?? null);
       return {
+        provenance: detail ? originalProvenance('opensea',stats ? 'available' : 'unavailable') : explorer?.provenance,
+        tokenStandard:explorer?.tokenStandard ?? null,
         slug: c.slug,
-        name: detail?.name ?? c.label ?? c.slug,
-        image: detail?.image_url ?? null,
+        name: detail?.name ?? c.name ?? c.label ?? c.slug,
+        image: detail?.image_url ?? explorer?.image ?? null,
         floorPrice: stats?.total?.floor_price ?? null,
         floorSymbol: stats?.total?.floor_price_symbol ?? null,
         topOfferEth,
         totalVolume: stats?.total?.volume ?? null,
         listedCount: null,
-        owners: stats?.total?.num_owners ?? null,
-        totalSupply: detail?.total_supply ?? null,
+        owners: stats?.total?.num_owners ?? explorer?.owners ?? null,
+        totalSupply: quantity?.value ?? null,
+        quantity,
         launched: formatLaunched(detail?.created_date) ?? c.launched ?? null,
       };
     })
@@ -99,10 +110,9 @@ type IndexerCollectionsResponse = {
 };
 
 /**
- * Z-Chain collections are indexer-backed and browse-only: no floor / offers /
- * volume / owners stats. Name + supply come from the indexer collections
- * endpoint when available, the card image from the first asset. Any indexer
- * failure degrades to config-only nulls — never rejects the whole response.
+ * Z-Chain collections are browse-only. Report observed quantities separately
+ * from edition caps, and distinguish ERC-1155 units from unique token designs.
+ * A completed dated inventory is the last fallback for ERC-721 collections.
  */
 async function buildIndexerCollection(
   c: WilderCollectionEntry
@@ -118,19 +128,33 @@ async function buildIndexerCollection(
   const detail = collections?.collections?.find(
     (col) => (col.collectionAddress ?? '').toLowerCase() === contract
   );
-  const firstAsset = inventory?.items?.[0];
+  const inventoryIsScoped = Array.isArray(inventory?.items) && inventory.items.every(asset => asset.collectionAddress?.toLowerCase() === contract && asset.chainId === c.chainId);
+  const firstAsset = inventoryIsScoped ? inventory?.items?.[0] : undefined;
+  // Even a present indexer collection can have no total; explorer also verifies
+  // the token standard, which controls whether totalItems can represent supply.
+  const explorer = await fetchExplorerCollection(c);
+  const sealedPacks = c.chainId === 9369 && contract === '0x5ce3a764cc43e891d8bd068dd16c1b08db4ad0d4';
+  const standard = sealedPacks ? 'ERC-1155' : explorer?.tokenStandard ?? firstAsset?.tokenStandard ?? null;
+  const erc721 = standard?.replaceAll('-', '').toUpperCase() === 'ERC721';
+  const indexerCount = validCollectionCount(detail?.totalItems) ?? (inventoryIsScoped ? validCollectionCount(inventory?.total) : null);
+  const quantity = (erc721 ? collectionQuantity(indexerCount, 'indexer', new Date().toISOString(), standard) : null)
+    ?? collectionQuantity(explorer?.totalSupply, 'blockscout', explorer?.provenance.retrievedAt ?? '', standard)
+    ?? (standard === null || erc721 ? observedInventoryQuantity(c) : null);
 
   return {
     slug: c.slug,
-    name: detail?.collectionName || (c.label ?? c.slug),
-    image: resolveMediaUrl(firstAsset?.metadata?.image),
+    name: detail?.collectionName || (c.name ?? c.label ?? c.slug),
+    image: resolveMediaUrl(firstAsset?.metadata?.image) ?? explorer?.image ?? null,
     floorPrice: null,
     floorSymbol: null,
     topOfferEth: null,
     totalVolume: null,
     listedCount: null,
-    owners: null,
-    totalSupply: detail?.totalItems ?? null,
+    owners: validCollectionCount(detail?.totalHolders) ?? explorer?.owners ?? null,
+    totalSupply: quantity?.value ?? null,
+    quantity,
+    provenance:detail ? originalProvenance('indexer') : explorer?.provenance,
+    tokenStandard:standard,
     launched: c.launched ?? null,
   };
 }

@@ -1,4 +1,4 @@
-export type Availability = 'listed' | 'unlisted';
+export type Availability = 'all' | 'listed' | 'unlisted';
 export type GridSize = 'lg' | 'md' | 'sm';
 export type ViewMode = 'grid' | 'list';
 

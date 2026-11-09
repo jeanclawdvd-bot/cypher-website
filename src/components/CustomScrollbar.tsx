@@ -39,7 +39,7 @@ export function CustomScrollbar({
 
   const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   // Captured at drag start: pointer Y and the scrollTop it maps to.
-  const dragOrigin = useRef({ pointerY: 0, scrollTop: 0 });
+  const dragOrigin = useRef({ pointerY: 0, scrollTop: 0, pointerId: -1, target: null as HTMLElement | null });
 
   const isContainer = !!targetRef;
 
@@ -63,14 +63,16 @@ export function CustomScrollbar({
 
   const setScroll = useCallback(
     (top: number) => {
+      const metrics = getMetrics();
+      const next = Math.max(0, Math.min(top, Math.max(0, (metrics?.scrollHeight ?? 0) - (metrics?.clientHeight ?? 0))));
       if (isContainer) {
         const el = targetRef?.current;
-        if (el) el.scrollTop = top;
+        if (el) el.scrollTo({ top: next, behavior: 'instant' });
       } else {
-        window.scrollTo({ top });
+        window.scrollTo({ top: next, behavior: 'instant' });
       }
     },
-    [isContainer, targetRef]
+    [isContainer, targetRef, getMetrics]
   );
 
   const showThenIdle = useCallback(() => {
@@ -159,8 +161,11 @@ export function CustomScrollbar({
   // Drag the thumb -> map pointer delta to scroll position.
   useEffect(() => {
     if (!dragging) return;
+    const previousUserSelect = document.body.style.userSelect;
+    document.body.style.userSelect = 'none';
 
     const onMove = (e: PointerEvent) => {
+      if (e.pointerId !== dragOrigin.current.pointerId) return;
       const m = getMetrics();
       if (!m) return;
       const measuredTrack = isContainer
@@ -175,23 +180,37 @@ export function CustomScrollbar({
       setScroll(dragOrigin.current.scrollTop + deltaY * scrollPerPx);
     };
 
-    const onUp = () => setDragging(false);
+    const onUp = () => {
+      const { target, pointerId } = dragOrigin.current;
+      if (target?.hasPointerCapture?.(pointerId)) target.releasePointerCapture(pointerId);
+      setDragging(false);
+      showThenIdle();
+    };
 
     window.addEventListener('pointermove', onMove);
     window.addEventListener('pointerup', onUp);
+    window.addEventListener('pointercancel', onUp);
+    window.addEventListener('blur', onUp);
     return () => {
       window.removeEventListener('pointermove', onMove);
       window.removeEventListener('pointerup', onUp);
+      window.removeEventListener('pointercancel', onUp);
+      window.removeEventListener('blur', onUp);
+      document.body.style.userSelect = previousUserSelect;
     };
-  }, [dragging, thumbHeight, getMetrics, setScroll, isContainer]);
+  }, [dragging, thumbHeight, getMetrics, setScroll, isContainer, showThenIdle]);
 
   const onThumbPointerDown = (e: React.PointerEvent) => {
+    if (e.button !== 0) return;
     e.preventDefault();
     e.stopPropagation();
     dragOrigin.current = {
       pointerY: e.clientY,
       scrollTop: getMetrics()?.scrollTop ?? 0,
+      pointerId: e.pointerId,
+      target: e.currentTarget as HTMLElement,
     };
+    e.currentTarget.setPointerCapture?.(e.pointerId);
     setDragging(true);
     setActive(true);
     if (hideTimer.current) clearTimeout(hideTimer.current);
@@ -216,6 +235,7 @@ export function CustomScrollbar({
   return (
     <div
       ref={trackRef}
+      data-scrollbar-track
       className={`${styles.track} ${isContainer ? styles.trackContainer : ''} ${
         visible ? styles.visible : ''
       }`}
@@ -230,9 +250,11 @@ export function CustomScrollbar({
       aria-hidden="true"
     >
       <div
+        data-scrollbar-thumb
         className={`${styles.thumb} ${dragging ? styles.thumbDragging : ''}`}
         style={{ height: `${thumbHeight}px`, transform: `translateY(${thumbTop}px)` }}
         onPointerDown={onThumbPointerDown}
+        onLostPointerCapture={() => setDragging(false)}
       />
     </div>
   );

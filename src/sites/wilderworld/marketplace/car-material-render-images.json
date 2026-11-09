@@ -1,0 +1,200 @@
+{
+  "MAT-vehicle-ghostline-glacier-pearl": {
+    "image": "/images/marketplace/car-materials/vehicle-ghostline-glacier-pearl.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/radeon-ghostline-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "glacier-pearl",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-ghostline-glacier-pearl-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-ghostline-glacier-pearl-card.webp 640w, /images/marketplace/car-materials/vehicle-ghostline-glacier-pearl.webp 1672w"
+  },
+  "MAT-vehicle-ghostline-liquid-silver": {
+    "image": "/images/marketplace/car-materials/vehicle-ghostline-liquid-silver.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/radeon-ghostline-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "liquid-silver",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-ghostline-liquid-silver-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-ghostline-liquid-silver-card.webp 640w, /images/marketplace/car-materials/vehicle-ghostline-liquid-silver.webp 1672w"
+  },
+  "MAT-vehicle-ghostline-graphite-satin": {
+    "image": "/images/marketplace/car-materials/vehicle-ghostline-graphite-satin.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/radeon-ghostline-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "graphite-satin",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-ghostline-graphite-satin-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-ghostline-graphite-satin-card.webp 640w, /images/marketplace/car-materials/vehicle-ghostline-graphite-satin.webp 1672w"
+  },
+  "MAT-vehicle-ghostline-solar-orange": {
+    "image": "/images/marketplace/car-materials/vehicle-ghostline-solar-orange.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/radeon-ghostline-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "solar-orange",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-ghostline-solar-orange-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-ghostline-solar-orange-card.webp 640w, /images/marketplace/car-materials/vehicle-ghostline-solar-orange.webp 1672w"
+  },
+  "MAT-vehicle-ghostline-oxblood": {
+    "image": "/images/marketplace/car-materials/vehicle-ghostline-oxblood.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/radeon-ghostline-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "oxblood",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-ghostline-oxblood-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-ghostline-oxblood-card.webp 640w, /images/marketplace/car-materials/vehicle-ghostline-oxblood.webp 1672w"
+  },
+  "MAT-vehicle-ghostline-electric-cobalt": {
+    "image": "/images/marketplace/car-materials/vehicle-ghostline-electric-cobalt.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/radeon-ghostline-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "electric-cobalt",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-ghostline-electric-cobalt-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-ghostline-electric-cobalt-card.webp 640w, /images/marketplace/car-materials/vehicle-ghostline-electric-cobalt.webp 1672w"
+  },
+  "MAT-vehicle-ghostline-sea-glass": {
+    "image": "/images/marketplace/car-materials/vehicle-ghostline-sea-glass.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/radeon-ghostline-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "sea-glass",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-ghostline-sea-glass-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-ghostline-sea-glass-card.webp 640w, /images/marketplace/car-materials/vehicle-ghostline-sea-glass.webp 1672w"
+  },
+  "MAT-vehicle-ghostline-sandstorm": {
+    "image": "/images/marketplace/car-materials/vehicle-ghostline-sandstorm.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/radeon-ghostline-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "sandstorm",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-ghostline-sandstorm-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-ghostline-sandstorm-card.webp 640w, /images/marketplace/car-materials/vehicle-ghostline-sandstorm.webp 1672w"
+  },
+  "MAT-vehicle-ghostline-plum-noir": {
+    "image": "/images/marketplace/car-materials/vehicle-ghostline-plum-noir.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/radeon-ghostline-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "plum-noir",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-ghostline-plum-noir-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-ghostline-plum-noir-card.webp 640w, /images/marketplace/car-materials/vehicle-ghostline-plum-noir.webp 1672w"
+  },
+  "MAT-vehicle-vera-solis-glacier-pearl": {
+    "image": "/images/marketplace/car-materials/vehicle-vera-solis-glacier-pearl.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/vera-solis-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "glacier-pearl",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-vera-solis-glacier-pearl-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-vera-solis-glacier-pearl-card.webp 640w, /images/marketplace/car-materials/vehicle-vera-solis-glacier-pearl.webp 1672w"
+  },
+  "MAT-vehicle-vera-solis-liquid-silver": {
+    "image": "/images/marketplace/car-materials/vehicle-vera-solis-liquid-silver.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/vera-solis-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "liquid-silver",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-vera-solis-liquid-silver-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-vera-solis-liquid-silver-card.webp 640w, /images/marketplace/car-materials/vehicle-vera-solis-liquid-silver.webp 1672w"
+  },
+  "MAT-vehicle-vera-solis-graphite-satin": {
+    "image": "/images/marketplace/car-materials/vehicle-vera-solis-graphite-satin.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/vera-solis-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "graphite-satin",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-vera-solis-graphite-satin-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-vera-solis-graphite-satin-card.webp 640w, /images/marketplace/car-materials/vehicle-vera-solis-graphite-satin.webp 1672w"
+  },
+  "MAT-vehicle-vera-solis-solar-orange": {
+    "image": "/images/marketplace/car-materials/vehicle-vera-solis-solar-orange.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/vera-solis-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "solar-orange",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-vera-solis-solar-orange-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-vera-solis-solar-orange-card.webp 640w, /images/marketplace/car-materials/vehicle-vera-solis-solar-orange.webp 1672w"
+  },
+  "MAT-vehicle-vera-solis-oxblood": {
+    "image": "/images/marketplace/car-materials/vehicle-vera-solis-oxblood.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/vera-solis-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "oxblood",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-vera-solis-oxblood-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-vera-solis-oxblood-card.webp 640w, /images/marketplace/car-materials/vehicle-vera-solis-oxblood.webp 1672w"
+  },
+  "MAT-vehicle-vera-solis-electric-cobalt": {
+    "image": "/images/marketplace/car-materials/vehicle-vera-solis-electric-cobalt.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/vera-solis-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "electric-cobalt",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-vera-solis-electric-cobalt-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-vera-solis-electric-cobalt-card.webp 640w, /images/marketplace/car-materials/vehicle-vera-solis-electric-cobalt.webp 1672w"
+  },
+  "MAT-vehicle-vera-solis-sea-glass": {
+    "image": "/images/marketplace/car-materials/vehicle-vera-solis-sea-glass.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/vera-solis-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "sea-glass",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-vera-solis-sea-glass-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-vera-solis-sea-glass-card.webp 640w, /images/marketplace/car-materials/vehicle-vera-solis-sea-glass.webp 1672w"
+  },
+  "MAT-vehicle-vera-solis-sandstorm": {
+    "image": "/images/marketplace/car-materials/vehicle-vera-solis-sandstorm.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/vera-solis-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "sandstorm",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-vera-solis-sandstorm-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-vera-solis-sandstorm-card.webp 640w, /images/marketplace/car-materials/vehicle-vera-solis-sandstorm.webp 1672w"
+  },
+  "MAT-vehicle-vera-solis-plum-noir": {
+    "image": "/images/marketplace/car-materials/vehicle-vera-solis-plum-noir.webp",
+    "renderMethod": "image_concept",
+    "imageKind": "imagegen_visual_concept",
+    "geometryUnchanged": false,
+    "sourceReference": "/images/wilder-world/vera-solis-showcase-first-frame.jpg.webp",
+    "nativeAssetBindingVerified": false,
+    "materialId": "plum-noir",
+    "thumbnail": "/images/marketplace/car-materials/vehicle-vera-solis-plum-noir-card.webp",
+    "srcSet": "/images/marketplace/car-materials/vehicle-vera-solis-plum-noir-card.webp 640w, /images/marketplace/car-materials/vehicle-vera-solis-plum-noir.webp 1672w"
+  }
+}

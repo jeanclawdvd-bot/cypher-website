@@ -143,7 +143,7 @@ const wilderNav: NavSection[] = [
   { id: 'city', label: 'City', href: '/city', noPanel: true },
   { id: 'industries', label: 'Industries', href: '/industries', noPanel: true },
   { id: 'economy', label: 'Economy', href: '/economy', noPanel: true },
-  { id: 'market', label: 'Market', href: '/market', noPanel: true },
+  { id: 'store', label: 'Shop', href: '/store', noPanel: true },
   { id: 'news', label: 'News', href: 'https://zine.live', external: true, noPanel: true },
 ];
 
@@ -222,14 +222,14 @@ const wilderFooter: FooterConfig = {
   social: {},
   cta: {
     heading: 'A New Dimension of Reality',
-    button: { label: 'Early Access', href: WILDER_EARLY_ACCESS_URL, external: true },
+    button: { label: 'Play Now', href: WILDER_EARLY_ACCESS_URL, external: true },
   },
   parentCompany: CYPHER_PARENT,
   columns: [
     {
       heading: 'Game',
       links: [
-        { label: 'Overview', href: '/' },
+        { label: 'Overview', href: '/discover' },
         { label: 'Universe', href: '/universe' },
         { label: 'Gameplay', href: '/gameplay' },
         { label: 'City', href: '/city' },
@@ -255,6 +255,7 @@ const wilderFooter: FooterConfig = {
     {
       heading: 'Community',
       links: [
+        { label: 'Trinity', href: '/community/trinity' },
         { label: 'News', href: 'https://www.wilderworld.com/news', external: true },
         { label: 'X', href: 'https://x.com/WilderWorld', external: true },
         { label: 'Instagram', href: 'https://www.instagram.com/wilderworld', external: true },
@@ -460,7 +461,7 @@ export const COMPANIES: Record<CompanyKey, CompanyConfig> = {
       alt: 'Wilder World',
     },
     cta: {
-      label: 'Early Access',
+      label: 'Play Now',
       href: 'https://store.epicgames.com/p/wilder-world-wilder-world-alpha-b4ccf8?lang=en-US',
       external: true,
     },
@@ -519,6 +520,9 @@ export const DOMAIN_TO_COMPANY: Record<string, CompanyKey> = {
  * always match (e.g. /universe always serves Wilder World).
  */
 export const PATH_TO_COMPANY: Record<string, CompanyKey> = {
+  community: 'wilderworld',
+  discover: 'wilderworld',
+  store: 'wilderworld',
   vehicles: 'wilderworld',
   ghostline: 'wilderworld',
   universe: 'wilderworld',
@@ -544,4 +548,4 @@ export const PATH_TO_COMPANY: Record<string, CompanyKey> = {
  * unless explicitly configured otherwise.
  */
 export const DEFAULT_COMPANY: CompanyKey =
-  process.env.NEXT_PUBLIC_DEFAULT_COMPANY === 'wilderworld' ? 'wilderworld' : 'cypher';
+  'wilderworld';

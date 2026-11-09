@@ -1,0 +1,5 @@
+.note { font-size:12px!important; }
+.count { color:#9ba4ac; font-size:12px; margin:0; }
+.render { cursor:default; }.render img { padding:0; object-fit:contain; }.render:hover img { transform:none; }
+.details { margin-top:18px; padding-top:14px; }.details summary { font-size:12px; }.details p,.details li { font-size:12px; }
+.held { margin-top:44px; }.held strong { color:#d4dbe0; font-weight:400; }.held li { margin-block:20px; }.held p { margin:6px 0; }

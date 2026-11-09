@@ -1,11 +1,6 @@
-import { WILDER_INDUSTRIES } from '@/lib/wilderCollections';
-import MarketBrowser from './MarketBrowser';
-import styles from './market.module.css';
+import { redirect } from 'next/navigation';
+import { storeMarketUrl, type MarketSearchParams } from './lib/store-links';
 
-export default function MarketPage() {
-  return (
-    <div className={styles.page}>
-      <MarketBrowser industries={WILDER_INDUSTRIES} />
-    </div>
-  );
+export default async function MarketPage({ searchParams }: { searchParams: Promise<MarketSearchParams> }) {
+  redirect(storeMarketUrl(await searchParams));
 }

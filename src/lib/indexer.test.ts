@@ -28,11 +28,11 @@ function makeAsset(overrides: Partial<IndexerAsset> = {}): IndexerAsset {
 
 describe('resolveMediaUrl', () => {
   it('rewrites ipfs:// URIs to the public gateway', () => {
-    expect(resolveMediaUrl('ipfs://QmCid/x.png')).toBe('https://ipfs.io/ipfs/QmCid/x.png');
+    expect(resolveMediaUrl('ipfs://QmCid/x.png')).toBe('https://ipfs.filebase.io/ipfs/QmCid/x.png');
   });
 
   it('collapses the ipfs://ipfs/ double prefix to a single /ipfs/ segment', () => {
-    expect(resolveMediaUrl('ipfs://ipfs/QmCid')).toBe('https://ipfs.io/ipfs/QmCid');
+    expect(resolveMediaUrl('ipfs://ipfs/QmCid')).toBe('https://ipfs.filebase.io/ipfs/QmCid');
   });
 
   it('passes https URLs through unchanged', () => {
@@ -60,8 +60,10 @@ describe('normalizeIndexerAsset', () => {
     const result: MarketNft = normalizeIndexerAsset(makeAsset(), 'test-slug', 'ethereum');
     expect(result).toEqual({
       identifier: '42',
+      sourceAssetId: null,
+      instanceTag: null,
       name: 'Test Token #42',
-      image: 'https://ipfs.io/ipfs/QmImage/42.png',
+      image: 'https://ipfs.filebase.io/ipfs/QmImage/42.png',
       collectionSlug: 'test-slug',
       contract: '0xabc123',
       chain: 'ethereum',
@@ -78,6 +80,11 @@ describe('normalizeIndexerAsset', () => {
     expect(result.name).toBe('#42');
     expect(result.image).toBeNull();
     expect(result.traits).toEqual([]);
+  });
+
+  it('preserves source design identity separately from per-instance tags and token IDs', () => {
+    const result = normalizeIndexerAsset(makeAsset({metadata:{name:'KMS Small S1',asset_id:'Barrel_Suppressor_Small_KMS',tag:'27008'}}), 'pack-weapons', 'zchain');
+    expect(result).toMatchObject({identifier:'42',sourceAssetId:'Barrel_Suppressor_Small_KMS',instanceTag:'27008'});
   });
 
   it('returns empty traits when metadata.attributes is null', () => {

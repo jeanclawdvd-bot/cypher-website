@@ -1,0 +1,262 @@
+{
+  "BTWR_001_F": {
+    "gender": "Women",
+    "sourceSku": "BTWR_001_F",
+    "basis": "Distinct female source mesh matched to this exact retained product during native geometry review. Merchandising fit only; does not change game compatibility.",
+    "sourceAssets": [
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/BTWR/BTWR_001/SK_BTWR_001_1_Female",
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/BTWR/BTWR_001/SK_BTWR_001_2_Female",
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/BTWR/BTWR_001/SK_BTWR_001_3_Female"
+    ],
+    "sourceFiles": [
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\BTWR\\BTWR_001\\SK_BTWR_001_1_Female.uasset",
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\BTWR\\BTWR_001\\SK_BTWR_001_2_Female.uasset",
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\BTWR\\BTWR_001\\SK_BTWR_001_3_Female.uasset"
+    ],
+    "sourceHashes": [
+      "1c5186ea9eb936165d6dbbfd837fb7e6e81905ca8feee752b93e95fd9629bf3b",
+      "8f2621126b6c99af4f0d312d76e09bf206263aa172b9a6dc12511184657c6bc8",
+      "2744ad76a5fadda6031f875ad9dc3562d579c6d051f67fc01000045ba067e3b0"
+    ],
+    "sourceThumbnails": [
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\BTWR\\BTWR_001\\SK_BTWR_001_1_Female.jpg",
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\BTWR\\BTWR_001\\SK_BTWR_001_2_Female.jpg",
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\BTWR\\BTWR_001\\SK_BTWR_001_3_Female.jpg"
+    ],
+    "previousMerchandisingGender": "Unisex",
+    "gameCompatibilityConfirmed": false,
+    "rawAvatarCompatibility": null,
+    "review": "outputs/ww-female-clothing-thumbnails-20261107/manifest.json"
+  },
+  "BTWR_002_A_F": {
+    "gender": "Women",
+    "sourceSku": "BTWR_002_A_F",
+    "basis": "Distinct female source mesh matched to this exact retained product during native geometry review. Merchandising fit only; does not change game compatibility.",
+    "sourceAssets": [
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/BTWR/BTWR_002/SK_BTWR_002_Female"
+    ],
+    "sourceFiles": [
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\BTWR\\BTWR_002\\SK_BTWR_002_Female.uasset"
+    ],
+    "sourceHashes": [
+      "114797897bc362dc0eae017c6e6f0c28cb68641711d908f0a4183449fd3e72d6"
+    ],
+    "sourceThumbnails": [
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\BTWR\\BTWR_002\\SK_BTWR_002_Female.jpg"
+    ],
+    "previousMerchandisingGender": "Unisex",
+    "gameCompatibilityConfirmed": false,
+    "rawAvatarCompatibility": null,
+    "review": "outputs/ww-female-clothing-thumbnails-20261107/manifest.json"
+  },
+  "BTWR_002_F": {
+    "gender": "Women",
+    "sourceSku": "BTWR_002_F",
+    "basis": "Distinct female source mesh matched to this exact retained product during native geometry review. Merchandising fit only; does not change game compatibility.",
+    "sourceAssets": [
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/BTWR/BTWR_002/SK_BTWR_002_Female"
+    ],
+    "sourceFiles": [
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\BTWR\\BTWR_002\\SK_BTWR_002_Female.uasset"
+    ],
+    "sourceHashes": [
+      "114797897bc362dc0eae017c6e6f0c28cb68641711d908f0a4183449fd3e72d6"
+    ],
+    "sourceThumbnails": [
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\BTWR\\BTWR_002\\SK_BTWR_002_Female.jpg"
+    ],
+    "previousMerchandisingGender": "Unisex",
+    "gameCompatibilityConfirmed": false,
+    "rawAvatarCompatibility": null,
+    "review": "outputs/ww-female-clothing-thumbnails-20261107/manifest.json"
+  },
+  "BTWR_004_A_F": {
+    "gender": "Women",
+    "sourceSku": "BTWR_004_A_F",
+    "basis": "Distinct female source mesh matched to this exact retained product during native geometry review. Merchandising fit only; does not change game compatibility.",
+    "sourceAssets": [
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/BTWR/BTWR_004/SK_BTWR_004_Female"
+    ],
+    "sourceFiles": [
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\BTWR\\BTWR_004\\SK_BTWR_004_Female.uasset"
+    ],
+    "sourceHashes": [
+      "8c3813a23d8e70a603922e1415e9dfb8b1881e095352c984a9bf47fdde786c68"
+    ],
+    "sourceThumbnails": [
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\BTWR\\BTWR_004\\SK_BTWR_004_Female.jpg"
+    ],
+    "previousMerchandisingGender": "Unisex",
+    "gameCompatibilityConfirmed": false,
+    "rawAvatarCompatibility": null,
+    "review": "outputs/ww-female-clothing-thumbnails-20261107/manifest.json"
+  },
+  "BTWR_004_F": {
+    "gender": "Women",
+    "sourceSku": "BTWR_004_F",
+    "basis": "Distinct female source mesh matched to this exact retained product during native geometry review. Merchandising fit only; does not change game compatibility.",
+    "sourceAssets": [
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/BTWR/BTWR_004/SK_BTWR_004_Female"
+    ],
+    "sourceFiles": [
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\BTWR\\BTWR_004\\SK_BTWR_004_Female.uasset"
+    ],
+    "sourceHashes": [
+      "8c3813a23d8e70a603922e1415e9dfb8b1881e095352c984a9bf47fdde786c68"
+    ],
+    "sourceThumbnails": [
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\BTWR\\BTWR_004\\SK_BTWR_004_Female.jpg"
+    ],
+    "previousMerchandisingGender": "Unisex",
+    "gameCompatibilityConfirmed": false,
+    "rawAvatarCompatibility": null,
+    "review": "outputs/ww-female-clothing-thumbnails-20261107/manifest.json"
+  },
+  "FTWR_004_A": {
+    "gender": "Women",
+    "sourceSku": "FTWR_004_A",
+    "basis": "Distinct female source mesh matched to this exact retained product during native geometry review. Merchandising fit only; does not change game compatibility.",
+    "sourceAssets": [
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/FTWR/FTWR_004/SK_FTWR_004_Female"
+    ],
+    "sourceFiles": [
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\FTWR\\FTWR_004\\SK_FTWR_004_Female.uasset"
+    ],
+    "sourceHashes": [
+      "c9c18c9cdd69066ba23f1fea07205e162b3755b4d8742a1126343ca3c2ec2b66"
+    ],
+    "sourceThumbnails": [
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\FTWR\\FTWR_004\\SK_FTWR_004_Female.jpg"
+    ],
+    "previousMerchandisingGender": "Women",
+    "gameCompatibilityConfirmed": false,
+    "rawAvatarCompatibility": null,
+    "review": "outputs/ww-female-clothing-thumbnails-20261107/manifest.json"
+  },
+  "FTWR_005_A": {
+    "gender": "Women",
+    "sourceSku": "FTWR_005_A",
+    "basis": "Distinct female source mesh matched to this exact retained product during native geometry review. Merchandising fit only; does not change game compatibility.",
+    "sourceAssets": [
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/FTWR/FTWR_005/SK_FTWR_005_Female"
+    ],
+    "sourceFiles": [
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\FTWR\\FTWR_005\\SK_FTWR_005_Female.uasset"
+    ],
+    "sourceHashes": [
+      "93e7632ad9f5800a620637374e2209e4e08510bd9b5c171d3a2b9304e3f49d1d"
+    ],
+    "sourceThumbnails": [
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\FTWR\\FTWR_005\\SK_FTWR_005_Female.jpg"
+    ],
+    "previousMerchandisingGender": "Unisex",
+    "gameCompatibilityConfirmed": false,
+    "rawAvatarCompatibility": null,
+    "review": "outputs/ww-female-clothing-thumbnails-20261107/manifest.json"
+  },
+  "SUIT_001_A": {
+    "gender": "Women",
+    "sourceSku": "SUIT_001_A",
+    "basis": "Distinct female source mesh matched to this exact retained product during native geometry review. Merchandising fit only; does not change game compatibility.",
+    "sourceAssets": [
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/SUIT/SUIT_001/SK_SUIT_001_Female"
+    ],
+    "sourceFiles": [
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\SUIT\\SUIT_001\\SK_SUIT_001_Female.uasset"
+    ],
+    "sourceHashes": [
+      "84625d32410f628e956e45247e116f2660ce87c9cfc14ee775371937cde9635b"
+    ],
+    "sourceThumbnails": [
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\SUIT\\SUIT_001\\SK_SUIT_001_Female.jpg"
+    ],
+    "previousMerchandisingGender": "Unisex",
+    "gameCompatibilityConfirmed": false,
+    "rawAvatarCompatibility": null,
+    "review": "outputs/ww-female-clothing-thumbnails-20261107/manifest.json"
+  },
+  "SUIT_002_A": {
+    "gender": "Women",
+    "sourceSku": "SUIT_002_A",
+    "basis": "Distinct female source mesh matched to this exact retained product during native geometry review. Merchandising fit only; does not change game compatibility.",
+    "sourceAssets": [
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/SUIT/SUIT_002/SK_SUIT_002_Female"
+    ],
+    "sourceFiles": [
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\SUIT\\SUIT_002\\SK_SUIT_002_Female.uasset"
+    ],
+    "sourceHashes": [
+      "6fbb9da5a33ebfef2a9bff08c2de0a5bad40a8c5937017992fabb2173b2e7907"
+    ],
+    "sourceThumbnails": [
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\SUIT\\SUIT_002\\SK_SUIT_002_Female.jpg"
+    ],
+    "previousMerchandisingGender": "Unisex",
+    "gameCompatibilityConfirmed": false,
+    "rawAvatarCompatibility": null,
+    "review": "outputs/ww-female-clothing-thumbnails-20261107/manifest.json"
+  },
+  "SUIT_003_A": {
+    "gender": "Women",
+    "sourceSku": "SUIT_003_A",
+    "basis": "Distinct female source mesh matched to this exact retained product during native geometry review. Merchandising fit only; does not change game compatibility.",
+    "sourceAssets": [
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/SUIT/SUIT_003/SK_SUIT_003_Female"
+    ],
+    "sourceFiles": [
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\SUIT\\SUIT_003\\SK_SUIT_003_Female.uasset"
+    ],
+    "sourceHashes": [
+      "8f0b88838f6a5187ab80bba91535793f79a09469a87aad0cf79b31bb936ee2ff"
+    ],
+    "sourceThumbnails": [
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\SUIT\\SUIT_003\\SK_SUIT_003_Female.jpg"
+    ],
+    "previousMerchandisingGender": "Unisex",
+    "gameCompatibilityConfirmed": false,
+    "rawAvatarCompatibility": null,
+    "review": "outputs/ww-female-clothing-thumbnails-20261107/manifest.json"
+  },
+  "SUIT_004_A": {
+    "gender": "Women",
+    "sourceSku": "SUIT_004_A",
+    "basis": "Distinct female source mesh matched to this exact retained product during native geometry review. Merchandising fit only; does not change game compatibility.",
+    "sourceAssets": [
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/SUIT/SUIT_004/SK_SUIT_004_Female"
+    ],
+    "sourceFiles": [
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\SUIT\\SUIT_004\\SK_SUIT_004_Female.uasset"
+    ],
+    "sourceHashes": [
+      "d909d4a6a60927d1692418e0594d5a25b41b335b0d28ea598042f554a5d87f4e"
+    ],
+    "sourceThumbnails": [
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\SUIT\\SUIT_004\\SK_SUIT_004_Female.jpg"
+    ],
+    "previousMerchandisingGender": "Unisex",
+    "gameCompatibilityConfirmed": false,
+    "rawAvatarCompatibility": null,
+    "review": "outputs/ww-female-clothing-thumbnails-20261107/manifest.json"
+  },
+  "TPWR_003_F": {
+    "gender": "Women",
+    "sourceSku": "TPWR_003_F",
+    "basis": "Distinct female source mesh matched to this exact retained product during native geometry review. Merchandising fit only; does not change game compatibility.",
+    "sourceAssets": [
+      "/Game/Avatars/Shared/Customization/Accessories/Human/Female/TPWR/TPWR_003/SK_TPWR_003_Female"
+    ],
+    "sourceFiles": [
+      "D:\\zspaceproduction\\Content\\Avatars\\Shared\\Customization\\Accessories\\Human\\Female\\TPWR\\TPWR_003\\SK_TPWR_003_Female.uasset"
+    ],
+    "sourceHashes": [
+      "bf557d32fd8106e46aa1f7ad28c840382d9e1b5768bb4193b7ad6d3130930f2c"
+    ],
+    "sourceThumbnails": [
+      "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-female-leggings-discovery-20261107\\female-accessories\\TPWR\\TPWR_003\\SK_TPWR_003_Female.jpg"
+    ],
+    "previousMerchandisingGender": "Unisex",
+    "gameCompatibilityConfirmed": false,
+    "rawAvatarCompatibility": null,
+    "review": "outputs/ww-female-clothing-thumbnails-20261107/manifest.json"
+  }
+}

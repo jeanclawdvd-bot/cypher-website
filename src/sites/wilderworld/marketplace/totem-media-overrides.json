@@ -1,0 +1,16 @@
+{
+  "totem-trinity-legacy": {
+    "image": "/images/marketplace/totems/trinity-totem-official.jpg",
+    "imageKind": "official_published_reference",
+    "sourceReference": "https://www.zine.live/dev-log-x/",
+    "provenanceFile": "outputs/ww-trinity-reference-20261107/provenance.json",
+    "gallery": [
+      {
+        "image": "/images/marketplace/totems/trinity-totem-official.jpg",
+        "label": "Original Trinity Totem",
+        "sourceReference": "https://www.zine.live/dev-log-x/",
+        "imageKind": "official_published_reference"
+      }
+    ]
+  }
+}

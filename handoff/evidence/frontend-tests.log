@@ -1,0 +1,3490 @@
+
+ RUN  v4.1.12 C:/Users/frank/Downloads/Nightfall-PC-Handoff/nightfall/sites/wilder-dom-handoff-20261109
+
+ ❯ src/app/store/market/originals-ui.test.tsx (19 tests | 1 failed) 775ms
+     × defaults to all inventory and opens real product links 43ms
+stderr | src/sites/wilderworld/marketplace/ProductMarketPanel.test.tsx > product market preview > clears draft amounts when switching currencies so values are never reinterpreted
+An update to ProductMarketPanel inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to ProductMarketPanel inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+ ❯ src/sites/wilderworld/marketplace/ProductMarketPanel.test.tsx (6 tests | 1 failed) 404ms
+     × clears draft amounts when switching currencies so values are never reinterpreted 50ms
+
+stderr | src/sites/wilderworld/marketplace/ProductMarketPanel.test.tsx > product market preview > clears draft amounts when switching currencies so values are never reinterpreted
+An update to ProductMarketPanel inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ ❯ src/sites/wilderworld/marketplace/runtime-coverage.test.ts (1 test | 1 failed) 143ms
+     × keeps nine explicit plans per product and exposes only reviewed clothing imagery 142ms
+ ❯ src/app/shopping-entrypoints.test.tsx (23 tests | 1 failed) 89ms
+     × uses shopping navigation and preserves the footer for Wilder World 5ms
+ ❯ src/sites/wilderworld/marketplace/preview-currency.test.tsx (5 tests | 1 failed) 30ms
+     × visibly identifies the small WILD equivalent as demo data 18ms
+ ❯ src/sites/wilderworld/marketplace/preview-prices.test.ts (3 tests | 1 failed) 21ms
+     × matches the exact reviewed 63-price proposal and retains all 163 earlier prices 6ms
+ ❯ src/lib/wilderCollections.test.ts (11 tests | 2 failed) 8ms
+       × every entry without an explicit source resolves to opensea 4ms
+       × locks the total entry count 0ms
+ ❯ src/sites/wilderworld/marketplace/object-lifestyle.test.ts (2 tests | 2 failed) 7ms
+     × gives every retained furniture object, sculpture and rim an assigned scene without changing material images 4ms
+     × adds seventeen reviewed scenes for forty exact products while preserving the approved rim cover 1ms
+ ❯ src/sites/wilderworld/accessories/catalog.test.ts (13 tests | 1 failed) 3063ms
+     × gives every visible style an independent identity and image while retaining its real source SKU 9ms
+stderr | src/sites/wilderworld/accessories/product-detail.test.tsx > individual accessory shopping preview > completes a functional local demo selection without payment or an actual order
+An update to ProductMarketPanel inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to ProductMarketPanel inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+stderr | src/sites/wilderworld/accessories/product-detail.test.tsx > individual accessory shopping preview > completes a functional local demo selection without payment or an actual order
+An update to ProductMarketPanel inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+stderr | src/sites/wilderworld/accessories/product-detail.test.tsx > individual accessory shopping preview > completes a functional local demo selection without payment or an actual order
+An update to LocalListingPanel inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to ProductReviews inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to ProductReviews inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to LocalListingPanel inside a test was not wrapped in act(...).
+
+ ❯ src/sites/wilderworld/accessories/product-detail.test.tsx (6 tests | 1 failed) 736ms
+     × completes a functional local demo selection without payment or an actual order 421ms
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+stderr | src/sites/wilderworld/accessories/product-detail.test.tsx > individual accessory shopping preview > completes a functional local demo selection without payment or an actual order
+An update to ProductReviews inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ ❯ src/sites/wilderworld/accessories/store-browse.test.tsx (10 tests | 2 failed) 3204ms
+     × uses one large image per category, mixes lifestyle and product photos, and scrolls the category rail 104ms
+     × leads with campaign headlines above the imagery and keeps compact editorial titles above their images 65ms
+ ❯ src/sites/wilderworld/collections/source-token-audit.test.ts (1 test | 1 failed) 99ms
+     × retains every source ID and concept while leaving production token mappings unresolved 97ms
+ ❯ src/sites/wilderworld/marketplace/finish-filter-ui.test.tsx (4 tests | 1 failed) 419ms
+     × never substitutes another photo for a pending selected finish, and changes study badges only in presentation 6ms
+ ❯ src/sites/wilderworld/marketplace/frank-wilder-totems.test.ts (8 tests | 1 failed) 40ms
+     × keeps pendant descriptions and every gallery entry separate from historical chain assemblies 5ms
+ ❯ src/sites/wilderworld/marketplace/limited-editions.test.ts (5 tests | 1 failed) 139ms
+     × keeps the separate handoff report identical to the displayed proposal 14ms
+ ❯ src/app/store/account/Wallets.test.tsx (15 tests | 1 failed) 1803ms
+     × keeps an already submitted link save stable if the provider changes (success true) 1032ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 19 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/app/shopping-entrypoints.test.tsx > Global brand shell > uses shopping navigation and preserves the footer for Wilder World
+Error: [vitest] No "useRouter" export is defined on the "next/navigation" mock. Did you forget to return it from "vi.mock"?
+If you need to partially mock a module, you can use "importOriginal" helper inside:
+
+vi.mock(import("next/navigation"), async (importOriginal) => {
+  const actual = await importOriginal()
+  return {
+    ...actual,
+    // your mocked methods
+  }
+})
+
+ ❯ StorePageTransition src/sites/wilderworld/marketplace/StorePageTransition.tsx:28:18
+     26|
+     27| export default function StorePageTransition() {
+     28|   const router = useRouter();
+       |                  ^
+     29|   const routerRef = useRef(router);
+     30|   routerRef.current = router;
+ ❯ Object.react_stack_bottom_frame ../wilder-fashion-review/checkout/node_modules/.pnpm/react-dom@19.2.6_react@19.2.6/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js:9808:18
+ ❯ renderWithHooks ../wilder-fashion-review/checkout/node_modules/.pnpm/react-dom@19.2.6_react@19.2.6/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js:5062:19
+ ❯ renderElement ../wilder-fashion-review/checkout/node_modules/.pnpm/react-dom@19.2.6_react@19.2.6/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js:5497:23
+ ❯ retryNode ../wilder-fashion-review/checkout/node_modules/.pnpm/react-dom@19.2.6_react@19.2.6/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js:6428:21
+ ❯ renderNodeDestructive ../wilder-fashion-review/checkout/node_modules/.pnpm/react-dom@19.2.6_react@19.2.6/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js:6367:11
+ ❯ renderNode ../wilder-fashion-review/checkout/node_modules/.pnpm/react-dom@19.2.6_react@19.2.6/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js:6905:18
+ ❯ renderChildrenArray ../wilder-fashion-review/checkout/node_modules/.pnpm/react-dom@19.2.6_react@19.2.6/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js:6674:11
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/19]⎯
+
+ FAIL  src/lib/wilderCollections.test.ts > wilderCollections config invariants > source default path > every entry without an explicit source resolves to opensea
+AssertionError: expected [ …(12) ] to have a length of 11 but got 12
+
+- Expected
++ Received
+
+- 11
++ 12
+
+ ❯ src/lib/wilderCollections.test.ts:60:25
+     58|         expect(getEntrySource(entry)).toBe('opensea');
+     59|       }
+     60|       expect(defaulted).toHaveLength(11);
+       |                         ^
+     61|     });
+     62|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/19]⎯
+
+ FAIL  src/lib/wilderCollections.test.ts > wilderCollections config invariants > source default path > locks the total entry count
+AssertionError: expected [ …(16) ] to have a length of 15 but got 16
+
+- Expected
++ Received
+
+- 15
++ 16
+
+ ❯ src/lib/wilderCollections.test.ts:64:27
+     62|
+     63|     it('locks the total entry count', () => {
+     64|       expect(ALL_ENTRIES).toHaveLength(15);
+       |                           ^
+     65|     });
+     66|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/19]⎯
+
+ FAIL  src/app/store/account/Wallets.test.tsx > Wallets > keeps an already submitted link save stable if the provider changes (success true)
+TestingLibraryElementError: Unable to find role="button" and name "Sign and link wallet"
+
+Ignored nodes: comments, script, style
+<body>
+  <div>
+    <div
+      class="_root_529bfc"
+    >
+      <header
+        class="_heading_529bfc"
+      >
+        <div>
+          <h2>
+            Wallets
+          </h2>
+          <p>
+            Connect the wallets that hold your Wilder World items.
+          </p>
+        </div>
+        <span
+          class="_network_529bfc"
+        >
+          Ethereum Mainnet
+        </span>
+      </header>
+      <div
+        class="_preview_529bfc"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-link2"
+          fill="none"
+          height="19"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="19"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9 17H7A5 5 0 0 1 7 7h2"
+          />
+          <path
+            d="M15 7h2a5 5 0 1 1 0 10h-2"
+          />
+          <line
+            x1="8"
+            x2="16"
+            y1="12"
+            y2="12"
+          />
+        </svg>
+        <div>
+          <strong>
+            Your keys stay with you.
+          </strong>
+          <p>
+            A signature proves you control an address. It does not transfer assets, approve spending or give this site access to your funds.
+          </p>
+          <p>
+            This links a wallet to your 
+            <strong>
+              local test account
+            </strong>
+            . Production game-account linking, item sync and entitlement delivery are not connected yet.
+          </p>
+        </div>
+      </div>
+      <dl
+        class="_status_529bfc"
+      >
+        <div>
+          <dt>
+            Wallet proof
+          </dt>
+          <dd>
+            Signed ownership check
+          </dd>
+        </div>
+        <div>
+          <dt>
+            Ethereum item sync
+          </dt>
+          <dd>
+            Not connected
+          </dd>
+        </div>
+        <div>
+          <dt>
+            Game-account delivery
+          </dt>
+          <dd>
+            Not connected
+          </dd>
+        </div>
+      </dl>
+      <p
+        class="_error_529bfc"
+        role="alert"
+      >
+        The wallet proof is invalid or expired. Connect again for a fresh request.
+      </p>
+      <p
+        class="_empty_529bfc"
+      >
+        No wallets linked yet. Connect one to verify your address.
+      </p>
+      <section
+        aria-label="Connect a self-custody wallet"
+        class="_connect_529bfc"
+      >
+        <h3>
+          Connect a wallet
+        </h3>
+        <p>
+          Use an Ethereum browser wallet or a wallet’s in-app browser. QR connection and smart-contract wallets are not supported in this local preview.
+        </p>
+        <div
+          class="_connection_529bfc"
+        >
+          <p
+            class="_eyebrow_529bfc"
+          >
+            Browser wallet
+          </p>
+          <strong
+            class="_address_529bfc"
+          >
+            0x1111111111111111111111111111111111111111
+          </strong>
+          <p
+            class="_muted_529bfc"
+          >
+            Ethereum Mainnet · Ready to verify
+          </p>
+          <button
+            class="_primary_529bfc"
+            type="button"
+          >
+            Review wallet link
+          </button>
+          <button
+            class="_textButton_529bfc"
+            type="button"
+          >
+            Cancel connection
+          </button>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+
+Ignored nodes: comments, script, style
+<body>
+  <div>
+    <div
+      class="_root_529bfc"
+    >
+      <header
+        class="_heading_529bfc"
+      >
+        <div>
+          <h2>
+            Wallets
+          </h2>
+          <p>
+            Connect the wallets that hold your Wilder World items.
+          </p>
+        </div>
+        <span
+          class="_network_529bfc"
+        >
+          Ethereum Mainnet
+        </span>
+      </header>
+      <div
+        class="_preview_529bfc"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-link2"
+          fill="none"
+          height="19"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="19"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9 17H7A5 5 0 0 1 7 7h2"
+          />
+          <path
+            d="M15 7h2a5 5 0 1 1 0 10h-2"
+          />
+          <line
+            x1="8"
+            x2="16"
+            y1="12"
+            y2="12"
+          />
+        </svg>
+        <div>
+          <strong>
+            Your keys stay with you.
+          </strong>
+          <p>
+            A signature proves you control an address. It does not transfer assets, approve spending or give this site access to your funds.
+          </p>
+          <p>
+            This links a wallet to your 
+            <strong>
+              local test account
+            </strong>
+            . Production game-account linking, item sync and entitlement delivery are not connected yet.
+          </p>
+        </div>
+      </div>
+      <dl
+        class="_status_529bfc"
+      >
+        <div>
+          <dt>
+            Wallet proof
+          </dt>
+          <dd>
+            Signed ownership check
+          </dd>
+        </div>
+        <div>
+          <dt>
+            Ethereum item sync
+          </dt>
+          <dd>
+            Not connected
+          </dd>
+        </div>
+        <div>
+          <dt>
+            Game-account delivery
+          </dt>
+          <dd>
+            Not connected
+          </dd>
+        </div>
+      </dl>
+      <p
+        class="_error_529bfc"
+        role="alert"
+      >
+        The wallet proof is invalid or expired. Connect again for a fresh request.
+      </p>
+      <p
+        class="_empty_529bfc"
+      >
+        No wallets linked yet. Connect one to verify your address.
+      </p>
+      <section
+        aria-label="Connect a self-custody wallet"
+        class="_connect_529bfc"
+      >
+        <h3>
+          Connect a wallet
+        </h3>
+        <p>
+          Use an Ethereum browser wallet or a wallet’s in-app browser. QR connection and smart-contract wallets are not supported in this local preview.
+        </p>
+        <div
+          class="_connection_529bfc"
+        >
+          <p
+            class="_eyebrow_529bfc"
+          >
+            Browser wallet
+          </p>
+          <strong
+            class="_address_529bfc"
+          >
+            0x1111111111111111111111111111111111111111
+          </strong>
+          <p
+            class="_muted_529bfc"
+          >
+            Ethereum Mainnet · Ready to verify
+          </p>
+          <button
+            class="_primary_529bfc"
+            type="button"
+          >
+            Review wallet link
+          </button>
+          <button
+            class="_textButton_529bfc"
+            type="button"
+          >
+            Cancel connection
+          </button>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+ ❯ waitForWrapper ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/wait-for.js:163:27
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:86:33
+ ❯ prepare src/app/store/account/Wallets.test.tsx:37:127
+
+ ❯ src/app/store/account/Wallets.test.tsx:48:60
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/19]⎯
+
+ FAIL  src/app/store/market/originals-ui.test.tsx > Original collection shopping > defaults to all inventory and opens real product links
+TestingLibraryElementError: Unable to find an element with the text: /Live listings and market prices are not connected/. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+<body
+  style=""
+>
+  <div>
+    <main
+      class="_page_232d26"
+    >
+      <input
+        aria-label="Search products"
+      />
+      <div
+        class="_content_232d26"
+      >
+        <nav
+          aria-label="Breadcrumb"
+          class="_breadcrumb_232d26"
+        >
+          <a
+            href="/"
+          >
+            Wilder World
+          </a>
+          <svg
+            class="lucide lucide-chevron-right"
+            fill="none"
+            height="12"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="12"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m9 18 6-6-6-6"
+            />
+          </svg>
+          <span>
+            Originals
+          </span>
+          <svg
+            class="lucide lucide-chevron-right"
+            fill="none"
+            height="12"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="12"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m9 18 6-6-6-6"
+            />
+          </svg>
+          <span>
+            Wilder Wheels
+          </span>
+        </nav>
+        <header
+          class="_collectionHero_232d26 "
+        >
+          <div
+            class="_heroCopy_232d26"
+          >
+            <p
+              class="_kicker_232d26"
+            >
+              Genesis
+            </p>
+            <h1
+              class="_title_ccd16a"
+            >
+              Wilder Wheels
+            </h1>
+            <p
+              class="_description_232d26"
+            >
+              Procedurally generated, race-ready vehicles with dynamic gameplay abilities on the streets of Wiami.
+            </p>
+            <div
+              class="_collectionMeta_232d26"
+            >
+              <span>
+                Est. 
+                2021
+              </span>
+              <span>
+                Existing editions
+              </span>
+            </div>
+          </div>
+          <div
+            class="_collectionArt_232d26"
+          >
+            <img
+              alt="Wilder Wheels collection artwork"
+              src="/images/wilder-world/industries_wheels_hero.png.webp"
+            />
+          </div>
+        </header>
+        <div
+          class="_collectionStats_232d26"
+        >
+          <p>
+            Browse the original collection.
+          </p>
+          <a
+            href="https://opensea.io/collection/wilderworld"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Collection on OpenSea 
+            <svg
+              class="lucide lucide-arrow-up-right"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 7h10v10"
+              />
+              <path
+                d="M7 17 17 7"
+              />
+            </svg>
+          </a>
+        </div>
+        <div
+          class="_browseLayout_232d26"
+        >
+          <aside
+            aria-label="Collection filters"
+            class="_sidebar_232d26 "
+            id="_r_q_"
+            tabindex="-1"
+          >
+            <div
+              class="_sidebarHeading_232d26"
+            >
+              <h2>
+                Collections
+              </h2>
+              <button
+                aria-label="Close collection filters"
+              >
+                <svg
+                  class="lucide lucide-x"
+                  fill="none"
+                  height="18"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="18"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 6 6 18"
+                  />
+                  <path
+                    d="m6 6 12 12"
+                  />
+                </svg>
+              </button>
+            </div>
+            <nav
+              aria-label="Original collecti...
+ ❯ Object.getElementError ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/app/store/market/originals-ui.test.tsx:153:19
+    151|     expect(mocks.nfts).toHaveBeenCalledWith('wilderworld', 'all', unde…
+    152|     expect(screen.getByRole('link', { name: 'View Wilder Wheel #123' }…
+    153|     expect(screen.getByText(/Live listings and market prices are not c…
+       |                   ^
+    154|     expect(screen.queryByText('0 ETH')).not.toBeInTheDocument();
+    155|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/19]⎯
+
+ FAIL  src/sites/wilderworld/accessories/catalog.test.ts > accessory catalog import > gives every visible style an independent identity and image while retaining its real source SKU
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ src/sites/wilderworld/accessories/catalog.test.ts:115:64
+    113|       expect(product).not.toHaveProperty('variantImages');
+    114|       expect(product.draft).toBe(true);
+    115|       expect(product.image.startsWith('/images/accessories/')).toBe(tr…
+       |                                                                ^
+    116|       expect(existsSync(resolve('public', product.image.slice(1)))).to…
+    117|       expect(findIndividualProduct(product.id)).toBe(product);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/19]⎯
+
+ FAIL  src/sites/wilderworld/accessories/product-detail.test.tsx > individual accessory shopping preview > completes a functional local demo selection without payment or an actual order
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name `/Complete demo/`
+
+Here are the accessible roles:
+
+  main:
+
+  Name "":
+  <main
+    class="_page_744533"
+  />
+
+  --------------------------------------------------
+  navigation:
+
+  Name "Product navigation":
+  <nav
+    aria-label="Product navigation"
+    class="_toolbar_744533"
+  />
+
+  --------------------------------------------------
+  link:
+
+  Name "Store":
+  <a
+    href="/store"
+  />
+
+  Name "Jacket":
+  <a
+    href="/store/collections/clothing?category=jacket"
+  />
+
+  Name "MOTOR DRIP":
+  <a
+    href="/store/collections/clothing?brand=MOTOR%20DRIP"
+  />
+
+  Name "Read 31 sample reviews":
+  <a
+    aria-label="Read 31 sample reviews"
+    href="#product-reviews-JCKT_001"
+  />
+
+  Name "Write a review":
+  <a
+    href="#_r_a_"
+  />
+
+  Name "Borrowed Horizon":
+  <a
+    class="_image_ba8466"
+    href="/store/JCKT_001?color=CONCEPT-JCKT_001-01"
+  />
+
+  Name "Borrowed Horizon":
+  <a
+    class="_name_ba8466"
+    href="/store/JCKT_001?color=CONCEPT-JCKT_001-01"
+  />
+
+  --------------------------------------------------
+  button:
+
+  Name "Open bag, 1 items":
+  <button
+    aria-label="Open bag, 1 items"
+    type="button"
+  />
+
+  Name "BLACK LAP":
+  <button
+    aria-label="BLACK LAP"
+    aria-pressed="true"
+    title="BLACK LAP · Memory leather · Satin with brushed trim · Common · 600 planned"
+    type="button"
+  />
+
+  Name "PIT ASH":
+  <button
+    aria-label="PIT ASH"
+    aria-pressed="false"
+    title="PIT ASH · Memory leather · Chalk matte with dark hardware · Common · 600 planned"
+    type="button"
+  />
+
+  Name "BRAKE BLOOM":
+  <button
+    aria-label="BRAKE BLOOM"
+    aria-pressed="false"
+    title="BRAKE BLOOM · Memory leather · Low gloss with polished edges · Uncommon · 450 planned"
+    type="button"
+  />
+
+  Name "Oxide":
+  <button
+    aria-label="Oxide"
+    aria-pressed="false"
+    title="Oxide · Waxed technical weave · Rare · 270 planned"
+    type="button"
+  />
+
+  Name "Glacier":
+  <button
+    aria-label="Glacier"
+    aria-pressed="false"
+    title="Glacier · Satin technical weave · Rare · 270 planned"
+    type="button"
+  />
+
+  Name "Ultraviolet":
+  <button
+    aria-label="Ultraviolet"
+    aria-pressed="false"
+    title="Ultraviolet · Textured jacquard · WILD · 30 planned"
+    type="button"
+  />
+
+  Name "Moss":
+  <button
+    aria-label="Moss"
+    aria-pressed="false"
+    title="Moss · Woven ripstop · Uncommon · 450 planned"
+    type="button"
+  />
+
+  Name "Chrome":
+  <button
+    aria-label="Chrome"
+    aria-pressed="false"
+    title="Chrome · Reflective textile · Legendary · 90 planned"
+    type="button"
+  />
+
+  Name "Acid":
+  <button
+    aria-label="Acid"
+    aria-pressed="false"
+    title="Acid · Coated technical weave · Epic · 240 planned"
+    type="button"
+  />
+
+  Name "Add to bag":
+  <button
+    class="sci-btn sci-btn-primary _addButton_744533"
+    type="button"
+  />
+
+  Name "View live data":
+  <button
+    aria-pressed="true"
+    class="_sampleToggle_b8e6f0"
+  />
+
+  Name "View BLACK LAP market":
+  <button
+    aria-label="View BLACK LAP market"
+    type="button"
+  />
+
+  Name "View PIT ASH market":
+  <button
+    aria-label="View PIT ASH market"
+    type="button"
+  />
+
+  Name "View BRAKE BLOOM market":
+  <button
+    aria-label="View BRAKE BLOOM market"
+    type="button"
+  />
+
+  Name "View Oxide market":
+  <button
+    aria-label="View Oxide market"
+    type="button"
+  />
+
+  Name "View Glacier market":
+  <button
+    aria-label="View Glacier market"
+    type="button"
+  />
+
+  Name "View Ultraviolet market":
+  <button
+    aria-label="View Ultraviolet market"
+    type="button"
+  />
+
+  Name "View Moss market":
+  <button
+    aria-label="View Moss market"
+    type="button"
+  />
+
+  Name "View Chrome market":
+  <button
+    aria-label="View Chrome market"
+    type="button"
+  />
+
+  Name "View Acid market":
+  <button
+    aria-label="View Acid market"
+    type="button"
+  />
+
+  Name "Sample reviews":
+  <button
+    aria-pressed="true"
+    type="button"
+  />
+
+  Name "Community reviews (0)":
+  <button
+    aria-pressed="false"
+    type="button"
+  />
+
+  Name "Filter 5-star reviews":
+  <button
+    aria-label="Filter 5-star reviews"
+    aria-pressed="false"
+  />
+
+  Name "Filter 4-star reviews":
+  <button
+    aria-label="Filter 4-star reviews"
+    aria-pressed="false"
+  />
+
+  Name "Filter 3-star reviews":
+  <button
+    aria-label="Filter 3-star reviews"
+    aria-pressed="false"
+  />
+
+  Name "Filter 2-star reviews":
+  <button
+    aria-label="Filter 2-star reviews"
+    aria-pressed="false"
+  />
+
+  Name "Filter 1-star reviews":
+  <button
+    aria-label="Filter 1-star reviews"
+    aria-pressed="false"
+  />
+
+  Name "Helpful":
+  <button
+    aria-pressed="false"
+    class="_helpful_f089d8"
+    disabled=""
+    title="Sign in to mark a review helpful."
+  />
+
+  Name "Helpful":
+  <button
+    aria-pressed="false"
+    class="_helpful_f089d8"
+    disabled=""
+    title="Sign in to mark a review helpful."
+  />
+
+  Name "Helpful":
+  <button
+    aria-pressed="false"
+    class="_helpful_f089d8"
+    disabled=""
+    title="Sign in to mark a review helpful."
+  />
+
+  Name "Helpful":
+  <button
+    aria-pressed="false"
+    class="_helpful_f089d8"
+    disabled=""
+    title="Sign in to mark a review helpful."
+  />
+
+  Name "Helpful":
+  <button
+    aria-pressed="false"
+    class="_helpful_f089d8"
+    disabled=""
+    title="Sign in to mark a review helpful."
+  />
+
+  Name "Helpful":
+  <button
+    aria-pressed="false"
+    class="_helpful_f089d8"
+    disabled=""
+    title="Sign in to mark a review helpful."
+  />
+
+  Name "See more reviews":
+  <button
+    class="_moreReviews_f089d8"
+    type="button"
+  />
+
+  Name "Rate 1 star":
+  <button
+    aria-label="Rate 1 star"
+    aria-pressed="false"
+    type="button"
+  />
+
+  Name "Rate 2 stars":
+  <button
+    aria-label="Rate 2 stars"
+    aria-pressed="false"
+    type="button"
+  />
+
+  Name "Rate 3 stars":
+  <button
+    aria-label="Rate 3 stars"
+    aria-pressed="false"
+    type="button"
+  />
+
+  Name "Rate 4 stars":
+  <button
+    aria-label="Rate 4 stars"
+    aria-pressed="false"
+    type="button"
+  />
+
+  Name "Rate 5 stars":
+  <button
+    aria-label="Rate 5 stars"
+    aria-pressed="false"
+    type="button"
+  />
+
+  Name "Save draft":
+  <button
+    class="_save_f089d8"
+    type="submit"
+  />
+
+  Name "Close bag":
+  <button
+    aria-label="Close bag"
+    type="button"
+  />
+
+  Name "Finish browsing":
+  <button
+    class="sci-btn sci-btn-primary"
+  />
+
+  Name "Back to bag":
+  <button
+    class="_back_ba8466"
+  />
+
+  --------------------------------------------------
+  region:
+
+  Name "Product imagery":
+  <section
+    aria-label="Product imagery"
+    class="_media_744533"
+  />
+
+  Name "Product information":
+  <section
+    aria-label="Product information"
+    class="_info_744533"
+  />
+
+  Name "Color":
+  <section
+    aria-label="Color"
+    class="_options_8f42d8"
+  />
+
+  Name "Limited edition details":
+  <section
+    aria-label="Limited edition details"
+    class="_edition_f907c4"
+  />
+
+  Name "Wilder World item details":
+  <section
+    aria-label="Wilder World item details"
+    class="_details_8f42d8"
+  />
+
+  Name "Make your move.":
+  <section
+    aria-labelledby="_r_7_"
+    class="_panel_b8e6f0"
+    data-market-key="[\"JCKT_001\",\"CONCEPT-JCKT_001-01\",null]"
+    data-market-mode="sample"
+  />
+
+  Name "Ratings & reviews":
+  <section
+    aria-labelledby="_r_9_"
+    class="_panel_f089d8"
+    id="product-reviews-JCKT_001"
+  />
+
+  --------------------------------------------------
+  img:
+
+  Name "Borrowed Horizon":
+  <img
+    alt="Borrowed Horizon"
+    src="/images/accessories/colors/CONCEPT-JCKT_001-01.webp"
+  />
+
+  Name "4.6 out of 5 stars":
+  <span
+    aria-label="4.6 out of 5 stars"
+    class="_stars_f089d8"
+    role="img"
+  />
+
+  Name "4.6 out of 5 stars":
+  <span
+    aria-label="4.6 out of 5 stars"
+    class="_stars_f089d8"
+    role="img"
+  />
+
+  Name "3.0 out of 5 stars":
+  <span
+    aria-label="3.0 out of 5 stars"
+    class="_stars_f089d8"
+    role="img"
+  />
+
+  Name "4.0 out of 5 stars":
+  <span
+    aria-label="4.0 out of 5 stars"
+    class="_stars_f089d8"
+    role="img"
+  />
+
+  Name "5.0 out of 5 stars":
+  <span
+    aria-label="5.0 out of 5 stars"
+    class="_stars_f089d8"
+    role="img"
+  />
+
+  Name "5.0 out of 5 stars":
+  <span
+    aria-label="5.0 out of 5 stars"
+    class="_stars_f089d8"
+    role="img"
+  />
+
+  Name "5.0 out of 5 stars":
+  <span
+    aria-label="5.0 out of 5 stars"
+    class="_stars_f089d8"
+    role="img"
+  />
+
+  Name "4.0 out of 5 stars":
+  <span
+    aria-label="4.0 out of 5 stars"
+    class="_stars_f089d8"
+    role="img"
+  />
+
+  Name "Borrowed Horizon":
+  <img
+    alt="Borrowed Horizon"
+    src="/images/accessories/colors/CONCEPT-JCKT_001-01.webp"
+  />
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  <p
+    class="_eyebrow_744533"
+  />
+
+  Name "":
+  <p
+    class="_blurb_744533"
+  />
+
+  Name "":
+  <p />
+
+  Name "":
+  <p
+    class="_preview_744533"
+  />
+
+  Name "":
+  <p />
+
+  Name "":
+  <p />
+
+  Name "":
+  <p />
+
+  Name "":
+  <p />
+
+  Name "":
+  <p />
+
+  Name "":
+  <p />
+
+  Name "":
+  <p />
+
+  Name "":
+  <p />
+
+  Name "":
+  <p
+    class="_eyebrow_b8e6f0"
+  />
+
+  Name "":
+  <p
+    class="_subheading_b8e6f0"
+  />
+
+  Name "":
+  <p
+    class="_overviewNote_b8e6f0"
+  />
+
+  Name "":
+  <p
+    class="_eyebrow_f089d8"
+  />
+
+  Name "":
+  <p />
+
+  Name "":
+  <p
+    class="_proofNote_f089d8"
+  />
+
+  Name "":
+  <p
+    class="_reviewBody_f089d8"
+  />
+
+  Name "":
+  <p
+    class="_reviewBody_f089d8"
+  />
+
+  Name "":
+  <p
+    class="_reviewBody_f089d8"
+  />
+
+  Name "":
+  <p
+    class="_reviewBody_f089d8"
+  />
+
+  Name "":
+  <p
+    class="_reviewBody_f089d8"
+  />
+
+  Name "":
+  <p
+    class="_reviewBody_f089d8"
+  />
+
+  Name "":
+  <p
+    class="_draftNote_f089d8"
+  />
+
+  Name "":
+  <p
+    class="_selectedVariant_f089d8"
+  />
+
+  Name "":
+  <p
+    class="_preview_ba8466"
+  />
+
+  Name "":
+  <p />
+
+  Name "":
+  <p
+    class="_sku_ba8466"
+  />
+
+  Name "":
+  <p />
+
+  Name "":
+  <p
+    class="_lineTotal_ba8466"
+  />
+
+  Name "":
+  <p />
+
+  --------------------------------------------------
+  heading:
+
+  Name "Borrowed Horizon":
+  <h1
+    class="_heading_8bb026 _heading_744533"
+  />
+
+  Name "Edition details":
+  <h3 />
+
+  Name "Fit & in-game use":
+  <h3 />
+
+  Name "Make your move.":
+  <h2
+    id="_r_7_"
+  />
+
+  Name "Ratings & reviews":
+  <h2
+    id="_r_9_"
+  />
+
+  Name "Clean design":
+  <h3 />
+
+  Name "More angles would help":
+  <h3 />
+
+  Name "My favorite of the new drop":
+  <h3 />
+
+  Name "Good color selection":
+  <h3 />
+
+  Name "Almost there":
+  <h3 />
+
+  Name "The details make it":
+  <h3 />
+
+  Name "Review your selection":
+  <h2
+    id="demo-bag-title"
+  />
+
+  --------------------------------------------------
+  strong:
+
+  Name "":
+  <strong />
+
+  Name "":
+  <strong />
+
+  Name "":
+  <strong
+    class="_readiness_8f42d8"
+  />
+
+  Name "":
+  <strong />
+
+  Name "":
+  <strong />
+
+  Name "":
+  <strong />
+
+  Name "":
+  <strong />
+
+  Name "":
+  <strong />
+
+  Name "":
+  <strong />
+
+  Name "":
+  <strong />
+
+  Name "":
+  <strong />
+
+  Name "Borrowed Horizon line total":
+  <strong
+    aria-label="Borrowed Horizon line total"
+  />
+
+  Name "Subtotal in USD":
+  <strong
+    aria-label="Subtotal in USD"
+  />
+
+  --------------------------------------------------
+  group:
+
+  Name "":
+  <details
+    class="_compare_f907c4"
+  />
+
+  Name "":
+  <details
+    class="_disclosure_8f42d8"
+  />
+
+  Name "":
+  <details
+    class="_disclosure_8f42d8"
+  />
+
+  Name "":
+  <details
+    class="_disclosure_8f42d8"
+  />
+
+  Name "":
+  <details />
+
+  Name "Your rating":
+  <fieldset
+    class="_ratingInput_f089d8"
+  />
+
+  --------------------------------------------------
+  table:
+
+  Name "Planned supply, subject to final release confirmation.":
+  <table />
+
+  Name "Illustrative prices only. Price histories stay separate for each version.":
+  <table
+    class="_history_b8e6f0 _variantTable_b8e6f0"
+  />
+
+  --------------------------------------------------
+  caption:
+
+  Name "Planned supply, subject to final release confirmation.":
+  <caption />
+
+  Name "Illustrative prices only. Price histories stay separate for each version.":
+  <caption
+    class="_tableCaption_b8e6f0"
+  />
+
+  --------------------------------------------------
+  rowgroup:
+
+  Name "":
+  <thead />
+
+  Name "":
+  <tbody />
+
+  Name "":
+  <thead />
+
+  Name "":
+  <tbody />
+
+  --------------------------------------------------
+  row:
+
+  Name "Finish Rarity Units":
+  <tr />
+
+  Name "BLACK LAP Common 600":
+  <tr
+    data-selected="true"
+  />
+
+  Name "PIT ASH Common 600":
+  <tr
+    data-selected="false"
+  />
+
+  Name "BRAKE BLOOM Uncommon 450":
+  <tr
+    data-selected="false"
+  />
+
+  Name "Moss Uncommon 450":
+  <tr
+    data-selected="false"
+  />
+
+  Name "Oxide Rare 270":
+  <tr
+    data-selected="false"
+  />
+
+  Name "Glacier Rare 270":
+  <tr
+    data-selected="false"
+  />
+
+  Name "Acid Epic 240":
+  <tr
+    data-selected="false"
+  />
+
+  Name "Chrome Legendary 90":
+  <tr
+    data-selected="false"
+  />
+
+  Name "Ultraviolet WILD 30":
+  <tr
+    data-selected="false"
+  />
+
+  Name "Version Lowest ask Highest bid Last sale View version market":
+  <tr />
+
+  Name "BLACK LAPSelected $16.68 $15.56 $16.12":
+  <tr
+    data-selected="true"
+  />
+
+  Name "PIT ASH $16.53 $15.41 $15.97":
+  <tr
+    data-selected="false"
+  />
+
+  Name "BRAKE BLOOM $15.73 $14.67 $15.20":
+  <tr
+    data-selected="false"
+  />
+
+  Name "Oxide $16.53 $15.41 $15.97":
+  <tr
+    data-selected="false"
+  />
+
+  Name "Glacier $13.33 $12.43 $12.88":
+  <tr
+    data-selected="false"
+  />
+
+  Name "Ultraviolet $15.04 $14.02 $14.53":
+  <tr
+    data-selected="false"
+  />
+
+  Name "Moss $13.70 $12.78 $13.24":
+  <tr
+    data-selected="false"
+  />
+
+  Name "Chrome $14.57 $13.59 $14.08":
+  <tr
+    data-selected="false"
+  />
+
+  Name "Acid $13.97 $13.03 $13.50":
+  <tr
+    data-selected="false"
+  />
+
+  --------------------------------------------------
+  columnheader:
+
+  Name "Finish":
+  <th />
+
+  Name "Rarity":
+  <th />
+
+  Name "Units":
+  <th />
+
+  Name "Version":
+  <th
+    scope="col"
+  />
+
+  Name "Lowest ask":
+  <th
+    scope="col"
+  />
+
+  Name "Highest bid":
+  <th
+    scope="col"
+  />
+
+  Name "Last sale":
+  <th
+    scope="col"
+  />
+
+  Name "View version market":
+  <th
+    scope="col"
+  />
+
+  --------------------------------------------------
+  cell:
+
+  Name "BLACK LAP":
+  <td />
+
+  Name "Common":
+  <td
+    style="color: rgb(223, 223, 223);"
+  />
+
+  Name "600":
+  <td />
+
+  Name "PIT ASH":
+  <td />
+
+  Name "Common":
+  <td
+    style="color: rgb(223, 223, 223);"
+  />
+
+  Name "600":
+  <td />
+
+  Name "BRAKE BLOOM":
+  <td />
+
+  Name "Uncommon":
+  <td
+    style="color: rgb(60, 239, 176);"
+  />
+
+  Name "450":
+  <td />
+
+  Name "Moss":
+  <td />
+
+  Name "Uncommon":
+  <td
+    style="color: rgb(60, 239, 176);"
+  />
+
+  Name "450":
+  <td />
+
+  Name "Oxide":
+  <td />
+
+  Name "Rare":
+  <td
+    style="color: rgb(1, 120, 255);"
+  />
+
+  Name "270":
+  <td />
+
+  Name "Glacier":
+  <td />
+
+  Name "Rare":
+  <td
+    style="color: rgb(1, 120, 255);"
+  />
+
+  Name "270":
+  <td />
+
+  Name "Acid":
+  <td />
+
+  Name "Epic":
+  <td
+    style="color: rgb(234, 2, 255);"
+  />
+
+  Name "240":
+  <td />
+
+  Name "Chrome":
+  <td />
+
+  Name "Legendary":
+  <td
+    style="color: rgb(239, 233, 60);"
+  />
+
+  Name "90":
+  <td />
+
+  Name "Ultraviolet":
+  <td />
+
+  Name "WILD":
+  <td
+    style="color: rgb(255, 100, 52);"
+  />
+
+  Name "30":
+  <td />
+
+  Name "$16.68":
+  <td />
+
+  Name "$15.56":
+  <td />
+
+  Name "$16.12":
+  <td />
+
+  Name "":
+  <td />
+
+  Name "$16.53":
+  <td />
+
+  Name "$15.41":
+  <td />
+
+  Name "$15.97":
+  <td />
+
+  Name "":
+  <td />
+
+  Name "$15.73":
+  <td />
+
+  Name "$14.67":
+  <td />
+
+  Name "$15.20":
+  <td />
+
+  Name "":
+  <td />
+
+  Name "$16.53":
+  <td />
+
+  Name "$15.41":
+  <td />
+
+  Name "$15.97":
+  <td />
+
+  Name "":
+  <td />
+
+  Name "$13.33":
+  <td />
+
+  Name "$12.43":
+  <td />
+
+  Name "$12.88":
+  <td />
+
+  Name "":
+  <td />
+
+  Name "$15.04":
+  <td />
+
+  Name "$14.02":
+  <td />
+
+  Name "$14.53":
+  <td />
+
+  Name "":
+  <td />
+
+  Name "$13.70":
+  <td />
+
+  Name "$12.78":
+  <td />
+
+  Name "$13.24":
+  <td />
+
+  Name "":
+  <td />
+
+  Name "$14.57":
+  <td />
+
+  Name "$13.59":
+  <td />
+
+  Name "$14.08":
+  <td />
+
+  Name "":
+  <td />
+
+  Name "$13.97":
+  <td />
+
+  Name "$13.03":
+  <td />
+
+  Name "$13.50":
+  <td />
+
+  Name "":
+  <td />
+
+  --------------------------------------------------
+  list:
+
+  Name "":
+  <ul />
+
+  --------------------------------------------------
+  listitem:
+
+  Name "":
+  <li />
+
+  --------------------------------------------------
+  term:
+
+  Name "":
+  <dt />
+
+  Name "":
+  <dt />
+
+  Name "":
+  <dt />
+
+  Name "":
+  <dt />
+
+  Name "":
+  <dt />
+
+  Name "":
+  <dt />
+
+  Name "":
+  <dt />
+
+  Name "":
+  <dt />
+
+  Name "":
+  <dt />
+
+  Name "":
+  <dt />
+
+  --------------------------------------------------
+  definition:
+
+  Name "":
+  <dd />
+
+  Name "":
+  <dd />
+
+  Name "":
+  <dd />
+
+  Name "":
+  <dd />
+
+  Name "":
+  <dd />
+
+  Name "":
+  <dd />
+
+  Name "":
+  <dd />
+
+  Name "":
+  <dd />
+
+  Name "":
+  <dd />
+
+  Name "":
+  <dd />
+
+  --------------------------------------------------
+  banner:
+
+  Name "":
+  <header
+    class="_header_b8e6f0"
+  />
+
+  Name "":
+  <header
+    class="_heading_f089d8"
+  />
+
+  Name "":
+  <header
+    class="_header_ba8466"
+  />
+
+  --------------------------------------------------
+  tablist:
+
+  Name "Market scope":
+  <div
+    aria-label="Market scope"
+    class="_scopeTabs_b8e6f0"
+    role="tablist"
+  />
+
+  --------------------------------------------------
+  tab:
+
+  Name "All versions9":
+  <button
+    aria-controls="_r_8_-panel"
+    aria-selected="true"
+    id="_r_8_-all"
+    role="tab"
+    type="button"
+  />
+
+  Name "Selected version":
+  <button
+    aria-controls="_r_8_-panel"
+    aria-selected="false"
+    id="_r_8_-selected"
+    role="tab"
+    type="button"
+  />
+
+  --------------------------------------------------
+  status:
+
+  Name "":
+  <div
+    class="_sampleBanner_b8e6f0"
+    role="status"
+  />
+
+  Name "":
+  <p
+    class="_status_f089d8"
+    role="status"
+  />
+
+  --------------------------------------------------
+  tabpanel:
+
+  Name "All versions9":
+  <div
+    aria-labelledby="_r_8_-all"
+    id="_r_8_-panel"
+    role="tabpanel"
+  />
+
+  --------------------------------------------------
+  rowheader:
+
+  Name "BLACK LAPSelected":
+  <th
+    scope="row"
+  />
+
+  Name "PIT ASH":
+  <th
+    scope="row"
+  />
+
+  Name "BRAKE BLOOM":
+  <th
+    scope="row"
+  />
+
+  Name "Oxide":
+  <th
+    scope="row"
+  />
+
+  Name "Glacier":
+  <th
+    scope="row"
+  />
+
+  Name "Ultraviolet":
+  <th
+    scope="row"
+  />
+
+  Name "Moss":
+  <th
+    scope="row"
+  />
+
+  Name "Chrome":
+  <th
+    scope="row"
+  />
+
+  Name "Acid":
+  <th
+    scope="row"
+  />
+
+  --------------------------------------------------
+  combobox:
+
+  Name "Sort reviews":
+  <select
+    aria-label="Sort reviews"
+  />
+
+  Name "Filter reviews by rating":
+  <select
+    aria-label="Filter reviews by rating"
+  />
+
+  Name "Filter reviews by variant":
+  <select
+    aria-label="Filter reviews by variant"
+  />
+
+  --------------------------------------------------
+  option:
+
+  Name "Most recent":
+  <option
+    value="recent"
+  />
+
+  Name "Most helpful":
+  <option
+    value="helpful"
+  />
+
+  Name "Highest rated":
+  <option
+    value="highest"
+  />
+
+  Name "Lowest rated":
+  <option
+    value="lowest"
+  />
+
+  Name "All ratings":
+  <option
+    value="all"
+  />
+
+  Name "5 stars":
+  <option
+    value="5"
+  />
+
+  Name "4 stars":
+  <option
+    value="4"
+  />
+
+  Name "3 stars":
+  <option
+    value="3"
+  />
+
+  Name "2 stars":
+  <option
+    value="2"
+  />
+
+  Name "1 stars":
+  <option
+    value="1"
+  />
+
+  Name "All variants":
+  <option
+    value="all"
+  />
+
+  Name "BLACK LAP":
+  <option
+    value="CONCEPT-JCKT_001-01"
+  />
+
+  Name "PIT ASH":
+  <option
+    value="CONCEPT-JCKT_001-02"
+  />
+
+  Name "BRAKE BLOOM":
+  <option
+    value="CONCEPT-JCKT_001-03"
+  />
+
+  Name "Oxide":
+  <option
+    value="MAT-JCKT_001-oxide"
+  />
+
+  Name "Glacier":
+  <option
+    value="MAT-JCKT_001-glacier"
+  />
+
+  Name "Ultraviolet":
+  <option
+    value="MAT-JCKT_001-ultraviolet"
+  />
+
+  Name "Moss":
+  <option
+    value="MAT-JCKT_001-moss"
+  />
+
+  Name "Chrome":
+  <option
+    value="MAT-JCKT_001-chrome"
+  />
+
+  Name "Acid":
+  <option
+    value="MAT-JCKT_001-acid"
+  />
+
+  --------------------------------------------------
+  article:
+
+  Name "":
+  <article
+    class="_review_f089d8"
+  />
+
+  Name "":
+  <article
+    class="_review_f089d8"
+  />
+
+  Name "":
+  <article
+    class="_review_f089d8"
+  />
+
+  Name "":
+  <article
+    class="_review_f089d8"
+  />
+
+  Name "":
+  <article
+    class="_review_f089d8"
+  />
+
+  Name "":
+  <article
+    class="_review_f089d8"
+  />
+
+  Name "Borrowed Horizon — BLACK LAP":
+  <article
+    aria-label="Borrowed Horizon — BLACK LAP"
+    class="_item_ba8466"
+  />
+
+  --------------------------------------------------
+  time:
+
+  Name "":
+  <time
+    datetime="2026-10-30T00:00:00.000Z"
+  />
+
+  Name "":
+  <time
+    datetime="2026-10-29T00:00:00.000Z"
+  />
+
+  Name "":
+  <time
+    datetime="2026-10-28T00:00:00.000Z"
+  />
+
+  Name "":
+  <time
+    datetime="2026-10-27T00:00:00.000Z"
+  />
+
+  Name "":
+  <time
+    datetime="2026-10-26T00:00:00.000Z"
+  />
+
+  Name "":
+  <time
+    datetime="2026-10-25T00:00:00.000Z"
+  />
+
+  --------------------------------------------------
+  textbox:
+
+  Name "Review title":
+  <input
+    aria-label="Review title"
+    maxlength="120"
+    placeholder="What should other collectors know?"
+    required=""
+    value=""
+  />
+
+  Name "Your review":
+  <textarea
+    aria-label="Your review"
+    maxlength="5000"
+    placeholder="Share your experience with this item."
+    required=""
+    rows="4"
+  />
+
+  --------------------------------------------------
+  dialog:
+
+  Name "Review your selection":
+  <aside
+    aria-labelledby="demo-bag-title"
+    aria-modal="true"
+    class="_panel_ba8466"
+    role="dialog"
+    tabindex="-1"
+  />
+
+  --------------------------------------------------
+  contentinfo:
+
+  Name "":
+  <footer
+    class="_footer_ba8466"
+  />
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+<body
+  style="overflow: hidden;"
+>
+  <div>
+    <main
+      class="_page_744533"
+    >
+      <nav
+        aria-label="Product navigation"
+        class="_toolbar_744533"
+      >
+        <div
+          class="_breadcrumb_744533"
+        >
+          <a
+            href="/store"
+          >
+            <svg
+              class="lucide lucide-arrow-left"
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m12 19-7-7 7-7"
+              />
+              <path
+                d="M19 12H5"
+              />
+            </svg>
+             Store
+          </a>
+          <svg
+            class="lucide lucide-chevron-right"
+            fill="none"
+            height="12"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="12"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m9 18 6-6-6-6"
+            />
+          </svg>
+          <a
+            href="/store/collections/clothing?category=jacket"
+          >
+            Jacket
+          </a>
+        </div>
+        <button
+          aria-label="Open bag, 1 items"
+          type="button"
+        >
+          <svg
+            class="lucide lucide-shopping-bag"
+            fill="none"
+            height="17"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="17"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"
+            />
+            <path
+              d="M3 6h18"
+            />
+            <path
+              d="M16 10a4 4 0 0 1-8 0"
+            />
+          </svg>
+           Bag (
+          1
+          )
+        </button>
+      </nav>
+      <div
+        class="_layout_744533"
+      >
+        <section
+          aria-label="Product imagery"
+          class="_media_744533"
+        >
+          <div
+            class="_viewer_744533 "
+            data-image-kind="product"
+            data-product-hero="true"
+          >
+            <span
+              class="_imageLabel_744533"
+            >
+              The wardrobe
+            </span>
+            <img
+              alt="Borrowed Horizon"
+              src="/images/accessories/colors/CONCEPT-JCKT_001-01.webp"
+            />
+          </div>
+        </section>
+        <section
+          aria-label="Product information"
+          class="_info_744533"
+        >
+          <p
+            class="_eyebrow_744533"
+          >
+            <a
+              href="/store/collections/clothing?brand=MOTOR%20DRIP"
+            >
+              MOTOR DRIP
+            </a>
+             
+            <span>
+              Jacket
+            </span>
+          </p>
+          <h1
+            class="_heading_8bb026 _heading_744533"
+          >
+            Borrowed Horizon
+          </h1>
+          <div
+            class="_inlineRating_f089d8"
+          >
+            <a
+              aria-label="Read 31 sample reviews"
+              href="#product-reviews-JCKT_001"
+            >
+              <span>
+                4.6
+              </span>
+              <span
+                aria-label="4.6 out of 5 stars"
+                class="_stars_f089d8"
+                role="img"
+              >
+                <span
+                  class="_star_f089d8"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-star"
+                    fill="none"
+                    height="18"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.6"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a...
+ ❯ Object.getElementError ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/sites/wilderworld/accessories/product-detail.test.tsx:51:28
+     49|     expect(review.getByLabelText('Subtotal in USD')).toHaveTextContent…
+     50|     expect(screen.queryByLabelText(/Card number/i)).not.toBeInTheDocum…
+     51|     fireEvent.click(screen.getByRole('button', { name: /Complete demo/…
+       |                            ^
+     52|     expect(screen.getByText(/No order was placed and no payment was ta…
+     53|     expect(parseDemoBag(localStorage.getItem(DEMO_BAG_KEY)!)).toEqual(…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/19]⎯
+
+ FAIL  src/sites/wilderworld/accessories/store-browse.test.tsx > store category gallery and browsing > uses one large image per category, mixes lifestyle and product photos, and scrolls the category rail
+TestingLibraryElementError: Unable to find an accessible element with the role "link" and name `/After hours/`
+
+Here are the accessible roles:
+
+  heading:
+
+  Name "The Wilder edit":
+  <h2
+    class="_sectionLabel_7b16d4"
+    id="wilder-edit-heading"
+  />
+
+  --------------------------------------------------link:
+
+  Name "Afterhours":
+  <a
+    class="_editCard_7b16d4"
+    href="/store/collections/clothing?category=jacket"
+  />
+
+  Name "Make yourselfat home":
+  <a
+    class="_editCard_7b16d4"
+    href="/store/collections/furniture"
+  />
+
+  Name "The finishingtouch":
+  <a
+    class="_editCard_7b16d4"
+    href="/store/collections/rims"
+  />
+
+  Name "Carry yourstory":
+  <a
+    class="_editCard_7b16d4"
+    href="/store/collections/totems"
+  />
+
+  --------------------------------------------------
+  heading:
+
+  Name "Afterhours":
+  <h3
+    class="_gameplayTitle_8bb026"
+  />
+
+  Name "Make yourselfat home":
+  <h3
+    class="_gameplayTitle_8bb026"
+  />
+
+  Name "The finishingtouch":
+  <h3
+    class="_gameplayTitle_8bb026"
+  />
+
+  Name "Carry yourstory":
+  <h3
+    class="_gameplayTitle_8bb026"
+  />
+
+  --------------------------------------------------
+  presentation:
+
+  Name "":
+  <img
+    alt=""
+    loading="lazy"
+    sizes="(max-width: 640px) 46vw, (max-width: 1000px) 44vw, 24vw"
+    src="/images/marketplace/campaign/after-hours-v2-20261108/after-hours-fixed-v2.webp"
+    style="object-position: 50% 50%;"
+  />
+
+  Name "":
+  <img
+    alt=""
+    loading="lazy"
+    sizes="(max-width: 640px) 46vw, (max-width: 1000px) 44vw, 24vw"
+    src="/images/marketplace/wiami-campaign-v1/workspace.webp"
+    style="object-position: 50% 55%;"
+  />
+
+  Name "":
+  <img
+    alt=""
+    loading="lazy"
+    sizes="(max-width: 640px) 46vw, (max-width: 1000px) 44vw, 24vw"
+    src="/images/marketplace/wiami-campaign-v1/rims-upright-v2.webp"
+    style="object-position: 50% 50%;"
+  />
+
+  Name "":
+  <img
+    alt=""
+    loading="lazy"
+    sizes="(max-width: 640px) 46vw, (max-width: 1000px) 44vw, 24vw"
+    src="/images/marketplace/campaign/home-refresh-20261108/carry-your-story.webp"
+    style="object-position: 50% 50%;"
+  />
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+<section
+  aria-labelledby="wilder-edit-heading"
+  class="_editSection_7b16d4"
+>
+  <h2
+    class="_sectionLabel_7b16d4"
+    id="wilder-edit-heading"
+  >
+    The Wilder edit
+  </h2>
+  <div
+    class="_editGrid_7b16d4"
+  >
+    <a
+      class="_editCard_7b16d4"
+      href="/store/collections/clothing?category=jacket"
+    >
+      <div
+        class="_editCopy_7b16d4"
+      >
+        <h3
+          class="_gameplayTitle_8bb026"
+        >
+          <span
+            class="_twoLineHeadline_7b16d4"
+          >
+            <span>
+              After
+               
+            </span>
+            <span>
+              hours
+            </span>
+          </span>
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-arrow-up-right"
+            fill="none"
+            height="18"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 7h10v10"
+            />
+            <path
+              d="M7 17 17 7"
+            />
+          </svg>
+        </h3>
+      </div>
+      <div
+        class="_editImage_7b16d4 _editScene_7b16d4"
+      >
+        <img
+          alt=""
+          loading="lazy"
+          sizes="(max-width: 640px) 46vw, (max-width: 1000px) 44vw, 24vw"
+          src="/images/marketplace/campaign/after-hours-v2-20261108/after-hours-fixed-v2.webp"
+          style="object-position: 50% 50%;"
+        />
+      </div>
+    </a>
+    <a
+      class="_editCard_7b16d4"
+      href="/store/collections/furniture"
+    >
+      <div
+        class="_editCopy_7b16d4"
+      >
+        <h3
+          class="_gameplayTitle_8bb026"
+        >
+          <span
+            class="_twoLineHeadline_7b16d4"
+          >
+            <span>
+              Make yourself
+               
+            </span>
+            <span>
+              at home
+            </span>
+          </span>
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-arrow-up-right"
+            fill="none"
+            height="18"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 7h10v10"
+            />
+            <path
+              d="M7 17 17 7"
+            />
+          </svg>
+        </h3>
+      </div>
+      <div
+        class="_editImage_7b16d4 _editScene_7b16d4"
+      >
+        <img
+          alt=""
+          loading="lazy"
+          sizes="(max-width: 640px) 46vw, (max-width: 1000px) 44vw, 24vw"
+          src="/images/marketplace/wiami-campaign-v1/workspace.webp"
+          style="object-position: 50% 55%;"
+        />
+      </div>
+    </a>
+    <a
+      class="_editCard_7b16d4"
+      href="/store/collections/rims"
+    >
+      <div
+        class="_editCopy_7b16d4"
+      >
+        <h3
+          class="_gameplayTitle_8bb026"
+        >
+          <span
+            class="_twoLineHeadline_7b16d4"
+          >
+            <span>
+              The finishing
+               
+            </span>
+            <span>
+              touch
+            </span>
+          </span>
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-arrow-up-right"
+            fill="none"
+            height="18"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 7h10v10"
+            />
+            <path
+              d="M7 17 17 7"
+            />
+          </svg>
+        </h3>
+      </div>
+      <div
+        class="_editImage_7b16d4 _editScene_7b16d4"
+      >
+        <img
+          alt=""
+          loading="lazy"
+          sizes="(max-width: 640px) 46vw, (max-width: 1000px) 44vw, 24vw"
+          src="/images/marketplace/wiami-campaign-v1/rims-upright-v2.webp"
+          style="object-position: 50% 50%;"
+        />
+      </div>
+    </a>
+    <a
+      class="_editCard_7b16d4"
+      href="/store/collections/totems"
+    >
+      <div
+        class="_editCopy_7b16d4"
+      >
+        <h3
+          class="_gameplayTitle_8bb026"
+        >
+          <span
+            class="_twoLineHeadline_7b16d4"
+          >
+            <span>
+              Carry your
+               
+            </span>
+            <span>
+              story
+            </span>
+          </span>
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-arrow-up-right"
+            fill="none"
+            height="18"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 7h10v10"
+            />
+            <path
+              d="M7 17 17 7"
+            />
+          </svg>
+        </h3>
+      </div>
+      <div
+        class="_editImage_7b16d4 _editScene_7b16d4"
+      >
+        <img
+          alt=""
+          loading="lazy"
+          sizes="(max-width: 640px) 46vw, (max-width: 1000px) 44vw, 24vw"
+          src="/images/marketplace/campaign/home-refresh-20261108/carry-your-story.webp"
+          style="object-position: 50% 50%;"
+        />
+      </div>
+    </a>
+  </div>
+</section>
+ ❯ Object.getElementError ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/sites/wilderworld/accessories/store-browse.test.tsx:114:18
+    112|     const edits = within(screen.getByRole('region', { name: 'The Wilde…
+    113|     expect(edits.getAllByRole('link')).toHaveLength(4);
+    114|     expect(edits.getByRole('link', { name: /After hours/ })).toHaveAtt…
+       |                  ^
+    115|     expect(edits.getByRole('link', { name: /Carry your story/ })).toHa…
+    116|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/19]⎯
+
+ FAIL  src/sites/wilderworld/accessories/store-browse.test.tsx > store category gallery and browsing > leads with campaign headlines above the imagery and keeps compact editorial titles above their images
+TestingLibraryElementError: Unable to find an accessible element with the role "heading" and name "Find your next ride."
+
+Here are the accessible roles:
+
+  heading:
+
+  Name "Find yournext ride.":
+  <h2
+    class="_gameplayTitle_8bb026"
+  />
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  <p
+    class="_campaignBrand_7b16d4"
+  />
+
+  --------------------------------------------------presentation:
+
+  Name "":
+  <img
+    alt=""
+    loading="lazy"
+    sizes="(max-width: 640px) 76vw, (max-width: 1000px) 42vw, 24vw"
+    src="/images/marketplace/wiami-campaign-v2/vehicles-natural-pose-v3.webp"
+    style="object-position: 50% 58%;"
+  />
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+<a
+  aria-label="Shop Vehicles"
+  class="_categoryCard_7b16d4"
+  data-category-cover="true"
+  data-tone="slate"
+  href="/store/collections/vehicles"
+  style="--category-art: url(\"/images/marketplace/wiami-campaign-v2/vehicles-natural-pose-v3.webp\");"
+>
+  <div
+    class="_categoryCopy_7b16d4"
+    data-campaign-heading="true"
+  >
+    <h2
+      class="_gameplayTitle_8bb026"
+    >
+      <span
+        class="_twoLineHeadline_7b16d4"
+      >
+        <span>
+          Find your
+           
+        </span>
+        <span>
+          next ride.
+        </span>
+      </span>
+    </h2>
+    <p
+      class="_campaignBrand_7b16d4"
+    >
+      <span>
+        Wilder
+      </span>
+      <span
+        aria-hidden="true"
+      >
+        /
+      </span>
+      Vehicles
+    </p>
+  </div>
+  <div
+    class="_categoryImage_7b16d4 _categoryScene_7b16d4"
+    data-category-product="vehicle-ghostline"
+  >
+    <img
+      alt=""
+      loading="lazy"
+      sizes="(max-width: 640px) 76vw, (max-width: 1000px) 42vw, 24vw"
+      src="/images/marketplace/wiami-campaign-v2/vehicles-natural-pose-v3.webp"
+      style="object-position: 50% 58%;"
+    />
+  </div>
+  <span
+    class="_campaignFooter_7b16d4"
+  >
+    <span>
+      Shop 
+      vehicles
+       
+      <span
+        class="_categoryCount_7b16d4"
+      >
+        2
+      </span>
+    </span>
+    <svg
+      aria-hidden="true"
+      class="lucide lucide-arrow-up-right"
+      fill="none"
+      height="19"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      width="19"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7 7h10v10"
+      />
+      <path
+        d="M7 17 17 7"
+      />
+    </svg>
+  </span>
+</a>
+ ❯ Object.getElementError ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/sites/wilderworld/accessories/store-browse.test.tsx:122:29
+    120|     const gallery = screen.getByRole('region', { name: 'Product catego…
+    121|     const campaign = within(gallery).getByRole('link', { name: 'Shop V…
+    122|     expect(within(campaign).getByRole('heading', { name: 'Find your ne…
+       |                             ^
+    123|     expect(within(campaign).queryByText('Drive your own world')).not.t…
+    124|     expect(within(campaign).getByText('Wilder')).toBeInTheDocument();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/19]⎯
+
+ FAIL  src/sites/wilderworld/collections/source-token-audit.test.ts > full current source to token audit > retains every source ID and concept while leaving production token mappings unresolved
+AssertionError: expected [ { …(6) }, …(15) ] to have a length of 15 but got 16
+
+- Expected
++ Received
+
+- 15
++ 16
+
+ ❯ src/sites/wilderworld/collections/source-token-audit.test.ts:39:37
+     37|   }
+     38|   expect(audit.products.some(product=>product.storefrontProductId==='t…
+     39|   expect(audit.originalCollections).toHaveLength(15);
+       |                                     ^
+     40|   const destination=resolve(process.cwd(),'.tmp/handoff/source-token-a…
+     41|   mkdirSync(destination,{recursive:true});writeFileSync(resolve(destin…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/19]⎯
+
+ FAIL  src/sites/wilderworld/marketplace/finish-filter-ui.test.tsx > color and material browsing > never substitutes another photo for a pending selected finish, and changes study badges only in presentation
+TestingLibraryElementError: Unable to find an element with the text: Future linen · Render pending. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+<article
+  aria-label="Trinity Apartment Sofa"
+  class="_productCard_dd60ec "
+>
+  <a
+    class="_productImage_dd60ec"
+    href="/store/products/furniture-sofa?variant=pending"
+  >
+    <div
+      class="_noImage_dd60ec"
+    >
+      <svg
+        class="lucide lucide-armchair"
+        fill="none"
+        height="54"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="0.7"
+        viewBox="0 0 24 24"
+        width="54"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3"
+        />
+        <path
+          d="M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z"
+        />
+        <path
+          d="M5 18v2"
+        />
+        <path
+          d="M19 18v2"
+        />
+      </svg>
+      <span>
+        Future linen · Image coming soon
+      </span>
+    </div>
+  </a>
+  <div
+    class="_productCopy_dd60ec"
+  >
+    <p
+      class="_productCategory_dd60ec"
+    >
+      Seating
+    </p>
+    <h2
+      class="_productName_dd60ec"
+    >
+      <a
+        href="/store/products/furniture-sofa?variant=pending"
+      >
+        Trinity Apartment Sofa
+      </a>
+    </h2>
+    <div
+      class="_productBottom_dd60ec"
+    >
+      <span
+        class="_productPrice_dd60ec"
+      >
+        <strong
+          title="USD price for one selected finish."
+        >
+          $
+          19
+        </strong>
+      </span>
+      <svg
+        aria-hidden="true"
+        class="lucide lucide-arrow-up-right"
+        fill="none"
+        height="16"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 7h10v10"
+        />
+        <path
+          d="M7 17 17 7"
+        />
+      </svg>
+    </div>
+  </div>
+</article>
+ ❯ Object.getElementError ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/sites/wilderworld/marketplace/finish-filter-ui.test.tsx:81:19
+     79|       const card = within(screen.getByRole('article', { name: fixture.…
+     80|       expect(card.queryByRole('img')).not.toBeInTheDocument();
+     81|       expect(card.getByText('Future linen · Render pending')).toBeInTh…
+       |                   ^
+     82|       expect(card.getByText('Material preview')).toBeInTheDocument();
+     83|       expect(card.queryByText(status)).not.toBeInTheDocument();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/19]⎯
+
+ FAIL  src/sites/wilderworld/marketplace/frank-wilder-totems.test.ts > Frank Wilder design intake > keeps pendant descriptions and every gallery entry separate from historical chain assemblies
+AssertionError: totem-fw-hercules-ii: expected [ …(2) ] to deeply equal [ Array(1) ]
+
+- Expected
++ Received
+
+  [
++   "/images/marketplace/campaign/home-refresh-20261108/keep-it-close.webp",
+    "/images/marketplace/wiami-product-editorials-v2/wiami-object-totem-fw-hercules-ii-v2.webp",
+  ]
+
+ ❯ src/sites/wilderworld/marketplace/frank-wilder-totems.test.ts:151:64
+    149|       // These nine source-reviewed still lifes show only the pendant …
+    150|       // integral bail. New editorial mappings must receive the same v…
+    151|       expect(productEditorials(id).map(scene=>scene.image),id).toEqual…
+       |                                                                ^
+    152|       expect(product.description,id).not.toContain('pair the design wi…
+    153|     }
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/19]⎯
+
+ FAIL  src/sites/wilderworld/marketplace/limited-editions.test.ts > new-store limited edition proposal > keeps the separate handoff report identical to the displayed proposal
+AssertionError: expected [ { …(12) }, { …(12) }, …(3) ] to have a length of 4 but got 5
+
+- Expected
++ Received
+
+- 4
++ 5
+
+ ❯ src/sites/wilderworld/marketplace/limited-editions.test.ts:106:100
+    104|     const previous=JSON.parse(readFileSync(path.resolve(process.cwd(),…
+    105|     const removed=new Set(LIMITED_EDITION_PROPOSAL.curation.excludedPr…
+    106|     expect(previous.products.filter((product:{productId:string})=>remo…
+       |                                                                                                    ^
+    107|     for(const current of LIMITED_EDITION_PROPOSAL.products){
+    108|       const original=previous.products.find((product:{productId:string…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[13/19]⎯
+
+ FAIL  src/sites/wilderworld/marketplace/object-lifestyle.test.ts > exact product object lifestyle coverage > gives every retained furniture object, sculpture and rim an assigned scene without changing material images
+AssertionError: expected [ …(44) ] to have a length of 46 but got 44
+
+- Expected
++ Received
+
+- 46
++ 44
+
+ ❯ src/sites/wilderworld/marketplace/object-lifestyle.test.ts:8:21
+      6|   it('gives every retained furniture object, sculpture and rim an assi…
+      7|     const objects=[...filterProducts(marketProducts,{department:'furni…
+      8|     expect(objects).toHaveLength(46);
+       |                     ^
+      9|     for(const product of objects){
+     10|       const scenes=campaignScenesForProduct(product.id);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[14/19]⎯
+
+ FAIL  src/sites/wilderworld/marketplace/object-lifestyle.test.ts > exact product object lifestyle coverage > adds seventeen reviewed scenes for forty exact products while preserving the approved rim cover
+AssertionError: expected 38 to be 40 // Object.is equality
+
+- Expected
++ Received
+
+- 40
++ 38
+
+ ❯ src/sites/wilderworld/marketplace/object-lifestyle.test.ts:18:67
+     16|     const scenes=Object.values(campaignMedia).flatMap(cover=>cover.ser…
+     17|     expect(scenes).toHaveLength(17);
+     18|     expect(new Set(scenes.flatMap(scene=>scene.productIds)).size).toBe…
+       |                                                                   ^
+     19|     expect(campaignMedia.rims.image).toBe('/images/marketplace/wiami-c…
+     20|     for(const scene of scenes){
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[15/19]⎯
+
+ FAIL  src/sites/wilderworld/marketplace/preview-currency.test.tsx > explicit demo currency conversion > visibly identifies the small WILD equivalent as demo data
+TestingLibraryElementError: Unable to find an element with the text: /Demo rate/. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+<body>
+  <div>
+    <small
+      class="_quote_a9fc3d"
+      title="Demo conversion: 1 WILD = $0.10. Not a live rate."
+    >
+      ≈ 
+      50 WILD
+      <span>
+         · Sample rate
+      </span>
+    </small>
+  </div>
+</body>
+ ❯ Object.getElementError ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/sites/wilderworld/marketplace/preview-currency.test.tsx:38:19
+     36|     render(<DemoWildPriceQuote usdCents={500}/>);
+     37|     expect(screen.getByText(/50 WILD/).tagName).toBe('SMALL');
+     38|     expect(screen.getByText(/Demo rate/)).toBeTruthy();
+       |                   ^
+     39|     expect(screen.getByTitle(DEMO_WILD_RATE.label)).toBeTruthy();
+     40|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[16/19]⎯
+
+ FAIL  src/sites/wilderworld/marketplace/preview-prices.test.ts > approved display-only price rollout > matches the exact reviewed 63-price proposal and retains all 163 earlier prices
+AssertionError: expected [ { id: 'BTWR_001', …(17) }, …(220) ] to have a length of 222 but got 221
+
+- Expected
++ Received
+
+- 222
++ 221
+
+ ❯ src/sites/wilderworld/marketplace/preview-prices.test.ts:19:26
+     17|   expect(proposed).toHaveLength(63);expect(Object.keys(approval.produc…
+     18|   expect(approval).toMatchObject({status:'approved_for_preview_only',p…
+     19|   expect(marketProducts).toHaveLength(222);
+       |                          ^
+     20|   for(const row of rows){
+     21|    if(curation.excludedProductIds.includes(row.productId)){
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[17/19]⎯
+
+ FAIL  src/sites/wilderworld/marketplace/ProductMarketPanel.test.tsx > product market preview > clears draft amounts when switching currencies so values are never reinterpreted
+TestingLibraryElementError: Unable to find an element with the text: /100 WILD. Approx. \$10.00 at the demo rate/. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+<body>
+  <div>
+    <section
+      aria-labelledby="_r_n_"
+      class="_panel_b8e6f0"
+      data-market-key="[\"item-1\",\"finish-1\",null]"
+      data-market-mode="sample"
+    >
+      <header
+        class="_header_b8e6f0"
+      >
+        <div>
+          <p
+            class="_eyebrow_b8e6f0"
+          >
+            The marketplace
+          </p>
+          <h2
+            id="_r_n_"
+          >
+            Make your move.
+          </h2>
+          <p
+            class="_subheading_b8e6f0"
+          >
+            Silver
+             
+            <span>
+              ·
+            </span>
+             Market activity
+          </p>
+        </div>
+        <button
+          aria-pressed="true"
+          class="_sampleToggle_b8e6f0"
+        >
+          View live data
+          <svg
+            class="lucide lucide-arrow-up-right"
+            fill="none"
+            height="14"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 7h10v10"
+            />
+            <path
+              d="M7 17 17 7"
+            />
+          </svg>
+        </button>
+      </header>
+      <div
+        class="_sampleBanner_b8e6f0"
+        role="status"
+      >
+        <strong>
+          SAMPLE DATA
+        </strong>
+        <span>
+          Illustrative prices and activity. Trading is not live.
+        </span>
+      </div>
+      <div
+        id="_r_o_-panel"
+      >
+        <div
+          class="_body_b8e6f0"
+        >
+          <div
+            class="_activity_b8e6f0"
+          >
+            <dl
+              class="_stats_b8e6f0"
+            >
+              <div>
+                <dt>
+                  Lowest ask
+                </dt>
+                <dd>
+                  $58.64
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  Highest bid
+                </dt>
+                <dd>
+                  $54.68
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  Last sale
+                </dt>
+                <dd>
+                  $56.66
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  Volume · 30 days
+                </dt>
+                <dd>
+                  $3,816.94
+                </dd>
+              </div>
+            </dl>
+            <div
+              class="_marketSummary_b8e6f0"
+            >
+              <span
+                class="_positive_b8e6f0"
+              >
+                +
+                6.6
+                % 
+                <span>
+                  past month
+                </span>
+              </span>
+              <span>
+                69
+                 example sales · 30 days
+              </span>
+            </div>
+            <div
+              class="_chartHeading_b8e6f0"
+            >
+              <h3>
+                Price history
+              </h3>
+              <div
+                aria-label="Chart date range"
+                class="_ranges_b8e6f0"
+              >
+                <button
+                  aria-pressed="true"
+                >
+                  1M
+                </button>
+                <button
+                  aria-pressed="false"
+                >
+                  3M
+                </button>
+                <button
+                  aria-pressed="false"
+                >
+                  1Y
+                </button>
+                <button
+                  aria-pressed="false"
+                >
+                  ALL
+                </button>
+              </div>
+            </div>
+            <div
+              class="_chart_b8e6f0"
+            >
+              <span
+                class="_chartWatermark_b8e6f0"
+              >
+                SAMPLE DATA
+              </span>
+              <div
+                class="_chartScale_b8e6f0"
+              >
+                <span>
+                  $58.72
+                </span>
+                <span>
+                  $51.86
+                </span>
+              </div>
+              <svg
+                aria-label="Sample price chart. Illustrative values, not actual sales."
+                role="img"
+                viewBox="0 0 680 240"
+              >
+                <defs>
+                  <lineargradient
+                    id="_r_p_"
+                    x1="0"
+                    x2="0"
+                    y1="0"
+                    y2="1"
+                  >...
+ ❯ Object.getElementError ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../wilder-fashion-review/checkout/node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/sites/wilderworld/marketplace/ProductMarketPanel.test.tsx:98:19
+     96|     fireEvent.change(screen.getByLabelText(/Your bid/),{target:{value:…
+     97|     fireEvent.click(screen.getByRole('button',{name:'Save draft'}));
+     98|     expect(screen.getByText(/100 WILD. Approx. \$10.00 at the demo rat…
+       |                   ^
+     99|     fireEvent.click(screen.getByRole('tab',{name:'Sell / List'}));
+    100|     fireEvent.click(screen.getByRole('button',{name:'Draft a listing'}…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[18/19]⎯
+
+ FAIL  src/sites/wilderworld/marketplace/runtime-coverage.test.ts > live catalog material and editorial coverage > keeps nine explicit plans per product and exposes only reviewed clothing imagery
+AssertionError: expected [ { id: 'BTWR_001', …(13) }, …(220) ] to have a length of 226 but got 221
+
+- Expected
++ Received
+
+- 226
++ 221
+
+ ❯ src/sites/wilderworld/marketplace/runtime-coverage.test.ts:29:19
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[19/19]⎯
+
+
+ Test Files  16 failed | 78 passed (94)
+      Tests  19 failed | 635 passed (654)
+   Start at  20:40:03
+   Duration  155.01s (transform 2.80s, setup 18.39s, import 16.98s, tests 41.36s, environment 64.24s)
+

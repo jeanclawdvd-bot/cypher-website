@@ -1,0 +1,404 @@
+{
+  "groups": [
+    {
+      "id": "headwear",
+      "title": "Hats",
+      "items": [
+        {
+          "id": "headwear-current",
+          "option": "01",
+          "label": "Current cover",
+          "image": "/images/marketplace/wiami-campaign-v3/headwear-storm-register-v3.webp",
+          "position": "50% 15%",
+          "alt": "Current Hats cover"
+        },
+        {
+          "id": "HDWR_011_A",
+          "category": "headwear",
+          "option": "02",
+          "image": "/images/marketplace/casting-review-v1/headwear-cast-02-beauty-v2.webp",
+          "position": "50% 18%",
+          "productIds": [
+            "HDWR_011_A"
+          ],
+          "alt": "Casting 02 for headwear"
+        },
+        {
+          "id": "HDWR_011_A",
+          "category": "headwear",
+          "option": "03",
+          "image": "/images/marketplace/casting-review-v1/headwear-cast-03.webp",
+          "position": "50% 18%",
+          "productIds": [
+            "HDWR_011_A"
+          ],
+          "alt": "Casting 03 for headwear"
+        }
+      ]
+    },
+    {
+      "id": "jewelry",
+      "title": "Headphones",
+      "items": [
+        {
+          "id": "jewelry-current",
+          "option": "01",
+          "label": "Current cover",
+          "image": "/images/marketplace/wiami-campaign-v3/jewelry.webp",
+          "position": "50% 12%",
+          "alt": "Current Headphones cover"
+        },
+        {
+          "id": "JWLR_H14",
+          "category": "jewelry",
+          "option": "02",
+          "image": "/images/marketplace/casting-review-v1/jewelry-cast-02.webp",
+          "position": "50% 18%",
+          "productIds": [
+            "JWLR_H14"
+          ],
+          "alt": "Casting 02 for jewelry"
+        },
+        {
+          "id": "JWLR_H14",
+          "category": "jewelry",
+          "option": "03",
+          "image": "/images/marketplace/casting-review-v1/jewelry-cast-03.webp",
+          "position": "50% 18%",
+          "productIds": [
+            "JWLR_H14"
+          ],
+          "alt": "Casting 03 for jewelry"
+        }
+      ]
+    },
+    {
+      "id": "topwear",
+      "title": "Tops",
+      "items": [
+        {
+          "id": "topwear-current",
+          "option": "01",
+          "label": "Current cover",
+          "image": "/images/marketplace/wiami-campaign-v1/topwear.webp",
+          "position": "50% 45%",
+          "alt": "Current Tops cover"
+        },
+        {
+          "id": "TPWR_002_A_F",
+          "category": "topwear",
+          "option": "02",
+          "image": "/images/marketplace/casting-review-v1/topwear-cast-02.webp",
+          "position": "50% 18%",
+          "productIds": [
+            "TPWR_002_A_F"
+          ],
+          "alt": "Casting 02 for topwear"
+        },
+        {
+          "id": "TPWR_002_A_F",
+          "category": "topwear",
+          "option": "03",
+          "image": "/images/marketplace/casting-review-v1/topwear-cast-03-beauty-v2.webp",
+          "position": "50% 18%",
+          "productIds": [
+            "TPWR_002_A_F"
+          ],
+          "alt": "Casting 03 for topwear"
+        }
+      ]
+    },
+    {
+      "id": "eyewear",
+      "title": "Glasses",
+      "items": [
+        {
+          "id": "eyewear-current",
+          "option": "01",
+          "label": "Current cover",
+          "image": "/images/marketplace/wiami-campaign-v1/eyewear-wiami-v2.webp",
+          "position": "50% 35%",
+          "alt": "Current Glasses cover"
+        },
+        {
+          "id": "eyewear-cast-02",
+          "category": "eyewear",
+          "option": "02",
+          "image": "/images/marketplace/casting-review-v1/eyewear-cast-02.webp",
+          "position": "50% 35%",
+          "productIds": [
+            "EYWR_006"
+          ],
+          "alt": "East Asian woman, age 24 wearing the featured Wilder World eyewear in a future Wiami editorial setting"
+        },
+        {
+          "id": "eyewear-cast-03",
+          "category": "eyewear",
+          "option": "03",
+          "image": "/images/marketplace/casting-review-v1/eyewear-cast-03.webp",
+          "position": "50% 35%",
+          "productIds": [
+            "EYWR_006"
+          ],
+          "alt": "White European man, age 26 wearing the featured Wilder World eyewear in a future Wiami editorial setting"
+        }
+      ]
+    },
+    {
+      "id": "jacket",
+      "title": "Jackets",
+      "items": [
+        {
+          "id": "jacket-current",
+          "option": "01",
+          "label": "Current cover",
+          "image": "/images/marketplace/wiami-campaign-v1/jacket-after-hours-v2.webp",
+          "position": "50% 40%",
+          "alt": "Current Jackets cover"
+        },
+        {
+          "id": "jacket-cast-02",
+          "category": "jacket",
+          "option": "02",
+          "image": "/images/marketplace/casting-review-v1/jacket-cast-02.webp",
+          "position": "50% 42%",
+          "productIds": [
+            "JCKT_001"
+          ],
+          "alt": "South Asian man, age 24 wearing the featured Wilder World jacket in a future Wiami editorial setting"
+        },
+        {
+          "id": "jacket-cast-03",
+          "category": "jacket",
+          "option": "03",
+          "image": "/images/marketplace/casting-review-v1/jacket-cast-03.webp",
+          "position": "50% 42%",
+          "productIds": [
+            "JCKT_001"
+          ],
+          "alt": "Latino man, age 25 wearing the featured Wilder World jacket in a future Wiami editorial setting"
+        }
+      ]
+    },
+    {
+      "id": "mask",
+      "title": "Masks",
+      "items": [
+        {
+          "id": "mask-current",
+          "option": "01",
+          "label": "Current cover",
+          "image": "/images/marketplace/wiami-campaign-v2/mask-bandanna-wiami-v2.webp",
+          "position": "50% 24%",
+          "alt": "Current Masks cover"
+        },
+        {
+          "id": "mask-cast-02",
+          "category": "mask",
+          "option": "02",
+          "image": "/images/marketplace/casting-review-v1/mask-cast-02.webp",
+          "position": "50% 32%",
+          "productIds": [
+            "MASK_002",
+            "JCKT_001"
+          ],
+          "alt": "East Asian man, age 23 wearing the featured Wilder World mask in a future Wiami editorial setting"
+        },
+        {
+          "id": "mask-cast-03",
+          "category": "mask",
+          "option": "03",
+          "image": "/images/marketplace/casting-review-v1/mask-cast-03.webp",
+          "position": "50% 32%",
+          "productIds": [
+            "MASK_002",
+            "JCKT_001"
+          ],
+          "alt": "Latina woman, age 25 wearing the featured Wilder World mask in a future Wiami editorial setting"
+        }
+      ]
+    },
+    {
+      "id": "suit",
+      "title": "Suits",
+      "items": [
+        {
+          "id": "suit-current",
+          "option": "01",
+          "label": "Current cover",
+          "image": "/images/marketplace/wiami-campaign-v1/suit.webp",
+          "position": "50% 0%",
+          "alt": "Current Suits cover"
+        },
+        {
+          "id": "suit-cast-02",
+          "category": "suit",
+          "option": "02",
+          "image": "/images/marketplace/casting-review-v1/suit-cast-02.webp",
+          "position": "50% 48%",
+          "productIds": [
+            "SUIT_002_A"
+          ],
+          "alt": "Black woman, age 24 wearing the featured Wilder World suit in a future Wiami editorial setting"
+        },
+        {
+          "id": "suit-cast-03",
+          "category": "suit",
+          "option": "03",
+          "image": "/images/marketplace/casting-review-v1/suit-cast-03.webp",
+          "position": "50% 48%",
+          "productIds": [
+            "SUIT_002_A"
+          ],
+          "alt": "White European woman, age 25 wearing the featured Wilder World suit in a future Wiami editorial setting"
+        }
+      ]
+    },
+    {
+      "id": "footwear",
+      "title": "Shoes",
+      "items": [
+        {
+          "id": "footwear-current",
+          "option": "01",
+          "label": "Current cover",
+          "image": "/images/marketplace/wiami-campaign-v1/footwear-wiami-v2.webp",
+          "position": "50% 60%",
+          "alt": "Current Shoes cover"
+        },
+        {
+          "id": "footwear-cast-02",
+          "category": "footwear",
+          "option": "02",
+          "image": "/images/marketplace/casting-review-v1/footwear-cast-02.webp",
+          "position": "50% 55%",
+          "productIds": [
+            "FTWR_001"
+          ],
+          "alt": "Black woman, age 23 with the featured Wilder World boots in a future Wiami editorial setting"
+        },
+        {
+          "id": "footwear-cast-03",
+          "category": "footwear",
+          "option": "03",
+          "image": "/images/marketplace/casting-review-v1/footwear-cast-03.webp",
+          "position": "50% 55%",
+          "productIds": [
+            "FTWR_001"
+          ],
+          "alt": "East Asian man, age 25 with the featured Wilder World boots in a future Wiami editorial setting"
+        }
+      ]
+    },
+    {
+      "id": "bottomwear",
+      "title": "Bottoms",
+      "items": [
+        {
+          "id": "bottomwear-current",
+          "option": "01",
+          "label": "Current cover",
+          "image": "/images/marketplace/wiami-campaign-v1/bottomwear.webp",
+          "position": "50% 25%",
+          "alt": "Current Bottoms cover"
+        },
+        {
+          "id": "bottomwear-cast-02",
+          "category": "bottomwear",
+          "option": "02",
+          "image": "/images/marketplace/casting-review-v1/bottomwear-cast-02.webp",
+          "position": "50% 30%",
+          "productIds": [
+            "BTWR_001"
+          ],
+          "alt": "Arab man, age 24 with the featured Wilder World utility trousers in a future Wiami editorial setting"
+        },
+        {
+          "id": "bottomwear-cast-03",
+          "category": "bottomwear",
+          "option": "03",
+          "image": "/images/marketplace/casting-review-v1/bottomwear-cast-03.webp",
+          "position": "50% 30%",
+          "productIds": [
+            "BTWR_001"
+          ],
+          "alt": "White European man, age 23 with the featured Wilder World utility trousers in a future Wiami editorial setting"
+        }
+      ]
+    },
+    {
+      "id": "extra",
+      "title": "Accessories",
+      "items": [
+        {
+          "id": "extra-current",
+          "option": "01",
+          "label": "Current cover",
+          "image": "/images/marketplace/wiami-campaign-v3/extra-unsigned-cuff-v3.webp",
+          "position": "50% 15%",
+          "alt": "Current Accessories cover"
+        },
+        {
+          "id": "extra-cast-02",
+          "category": "extra",
+          "option": "02",
+          "image": "/images/marketplace/casting-review-v1/extra-cast-02.webp",
+          "position": "50% 30%",
+          "productIds": [
+            "XTRA_011"
+          ],
+          "alt": "South Asian woman, age 24 with the featured Wilder World wrist cuff in a future Wiami editorial setting"
+        },
+        {
+          "id": "extra-cast-03",
+          "category": "extra",
+          "option": "03",
+          "image": "/images/marketplace/casting-review-v1/extra-cast-03.webp",
+          "position": "50% 30%",
+          "productIds": [
+            "XTRA_011"
+          ],
+          "alt": "East Asian woman, age 25 with the featured Wilder World wrist cuff in a future Wiami editorial setting"
+        }
+      ]
+    },
+    {
+      "id": "vehicles",
+      "title": "Vehicles",
+      "items": [
+        {
+          "id": "vehicles-current",
+          "option": "01",
+          "label": "Current cover",
+          "image": "/images/marketplace/wiami-campaign-v2/vehicles-scale-corrected.webp",
+          "position": "50% 58%",
+          "alt": "Current Vehicles cover"
+        },
+        {
+          "id": "vehicles-cast-02",
+          "category": "vehicles",
+          "option": "02",
+          "image": "/images/marketplace/casting-review-v1/vehicles-cast-02.webp",
+          "position": "50% 55%",
+          "productIds": [
+            "vehicle-ghostline",
+            "JCKT_001"
+          ],
+          "alt": "Black man, age 26 with the featured Wilder World vehicle and jacket in a future Wiami editorial setting"
+        },
+        {
+          "id": "vehicles-cast-03",
+          "category": "vehicles",
+          "option": "03",
+          "image": "/images/marketplace/casting-review-v1/vehicles-cast-03.webp",
+          "position": "50% 55%",
+          "productIds": [
+            "vehicle-ghostline",
+            "JCKT_001"
+          ],
+          "alt": "Latina woman, age 24 with the featured Wilder World vehicle and jacket in a future Wiami editorial setting"
+        }
+      ]
+    }
+  ]
+}

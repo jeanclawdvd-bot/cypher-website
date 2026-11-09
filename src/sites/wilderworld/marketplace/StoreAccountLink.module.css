@@ -1,0 +1,1 @@
+.link{display:inline-flex;align-items:center;justify-content:center;gap:8px;color:#e8e8e6;font-family:var(--font-sans),sans-serif;font-size:13px;white-space:nowrap;text-decoration:none;min-height:44px;padding:0 8px}.link:hover{color:var(--ww-orange,#ff6434)}.link:focus-visible{outline:2px solid var(--ww-orange,#ff6434);outline-offset:3px}

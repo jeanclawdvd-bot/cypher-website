@@ -1,0 +1,10 @@
+/* Product image expands from its clicked card, using the reference's 300 ms timing. */
+::view-transition-group(ww-product){animation-duration:300ms;animation-timing-function:cubic-bezier(.22,.68,0,1)}
+::view-transition-old(ww-product),::view-transition-new(ww-product){height:100%;object-fit:contain;mix-blend-mode:normal;animation-duration:300ms}
+/* The destination stays still under the image; two fading page-sized snapshots
+   made the returning grid look like it was flashing / sliding underneath it. */
+::view-transition-old(root){animation:ww-page-out 120ms ease-out both}
+::view-transition-new(root){animation:none}
+@keyframes ww-page-out{to{opacity:0}}
+@keyframes ww-page-in{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}}

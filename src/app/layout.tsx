@@ -15,6 +15,8 @@ import { ZodeShell } from '@/sites/zode/ZodeShell';
 import { ZodeGate } from '@/sites/zode/ZodeGate';
 import { themeInitScript } from '@/sites/zode/lib/theme/theme-script';
 import { Providers } from './providers';
+import WilderShoppingNav from '@/sites/wilderworld/marketplace/WilderShoppingNav';
+import StorePageTransition from '@/sites/wilderworld/marketplace/StorePageTransition';
 
 export async function generateMetadata(): Promise<Metadata> {
   const company = await getCurrentCompany();
@@ -90,8 +92,9 @@ export default async function RootLayout({
             storageKey={`zui-theme-${company.key}`}
           >
             <MusicProvider>
-              <CustomScrollbar />
-              <Nav
+              {company.key === 'wilderworld' && <StorePageTransition/>}
+              {company.key !== 'wilderworld' && <CustomScrollbar />}
+              {company.key === 'wilderworld' ? <WilderShoppingNav/> : <Nav
                 wordmark={company.wordmark}
                 wordmarkLogo={company.wordmarkLogo}
                 cta={company.cta}
@@ -100,7 +103,7 @@ export default async function RootLayout({
                 pageSections={company.pageSections}
                 homeHref={homeHref}
                 brandParam={brandParam}
-              />
+              />}
               <main id="page-main">
                 {children}
                 <Footer

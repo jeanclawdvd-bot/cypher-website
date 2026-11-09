@@ -1,3 +1,4 @@
+import type { OriginalDataProvenance } from '@/lib/originals-data';
 import type { MarketNft } from '@/lib/opensea';
 import type { MarketCollection } from '@/app/api/market/collections/route';
 import type { MarketItem } from '@/app/api/market/item/route';
@@ -5,6 +6,10 @@ import type { TraitCategory } from '@/app/api/market/traits/route';
 import type { Availability, SelectedTraits } from '../types';
 
 export type NftsPage = {
+  traitCategories?: TraitCategory[];
+  totalProducts?: number;
+  observedAt?: string;
+  provenance?: OriginalDataProvenance;
   items: MarketNft[];
   next: string | null;
 };
@@ -66,11 +71,21 @@ export async function fetchNftsPage(
     items?: MarketNft[];
     next?: string | null;
     error?: boolean;
+    provenance?: OriginalDataProvenance;
   };
   // An upstream failure must never be shown as "no listed items"; surface it as
   // an error so the empty-state copy stays truthful.
   if (parsed.error) throw new MarketFetchError('Upstream NFT data unavailable');
-  return { items: parsed.items ?? [], next: parsed.next ?? null };
+  return { items: parsed.items ?? [], next: parsed.next ?? null, provenance: parsed.provenance };
+}
+
+export async function fetchOriginalGroupsPage(slug:string,next:string|null,attributes?:SelectedTraits,query='',sort='collection'):Promise<NftsPage> {
+  const params=new URLSearchParams({slug,q:query,sort});
+  if(next)params.set('next',next);
+  if(attributes)params.set('attributes',JSON.stringify(attributes));
+  const data=await getJson(`/api/market/product-groups?${params}`) as NftsPage & {error?:boolean};
+  if(data.error)throw new MarketFetchError('Grouped catalog unavailable');
+  return data;
 }
 
 export async function fetchTraits(slug: string): Promise<TraitCategory[]> {

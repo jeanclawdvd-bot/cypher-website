@@ -1,80 +1,50 @@
-# Cypher Web
+# Wilder World storefront — Dom handoff
 
-Marketing and ecosystem site for **Cypher** — built with [Next.js 15](https://nextjs.org/) (App Router). Presents the tools, protocols, and vision behind autonomous agent infrastructure for the Machine Age.
+Current shopping experience, product media, local account/market backend, and contract reference package. This branch imports published preview **v27** (`f09dac634227f4711c64d571bc29c2ab1b21294c`) onto the existing Cypher repository. It is a review branch, not a production commerce release.
 
-## Prerequisites
+- **Start here:** [Dom's brief](docs/dom-handoff.md).
+- **Preview:** https://wilder-world-fashion-review-20261106.frankwilder.chatgpt.site/
+- **Lifestyle approval gallery:** https://wilder-world-fashion-review-20261106.frankwilder.chatgpt.site/lifestyle-review/
+- **Latest architecture:** [five collection contracts](docs/collection-contracts.md).
+- **Checks and gaps:** [validation](handoff/VALIDATION.md).
 
-- **Node.js** LTS (20+)
-- **npm** 10+
+## Run locally
 
-## Install
+Use **Node 22.13+** and **pnpm 11.25.0**. This version uses React 19 and Next-compatible routes through **Vinext/Vite and a Cloudflare Worker**. Use this flow rather than `next start`. The independent Solidity package has its own npm lockfile.
 
-```bash
-npm install
+```sh
+pnpm install --frozen-lockfile
+pnpm build
+node scripts/prepare-local-store.mjs
+node --import ./scripts/sites-env.mjs node_modules/wrangler/bin/wrangler.js d1 migrations apply STORE_DB --config .tmp/local-store/wrangler.json --local --persist-to .wrangler/state
+node --import ./scripts/sites-env.mjs node_modules/wrangler/bin/wrangler.js dev --config .tmp/local-store/wrangler.json --local --persist-to .wrangler/state --ip 127.0.0.1 --port 8791 --inspector-port 0
 ```
 
-## Run
+Open http://127.0.0.1:8791/. All product media is included under `public/`; local running does not need R2 credentials. Back up existing `.wrangler/state` before migrations. Account tables use the six migrations in `migrations/store`.
 
-```bash
-npm run dev       # Start dev server (http://localhost:3000)
-npm run build     # Production build
-npm run start     # Serve production build
-npm run lint      # Lint with ESLint
-npm run typecheck # Type-check with tsc (no emit)
+At `/store/account`, register a **test-only account**, then use **Add test items**. Use a second test account for buying. Local payment and ownership fixtures do not move money or mint assets. Public preview does not enable local registration. Production ZERO integration remains outstanding.
+
+For frontend iteration: `pnpm dev`. For local account testing use the built Worker above. Optional provider keys go in `.env.local` using `.env.example`; never commit real credentials. Review mode works without them, with missing-data states.
+
+```sh
+pnpm typecheck
+pnpm exec vitest run --no-file-parallelism
 ```
 
-## Environment
+Bundled approval fixtures live in `handoff/fixtures`; audit output goes to ignored `.tmp/handoff`. These checks need no original workspace folders. Historical creative/export scripts can still reference external Unreal/workspace evidence; they are not prerequisites for running the app.
 
-Copy `.env.example` to `.env.local` and fill in the values:
+## Source map
 
-| Variable | Used by | Notes |
-|----------|---------|-------|
-| `OPENSEA_API_KEY` | Wilder World Market page (`/market`) | OpenSea API v2 key used server-side to browse live onchain NFTs and metadata. Get one at [OpenSea API keys](https://docs.opensea.io/reference/api-keys). If unset, the Market page renders a graceful empty state. |
-| `INDEXER_API_URL` | Market page (`/market`), Z-Chain collections | Base URL of the indexing service. Read server-side only; if unset (or `INDEXER_API_KEY` is missing), indexer-backed collections render a graceful empty state. |
-| `INDEXER_API_KEY` | Market page (`/market`), Z-Chain collections | `x-api-key` value for the indexing service. Read server-side only. |
+| Area | Location |
+| --- | --- |
+| Routes, account and originals | `src/app/store` |
+| Catalog, materials, editions, media approvals | `src/sites/wilderworld/marketplace` |
+| Clothing product pages | `src/sites/wilderworld/accessories` |
+| Registry and fulfillment interfaces | `src/sites/wilderworld/collections` |
+| Local backend and production adapters | `src/lib/store-backend`, `worker`, `migrations/store` |
+| Catalog / five-contract target | `handoff/catalog`, `handoff/Collection-Product-Registry.target.json` |
+| Older three-contract source/tests | `contracts/collections` |
 
-## Pages
+Frank continues creative and product refinement. **Product photos are unchanged. Product-page lifestyle images remain withheld** until individually approved in `lifestyle-approvals.json`.
 
-| Route | Description |
-|-------|-------------|
-| `/` | Landing page — animated headline ("Tools for the Machine Age") over a Three.js ASCII grid background |
-| `/vision` | Mission statement — "Building Infrastructure for the Machine Age" with four pillars (Agent-First Architecture, Trustless Coordination, Composable Swarms, Open & Permissionless) |
-| `/components` | Component showcase |
-| `/docs` | Getting-started guide — installation and project structure |
-
-## Project Structure
-
-```
-src/
-  app/
-    layout.tsx              # Root layout — fonts, global styles, ThemeProvider
-    page.tsx                # Home / landing page
-    page.module.css
-    docs/
-      page.tsx              # Docs page (/docs)
-      page.module.css
-    components/
-      page.tsx              # Component showcase (/components)
-      page.module.css
-    vision/
-      page.tsx              # Vision / mission page (/vision)
-      page.module.css
-    _components/
-      ThemeContext.tsx       # Theme provider & useTheme hook
-      ThemeWrapper.tsx       # "use client" wrapper for ThemeProvider
-      Nav.tsx               # Navigation with mega-menu dropdowns
-      Nav.module.css
-      Headline.tsx          # Home page animated headline
-      TypewriterText.tsx    # Typewriter text effect
-      AsciiBackground.tsx   # Three.js ASCII grid animation
-    styles/
-      globals.css           # Design tokens, theme variables, resets
-```
-
-### Key conventions
-
-- **CSS Modules** for all component/page styles (`*.module.css`)
-- **Global CSS** with design tokens and theme variables imported once in `layout.tsx`
-- **Theme**: `ThemeProvider` in `ThemeContext.tsx` manages dark/light mode via `data-theme` attribute on `<html>`, persisted to `localStorage`
-- **Client boundary**: any component using theme hooks, Three.js, or interactive state is marked `"use client"`
-- **Fonts**: Inter (sans-serif) and JetBrains Mono (monospace) via `next/font/google`
+Hosting configuration references the existing review project. Select the intended environment before deploying or merging into an auto-deploy branch. No production accounts, private keys, account databases or deployment credentials are included. Other brand sites remain in the repository; this handoff is scoped to the Wilder World storefront.

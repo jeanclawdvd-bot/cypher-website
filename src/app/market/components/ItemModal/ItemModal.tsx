@@ -7,7 +7,10 @@ import type { MarketNft } from '@/lib/opensea';
 import { getEntryBySlug, getEntrySource } from '@/lib/wilderCollections';
 import { formatUsd, formatEth } from '@/lib/price';
 import { FadeInImage } from '@/components/FadeInImage';
+import ProductMarketPanel from '@/sites/wilderworld/marketplace/ProductMarketPanel';
+import ProductReviews from '@/sites/wilderworld/marketplace/ProductReviews';
 import { useItemQuery } from '../../hooks/useItemQuery';
+import { configuredTokenIdentity } from '../../lib/items';
 import styles from '../../ItemModal.module.css';
 
 type Props = {
@@ -57,6 +60,8 @@ export function ItemModal({
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
+      // Market draft inputs and controls own their arrow keys.
+      if (e.target instanceof Element && e.target.closest('input,textarea,select,button,a,[contenteditable="true"]')) return;
       if (e.key === 'ArrowLeft' && hasPrev) onPrev();
       if (e.key === 'ArrowRight' && hasNext) onNext();
     };
@@ -100,6 +105,8 @@ export function ItemModal({
   const name = item?.name ?? nft.name;
   const isLoading = status === 'pending';
   const isError = status === 'error';
+  const boundIdentity = configuredTokenIdentity(nft);
+  const legacyProductId = `legacy:${boundIdentity?.chainId??nft.chain}:${nft.contract.toLowerCase()}:${nft.identifier}`;
 
   return createPortal(
     <div className={styles.overlay} onClick={onClose} role="dialog" aria-modal="true">
@@ -260,6 +267,16 @@ export function ItemModal({
               ) : null}
             </>
           )}
+        </div>
+        <div className={styles.marketSection}>
+          <ProductMarketPanel
+            key={`${nft.chain}:${nft.contract}:${nft.identifier}`}
+            productId={legacyProductId}
+            variantId={nft.identifier}
+            variantName={`${name} · Existing collectible`}
+            identity={boundIdentity && boundIdentity.chainId > 0 ? boundIdentity : undefined}
+          />
+          <ProductReviews productId={legacyProductId} variantId={nft.identifier} variantName={name} variantOptions={[{id:nft.identifier,name}]}/>
         </div>
       </div>
     </div>,

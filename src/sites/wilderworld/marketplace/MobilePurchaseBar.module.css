@@ -1,0 +1,11 @@
+.space{display:none}
+@media(max-width:800px){
+  .space{display:block;height:calc(80px + env(safe-area-inset-bottom,0px))}
+  .bar{position:fixed;inset:auto 0 0;z-index:90;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 20px calc(12px + env(safe-area-inset-bottom,0px));background:#101113f5;border-top:1px solid #ffffff24;backdrop-filter:blur(16px);font-family:var(--font-sans),sans-serif;color:#e6e8eb}
+  .bar>div{min-width:0;display:flex;flex-direction:column;gap:4px}
+  .bar strong{font-size:19px;font-weight:600}
+  .bar span{font-size:11px;color:#a4a9b0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .bar button{flex-shrink:0;display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:44px;padding:12px 18px;border:0;background:var(--ww-orange,#ff6434);color:#090a0b;font:600 12px var(--font-sans),sans-serif;text-transform:uppercase;cursor:pointer}
+  .bar button:disabled{background:#282b2f;color:#999ea5;cursor:default;font-size:10px}
+  .bar button:focus-visible{outline:2px solid white;outline-offset:3px}
+}

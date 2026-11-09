@@ -1,0 +1,884 @@
+{
+  "schema_version": 1,
+  "currency": "USD",
+  "status": "Preview",
+  "pricing_source": "pricing-research.json",
+  "pricing_unit": "One individual product style; each offered color uses its parent product price.",
+  "rules": [
+    "All three proposed colors share the product price.",
+    "Equivalent gender cuts have price parity.",
+    "No surcharge for brand, lore, invented materials or fictional crafting components.",
+    "Prices do not change purchase entitlement or enable checkout."
+  ],
+  "summary": {
+    "products": 163,
+    "colorways": 489,
+    "price_counts_usd": {
+      "3": 33,
+      "5": 12,
+      "7": 34,
+      "9": 15,
+      "12": 51,
+      "15": 10,
+      "19": 8
+    },
+    "tier_counts": {
+      "essentials": 79,
+      "signature": 66,
+      "statement": 18
+    },
+    "below_15": 145
+  },
+  "products": {
+    "BTWR_001": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_001_A": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_001_B": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_001_F": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_002": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_002_A": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_002_A_F": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_002_F": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_004": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_004_A": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_004_A_F": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_004_F": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_006": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_007": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_010": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_010_A": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_010_B": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_010_C": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_010_D": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_010_E": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_010_F": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_010_G": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "BTWR_N30": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for this individual bottomwear style; no premium construction adjustment in this first pass."
+    },
+    "EYWR_002": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_006": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_006_A": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_006_B": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_008": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_009": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_010": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_011": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_012": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_012_A": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_013": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_014": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_015": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_H01": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "EYWR_H03": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one eyewear item; no surcharge for color, brand or lore."
+    },
+    "FTWR_001": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one footwear pair; equivalent cuts keep price parity."
+    },
+    "FTWR_003": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one footwear pair; equivalent cuts keep price parity."
+    },
+    "FTWR_004_A": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one footwear pair; equivalent cuts keep price parity."
+    },
+    "FTWR_005": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one footwear pair; equivalent cuts keep price parity."
+    },
+    "FTWR_005_A": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one footwear pair; equivalent cuts keep price parity."
+    },
+    "FTWR_010": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one footwear pair; equivalent cuts keep price parity."
+    },
+    "FTWR_N30": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one footwear pair; equivalent cuts keep price parity."
+    },
+    "HDWR_001_A": {
+      "priceCents": 1500,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows a substantial shaped helmet shell, deep padded interior and extended side coverage; selected helmet Statement tier."
+    },
+    "HDWR_001_B": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "Reviewed photograph shows a separate rigid open-crown frame with substantial padded side sections; priced below the complete helmet."
+    },
+    "HDWR_002": {
+      "priceCents": 1500,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows a layered helmet shell, large side assemblies and a padded interior; equivalent helmet constructions share the Statement price."
+    },
+    "HDWR_002_A": {
+      "priceCents": 1500,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows a layered helmet shell, large side assemblies and a padded interior; equivalent helmet constructions share the Statement price."
+    },
+    "HDWR_003_A": {
+      "priceCents": 1500,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows a substantial shaped helmet shell, deep padded interior and extended side coverage; selected helmet Statement tier."
+    },
+    "HDWR_006_A": {
+      "priceCents": 1500,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows a substantial contoured helmet with integrated visor, deep lining and side vents; equivalent helmet variants share one Statement price."
+    },
+    "HDWR_006_B": {
+      "priceCents": 1500,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows a substantial contoured helmet with integrated visor, deep lining and side vents; equivalent helmet variants share one Statement price."
+    },
+    "HDWR_006_C": {
+      "priceCents": 1500,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows a substantial contoured helmet with integrated visor, deep lining and side vents; equivalent helmet variants share one Statement price."
+    },
+    "HDWR_007": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "Reviewed photograph shows a separate large curved face shield with edge structure and attachments; priced below a complete helmet and kept equal across equivalent shields."
+    },
+    "HDWR_007_A": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "Reviewed photograph shows a separate large curved face shield with edge structure and attachments; priced below a complete helmet and kept equal across equivalent shields."
+    },
+    "HDWR_008": {
+      "priceCents": 500,
+      "tier": "essentials",
+      "rationale": "Accessible category base for the simple cap, beanie or fabric hood shown in the product photograph."
+    },
+    "HDWR_009": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "Reviewed photograph shows a formed tall-crown hat with shaped brim, lining and applied band details; equivalent structured hats share the Signature price."
+    },
+    "HDWR_009_A": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "Reviewed photograph shows a formed tall-crown hat with shaped brim, lining and applied band details; equivalent structured hats share the Signature price."
+    },
+    "HDWR_010": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "Reviewed photograph shows a formed crown, wide structured brim and finished band or trim; equivalent structured hats share the Signature price."
+    },
+    "HDWR_010_A": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "Reviewed photograph shows a formed crown, wide structured brim and finished band or trim; equivalent structured hats share the Signature price."
+    },
+    "HDWR_011": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "Reviewed photograph shows a formed crown, wide structured brim and finished band or trim; equivalent structured hats share the Signature price."
+    },
+    "HDWR_011_A": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "Reviewed photograph shows a formed crown, wide structured brim and finished band or trim; equivalent structured hats share the Signature price."
+    },
+    "HDWR_012": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "Reviewed photograph shows a formed crown, wide structured brim and finished band or trim; equivalent structured hats share the Signature price."
+    },
+    "HDWR_012_A": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "Reviewed photograph shows a formed crown, wide structured brim and finished band or trim; equivalent structured hats share the Signature price."
+    },
+    "HDWR_013": {
+      "priceCents": 500,
+      "tier": "essentials",
+      "rationale": "Accessible category base for the simple cap, beanie or fabric hood shown in the product photograph."
+    },
+    "HDWR_015": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "Reviewed photograph shows a formed crown, wide structured brim and finished band or trim; equivalent structured hats share the Signature price."
+    },
+    "HDWR_015_A": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "Reviewed photograph shows a formed crown, wide structured brim and finished band or trim; equivalent structured hats share the Signature price."
+    },
+    "HDWR_016": {
+      "priceCents": 500,
+      "tier": "essentials",
+      "rationale": "Accessible category base for the simple cap, beanie or fabric hood shown in the product photograph."
+    },
+    "HDWR_FRD": {
+      "priceCents": 1500,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows a substantial helmet with layered temple panels, visor and side hardware; selected helmet Statement tier."
+    },
+    "JCKT_001": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_A": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_B": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_C": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_D": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_E": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_F": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_G": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_H": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_I": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_J": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_K": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_L": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_M": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_N": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_001_O": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_002": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_002_1": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_002_2": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_002_3": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_002_4": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_002_5": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_002_A": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_002_B": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_002_C": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_002_D": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_002_E": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_002_F": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_003": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_005": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_005_A": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_005_B": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_010": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_010_A": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_010_B": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_013": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_N30": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_N30_A": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_N30_B": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_N30_C": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_N30_D": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_N30_E": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_N30_F": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for one substantial outerwear garment; statement pricing is limited to specifically reviewed hero construction."
+    },
+    "JCKT_PNX_0": {
+      "priceCents": 1900,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows broad fur-textured lapels, sculpted layered shoulder panels, articulated sleeves and a fully lined statement jacket."
+    },
+    "JCKT_PNX_1": {
+      "priceCents": 1900,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows broad fur-textured lapels, sculpted layered shoulder panels, articulated sleeves and a fully lined statement jacket."
+    },
+    "JCKT_PNX_2": {
+      "priceCents": 1900,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows sculpted layered shoulder panels, multiple shaped body panels, articulated sleeve construction and a visible lining; a statement outerwear silhouette."
+    },
+    "JCKT_PNX_3": {
+      "priceCents": 1900,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows sculpted layered shoulder panels, multiple shaped body panels, articulated sleeve construction and a visible lining; a statement outerwear silhouette."
+    },
+    "JCKT_PNX_4": {
+      "priceCents": 1900,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows broad fur-textured lapels, sculpted layered shoulder panels, articulated sleeves and a fully lined statement jacket."
+    },
+    "JCKT_PNX_5": {
+      "priceCents": 1900,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows broad fur-textured lapels, sculpted layered shoulder panels, articulated sleeves and a fully lined statement jacket."
+    },
+    "JCKT_PNX_6": {
+      "priceCents": 1900,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows sculpted layered shoulder panels, multiple shaped body panels, articulated sleeve construction and a visible lining; a statement outerwear silhouette."
+    },
+    "JCKT_PNX_7": {
+      "priceCents": 1900,
+      "tier": "statement",
+      "rationale": "Reviewed photograph shows sculpted layered shoulder panels, multiple shaped body panels, articulated sleeve construction and a visible lining; a statement outerwear silhouette."
+    },
+    "JWLR_H03": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for the individual headphone product; no implied audio or gameplay benefit."
+    },
+    "JWLR_H06": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for the individual headphone product; no implied audio or gameplay benefit."
+    },
+    "JWLR_H07": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for the individual headphone product; no implied audio or gameplay benefit."
+    },
+    "JWLR_H14": {
+      "priceCents": 700,
+      "tier": "essentials",
+      "rationale": "Accessible category base for the individual headphone product; no implied audio or gameplay benefit."
+    },
+    "MASK_001_A": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one face-covering product; no premium adjustment or implied protection benefit."
+    },
+    "MASK_002": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one face-covering product; no premium adjustment or implied protection benefit."
+    },
+    "MASK_002_A": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one face-covering product; no premium adjustment or implied protection benefit."
+    },
+    "MASK_002_B": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one face-covering product; no premium adjustment or implied protection benefit."
+    },
+    "MASK_002_C": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one face-covering product; no premium adjustment or implied protection benefit."
+    },
+    "MASK_002_FE": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one face-covering product; no premium adjustment or implied protection benefit."
+    },
+    "MASK_002_FRANK": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one face-covering product; no premium adjustment or implied protection benefit."
+    },
+    "MASK_002_GP": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one face-covering product; no premium adjustment or implied protection benefit."
+    },
+    "MASK_003": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one face-covering product; no premium adjustment or implied protection benefit."
+    },
+    "MASK_003_A": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one face-covering product; no premium adjustment or implied protection benefit."
+    },
+    "MASK_003_B": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one face-covering product; no premium adjustment or implied protection benefit."
+    },
+    "MASK_003_C": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one face-covering product; no premium adjustment or implied protection benefit."
+    },
+    "MASK_H01": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one face-covering product; no premium adjustment or implied protection benefit."
+    },
+    "SUIT_001": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for the complete racing-suit garment, excluding shoes and gloves; equivalent cuts share this price."
+    },
+    "SUIT_001_A": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for the complete racing-suit garment, excluding shoes and gloves; equivalent cuts share this price."
+    },
+    "SUIT_002": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for the complete racing-suit garment, excluding shoes and gloves; equivalent cuts share this price."
+    },
+    "SUIT_002_A": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for the complete racing-suit garment, excluding shoes and gloves; equivalent cuts share this price."
+    },
+    "SUIT_003": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for the complete racing-suit garment, excluding shoes and gloves; equivalent cuts share this price."
+    },
+    "SUIT_003_A": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for the complete racing-suit garment, excluding shoes and gloves; equivalent cuts share this price."
+    },
+    "SUIT_004": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for the complete racing-suit garment, excluding shoes and gloves; equivalent cuts share this price."
+    },
+    "SUIT_004_A": {
+      "priceCents": 1200,
+      "tier": "signature",
+      "rationale": "Signature category base for the complete racing-suit garment, excluding shoes and gloves; equivalent cuts share this price."
+    },
+    "TPWR_001": {
+      "priceCents": 500,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one everyday topwear garment; all cuts and colors use the same starting price."
+    },
+    "TPWR_002": {
+      "priceCents": 500,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one everyday topwear garment; all cuts and colors use the same starting price."
+    },
+    "TPWR_002_A": {
+      "priceCents": 500,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one everyday topwear garment; all cuts and colors use the same starting price."
+    },
+    "TPWR_002_A_F": {
+      "priceCents": 500,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one everyday topwear garment; all cuts and colors use the same starting price."
+    },
+    "TPWR_002_F": {
+      "priceCents": 500,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one everyday topwear garment; all cuts and colors use the same starting price."
+    },
+    "TPWR_003": {
+      "priceCents": 500,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one everyday topwear garment; all cuts and colors use the same starting price."
+    },
+    "TPWR_003_A": {
+      "priceCents": 500,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one everyday topwear garment; all cuts and colors use the same starting price."
+    },
+    "TPWR_003_F": {
+      "priceCents": 500,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one everyday topwear garment; all cuts and colors use the same starting price."
+    },
+    "TPWR_004": {
+      "priceCents": 500,
+      "tier": "essentials",
+      "rationale": "Accessible category base for one everyday topwear garment; all cuts and colors use the same starting price."
+    },
+    "XTRA_002": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for the separate accessory shown; no bundle, brand or lore surcharge."
+    },
+    "XTRA_002_A": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "The reviewed product is a separate pair of constructed utility pouches with closures and attachment hardware; the pair is one product."
+    },
+    "XTRA_003": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for the separate accessory shown; no bundle, brand or lore surcharge."
+    },
+    "XTRA_003_A": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for the separate accessory shown; no bundle, brand or lore surcharge."
+    },
+    "XTRA_004": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for the separate accessory shown; no bundle, brand or lore surcharge."
+    },
+    "XTRA_010_A": {
+      "priceCents": 900,
+      "tier": "signature",
+      "rationale": "The reviewed product is one articulated glove pair with panel seams and cuff construction; both gloves are included as the cataloged pair."
+    },
+    "XTRA_010_C": {
+      "priceCents": 1500,
+      "tier": "statement",
+      "rationale": "The reviewed product is a substantial sculpted chestpiece with several structural panels and attachment details, sold separately from gloves and cape."
+    },
+    "XTRA_010_D": {
+      "priceCents": 1500,
+      "tier": "statement",
+      "rationale": "The reviewed product is a substantial asymmetric cape with a raised collar, folded interior and long draped panels, sold separately from the chestpiece."
+    },
+    "XTRA_011": {
+      "priceCents": 300,
+      "tier": "essentials",
+      "rationale": "Accessible category base for the separate accessory shown; no bundle, brand or lore surcharge."
+    }
+  },
+  "override_image_evidence": {
+    "JCKT_PNX_0": "product-images/JCKT_PNX_0-isolated-v2.png",
+    "JCKT_PNX_1": "product-images/JCKT_PNX_1-isolated-v2.png",
+    "JCKT_PNX_2": "product-images/JCKT_PNX_2-isolated-v2.png",
+    "JCKT_PNX_3": "product-images/JCKT_PNX_3-isolated-v1.png",
+    "JCKT_PNX_4": "product-images/JCKT_PNX_4-isolated-v2.png",
+    "JCKT_PNX_5": "product-images/JCKT_PNX_5-isolated-v1.png",
+    "JCKT_PNX_6": "product-images/JCKT_PNX_6-isolated-v2.png",
+    "JCKT_PNX_7": "product-images/JCKT_PNX_7-isolated-v1.png",
+    "HDWR_001_A": "product-images/HDWR_001_A-isolated-v1.png",
+    "HDWR_003_A": "product-images/HDWR_003_A-individual-v2.png",
+    "HDWR_002": "product-images/HDWR_002-isolated-v1.png",
+    "HDWR_002_A": "product-images/HDWR_002_A-isolated-v1.png",
+    "HDWR_006_A": "product-images/HDWR_006_A-isolated-v1.png",
+    "HDWR_006_B": "product-images/HDWR_006_B-isolated-v1.png",
+    "HDWR_006_C": "product-images/HDWR_006_C-isolated-v1.png",
+    "HDWR_FRD": "product-images/HDWR_FRD-isolated-v1.png",
+    "HDWR_009": "product-images/HDWR_009-isolated-v1.png",
+    "HDWR_009_A": "product-images/HDWR_009_A-isolated-v1.png",
+    "HDWR_010": "product-images/HDWR_010-isolated-v1.png",
+    "HDWR_010_A": "product-images/HDWR_010_A-isolated-v1.png",
+    "HDWR_011": "product-images/HDWR_011-isolated-v1.png",
+    "HDWR_011_A": "product-images/HDWR_011_A-isolated-v1.png",
+    "HDWR_012": "product-images/HDWR_012-isolated-v1.png",
+    "HDWR_012_A": "product-images/HDWR_012_A-isolated-v1.png",
+    "HDWR_015": "product-images/HDWR_015-isolated-v1.png",
+    "HDWR_015_A": "product-images/HDWR_015_A-isolated-v1.png",
+    "HDWR_001_B": "product-images/HDWR_001_B-isolated-v1.png",
+    "HDWR_007": "product-images/HDWR_007-individual-v2.png",
+    "HDWR_007_A": "product-images/HDWR_007_A-individual-v2.png",
+    "XTRA_002_A": "product-images/XTRA_002_A-individual-v2.png",
+    "XTRA_010_A": "product-images/XTRA_010_A-isolated-v1.png",
+    "XTRA_010_C": "product-images/XTRA_010_C-isolated-v1.png",
+    "XTRA_010_D": "product-images/XTRA_010_D-isolated-v1.png"
+  }
+}

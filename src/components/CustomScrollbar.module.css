@@ -6,10 +6,12 @@
   position: fixed;
   top: 0;
   right: 0;
-  width: 12px;
+  width: 16px;
   height: 100dvh;
-  z-index: 90;
-  pointer-events: none;
+  z-index: 101;
+  pointer-events: auto;
+  touch-action: none;
+  user-select: none;
   background: transparent;
 }
 
@@ -34,7 +36,7 @@
 .thumb {
   position: absolute;
   top: 0;
-  right: 2px;
+  right: 5px;
   width: 6px;
   pointer-events: auto;
   background: var(--color-scrollbar-thumb);
@@ -45,7 +47,11 @@
     background var(--transition-fast);
   will-change: transform;
   cursor: grab;
+  touch-action: none;
 }
+
+/* An easy-to-grab hit area without widening the visible bar. */
+.thumb::before { content: ''; position: absolute; inset: 0 -5px; }
 
 .track.visible .thumb {
   opacity: 1;

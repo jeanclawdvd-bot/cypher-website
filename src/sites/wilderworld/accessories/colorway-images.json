@@ -1,0 +1,5218 @@
+{
+  "BTWR_001": [
+    {
+      "id": "CONCEPT-BTWR_001-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_001-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_001-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_001-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_001-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_001-03.webp"
+    }
+  ],
+  "BTWR_001_A": [
+    {
+      "id": "CONCEPT-BTWR_001_A-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_001_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_001_A-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_001_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_001_A-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_001_A-03.webp"
+    }
+  ],
+  "BTWR_001_B": [
+    {
+      "id": "CONCEPT-BTWR_001_B-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_001_B-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_001_B-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_001_B-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_001_B-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_001_B-03.webp"
+    }
+  ],
+  "BTWR_001_F": [
+    {
+      "id": "CONCEPT-BTWR_001_F-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_001_F-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_001_F-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_001_F-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_001_F-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_001_F-03.webp"
+    }
+  ],
+  "BTWR_002": [
+    {
+      "id": "CONCEPT-BTWR_002-01",
+      "name": "BLOCK ZERO",
+      "primary": "#414642",
+      "secondary": "#171F1D",
+      "accent": "#DA9A49",
+      "material": "Canal ripstop",
+      "finish": "Uniform matte with neutral trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_002-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_002-02",
+      "name": "PUBLIC DUST",
+      "primary": "#A6A18E",
+      "secondary": "#4C5149",
+      "accent": "#D5BD67",
+      "material": "Canal ripstop",
+      "finish": "Stonewashed matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_002-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_002-03",
+      "name": "SERVICE MINT",
+      "primary": "#75978C",
+      "secondary": "#263D38",
+      "accent": "#D6DCC8",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with chalk trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_002-03.webp"
+    }
+  ],
+  "BTWR_002_A": [
+    {
+      "id": "CONCEPT-BTWR_002_A-01",
+      "name": "BLOCK ZERO",
+      "primary": "#414642",
+      "secondary": "#171F1D",
+      "accent": "#DA9A49",
+      "material": "Canal ripstop",
+      "finish": "Uniform matte with neutral trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_002_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_002_A-02",
+      "name": "PUBLIC DUST",
+      "primary": "#A6A18E",
+      "secondary": "#4C5149",
+      "accent": "#D5BD67",
+      "material": "Canal ripstop",
+      "finish": "Stonewashed matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_002_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_002_A-03",
+      "name": "SERVICE MINT",
+      "primary": "#75978C",
+      "secondary": "#263D38",
+      "accent": "#D6DCC8",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with chalk trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_002_A-03.webp"
+    }
+  ],
+  "BTWR_002_A_F": [
+    {
+      "id": "CONCEPT-BTWR_002_A_F-01",
+      "name": "BLOCK ZERO",
+      "primary": "#414642",
+      "secondary": "#171F1D",
+      "accent": "#DA9A49",
+      "material": "Canal ripstop",
+      "finish": "Uniform matte with neutral trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_002_A_F-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_002_A_F-02",
+      "name": "PUBLIC DUST",
+      "primary": "#A6A18E",
+      "secondary": "#4C5149",
+      "accent": "#D5BD67",
+      "material": "Canal ripstop",
+      "finish": "Stonewashed matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_002_A_F-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_002_A_F-03",
+      "name": "SERVICE MINT",
+      "primary": "#75978C",
+      "secondary": "#263D38",
+      "accent": "#D6DCC8",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with chalk trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_002_A_F-03.webp"
+    }
+  ],
+  "BTWR_002_F": [
+    {
+      "id": "CONCEPT-BTWR_002_F-01",
+      "name": "BLOCK ZERO",
+      "primary": "#414642",
+      "secondary": "#171F1D",
+      "accent": "#DA9A49",
+      "material": "Canal ripstop",
+      "finish": "Uniform matte with neutral trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_002_F-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_002_F-02",
+      "name": "PUBLIC DUST",
+      "primary": "#A6A18E",
+      "secondary": "#4C5149",
+      "accent": "#D5BD67",
+      "material": "Canal ripstop",
+      "finish": "Stonewashed matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_002_F-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_002_F-03",
+      "name": "SERVICE MINT",
+      "primary": "#75978C",
+      "secondary": "#263D38",
+      "accent": "#D6DCC8",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with chalk trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_002_F-03.webp"
+    }
+  ],
+  "BTWR_004": [
+    {
+      "id": "CONCEPT-BTWR_004-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_004-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_004-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_004-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_004-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_004-03.webp"
+    }
+  ],
+  "BTWR_004_A": [
+    {
+      "id": "CONCEPT-BTWR_004_A-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_004_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_004_A-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_004_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_004_A-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_004_A-03.webp"
+    }
+  ],
+  "BTWR_004_A_F": [
+    {
+      "id": "CONCEPT-BTWR_004_A_F-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_004_A_F-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_004_A_F-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_004_A_F-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_004_A_F-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_004_A_F-03.webp"
+    }
+  ],
+  "BTWR_004_F": [
+    {
+      "id": "CONCEPT-BTWR_004_F-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_004_F-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_004_F-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_004_F-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_004_F-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_004_F-03.webp"
+    }
+  ],
+  "BTWR_006": [
+    {
+      "id": "CONCEPT-BTWR_006-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_006-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_006-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_006-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_006-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_006-03.webp"
+    }
+  ],
+  "BTWR_007": [
+    {
+      "id": "CONCEPT-BTWR_007-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Vat silk and memory leather",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_007-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_007-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Vat silk and memory leather",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_007-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_007-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Vat silk and memory leather",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_007-03.webp"
+    }
+  ],
+  "BTWR_010": [
+    {
+      "id": "CONCEPT-BTWR_010-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010-03.webp"
+    }
+  ],
+  "BTWR_010_A": [
+    {
+      "id": "CONCEPT-BTWR_010_A-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_A-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_A-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_A-03.webp"
+    }
+  ],
+  "BTWR_010_B": [
+    {
+      "id": "CONCEPT-BTWR_010_B-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_B-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_B-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_B-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_B-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_B-03.webp"
+    }
+  ],
+  "BTWR_010_C": [
+    {
+      "id": "CONCEPT-BTWR_010_C-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_C-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_C-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_C-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_C-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_C-03.webp"
+    }
+  ],
+  "BTWR_010_D": [
+    {
+      "id": "CONCEPT-BTWR_010_D-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_D-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_D-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_D-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_D-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_D-03.webp"
+    }
+  ],
+  "BTWR_010_E": [
+    {
+      "id": "CONCEPT-BTWR_010_E-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_E-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_E-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_E-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_E-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_E-03.webp"
+    }
+  ],
+  "BTWR_010_F": [
+    {
+      "id": "CONCEPT-BTWR_010_F-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_F-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_F-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_F-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_F-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_F-03.webp"
+    }
+  ],
+  "BTWR_010_G": [
+    {
+      "id": "CONCEPT-BTWR_010_G-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_G-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_G-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_G-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_010_G-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_010_G-03.webp"
+    }
+  ],
+  "BTWR_N30": [
+    {
+      "id": "CONCEPT-BTWR_N30-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Memory leather",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_N30-01.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_N30-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Memory leather",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_N30-02.webp"
+    },
+    {
+      "id": "CONCEPT-BTWR_N30-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Memory leather",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-BTWR_N30-03.webp"
+    }
+  ],
+  "EYWR_002": [
+    {
+      "id": "CONCEPT-EYWR_002-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Optical resin and satin alloy",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_002-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_002-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Optical resin and satin alloy",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_002-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_002-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Optical resin and satin alloy",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_002-03.webp"
+    }
+  ],
+  "EYWR_006": [
+    {
+      "id": "CONCEPT-EYWR_006-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Optical resin and satin alloy",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_006-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_006-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Optical resin and satin alloy",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_006-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_006-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Optical resin and satin alloy",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_006-03.webp"
+    }
+  ],
+  "EYWR_006_A": [
+    {
+      "id": "CONCEPT-EYWR_006_A-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Optical resin and satin alloy",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_006_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_006_A-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Optical resin and satin alloy",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_006_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_006_A-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Optical resin and satin alloy",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_006_A-03.webp"
+    }
+  ],
+  "EYWR_006_B": [
+    {
+      "id": "CONCEPT-EYWR_006_B-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Optical resin and satin alloy",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_006_B-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_006_B-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Optical resin and satin alloy",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_006_B-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_006_B-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Optical resin and satin alloy",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_006_B-03.webp"
+    }
+  ],
+  "EYWR_008": [
+    {
+      "id": "CONCEPT-EYWR_008-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Optical resin and satin alloy",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_008-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_008-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Optical resin and satin alloy",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_008-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_008-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Optical resin and satin alloy",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_008-03.webp"
+    }
+  ],
+  "EYWR_009": [
+    {
+      "id": "CONCEPT-EYWR_009-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Optical resin and satin alloy",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_009-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_009-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Optical resin and satin alloy",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_009-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_009-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Optical resin and satin alloy",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_009-03.webp"
+    }
+  ],
+  "EYWR_010": [
+    {
+      "id": "CONCEPT-EYWR_010-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Optical resin and satin alloy",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_010-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_010-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Optical resin and satin alloy",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_010-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_010-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Optical resin and satin alloy",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_010-03.webp"
+    }
+  ],
+  "EYWR_011": [
+    {
+      "id": "CONCEPT-EYWR_011-01",
+      "name": "BONE LETTER",
+      "primary": "#DCD2BD",
+      "secondary": "#282528",
+      "accent": "#AF8B58",
+      "material": "Optical resin and satin alloy",
+      "finish": "Chalk satin with aged metallic trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_011-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_011-02",
+      "name": "MOURNING INK",
+      "primary": "#18171A",
+      "secondary": "#544D53",
+      "accent": "#B69A6A",
+      "material": "Optical resin and satin alloy",
+      "finish": "Soft black with burnished trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_011-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_011-03",
+      "name": "OLD BLOOD",
+      "primary": "#4A202A",
+      "secondary": "#211A20",
+      "accent": "#C3AB82",
+      "material": "Optical resin and satin alloy",
+      "finish": "Velvet matte with antique-metal accents",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_011-03.webp"
+    }
+  ],
+  "EYWR_012": [
+    {
+      "id": "CONCEPT-EYWR_012-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Optical resin and satin alloy",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_012-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_012-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Optical resin and satin alloy",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_012-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_012-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Optical resin and satin alloy",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_012-03.webp"
+    }
+  ],
+  "EYWR_012_A": [
+    {
+      "id": "CONCEPT-EYWR_012_A-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Optical resin and satin alloy",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_012_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_012_A-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Optical resin and satin alloy",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_012_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_012_A-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Optical resin and satin alloy",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_012_A-03.webp"
+    }
+  ],
+  "EYWR_013": [
+    {
+      "id": "CONCEPT-EYWR_013-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Optical resin and satin alloy",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_013-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_013-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Optical resin and satin alloy",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_013-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_013-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Optical resin and satin alloy",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_013-03.webp"
+    }
+  ],
+  "EYWR_014": [
+    {
+      "id": "CONCEPT-EYWR_014-01",
+      "name": "BLOCK ZERO",
+      "primary": "#414642",
+      "secondary": "#171F1D",
+      "accent": "#DA9A49",
+      "material": "Optical resin and satin alloy",
+      "finish": "Uniform matte with neutral trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_014-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_014-02",
+      "name": "PUBLIC DUST",
+      "primary": "#A6A18E",
+      "secondary": "#4C5149",
+      "accent": "#D5BD67",
+      "material": "Optical resin and satin alloy",
+      "finish": "Stonewashed matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_014-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_014-03",
+      "name": "SERVICE MINT",
+      "primary": "#75978C",
+      "secondary": "#263D38",
+      "accent": "#D6DCC8",
+      "material": "Optical resin and satin alloy",
+      "finish": "Soft satin with chalk trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_014-03.webp"
+    }
+  ],
+  "EYWR_015": [
+    {
+      "id": "CONCEPT-EYWR_015-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Optical resin and satin alloy",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_015-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_015-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Optical resin and satin alloy",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_015-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_015-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Optical resin and satin alloy",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_015-03.webp"
+    }
+  ],
+  "EYWR_H01": [
+    {
+      "id": "CONCEPT-EYWR_H01-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Optical resin and satin alloy",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_H01-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_H01-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Optical resin and satin alloy",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_H01-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_H01-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Optical resin and satin alloy",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_H01-03.webp"
+    }
+  ],
+  "EYWR_H03": [
+    {
+      "id": "CONCEPT-EYWR_H03-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Optical resin and satin alloy",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_H03-01.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_H03-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Optical resin and satin alloy",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_H03-02.webp"
+    },
+    {
+      "id": "CONCEPT-EYWR_H03-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Optical resin and satin alloy",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-EYWR_H03-03.webp"
+    }
+  ],
+  "FTWR_001": [
+    {
+      "id": "CONCEPT-FTWR_001-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_001-01.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_001-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_001-02.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_001-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_001-03.webp"
+    }
+  ],
+  "FTWR_003": [
+    {
+      "id": "CONCEPT-FTWR_003-01",
+      "name": "BLOCK ZERO",
+      "primary": "#414642",
+      "secondary": "#171F1D",
+      "accent": "#DA9A49",
+      "material": "Canal ripstop",
+      "finish": "Uniform matte with neutral trim",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_003-01.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_003-02",
+      "name": "PUBLIC DUST",
+      "primary": "#A6A18E",
+      "secondary": "#4C5149",
+      "accent": "#D5BD67",
+      "material": "Canal ripstop",
+      "finish": "Stonewashed matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_003-02.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_003-03",
+      "name": "SERVICE MINT",
+      "primary": "#75978C",
+      "secondary": "#263D38",
+      "accent": "#D6DCC8",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with chalk trim",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_003-03.webp"
+    }
+  ],
+  "FTWR_004_A": [
+    {
+      "id": "CONCEPT-FTWR_004_A-01",
+      "name": "BONE LETTER",
+      "primary": "#DCD2BD",
+      "secondary": "#282528",
+      "accent": "#AF8B58",
+      "material": "Vat silk and memory leather",
+      "finish": "Chalk satin with aged metallic trim",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_004_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_004_A-02",
+      "name": "MOURNING INK",
+      "primary": "#18171A",
+      "secondary": "#544D53",
+      "accent": "#B69A6A",
+      "material": "Vat silk and memory leather",
+      "finish": "Soft black with burnished trim",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_004_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_004_A-03",
+      "name": "OLD BLOOD",
+      "primary": "#4A202A",
+      "secondary": "#211A20",
+      "accent": "#C3AB82",
+      "material": "Vat silk and memory leather",
+      "finish": "Velvet matte with antique-metal accents",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_004_A-03.webp"
+    }
+  ],
+  "FTWR_005": [
+    {
+      "id": "CONCEPT-FTWR_005-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Vat silk and memory leather",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_005-01.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_005-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Vat silk and memory leather",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_005-02.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_005-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Vat silk and memory leather",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_005-03.webp"
+    }
+  ],
+  "FTWR_005_A": [
+    {
+      "id": "CONCEPT-FTWR_005_A-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Vat silk and memory leather",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_005_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_005_A-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Vat silk and memory leather",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_005_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_005_A-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Vat silk and memory leather",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_005_A-03.webp"
+    }
+  ],
+  "FTWR_010": [
+    {
+      "id": "CONCEPT-FTWR_010-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_010-01.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_010-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_010-02.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_010-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_010-03.webp"
+    }
+  ],
+  "FTWR_N30": [
+    {
+      "id": "CONCEPT-FTWR_N30-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Memory leather",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_N30-01.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_N30-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Memory leather",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_N30-02.webp"
+    },
+    {
+      "id": "CONCEPT-FTWR_N30-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Memory leather",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-FTWR_N30-03.webp"
+    }
+  ],
+  "HDWR_001_A": [
+    {
+      "id": "CONCEPT-HDWR_001_A-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Ceramic composite",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_001_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_001_A-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Ceramic composite",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_001_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_001_A-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Ceramic composite",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_001_A-03.webp"
+    }
+  ],
+  "HDWR_001_B": [
+    {
+      "id": "CONCEPT-HDWR_001_B-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Ceramic composite",
+      "finish": "Satin with brushed trim",
+      "image": "/images/marketplace/fashion-materials/CONCEPT-HDWR_001_B-01-backwall-v2.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_001_B-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Ceramic composite",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/marketplace/fashion-materials/CONCEPT-HDWR_001_B-02-backwall-v2.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_001_B-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Ceramic composite",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/marketplace/fashion-materials/CONCEPT-HDWR_001_B-03-backwall-v2.webp"
+    }
+  ],
+  "HDWR_002": [
+    {
+      "id": "CONCEPT-HDWR_002-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Ceramic composite",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_002-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_002-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Ceramic composite",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_002-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_002-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Ceramic composite",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_002-03.webp"
+    }
+  ],
+  "HDWR_002_A": [
+    {
+      "id": "CONCEPT-HDWR_002_A-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Ceramic composite",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_002_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_002_A-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Ceramic composite",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_002_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_002_A-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Ceramic composite",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_002_A-03.webp"
+    }
+  ],
+  "HDWR_003_A": [
+    {
+      "id": "CONCEPT-HDWR_003_A-01",
+      "name": "BONE LETTER",
+      "primary": "#DCD2BD",
+      "secondary": "#282528",
+      "accent": "#AF8B58",
+      "material": "Ceramic composite",
+      "finish": "Chalk satin with aged metallic trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_003_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_003_A-02",
+      "name": "MOURNING INK",
+      "primary": "#18171A",
+      "secondary": "#544D53",
+      "accent": "#B69A6A",
+      "material": "Ceramic composite",
+      "finish": "Soft black with burnished trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_003_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_003_A-03",
+      "name": "OLD BLOOD",
+      "primary": "#4A202A",
+      "secondary": "#211A20",
+      "accent": "#C3AB82",
+      "material": "Ceramic composite",
+      "finish": "Velvet matte with antique-metal accents",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_003_A-03.webp"
+    }
+  ],
+  "HDWR_006_A": [
+    {
+      "id": "CONCEPT-HDWR_006_A-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Ceramic composite",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_006_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_006_A-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Ceramic composite",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_006_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_006_A-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Ceramic composite",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_006_A-03.webp"
+    }
+  ],
+  "HDWR_006_B": [
+    {
+      "id": "CONCEPT-HDWR_006_B-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Ceramic composite",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_006_B-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_006_B-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Ceramic composite",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_006_B-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_006_B-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Ceramic composite",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_006_B-03.webp"
+    }
+  ],
+  "HDWR_006_C": [
+    {
+      "id": "CONCEPT-HDWR_006_C-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Ceramic composite",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_006_C-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_006_C-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Ceramic composite",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_006_C-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_006_C-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Ceramic composite",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_006_C-03.webp"
+    }
+  ],
+  "HDWR_007": [
+    {
+      "id": "CONCEPT-HDWR_007-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Optical resin and satin alloy",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_007-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_007-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Optical resin and satin alloy",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_007-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_007-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Optical resin and satin alloy",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_007-03.webp"
+    }
+  ],
+  "HDWR_007_A": [
+    {
+      "id": "CONCEPT-HDWR_007_A-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Optical resin and satin alloy",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_007_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_007_A-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Optical resin and satin alloy",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_007_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_007_A-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Optical resin and satin alloy",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_007_A-03.webp"
+    }
+  ],
+  "HDWR_008": [
+    {
+      "id": "CONCEPT-HDWR_008-01",
+      "name": "BLOCK ZERO",
+      "primary": "#414642",
+      "secondary": "#171F1D",
+      "accent": "#DA9A49",
+      "material": "Canal ripstop",
+      "finish": "Uniform matte with neutral trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_008-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_008-02",
+      "name": "PUBLIC DUST",
+      "primary": "#A6A18E",
+      "secondary": "#4C5149",
+      "accent": "#D5BD67",
+      "material": "Canal ripstop",
+      "finish": "Stonewashed matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_008-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_008-03",
+      "name": "SERVICE MINT",
+      "primary": "#75978C",
+      "secondary": "#263D38",
+      "accent": "#D6DCC8",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with chalk trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_008-03.webp"
+    }
+  ],
+  "HDWR_009": [
+    {
+      "id": "CONCEPT-HDWR_009-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Blocking felt",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_009-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_009-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Blocking felt",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_009-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_009-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Blocking felt",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_009-03.webp"
+    }
+  ],
+  "HDWR_009_A": [
+    {
+      "id": "CONCEPT-HDWR_009_A-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Blocking felt",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_009_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_009_A-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Blocking felt",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_009_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_009_A-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Blocking felt",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_009_A-03.webp"
+    }
+  ],
+  "HDWR_010": [
+    {
+      "id": "CONCEPT-HDWR_010-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Blocking felt",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_010-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_010-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Blocking felt",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_010-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_010-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Blocking felt",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_010-03.webp"
+    }
+  ],
+  "HDWR_010_A": [
+    {
+      "id": "CONCEPT-HDWR_010_A-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Blocking felt",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_010_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_010_A-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Blocking felt",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_010_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_010_A-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Blocking felt",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_010_A-03.webp"
+    }
+  ],
+  "HDWR_011": [
+    {
+      "id": "CONCEPT-HDWR_011-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Blocking felt",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_011-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_011-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Blocking felt",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_011-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_011-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Blocking felt",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_011-03.webp"
+    }
+  ],
+  "HDWR_011_A": [
+    {
+      "id": "CONCEPT-HDWR_011_A-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Blocking felt",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_011_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_011_A-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Blocking felt",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_011_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_011_A-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Blocking felt",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_011_A-03.webp"
+    }
+  ],
+  "HDWR_012": [
+    {
+      "id": "CONCEPT-HDWR_012-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Blocking felt",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_012-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_012-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Blocking felt",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_012-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_012-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Blocking felt",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_012-03.webp"
+    }
+  ],
+  "HDWR_012_A": [
+    {
+      "id": "CONCEPT-HDWR_012_A-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Blocking felt",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_012_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_012_A-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Blocking felt",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_012_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_012_A-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Blocking felt",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_012_A-03.webp"
+    }
+  ],
+  "HDWR_013": [
+    {
+      "id": "CONCEPT-HDWR_013-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Loop yarn knit",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_013-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_013-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Loop yarn knit",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_013-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_013-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Loop yarn knit",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_013-03.webp"
+    }
+  ],
+  "HDWR_015": [
+    {
+      "id": "CONCEPT-HDWR_015-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Blocking felt",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_015-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_015-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Blocking felt",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_015-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_015-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Blocking felt",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_015-03.webp"
+    }
+  ],
+  "HDWR_015_A": [
+    {
+      "id": "CONCEPT-HDWR_015_A-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Blocking felt",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_015_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_015_A-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Blocking felt",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_015_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_015_A-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Blocking felt",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_015_A-03.webp"
+    }
+  ],
+  "HDWR_016": [
+    {
+      "id": "CONCEPT-HDWR_016-01",
+      "name": "BLOCK ZERO",
+      "primary": "#414642",
+      "secondary": "#171F1D",
+      "accent": "#DA9A49",
+      "material": "Canal ripstop",
+      "finish": "Uniform matte with neutral trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_016-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_016-02",
+      "name": "PUBLIC DUST",
+      "primary": "#A6A18E",
+      "secondary": "#4C5149",
+      "accent": "#D5BD67",
+      "material": "Canal ripstop",
+      "finish": "Stonewashed matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_016-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_016-03",
+      "name": "SERVICE MINT",
+      "primary": "#75978C",
+      "secondary": "#263D38",
+      "accent": "#D6DCC8",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with chalk trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_016-03.webp"
+    }
+  ],
+  "HDWR_FRD": [
+    {
+      "id": "CONCEPT-HDWR_FRD-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Ceramic composite",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_FRD-01.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_FRD-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Ceramic composite",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_FRD-02.webp"
+    },
+    {
+      "id": "CONCEPT-HDWR_FRD-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Ceramic composite",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-HDWR_FRD-03.webp"
+    }
+  ],
+  "JCKT_001": [
+    {
+      "id": "CONCEPT-JCKT_001-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001-03.webp"
+    }
+  ],
+  "JCKT_001_A": [
+    {
+      "id": "CONCEPT-JCKT_001_A-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_A-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_A-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_A-03.webp"
+    }
+  ],
+  "JCKT_001_B": [
+    {
+      "id": "CONCEPT-JCKT_001_B-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_B-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_B-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_B-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_B-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_B-03.webp"
+    }
+  ],
+  "JCKT_001_C": [
+    {
+      "id": "CONCEPT-JCKT_001_C-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_C-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_C-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_C-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_C-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_C-03.webp"
+    }
+  ],
+  "JCKT_001_D": [
+    {
+      "id": "CONCEPT-JCKT_001_D-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_D-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_D-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_D-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_D-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_D-03.webp"
+    }
+  ],
+  "JCKT_001_E": [
+    {
+      "id": "CONCEPT-JCKT_001_E-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_E-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_E-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_E-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_E-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_E-03.webp"
+    }
+  ],
+  "JCKT_001_F": [
+    {
+      "id": "CONCEPT-JCKT_001_F-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_F-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_F-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_F-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_F-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_F-03.webp"
+    }
+  ],
+  "JCKT_001_G": [
+    {
+      "id": "CONCEPT-JCKT_001_G-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_G-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_G-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_G-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_G-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_G-03.webp"
+    }
+  ],
+  "JCKT_001_H": [
+    {
+      "id": "CONCEPT-JCKT_001_H-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_H-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_H-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_H-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_H-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_H-03.webp"
+    }
+  ],
+  "JCKT_001_I": [
+    {
+      "id": "CONCEPT-JCKT_001_I-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_I-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_I-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_I-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_I-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_I-03.webp"
+    }
+  ],
+  "JCKT_001_J": [
+    {
+      "id": "CONCEPT-JCKT_001_J-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_J-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_J-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_J-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_J-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_J-03.webp"
+    }
+  ],
+  "JCKT_001_K": [
+    {
+      "id": "CONCEPT-JCKT_001_K-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_K-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_K-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_K-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_K-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_K-03.webp"
+    }
+  ],
+  "JCKT_001_L": [
+    {
+      "id": "CONCEPT-JCKT_001_L-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_L-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_L-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_L-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_L-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_L-03.webp"
+    }
+  ],
+  "JCKT_001_M": [
+    {
+      "id": "CONCEPT-JCKT_001_M-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_M-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_M-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_M-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_M-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_M-03.webp"
+    }
+  ],
+  "JCKT_001_N": [
+    {
+      "id": "CONCEPT-JCKT_001_N-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_N-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_N-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_N-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_N-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_N-03.webp"
+    }
+  ],
+  "JCKT_001_O": [
+    {
+      "id": "CONCEPT-JCKT_001_O-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_O-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_O-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_O-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_001_O-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_001_O-03.webp"
+    }
+  ],
+  "JCKT_002": [
+    {
+      "id": "CONCEPT-JCKT_002-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002-03.webp"
+    }
+  ],
+  "JCKT_002_1": [
+    {
+      "id": "CONCEPT-JCKT_002_1-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_1-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_1-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_1-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_1-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_1-03.webp"
+    }
+  ],
+  "JCKT_002_2": [
+    {
+      "id": "CONCEPT-JCKT_002_2-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_2-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_2-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_2-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_2-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_2-03.webp"
+    }
+  ],
+  "JCKT_002_3": [
+    {
+      "id": "CONCEPT-JCKT_002_3-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_3-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_3-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_3-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_3-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_3-03.webp"
+    }
+  ],
+  "JCKT_002_4": [
+    {
+      "id": "CONCEPT-JCKT_002_4-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_4-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_4-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_4-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_4-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_4-03.webp"
+    }
+  ],
+  "JCKT_002_5": [
+    {
+      "id": "CONCEPT-JCKT_002_5-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_5-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_5-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_5-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_5-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_5-03.webp"
+    }
+  ],
+  "JCKT_002_A": [
+    {
+      "id": "CONCEPT-JCKT_002_A-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_A-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_A-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_A-03.webp"
+    }
+  ],
+  "JCKT_002_B": [
+    {
+      "id": "CONCEPT-JCKT_002_B-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_B-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_B-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_B-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_B-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_B-03.webp"
+    }
+  ],
+  "JCKT_002_C": [
+    {
+      "id": "CONCEPT-JCKT_002_C-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_C-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_C-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_C-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_C-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_C-03.webp"
+    }
+  ],
+  "JCKT_002_D": [
+    {
+      "id": "CONCEPT-JCKT_002_D-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_D-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_D-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_D-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_D-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_D-03.webp"
+    }
+  ],
+  "JCKT_002_E": [
+    {
+      "id": "CONCEPT-JCKT_002_E-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_E-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_E-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_E-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_E-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_E-03.webp"
+    }
+  ],
+  "JCKT_002_F": [
+    {
+      "id": "CONCEPT-JCKT_002_F-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_F-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_F-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_F-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_002_F-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_002_F-03.webp"
+    }
+  ],
+  "JCKT_003": [
+    {
+      "id": "CONCEPT-JCKT_003-01",
+      "name": "BONE LETTER",
+      "primary": "#DCD2BD",
+      "secondary": "#282528",
+      "accent": "#AF8B58",
+      "material": "Vat silk and memory leather",
+      "finish": "Chalk satin with aged metallic trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_003-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_003-02",
+      "name": "MOURNING INK",
+      "primary": "#18171A",
+      "secondary": "#544D53",
+      "accent": "#B69A6A",
+      "material": "Vat silk and memory leather",
+      "finish": "Soft black with burnished trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_003-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_003-03",
+      "name": "OLD BLOOD",
+      "primary": "#4A202A",
+      "secondary": "#211A20",
+      "accent": "#C3AB82",
+      "material": "Vat silk and memory leather",
+      "finish": "Velvet matte with antique-metal accents",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_003-03.webp"
+    }
+  ],
+  "JCKT_005": [
+    {
+      "id": "CONCEPT-JCKT_005-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Vat silk and memory leather",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_005-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_005-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Vat silk and memory leather",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_005-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_005-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Vat silk and memory leather",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_005-03.webp"
+    }
+  ],
+  "JCKT_005_A": [
+    {
+      "id": "CONCEPT-JCKT_005_A-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Vat silk and memory leather",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_005_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_005_A-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Vat silk and memory leather",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_005_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_005_A-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Vat silk and memory leather",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_005_A-03.webp"
+    }
+  ],
+  "JCKT_005_B": [
+    {
+      "id": "CONCEPT-JCKT_005_B-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Vat silk and memory leather",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_005_B-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_005_B-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Vat silk and memory leather",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_005_B-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_005_B-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Vat silk and memory leather",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_005_B-03.webp"
+    }
+  ],
+  "JCKT_010": [
+    {
+      "id": "CONCEPT-JCKT_010-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_010-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_010-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_010-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_010-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_010-03.webp"
+    }
+  ],
+  "JCKT_010_A": [
+    {
+      "id": "CONCEPT-JCKT_010_A-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_010_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_010_A-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_010_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_010_A-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_010_A-03.webp"
+    }
+  ],
+  "JCKT_010_B": [
+    {
+      "id": "CONCEPT-JCKT_010_B-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_010_B-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_010_B-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_010_B-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_010_B-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_010_B-03.webp"
+    }
+  ],
+  "JCKT_013": [
+    {
+      "id": "CONCEPT-JCKT_013-01",
+      "name": "BLOCK ZERO",
+      "primary": "#414642",
+      "secondary": "#171F1D",
+      "accent": "#DA9A49",
+      "material": "Canal ripstop",
+      "finish": "Uniform matte with neutral trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_013-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_013-02",
+      "name": "PUBLIC DUST",
+      "primary": "#A6A18E",
+      "secondary": "#4C5149",
+      "accent": "#D5BD67",
+      "material": "Canal ripstop",
+      "finish": "Stonewashed matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_013-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_013-03",
+      "name": "SERVICE MINT",
+      "primary": "#75978C",
+      "secondary": "#263D38",
+      "accent": "#D6DCC8",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with chalk trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_013-03.webp"
+    }
+  ],
+  "JCKT_N30": [
+    {
+      "id": "CONCEPT-JCKT_N30-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Memory leather",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Memory leather",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Memory leather",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30-03.webp"
+    }
+  ],
+  "JCKT_N30_A": [
+    {
+      "id": "CONCEPT-JCKT_N30_A-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Memory leather",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30_A-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Memory leather",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30_A-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Memory leather",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_A-03.webp"
+    }
+  ],
+  "JCKT_N30_B": [
+    {
+      "id": "CONCEPT-JCKT_N30_B-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Memory leather",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_B-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30_B-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Memory leather",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_B-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30_B-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Memory leather",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_B-03.webp"
+    }
+  ],
+  "JCKT_N30_C": [
+    {
+      "id": "CONCEPT-JCKT_N30_C-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Memory leather",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_C-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30_C-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Memory leather",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_C-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30_C-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Memory leather",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_C-03.webp"
+    }
+  ],
+  "JCKT_N30_D": [
+    {
+      "id": "CONCEPT-JCKT_N30_D-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Memory leather",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_D-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30_D-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Memory leather",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_D-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30_D-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Memory leather",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_D-03.webp"
+    }
+  ],
+  "JCKT_N30_E": [
+    {
+      "id": "CONCEPT-JCKT_N30_E-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Memory leather",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_E-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30_E-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Memory leather",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_E-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30_E-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Memory leather",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_E-03.webp"
+    }
+  ],
+  "JCKT_N30_F": [
+    {
+      "id": "CONCEPT-JCKT_N30_F-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Memory leather",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_F-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30_F-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Memory leather",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_F-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_N30_F-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Memory leather",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_N30_F-03.webp"
+    }
+  ],
+  "JCKT_PNX_0": [
+    {
+      "id": "CONCEPT-JCKT_PNX_0-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_0-01-lined-v2.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_0-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_0-02-lined-v2.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_0-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_0-03-lined-v2.webp"
+    }
+  ],
+  "JCKT_PNX_1": [
+    {
+      "id": "CONCEPT-JCKT_PNX_1-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_1-01-lined-v2.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_1-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_1-02-lined-v2.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_1-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_1-03-lined-v2.webp"
+    }
+  ],
+  "JCKT_PNX_2": [
+    {
+      "id": "CONCEPT-JCKT_PNX_2-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_2-01-lined-v2.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_2-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_2-02-lined-v2.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_2-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_2-03-lined-v2.webp"
+    }
+  ],
+  "JCKT_PNX_3": [
+    {
+      "id": "CONCEPT-JCKT_PNX_3-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_3-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_3-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_3-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_3-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_3-03.webp"
+    }
+  ],
+  "JCKT_PNX_4": [
+    {
+      "id": "CONCEPT-JCKT_PNX_4-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_4-01-lined-v2.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_4-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_4-02-lined-v2.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_4-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_4-03-lined-v2.webp"
+    }
+  ],
+  "JCKT_PNX_5": [
+    {
+      "id": "CONCEPT-JCKT_PNX_5-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_5-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_5-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_5-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_5-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_5-03.webp"
+    }
+  ],
+  "JCKT_PNX_6": [
+    {
+      "id": "CONCEPT-JCKT_PNX_6-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_6-01-lined-v2.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_6-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_6-02-lined-v2.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_6-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_6-03-lined-v2.webp"
+    }
+  ],
+  "JCKT_PNX_7": [
+    {
+      "id": "CONCEPT-JCKT_PNX_7-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_7-01.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_7-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_7-02.webp"
+    },
+    {
+      "id": "CONCEPT-JCKT_PNX_7-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-JCKT_PNX_7-03.webp"
+    }
+  ],
+  "JWLR_H03": [
+    {
+      "id": "CONCEPT-JWLR_H03-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Formed alloy and acoustic mesh",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-JWLR_H03-01.webp"
+    },
+    {
+      "id": "CONCEPT-JWLR_H03-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Formed alloy and acoustic mesh",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-JWLR_H03-02.webp"
+    },
+    {
+      "id": "CONCEPT-JWLR_H03-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Formed alloy and acoustic mesh",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-JWLR_H03-03.webp"
+    }
+  ],
+  "JWLR_H06": [
+    {
+      "id": "CONCEPT-JWLR_H06-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Formed alloy and acoustic mesh",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-JWLR_H06-01.webp"
+    },
+    {
+      "id": "CONCEPT-JWLR_H06-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Formed alloy and acoustic mesh",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-JWLR_H06-02.webp"
+    },
+    {
+      "id": "CONCEPT-JWLR_H06-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Formed alloy and acoustic mesh",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-JWLR_H06-03.webp"
+    }
+  ],
+  "JWLR_H07": [
+    {
+      "id": "CONCEPT-JWLR_H07-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Formed alloy and acoustic mesh",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-JWLR_H07-01.webp"
+    },
+    {
+      "id": "CONCEPT-JWLR_H07-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Formed alloy and acoustic mesh",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-JWLR_H07-02.webp"
+    },
+    {
+      "id": "CONCEPT-JWLR_H07-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Formed alloy and acoustic mesh",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-JWLR_H07-03.webp"
+    }
+  ],
+  "JWLR_H14": [
+    {
+      "id": "CONCEPT-JWLR_H14-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Formed alloy and acoustic mesh",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-JWLR_H14-01.webp"
+    },
+    {
+      "id": "CONCEPT-JWLR_H14-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Formed alloy and acoustic mesh",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-JWLR_H14-02.webp"
+    },
+    {
+      "id": "CONCEPT-JWLR_H14-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Formed alloy and acoustic mesh",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-JWLR_H14-03.webp"
+    }
+  ],
+  "MASK_001_A": [
+    {
+      "id": "CONCEPT-MASK_001_A-01",
+      "name": "BONE LETTER",
+      "primary": "#DCD2BD",
+      "secondary": "#282528",
+      "accent": "#AF8B58",
+      "material": "Canal ripstop",
+      "finish": "Chalk satin with aged metallic trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_001_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_001_A-02",
+      "name": "MOURNING INK",
+      "primary": "#18171A",
+      "secondary": "#544D53",
+      "accent": "#B69A6A",
+      "material": "Canal ripstop",
+      "finish": "Soft black with burnished trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_001_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_001_A-03",
+      "name": "OLD BLOOD",
+      "primary": "#4A202A",
+      "secondary": "#211A20",
+      "accent": "#C3AB82",
+      "material": "Canal ripstop",
+      "finish": "Velvet matte with antique-metal accents",
+      "image": "/images/accessories/colors/CONCEPT-MASK_001_A-03.webp"
+    }
+  ],
+  "MASK_002": [
+    {
+      "id": "CONCEPT-MASK_002-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Canal ripstop",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002-01.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Canal ripstop",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002-02.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Canal ripstop",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002-03.webp"
+    }
+  ],
+  "MASK_002_A": [
+    {
+      "id": "CONCEPT-MASK_002_A-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Canal ripstop",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002_A-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Canal ripstop",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002_A-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Canal ripstop",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_A-03.webp"
+    }
+  ],
+  "MASK_002_B": [
+    {
+      "id": "CONCEPT-MASK_002_B-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Canal ripstop",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_B-01.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002_B-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Canal ripstop",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_B-02.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002_B-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Canal ripstop",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_B-03.webp"
+    }
+  ],
+  "MASK_002_C": [
+    {
+      "id": "CONCEPT-MASK_002_C-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Canal ripstop",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_C-01.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002_C-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Canal ripstop",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_C-02.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002_C-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Canal ripstop",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_C-03.webp"
+    }
+  ],
+  "MASK_002_FE": [
+    {
+      "id": "CONCEPT-MASK_002_FE-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Canal ripstop",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_FE-01.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002_FE-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Canal ripstop",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_FE-02.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002_FE-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Canal ripstop",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_FE-03.webp"
+    }
+  ],
+  "MASK_002_FRANK": [
+    {
+      "id": "CONCEPT-MASK_002_FRANK-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Canal ripstop",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_FRANK-01.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002_FRANK-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Canal ripstop",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_FRANK-02.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002_FRANK-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Canal ripstop",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_FRANK-03.webp"
+    }
+  ],
+  "MASK_002_GP": [
+    {
+      "id": "CONCEPT-MASK_002_GP-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Canal ripstop",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_GP-01.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002_GP-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Canal ripstop",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_GP-02.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_002_GP-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Canal ripstop",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_002_GP-03.webp"
+    }
+  ],
+  "MASK_003": [
+    {
+      "id": "CONCEPT-MASK_003-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-MASK_003-01.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_003-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_003-02.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_003-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_003-03.webp"
+    }
+  ],
+  "MASK_003_A": [
+    {
+      "id": "CONCEPT-MASK_003_A-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-MASK_003_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_003_A-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_003_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_003_A-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_003_A-03.webp"
+    }
+  ],
+  "MASK_003_B": [
+    {
+      "id": "CONCEPT-MASK_003_B-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-MASK_003_B-01.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_003_B-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_003_B-02.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_003_B-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_003_B-03.webp"
+    }
+  ],
+  "MASK_003_C": [
+    {
+      "id": "CONCEPT-MASK_003_C-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-MASK_003_C-01.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_003_C-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_003_C-02.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_003_C-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_003_C-03.webp"
+    }
+  ],
+  "MASK_H01": [
+    {
+      "id": "CONCEPT-MASK_H01-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Ceramic composite",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-MASK_H01-01.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_H01-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Ceramic composite",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-MASK_H01-02.webp"
+    },
+    {
+      "id": "CONCEPT-MASK_H01-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Ceramic composite",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-MASK_H01-03.webp"
+    }
+  ],
+  "SUIT_001": [
+    {
+      "id": "CONCEPT-SUIT_001-01",
+      "name": "BONE LETTER",
+      "primary": "#DCD2BD",
+      "secondary": "#282528",
+      "accent": "#AF8B58",
+      "material": "Vat silk and memory leather",
+      "finish": "Chalk satin with aged metallic trim",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_001-01.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_001-02",
+      "name": "MOURNING INK",
+      "primary": "#18171A",
+      "secondary": "#544D53",
+      "accent": "#B69A6A",
+      "material": "Vat silk and memory leather",
+      "finish": "Soft black with burnished trim",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_001-02.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_001-03",
+      "name": "OLD BLOOD",
+      "primary": "#4A202A",
+      "secondary": "#211A20",
+      "accent": "#C3AB82",
+      "material": "Vat silk and memory leather",
+      "finish": "Velvet matte with antique-metal accents",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_001-03.webp"
+    }
+  ],
+  "SUIT_001_A": [
+    {
+      "id": "CONCEPT-SUIT_001_A-01",
+      "name": "BONE LETTER",
+      "primary": "#DCD2BD",
+      "secondary": "#282528",
+      "accent": "#AF8B58",
+      "material": "Vat silk and memory leather",
+      "finish": "Chalk satin with aged metallic trim",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_001_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_001_A-02",
+      "name": "MOURNING INK",
+      "primary": "#18171A",
+      "secondary": "#544D53",
+      "accent": "#B69A6A",
+      "material": "Vat silk and memory leather",
+      "finish": "Soft black with burnished trim",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_001_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_001_A-03",
+      "name": "OLD BLOOD",
+      "primary": "#4A202A",
+      "secondary": "#211A20",
+      "accent": "#C3AB82",
+      "material": "Vat silk and memory leather",
+      "finish": "Velvet matte with antique-metal accents",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_001_A-03.webp"
+    }
+  ],
+  "SUIT_002": [
+    {
+      "id": "CONCEPT-SUIT_002-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_002-01.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_002-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_002-02.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_002-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_002-03.webp"
+    }
+  ],
+  "SUIT_002_A": [
+    {
+      "id": "CONCEPT-SUIT_002_A-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_002_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_002_A-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_002_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_002_A-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_002_A-03.webp"
+    }
+  ],
+  "SUIT_003": [
+    {
+      "id": "CONCEPT-SUIT_003-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Memory leather",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_003-01.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_003-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Memory leather",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_003-02.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_003-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Memory leather",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_003-03.webp"
+    }
+  ],
+  "SUIT_003_A": [
+    {
+      "id": "CONCEPT-SUIT_003_A-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Memory leather",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_003_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_003_A-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Memory leather",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_003_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_003_A-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Memory leather",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_003_A-03.webp"
+    }
+  ],
+  "SUIT_004": [
+    {
+      "id": "CONCEPT-SUIT_004-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Vat silk and memory leather",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_004-01.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_004-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Vat silk and memory leather",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_004-02.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_004-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Vat silk and memory leather",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_004-03.webp"
+    }
+  ],
+  "SUIT_004_A": [
+    {
+      "id": "CONCEPT-SUIT_004_A-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Vat silk and memory leather",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_004_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_004_A-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Vat silk and memory leather",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_004_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-SUIT_004_A-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Vat silk and memory leather",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-SUIT_004_A-03.webp"
+    }
+  ],
+  "TPWR_001": [
+    {
+      "id": "CONCEPT-TPWR_001-01",
+      "name": "BLOCK ZERO",
+      "primary": "#414642",
+      "secondary": "#171F1D",
+      "accent": "#DA9A49",
+      "material": "Canal ripstop",
+      "finish": "Uniform matte with neutral trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_001-01.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_001-02",
+      "name": "PUBLIC DUST",
+      "primary": "#A6A18E",
+      "secondary": "#4C5149",
+      "accent": "#D5BD67",
+      "material": "Canal ripstop",
+      "finish": "Stonewashed matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_001-02.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_001-03",
+      "name": "SERVICE MINT",
+      "primary": "#75978C",
+      "secondary": "#263D38",
+      "accent": "#D6DCC8",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with chalk trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_001-03.webp"
+    }
+  ],
+  "TPWR_002": [
+    {
+      "id": "CONCEPT-TPWR_002-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_002-01.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_002-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_002-02.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_002-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_002-03.webp"
+    }
+  ],
+  "TPWR_002_A": [
+    {
+      "id": "CONCEPT-TPWR_002_A-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_002_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_002_A-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_002_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_002_A-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_002_A-03.webp"
+    }
+  ],
+  "TPWR_002_A_F": [
+    {
+      "id": "CONCEPT-TPWR_002_A_F-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_002_A_F-01.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_002_A_F-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_002_A_F-02.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_002_A_F-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_002_A_F-03.webp"
+    }
+  ],
+  "TPWR_002_F": [
+    {
+      "id": "CONCEPT-TPWR_002_F-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_002_F-01.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_002_F-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_002_F-02.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_002_F-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_002_F-03.webp"
+    }
+  ],
+  "TPWR_003": [
+    {
+      "id": "CONCEPT-TPWR_003-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_003-01.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_003-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_003-02.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_003-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_003-03.webp"
+    }
+  ],
+  "TPWR_003_A": [
+    {
+      "id": "CONCEPT-TPWR_003_A-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_003_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_003_A-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_003_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_003_A-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_003_A-03.webp"
+    }
+  ],
+  "TPWR_003_F": [
+    {
+      "id": "CONCEPT-TPWR_003_F-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_003_F-01.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_003_F-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_003_F-02.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_003_F-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_003_F-03.webp"
+    }
+  ],
+  "TPWR_004": [
+    {
+      "id": "CONCEPT-TPWR_004-01",
+      "name": "POOL ASH",
+      "primary": "#8AABA6",
+      "secondary": "#E0D9C7",
+      "accent": "#E58871",
+      "material": "Vat silk and memory leather",
+      "finish": "Pearl satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_004-01.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_004-02",
+      "name": "SUITE PEARL",
+      "primary": "#DDD5C3",
+      "secondary": "#495351",
+      "accent": "#C98B61",
+      "material": "Vat silk and memory leather",
+      "finish": "Warm pearl with polished trim",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_004-02.webp"
+    },
+    {
+      "id": "CONCEPT-TPWR_004-03",
+      "name": "VACANCY ROSE",
+      "primary": "#B97979",
+      "secondary": "#3D3848",
+      "accent": "#D8BE87",
+      "material": "Vat silk and memory leather",
+      "finish": "Soft gloss with pale metallic accents",
+      "image": "/images/accessories/colors/CONCEPT-TPWR_004-03.webp"
+    }
+  ],
+  "XTRA_002": [
+    {
+      "id": "CONCEPT-XTRA_002-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_002-01.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_002-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_002-02.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_002-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_002-03.webp"
+    }
+  ],
+  "XTRA_002_A": [
+    {
+      "id": "CONCEPT-XTRA_002_A-01",
+      "name": "SILT SHIFT",
+      "primary": "#575D53",
+      "secondary": "#242A29",
+      "accent": "#D89447",
+      "material": "Canal ripstop",
+      "finish": "Dry matte with worn metal",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_002_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_002_A-02",
+      "name": "CHALK DOCK",
+      "primary": "#D4D0BD",
+      "secondary": "#555A56",
+      "accent": "#BC5F38",
+      "material": "Canal ripstop",
+      "finish": "Waxed textile with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_002_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_002_A-03",
+      "name": "DEEP BERTH",
+      "primary": "#1F414B",
+      "secondary": "#121C24",
+      "accent": "#B9D0BE",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with oxidized trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_002_A-03.webp"
+    }
+  ],
+  "XTRA_003": [
+    {
+      "id": "CONCEPT-XTRA_003-01",
+      "name": "BLOCK ZERO",
+      "primary": "#414642",
+      "secondary": "#171F1D",
+      "accent": "#DA9A49",
+      "material": "Canal ripstop",
+      "finish": "Uniform matte with neutral trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_003-01.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_003-02",
+      "name": "PUBLIC DUST",
+      "primary": "#A6A18E",
+      "secondary": "#4C5149",
+      "accent": "#D5BD67",
+      "material": "Canal ripstop",
+      "finish": "Stonewashed matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_003-02.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_003-03",
+      "name": "SERVICE MINT",
+      "primary": "#75978C",
+      "secondary": "#263D38",
+      "accent": "#D6DCC8",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with chalk trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_003-03.webp"
+    }
+  ],
+  "XTRA_003_A": [
+    {
+      "id": "CONCEPT-XTRA_003_A-01",
+      "name": "BLOCK ZERO",
+      "primary": "#414642",
+      "secondary": "#171F1D",
+      "accent": "#DA9A49",
+      "material": "Canal ripstop",
+      "finish": "Uniform matte with neutral trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_003_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_003_A-02",
+      "name": "PUBLIC DUST",
+      "primary": "#A6A18E",
+      "secondary": "#4C5149",
+      "accent": "#D5BD67",
+      "material": "Canal ripstop",
+      "finish": "Stonewashed matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_003_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_003_A-03",
+      "name": "SERVICE MINT",
+      "primary": "#75978C",
+      "secondary": "#263D38",
+      "accent": "#D6DCC8",
+      "material": "Canal ripstop",
+      "finish": "Soft satin with chalk trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_003_A-03.webp"
+    }
+  ],
+  "XTRA_004": [
+    {
+      "id": "CONCEPT-XTRA_004-01",
+      "name": "BLACK LAP",
+      "primary": "#151719",
+      "secondary": "#60656A",
+      "accent": "#FF642E",
+      "material": "Memory leather",
+      "finish": "Satin with brushed trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_004-01.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_004-02",
+      "name": "PIT ASH",
+      "primary": "#D7D6CE",
+      "secondary": "#353A3C",
+      "accent": "#D59A36",
+      "material": "Memory leather",
+      "finish": "Chalk matte with dark hardware",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_004-02.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_004-03",
+      "name": "BRAKE BLOOM",
+      "primary": "#702E36",
+      "secondary": "#191B1E",
+      "accent": "#F06C41",
+      "material": "Memory leather",
+      "finish": "Low gloss with polished edges",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_004-03.webp"
+    }
+  ],
+  "XTRA_010_A": [
+    {
+      "id": "CONCEPT-XTRA_010_A-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_010_A-01.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_010_A-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_010_A-02.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_010_A-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_010_A-03.webp"
+    }
+  ],
+  "XTRA_010_C": [
+    {
+      "id": "CONCEPT-XTRA_010_C-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Memory leather",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_010_C-01.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_010_C-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Memory leather",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_010_C-02.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_010_C-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Memory leather",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_010_C-03.webp"
+    }
+  ],
+  "XTRA_010_D": [
+    {
+      "id": "CONCEPT-XTRA_010_D-01",
+      "name": "DEAD AIR",
+      "primary": "#17151E",
+      "secondary": "#665779",
+      "accent": "#F27642",
+      "material": "Canal ripstop",
+      "finish": "Deep matte with reflective trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_010_D-01.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_010_D-02",
+      "name": "BRUISE TONE",
+      "primary": "#55405E",
+      "secondary": "#22212C",
+      "accent": "#D3A0C3",
+      "material": "Canal ripstop",
+      "finish": "Satin violet with smoked metal",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_010_D-02.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_010_D-03",
+      "name": "HOT MIC",
+      "primary": "#C55635",
+      "secondary": "#231C21",
+      "accent": "#E6C7A9",
+      "material": "Canal ripstop",
+      "finish": "Burnished orange with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_010_D-03.webp"
+    }
+  ],
+  "XTRA_011": [
+    {
+      "id": "CONCEPT-XTRA_011-01",
+      "name": "FILE SMOKE",
+      "primary": "#343B42",
+      "secondary": "#A8B0AF",
+      "accent": "#C9E56A",
+      "material": "Memory leather",
+      "finish": "Smoke gloss with satin metal",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_011-01.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_011-02",
+      "name": "CARBON COPY",
+      "primary": "#101A22",
+      "secondary": "#526172",
+      "accent": "#FA7445",
+      "material": "Memory leather",
+      "finish": "Piano gloss with fine matte breaks",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_011-02.webp"
+    },
+    {
+      "id": "CONCEPT-XTRA_011-03",
+      "name": "MILK GLASS",
+      "primary": "#D6DFD7",
+      "secondary": "#3E5555",
+      "accent": "#B9D4A7",
+      "material": "Memory leather",
+      "finish": "Translucent milk finish with dark trim",
+      "image": "/images/accessories/colors/CONCEPT-XTRA_011-03.webp"
+    }
+  ]
+}

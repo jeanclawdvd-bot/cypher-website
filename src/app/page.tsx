@@ -4,14 +4,14 @@ import type { CompanyKey } from '@/lib/companies/types';
 import CypherLanding from '@/sites/cypher/Landing';
 import ZodeLanding from '@/sites/zode/Landing';
 import ZeroLanding from '@/sites/zero/Landing';
-import WilderworldLanding from '@/sites/wilderworld/Landing';
+import {MarketplaceHome} from '@/sites/wilderworld/marketplace/Marketplace';
 import ZchainLanding from '@/sites/zchain/Landing';
 
 const LANDINGS: Record<CompanyKey, ComponentType> = {
   cypher: CypherLanding,
   zode: ZodeLanding,
   zero: ZeroLanding,
-  wilderworld: WilderworldLanding,
+  wilderworld: MarketplaceHome,
   zchain: ZchainLanding,
 };
 

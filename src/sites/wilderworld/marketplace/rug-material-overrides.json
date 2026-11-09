@@ -1,0 +1,200 @@
+{
+  "MAT-home-object-050-sm-carpet-graphite": {
+    "image": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-graphite.webp",
+    "thumbnail": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-graphite-card.webp",
+    "srcSet": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-graphite-card.webp 640w, /images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-graphite.webp 1600w",
+    "name": "Study Original",
+    "swatch": "#754335",
+    "sourceScene": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-patterned-rug-20261107\\source-original.blend",
+    "renderMethod": "native_3d",
+    "geometryUnchanged": true,
+    "sourcePatternPreserved": true,
+    "authoredSourceMaterial": true,
+    "materialId": "graphite",
+    "status": "Authored game material; neutral studio lighting",
+    "materialSpec": {
+      "family": "Authored apartment rug textile",
+      "baseColor": "#754335",
+      "roughness": null,
+      "metallic": null,
+      "pattern": "Authored medallion and floral border",
+      "textureBasis": "Current MI_Carpet01 / T_carpet_BC at 4096px on unchanged source UVs; original normal and roughness maps retained. Original source color, no tint applied."
+    }
+  },
+  "MAT-home-object-050-sm-carpet-chalk": {
+    "image": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-chalk.webp",
+    "thumbnail": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-chalk-card.webp",
+    "srcSet": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-chalk-card.webp 640w, /images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-chalk.webp 1600w",
+    "name": "Ash & Ivory",
+    "swatch": "#A59D97",
+    "sourceScene": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-patterned-rug-20261107\\source-original.blend",
+    "renderMethod": "native_3d",
+    "geometryUnchanged": true,
+    "sourcePatternPreserved": true,
+    "authoredSourceMaterial": false,
+    "materialId": "chalk",
+    "status": "Source-pattern color study; not applied in game",
+    "materialSpec": {
+      "family": "Source-pattern textile color study",
+      "baseColor": "#A59D97",
+      "roughness": null,
+      "metallic": null,
+      "pattern": "Authored medallion and floral border",
+      "textureBasis": "Current MI_Carpet01 / T_carpet_BC at 4096px on unchanged source UVs; original normal and roughness maps retained. Only higher-saturation yarn colors shifted in a generated Blender material; ivory/black ornaments retained. New game variant mapping unapproved."
+    }
+  },
+  "MAT-home-object-050-sm-carpet-cognac": {
+    "image": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-cognac.webp",
+    "thumbnail": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-cognac-card.webp",
+    "srcSet": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-cognac-card.webp 640w, /images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-cognac.webp 1600w",
+    "name": "Ochre & Ink",
+    "swatch": "#9F7140",
+    "sourceScene": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-patterned-rug-20261107\\source-original.blend",
+    "renderMethod": "native_3d",
+    "geometryUnchanged": true,
+    "sourcePatternPreserved": true,
+    "authoredSourceMaterial": false,
+    "materialId": "cognac",
+    "status": "Source-pattern color study; not applied in game",
+    "materialSpec": {
+      "family": "Source-pattern textile color study",
+      "baseColor": "#9F7140",
+      "roughness": null,
+      "metallic": null,
+      "pattern": "Authored medallion and floral border",
+      "textureBasis": "Current MI_Carpet01 / T_carpet_BC at 4096px on unchanged source UVs; original normal and roughness maps retained. Only higher-saturation yarn colors shifted in a generated Blender material; ivory/black ornaments retained. New game variant mapping unapproved."
+    }
+  },
+  "MAT-home-object-050-sm-carpet-moss": {
+    "image": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-moss.webp",
+    "thumbnail": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-moss-card.webp",
+    "srcSet": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-moss-card.webp 640w, /images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-moss.webp 1600w",
+    "name": "Forest & Ivory",
+    "swatch": "#536C48",
+    "sourceScene": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-patterned-rug-20261107\\source-original.blend",
+    "renderMethod": "native_3d",
+    "geometryUnchanged": true,
+    "sourcePatternPreserved": true,
+    "authoredSourceMaterial": false,
+    "materialId": "moss",
+    "status": "Source-pattern color study; not applied in game",
+    "materialSpec": {
+      "family": "Source-pattern textile color study",
+      "baseColor": "#536C48",
+      "roughness": null,
+      "metallic": null,
+      "pattern": "Authored medallion and floral border",
+      "textureBasis": "Current MI_Carpet01 / T_carpet_BC at 4096px on unchanged source UVs; original normal and roughness maps retained. Only higher-saturation yarn colors shifted in a generated Blender material; ivory/black ornaments retained. New game variant mapping unapproved."
+    }
+  },
+  "MAT-home-object-050-sm-carpet-oxblood": {
+    "image": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-oxblood.webp",
+    "thumbnail": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-oxblood-card.webp",
+    "srcSet": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-oxblood-card.webp 640w, /images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-oxblood.webp 1600w",
+    "name": "Wine & Ivory",
+    "swatch": "#753A4B",
+    "sourceScene": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-patterned-rug-20261107\\source-original.blend",
+    "renderMethod": "native_3d",
+    "geometryUnchanged": true,
+    "sourcePatternPreserved": true,
+    "authoredSourceMaterial": false,
+    "materialId": "oxblood",
+    "status": "Source-pattern color study; not applied in game",
+    "materialSpec": {
+      "family": "Source-pattern textile color study",
+      "baseColor": "#753A4B",
+      "roughness": null,
+      "metallic": null,
+      "pattern": "Authored medallion and floral border",
+      "textureBasis": "Current MI_Carpet01 / T_carpet_BC at 4096px on unchanged source UVs; original normal and roughness maps retained. Only higher-saturation yarn colors shifted in a generated Blender material; ivory/black ornaments retained. New game variant mapping unapproved."
+    }
+  },
+  "MAT-home-object-050-sm-carpet-sandstone": {
+    "image": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-sandstone.webp",
+    "thumbnail": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-sandstone-card.webp",
+    "srcSet": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-sandstone-card.webp 640w, /images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-sandstone.webp 1600w",
+    "name": "Sand & Ink",
+    "swatch": "#AC9676",
+    "sourceScene": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-patterned-rug-20261107\\source-original.blend",
+    "renderMethod": "native_3d",
+    "geometryUnchanged": true,
+    "sourcePatternPreserved": true,
+    "authoredSourceMaterial": false,
+    "materialId": "sandstone",
+    "status": "Source-pattern color study; not applied in game",
+    "materialSpec": {
+      "family": "Source-pattern textile color study",
+      "baseColor": "#AC9676",
+      "roughness": null,
+      "metallic": null,
+      "pattern": "Authored medallion and floral border",
+      "textureBasis": "Current MI_Carpet01 / T_carpet_BC at 4096px on unchanged source UVs; original normal and roughness maps retained. Only higher-saturation yarn colors shifted in a generated Blender material; ivory/black ornaments retained. New game variant mapping unapproved."
+    }
+  },
+  "MAT-home-object-050-sm-carpet-midnight": {
+    "image": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-midnight.webp",
+    "thumbnail": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-midnight-card.webp",
+    "srcSet": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-midnight-card.webp 640w, /images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-midnight.webp 1600w",
+    "name": "Indigo & Ivory",
+    "swatch": "#4A557C",
+    "sourceScene": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-patterned-rug-20261107\\source-original.blend",
+    "renderMethod": "native_3d",
+    "geometryUnchanged": true,
+    "sourcePatternPreserved": true,
+    "authoredSourceMaterial": false,
+    "materialId": "midnight",
+    "status": "Source-pattern color study; not applied in game",
+    "materialSpec": {
+      "family": "Source-pattern textile color study",
+      "baseColor": "#4A557C",
+      "roughness": null,
+      "metallic": null,
+      "pattern": "Authored medallion and floral border",
+      "textureBasis": "Current MI_Carpet01 / T_carpet_BC at 4096px on unchanged source UVs; original normal and roughness maps retained. Only higher-saturation yarn colors shifted in a generated Blender material; ivory/black ornaments retained. New game variant mapping unapproved."
+    }
+  },
+  "MAT-home-object-050-sm-carpet-silver": {
+    "image": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-silver.webp",
+    "thumbnail": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-silver-card.webp",
+    "srcSet": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-silver-card.webp 640w, /images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-silver.webp 1600w",
+    "name": "Slate & Ivory",
+    "swatch": "#66747C",
+    "sourceScene": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-patterned-rug-20261107\\source-original.blend",
+    "renderMethod": "native_3d",
+    "geometryUnchanged": true,
+    "sourcePatternPreserved": true,
+    "authoredSourceMaterial": false,
+    "materialId": "silver",
+    "status": "Source-pattern color study; not applied in game",
+    "materialSpec": {
+      "family": "Source-pattern textile color study",
+      "baseColor": "#66747C",
+      "roughness": null,
+      "metallic": null,
+      "pattern": "Authored medallion and floral border",
+      "textureBasis": "Current MI_Carpet01 / T_carpet_BC at 4096px on unchanged source UVs; original normal and roughness maps retained. Only higher-saturation yarn colors shifted in a generated Blender material; ivory/black ornaments retained. New game variant mapping unapproved."
+    }
+  },
+  "MAT-home-object-050-sm-carpet-walnut": {
+    "image": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-walnut.webp",
+    "thumbnail": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-walnut-card.webp",
+    "srcSet": "/images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-walnut-card.webp 640w, /images/marketplace/rug-materials/MAT-home-object-050-sm-carpet-walnut.webp 1600w",
+    "name": "Umber & Ivory",
+    "swatch": "#634C3D",
+    "sourceScene": "C:\\Users\\frank\\Downloads\\Nightfall-PC-Handoff\\nightfall\\outputs\\ww-patterned-rug-20261107\\source-original.blend",
+    "renderMethod": "native_3d",
+    "geometryUnchanged": true,
+    "sourcePatternPreserved": true,
+    "authoredSourceMaterial": false,
+    "materialId": "walnut",
+    "status": "Source-pattern color study; not applied in game",
+    "materialSpec": {
+      "family": "Source-pattern textile color study",
+      "baseColor": "#634C3D",
+      "roughness": null,
+      "metallic": null,
+      "pattern": "Authored medallion and floral border",
+      "textureBasis": "Current MI_Carpet01 / T_carpet_BC at 4096px on unchanged source UVs; original normal and roughness maps retained. Only higher-saturation yarn colors shifted in a generated Blender material; ivory/black ornaments retained. New game variant mapping unapproved."
+    }
+  }
+}

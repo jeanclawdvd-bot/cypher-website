@@ -121,7 +121,7 @@ export default function WilderworldLanding() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Early Access
+              Play Now
               <ArrowUpRight size={16} />
             </a>
             <a

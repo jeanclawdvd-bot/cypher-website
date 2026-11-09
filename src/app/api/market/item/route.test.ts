@@ -1,3 +1,4 @@
+vi.mock('@/lib/originals-data', async (importActual) => { const actual=await importActual<typeof import('@/lib/originals-data')>(); return {...actual,fetchExplorerPage:vi.fn().mockResolvedValue(null),fetchExplorerItem:vi.fn().mockResolvedValue(null),fetchExplorerCollection:vi.fn().mockResolvedValue(null)}; });
 import { beforeEach, describe, expect, it, vi, type MockedFunction } from 'vitest';
 import type { IndexerAsset, IndexerInventoryResponse } from '@/lib/indexer';
 
@@ -17,6 +18,7 @@ vi.mock('@/lib/opensea', async (importActual) => {
 
 import { indexerFetch } from '@/lib/indexer';
 import { GET } from './route';
+import { objectValue, readJsonObject } from '../testResponse';
 
 // `indexerFetch` is generic, so type the mock against a concrete signature.
 const mockedFetch = indexerFetch as MockedFunction<
@@ -73,11 +75,11 @@ describe('GET /api/market/item (indexer branch)', () => {
     servePages(450);
     const res = await GET(request('433'));
     expect(res.status).toBe(200);
-    const body = await res.json();
-    expect(body.item.identifier).toBe('433');
-    expect(body.item.name).toBe('Pack #433');
-    expect(body.item.priceEth).toBeNull();
-    expect(body.item.openseaUrl).toBe('');
+    const item = objectValue((await readJsonObject(res)).item);
+    expect(item.identifier).toBe('433');
+    expect(item.name).toBe('Pack #433');
+    expect(item.priceEth).toBeNull();
+    expect(item.openseaUrl).toBe('');
     // 433 lives on the third page (offset 400).
     expect(mockedFetch).toHaveBeenCalledTimes(3);
   });

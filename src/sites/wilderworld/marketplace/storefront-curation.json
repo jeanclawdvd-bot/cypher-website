@@ -1,0 +1,355 @@
+{
+  "updatedAt": "2026-11-08",
+  "basis": "User catalog cleanup request; storefront-only selection",
+  "excludedProductIds": [
+    "guild-eagle",
+    "guild-stuz0rguild",
+    "guild-fragment",
+    "guild-thesatoshi",
+    "guild-rocketman",
+    "guild-hermes",
+    "statue-wnp-fountain",
+    "statue-ringed-sculpture-02",
+    "statue-razors-edge",
+    "statue-metal-flower-02",
+    "statue-metal-flower-01",
+    "statue-gold-bust-01",
+    "statue-engraved-stamp",
+    "home-object-102-sm-nftcrateclosed",
+    "home-object-034-sm-armory-crate-01",
+    "home-object-035-sm-armory-crate-01-medkit",
+    "home-object-018-sm-ammo-crate-01a",
+    "home-object-001-box",
+    "home-object-063-sm-constructioncrate",
+    "home-object-098-sm-militarybox",
+    "home-object-202-sm-wine-bottle-01a",
+    "home-object-201-sm-whiskey-bottle-01a",
+    "home-object-004-firered-extinguisher",
+    "home-object-114-sm-planter",
+    "home-object-227-sm-trash02",
+    "home-object-162-sm-straw-dispenser-01a",
+    "home-object-006-office-keyboard",
+    "home-object-195-sm-trash",
+    "vehicle-source-temerario",
+    "totem-trinity-legacy",
+    "totem-chain-jwlr-002",
+    "totem-chain-jwlr-002-a",
+    "totem-fw-queen-isis",
+    "home-object-113-sm-philosopher",
+    "home-object-061-sm-coffeemug-01"
+  ],
+  "matchedProducts": [
+    {
+      "id": "guild-eagle",
+      "name": "Eagle",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/Props/Guild/Eagle/SKM_Eagle_Flying"
+      ]
+    },
+    {
+      "id": "guild-stuz0rguild",
+      "name": "Stuz0r Guild Object",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/Props/Guild/Stuz0rGuild/SM_MergedRock"
+      ]
+    },
+    {
+      "id": "guild-fragment",
+      "name": "Fragment",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/Props/Guild/Fragment/SM_Fragment"
+      ]
+    },
+    {
+      "id": "guild-thesatoshi",
+      "name": "The Satoshi",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/Props/Guild/TheSatoshi/SM_Satoshi"
+      ]
+    },
+    {
+      "id": "guild-rocketman",
+      "name": "RocketMan",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/Props/Guild/RocketMan/SM_RocketMan"
+      ]
+    },
+    {
+      "id": "guild-hermes",
+      "name": "Hermes",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/Props/Guild/Hermes/SM_HERMES"
+      ]
+    },
+    {
+      "id": "statue-wnp-fountain",
+      "name": "WNP Fountain Statue",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/WNP/Assets/props/prop_fountain/SM_WNP_Statue_01"
+      ]
+    },
+    {
+      "id": "statue-ringed-sculpture-02",
+      "name": "Ringed Sculpture 02",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/Maps/Wiami_v05/Sculpture/RingedSculpture02/SM_RingedSculpture02"
+      ]
+    },
+    {
+      "id": "statue-razors-edge",
+      "name": "Razors Edge",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/Maps/Wiami_v05/Sculpture/RazorsEdge/SM_RazorsEdge"
+      ]
+    },
+    {
+      "id": "statue-metal-flower-02",
+      "name": "Metal Flower 02",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/Maps/Wiami_v05/Sculpture/MetalFlower02/SM_MetalFlower02"
+      ]
+    },
+    {
+      "id": "statue-metal-flower-01",
+      "name": "Metal Flower 01",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/Maps/Wiami_v05/Sculpture/MetalFlower01/SM_MetalFlower01"
+      ]
+    },
+    {
+      "id": "statue-gold-bust-01",
+      "name": "Gold Bust 01",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/Maps/Wiami_v05/Sculpture/GoldBust01/SM_GoldBust01"
+      ]
+    },
+    {
+      "id": "statue-engraved-stamp",
+      "name": "Engraved Stamp",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/Maps/Wiami_v05/Sculpture/EngravedStamp/SM_EngravedStamp"
+      ]
+    },
+    {
+      "id": "home-object-102-sm-nftcrateclosed",
+      "name": "NFTCrateClosed",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Avatars/Shared/SkeletalMeshes/NFT_Crate/StaticMeshes/SM_NFTCrateClosed.SM_NFTCrateClosed"
+      ]
+    },
+    {
+      "id": "home-object-034-sm-armory-crate-01",
+      "name": "Armory Crate 01",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Armory/Props/Crates/01/SM_Armory_Crate_01.SM_Armory_Crate_01"
+      ]
+    },
+    {
+      "id": "home-object-035-sm-armory-crate-01-medkit",
+      "name": "Armory Crate 01 MedKit",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Armory/Props/Crates/01/SM_Armory_Crate_01_MedKit.SM_Armory_Crate_01_MedKit"
+      ]
+    },
+    {
+      "id": "home-object-018-sm-ammo-crate-01a",
+      "name": "Ammo Crate 01a",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/LegendKit/MilitaryFiringRange/FiringRange/Meshes/SM_Ammo_Crate_01a.SM_Ammo_Crate_01a"
+      ]
+    },
+    {
+      "id": "home-object-001-box",
+      "name": "Box",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Armory/Props/Box/Box.Box"
+      ]
+    },
+    {
+      "id": "home-object-063-sm-constructioncrate",
+      "name": "ConstructionCrate",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Construction/Mesh/Part_II/Crate/SM_ConstructionCrate.SM_ConstructionCrate"
+      ]
+    },
+    {
+      "id": "home-object-098-sm-militarybox",
+      "name": "Militarybox",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Shops/Shop_07/SM_Militarybox.SM_Militarybox"
+      ]
+    },
+    {
+      "id": "home-object-202-sm-wine-bottle-01a",
+      "name": "Wine bottle prop",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Shops/New_Shop_Assets/AramRat/SM_Wine_Bottle_01a.SM_Wine_Bottle_01a"
+      ]
+    },
+    {
+      "id": "home-object-201-sm-whiskey-bottle-01a",
+      "name": "Whiskey bottle prop",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Shops/New_Shop_Assets/Whiskey/SM_Whiskey_Bottle_01a.SM_Whiskey_Bottle_01a"
+      ]
+    },
+    {
+      "id": "home-object-004-firered-extinguisher",
+      "name": "Fire extinguisher",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/MetroWiami/Misc/fire_extinguisher/Firered_Extinguisher.Firered_Extinguisher"
+      ]
+    },
+    {
+      "id": "home-object-114-sm-planter",
+      "name": "Rectangular planter",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Props/Exterior/Planter/SM_Planter.SM_Planter"
+      ]
+    },
+    {
+      "id": "home-object-227-sm-trash02",
+      "name": "Recycling bin",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Shops/New_Shop_Assets/Trash_Pack/SM_Trash02.SM_Trash02"
+      ]
+    },
+    {
+      "id": "home-object-162-sm-straw-dispenser-01a",
+      "name": "Dispenser prop",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Architecture/Main/Props/SM_Straw_Dispenser_01a.SM_Straw_Dispenser_01a"
+      ]
+    },
+    {
+      "id": "home-object-006-office-keyboard",
+      "name": "Desktop keyboard",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Tokyo_Back_Alleys/Meshes/Buildings/Office_Building/Office_Building_Parts/Interior/Office_Keyboard.Office_Keyboard"
+      ]
+    },
+    {
+      "id": "home-object-195-sm-trash",
+      "name": "Cylindrical waste bin",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/MetroWiami/Subway_Station/Mesh/Trash/SM_trash.SM_trash"
+      ]
+    },
+    {
+      "id": "vehicle-source-temerario",
+      "name": "Temerario",
+      "department": "vehicles",
+      "sourceAssets": [
+        "/Game/zSpaceContent/Game/Blueprints/Vehicles/VehicleCustomization/Blueprints/Vehicles/Temerario/VehicleClass/BP_Temerario"
+      ]
+    },
+    {
+      "id": "totem-trinity-legacy",
+      "name": "Trinity Totem",
+      "department": "totems",
+      "sourceAssets": []
+    },
+    {
+      "id": "totem-chain-jwlr-002",
+      "name": "Chain Totem / 01",
+      "department": "totems",
+      "sourceAssets": [
+        "/Game/Avatars/Shared/Customization/Accessories/Human/Male/JWLR/JWLR_002/SK_JWLR_002"
+      ],
+      "sourceIds": [
+        "JWLR_002",
+        "SK_JWLR_002"
+      ],
+      "removedOn": "2026-11-08",
+      "reason": "Explicit user storefront removal; original source and historical rights preserved."
+    },
+    {
+      "id": "totem-chain-jwlr-002-a",
+      "name": "Chain / 02",
+      "department": "totems",
+      "sourceAssets": [
+        "/Game/Avatars/Shared/Customization/Accessories/Human/Male/JWLR/JWLR_002/SK_JWLR_002_A"
+      ],
+      "sourceIds": [
+        "JWLR_002_A",
+        "SK_JWLR_002_A"
+      ],
+      "removedOn": "2026-11-08",
+      "reason": "Explicit user storefront removal; original source and historical rights preserved."
+    },
+    {
+      "id": "totem-fw-queen-isis",
+      "name": "Queen Isis",
+      "department": "totems",
+      "sourceAssets": [],
+      "sourceIds": [
+        "gid://shopify/Product/8053565259862"
+      ],
+      "removedOn": "2026-11-08",
+      "reason": "Explicit user storefront removal; original source and historical rights preserved."
+    },
+    {
+      "id": "home-object-113-sm-philosopher",
+      "name": "Decorative bust",
+      "department": "statues",
+      "sourceAssets": [
+        "/Game/CyberpunkBlock/Meshes/SM_Philosopher.SM_Philosopher"
+      ],
+      "sourceIds": [
+        "apartment-mesh-3f12e510a552"
+      ],
+      "removedOn": "2026-11-08",
+      "reason": "Explicit user storefront removal; original source and historical rights preserved."
+    },
+    {
+      "id": "home-object-061-sm-coffeemug-01",
+      "name": "Coffee mug",
+      "department": "furniture",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Store/StoreFronts/AirWild/AIRWILD_STORE/Geometries/CoffeMug/SM_CoffeeMug_01.SM_CoffeeMug_01"
+      ],
+      "sourceIds": [
+        "apartment-mesh-6f8c6686390f"
+      ],
+      "removedOn": "2026-11-08",
+      "reason": "Explicit user storefront removal; original source retained."
+    }
+  ],
+  "interpretationNotes": [
+    "Stooser interpreted as Stuz0r Guild Object.",
+    "The Satoshi removed by exact display name; distinct Satoshi retained.",
+    "The crate/box wording interpreted as all seven storage candidates, including Armory Crate 01 MedKit and Ammo Crate 01a.",
+    "Trinity is removed from the current storefront only. Its historical external ownership record and prohibition on reminting/new issuance are preserved. The two independent chain source candidates and ten Frank Wilder design references remain preserved as intake evidence, not current release approval.",
+    "2026-11-08: Remove Chain Totem / 01, Chain / 02, Queen Isis and The Listener from all active storefront and proposed-edition lookups; keep their original source records and prior review snapshots. Rename guild-memelord from Signal Saint to The Meme Lord without changing its identity.",
+    "2026-11-08: Coffee mug removed from the storefront; source object retained."
+  ],
+  "sourcePreservation": "Discovery JSON, original source packages, historical collection registry and contract mappings are unchanged."
+}

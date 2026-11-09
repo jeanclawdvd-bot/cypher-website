@@ -1,9 +1,9 @@
 import { redirect } from 'next/navigation';
+import { originalItemHref, originalItemSeed } from '@/app/store/market/originals';
+import { notFound } from 'next/navigation';
 
 /**
- * The item detail is now shown as an in-page modal on /market. Any deep link to
- * the old per-item route redirects into the market with the modal open so the
- * back button returns to the collection with scroll preserved.
+ * Preserve original marketplace bookmarks while using the native store product page.
  */
 export default async function MarketItemRedirect({
   params,
@@ -11,5 +11,7 @@ export default async function MarketItemRedirect({
   params: Promise<{ slug: string; tokenId: string }>;
 }) {
   const { slug, tokenId } = await params;
-  redirect(`/market?c=${encodeURIComponent(slug)}&token=${encodeURIComponent(tokenId)}`);
+  const seed = originalItemSeed(slug, tokenId);
+  if (!seed) notFound();
+  redirect(originalItemHref(slug, seed));
 }

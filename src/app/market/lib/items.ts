@@ -1,9 +1,21 @@
 import type { MarketNft } from '@/lib/opensea';
 import type { SelectedTraits } from '../types';
+import { getEntryBySlug } from '@/lib/wilderCollections';
+import type { TokenMarketIdentity } from '@/sites/wilderworld/marketplace/market-data';
 
 /** Stable React key / dedupe identity for an NFT. */
 export function itemKey(nft: MarketNft): string {
-  return `${nft.contract}-${nft.identifier}`;
+  return `${nft.chain.toLowerCase()}:${nft.contract.toLowerCase()}:${nft.identifier}`;
+}
+
+/** A preview SKU is never substituted for a minted token's registry binding. */
+export function configuredTokenIdentity(nft: MarketNft): TokenMarketIdentity | undefined {
+  const entry = getEntryBySlug(nft.collectionSlug);
+  const chainId = entry?.chainId ?? (entry?.chain === 'ethereum' ? 1 : 0);
+  if (!entry?.contract || !chainId || entry.chain !== nft.chain || entry.contract.toLowerCase() !== nft.contract.toLowerCase()
+      || !/^0x[0-9a-fA-F]{40}$/.test(nft.contract) || nft.identifier.length > 78
+      || !/^(0|[1-9][0-9]*)$/.test(nft.identifier) || BigInt(nft.identifier) >= BigInt(2) ** BigInt(256)) return undefined;
+  return {chainId,contract:nft.contract,tokenId:nft.identifier};
 }
 
 /**
@@ -53,4 +65,10 @@ export function filterByTraits(
 /** Total number of selected trait values across all types. */
 export function countSelectedTraits(selected: SelectedTraits): number {
   return Object.values(selected).reduce((n, values) => n + values.length, 0);
+}
+
+/** Search applies only to loaded inventory; it makes no whole-collection claim. */
+export function searchLoadedItems(items: readonly MarketNft[], query: string): MarketNft[] {
+  const words = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  return items.filter(nft => words.every(word => `${nft.name} ${nft.identifier} ${nft.traits.map(trait => trait.value).join(' ')}`.toLowerCase().includes(word)));
 }

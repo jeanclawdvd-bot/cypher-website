@@ -1,0 +1,2 @@
+# Approval hashes are over exact historical bytes, including line endings.
+handoff/fixtures/** -text

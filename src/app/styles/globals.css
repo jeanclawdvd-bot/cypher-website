@@ -393,9 +393,10 @@ body {
   overflow-x: clip;
 }
 
-/* Hide the native window scrollbar (root scroller) — replaced by the
-   floating CustomScrollbar overlay. Both html and body are suppressed
-   so the `* { scrollbar-width: thin }` rule below can't re-enable it. */
+/* Hide the native window scrollbar while preserving normal scrolling.
+   Wilder World has no viewport overlay; other shared-brand pages use
+   CustomScrollbar. Keep both root elements suppressed so the rule below
+   cannot re-enable a native bar. */
 html,
 body {
   scrollbar-width: none;
@@ -441,6 +442,8 @@ body::-webkit-scrollbar {
 /* Wilder World: disable text/image selection and image dragging across all of
    the site's pages so the experience reads like a game UI, not a document. */
 body[data-company='wilderworld'] {
+  --nav-height: 0px;
+  --site-nav-offset: 0px;
   -webkit-user-select: none;
   user-select: none;
 

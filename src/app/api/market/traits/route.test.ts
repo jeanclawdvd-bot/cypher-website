@@ -12,6 +12,7 @@ vi.mock('@/lib/opensea', async (importActual) => {
 
 import { indexerFetch } from '@/lib/indexer';
 import { GET } from './route';
+import { readJsonObject } from '../testResponse';
 
 // `indexerFetch` is generic, so type the mock against a concrete signature.
 const mockedFetch = indexerFetch as MockedFunction<
@@ -40,7 +41,7 @@ describe('GET /api/market/traits (indexer branch)', () => {
     };
     mockedFetch.mockResolvedValueOnce(counts);
 
-    const body = await (await GET(request)).json();
+    const body = await readJsonObject(await GET(request));
 
     // One call to the server-side aggregation endpoint, scoped to the contract.
     expect(mockedFetch).toHaveBeenCalledTimes(1);

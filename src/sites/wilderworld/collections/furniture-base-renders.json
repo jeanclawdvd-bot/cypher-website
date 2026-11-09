@@ -1,0 +1,1355 @@
+{
+  "status": "neutral_base_render_review",
+  "summary": {
+    "ready": 43,
+    "held": 181
+  },
+  "entries": [
+    {
+      "id": "object-043-sm-bench",
+      "name": "Angular bench",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-043-sm-bench-hero.webp",
+      "front": "/images/collections/furniture-bases/object-043-sm-bench-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Shops/Asset_01/Armory_bench/SM_bench.SM_bench"
+      ],
+      "sourceIds": [
+        "apartment-mesh-ea618ad4a4b3"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "assembled-bar-stool",
+      "name": "Bar stool with base",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/assembled-bar-stool-hero.webp",
+      "front": "/images/collections/furniture-bases/assembled-bar-stool-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/Main/Props/SM_Bar_Stool_01a.SM_Bar_Stool_01a",
+        "/Game/Architecture/Main/Props/SM_Bar_Stool_Base_01a.SM_Bar_Stool_Base_01a"
+      ],
+      "sourceIds": [
+        "apartment-mesh-658c1e0f1180",
+        "apartment-mesh-a4208c310fd4"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final. Keep the exact captured bindings; neutral studio materials remain a reversible presentation pass."
+    },
+    {
+      "id": "object-203-sm-workchair",
+      "name": "Cantilever work chair",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-203-sm-workchair-hero.webp",
+      "front": "/images/collections/furniture-bases/object-203-sm-workchair-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/TrinityApartment/Furniture/SM_WorkChair.SM_WorkChair"
+      ],
+      "sourceIds": [
+        "apartment-mesh-6a7437f41435"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-062-sm-coffetable",
+      "name": "Compact coffee table",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-062-sm-coffetable-hero.webp",
+      "front": "/images/collections/furniture-bases/object-062-sm-coffetable-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/TrinityApartment/Furniture/SM_CoffeTable.SM_CoffeTable"
+      ],
+      "sourceIds": [
+        "apartment-mesh-9ac03dda1ab5",
+        "garage-mesh-9ac03dda1ab5"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-145-sm-sofa",
+      "name": "Curved sofa",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-145-sm-sofa-hero.webp",
+      "front": "/images/collections/furniture-bases/object-145-sm-sofa-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/TrinityApartment/Furniture/SM_Sofa.SM_Sofa"
+      ],
+      "sourceIds": [
+        "apartment-mesh-452baa160462"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-044-sm-bench-02",
+      "name": "Industrial bench",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-044-sm-bench-02-hero.webp",
+      "front": "/images/collections/furniture-bases/object-044-sm-bench-02-front.webp",
+      "sourceAssets": [
+        "/Game/Props/Exterior/Bench/Meshes/SM_Bench_02.SM_Bench_02"
+      ],
+      "sourceIds": [
+        "apartment-mesh-106c0a82b9ee"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-123-sm-shelf-01",
+      "name": "Open shelving unit",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-123-sm-shelf-01-hero.webp",
+      "front": "/images/collections/furniture-bases/object-123-sm-shelf-01-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Store/StoreFronts/AirWild/AIRWILD_STORE/Geometries/Stand/BabyStand/SM_Shelf_01.SM_Shelf_01"
+      ],
+      "sourceIds": [
+        "apartment-mesh-3ed5217664c4"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-206-workbench-02",
+      "name": "Open-frame workbench",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-206-workbench-02-hero.webp",
+      "front": "/images/collections/furniture-bases/object-206-workbench-02-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Construction/Mesh/Part_II/WorkTable/WorkBench_02.WorkBench_02"
+      ],
+      "sourceIds": [
+        "apartment-mesh-ebcf1465df0b"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-060-sm-clubchair02",
+      "name": "Pedestal bar stool",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-060-sm-clubchair02-hero.webp",
+      "front": "/images/collections/furniture-bases/object-060-sm-clubchair02-front.webp",
+      "sourceAssets": [
+        "/Game/CyberpunkBlock/Meshes/SM_ClubChair02.SM_ClubChair02"
+      ],
+      "sourceIds": [
+        "apartment-mesh-50483b3ae17a",
+        "garage-mesh-50483b3ae17a"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final. Geometry review: Complete backless cylindrical padded bar stool. The original source-geometry draft supersedes the earlier cached-thumbnail backrest interpretation."
+    },
+    {
+      "id": "object-041-sm-bar-table-01a",
+      "name": "Pedestal bar table",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-041-sm-bar-table-01a-hero.webp",
+      "front": "/images/collections/furniture-bases/object-041-sm-bar-table-01a-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/Main/Props/SM_Bar_Table_01a.SM_Bar_Table_01a"
+      ],
+      "sourceIds": [
+        "apartment-mesh-43a1329ac968"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-058-sm-chair",
+      "name": "Reclining armchair",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-058-sm-chair-hero.webp",
+      "front": "/images/collections/furniture-bases/object-058-sm-chair-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/TrinityApartment/Furniture/SM_Chair.SM_Chair"
+      ],
+      "sourceIds": [
+        "apartment-mesh-d2b5f694b5c9",
+        "garage-mesh-d2b5f694b5c9"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-093-sm-lobbytable",
+      "name": "Round lobby table",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-093-sm-lobbytable-hero.webp",
+      "front": "/images/collections/furniture-bases/object-093-sm-lobbytable-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Store/StoreFronts/STORE_WHEELS/Geometries/SM_LobbyTable.SM_LobbyTable"
+      ],
+      "sourceIds": [
+        "apartment-mesh-e5eccfdb2945"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-205-sofa",
+      "name": "Straight sofa",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-205-sofa-hero.webp",
+      "front": "/images/collections/furniture-bases/object-205-sofa-front.webp",
+      "sourceAssets": [
+        "/Game/Tokyo_Back_Alleys/Meshes/Buildings/Office_Building/Office_Building_Parts/Interior/Sofa.Sofa"
+      ],
+      "sourceIds": [
+        "apartment-mesh-69a063512aab"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-057-sm-chair",
+      "name": "Upholstered ottoman",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-057-sm-chair-hero.webp",
+      "front": "/images/collections/furniture-bases/object-057-sm-chair-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Store/StoreFronts/AirWild/AIRWILD_STORE/Geometries/SM_CHAIR.SM_CHAIR"
+      ],
+      "sourceIds": [
+        "apartment-mesh-40ac15277d76"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-204-sm-workdesk",
+      "name": "Work desk",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-204-sm-workdesk-hero.webp",
+      "front": "/images/collections/furniture-bases/object-204-sm-workdesk-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/TrinityApartment/Furniture/SM_Workdesk.SM_Workdesk"
+      ],
+      "sourceIds": [
+        "apartment-mesh-0de7d7ba9e67"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-038-sm-armory-table",
+      "name": "Work table",
+      "category": "Furniture",
+      "hero": "/images/collections/furniture-bases/object-038-sm-armory-table-hero.webp",
+      "front": "/images/collections/furniture-bases/object-038-sm-armory-table-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Armory/Store/SM_Armory_Table.SM_Armory_Table"
+      ],
+      "sourceIds": [
+        "apartment-mesh-1ad10e7a3b4a"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-080-sm-floor-mat-01a",
+      "name": "Floor mat",
+      "category": "Rugs & mats",
+      "hero": "/images/collections/furniture-bases/object-080-sm-floor-mat-01a-hero.webp",
+      "front": "/images/collections/furniture-bases/object-080-sm-floor-mat-01a-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/LegendKit/MilitaryFiringRange/FiringRange/Meshes/SM_Floor_Mat_01a.SM_Floor_Mat_01a"
+      ],
+      "sourceIds": [
+        "apartment-mesh-821025b2300b",
+        "garage-mesh-821025b2300b"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-050-sm-carpet",
+      "name": "Patterned rug",
+      "category": "Rugs & mats",
+      "hero": "/images/collections/furniture-bases/object-050-sm-carpet-hero.webp",
+      "front": "/images/collections/furniture-bases/object-050-sm-carpet-front.webp",
+      "sourceAssets": [
+        "/Game/CyberpunkBlock/Meshes/SM_Carpet.SM_Carpet"
+      ],
+      "sourceIds": [
+        "apartment-mesh-911f3e5b6412"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-061-sm-coffeemug-01",
+      "name": "Coffee mug",
+      "category": "Household & d\u00e9cor",
+      "hero": "/images/collections/furniture-bases/object-061-sm-coffeemug-01-hero.webp",
+      "front": "/images/collections/furniture-bases/object-061-sm-coffeemug-01-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Store/StoreFronts/AirWild/AIRWILD_STORE/Geometries/CoffeMug/SM_CoffeeMug_01.SM_CoffeeMug_01"
+      ],
+      "sourceIds": [
+        "apartment-mesh-6f8c6686390f"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-072-sm-cutting-board-01a",
+      "name": "Cutting board",
+      "category": "Household & d\u00e9cor",
+      "hero": "/images/collections/furniture-bases/object-072-sm-cutting-board-01a-hero.webp",
+      "front": "/images/collections/furniture-bases/object-072-sm-cutting-board-01a-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/Main/Props/SM_Cutting_Board_01a.SM_Cutting_Board_01a"
+      ],
+      "sourceIds": [
+        "apartment-mesh-b98e5a51357c"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-195-sm-trash",
+      "name": "Cylindrical waste bin",
+      "category": "Household & d\u00e9cor",
+      "hero": "/images/collections/furniture-bases/object-195-sm-trash-hero.webp",
+      "front": "/images/collections/furniture-bases/object-195-sm-trash-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/MetroWiami/Subway_Station/Mesh/Trash/SM_trash.SM_trash"
+      ],
+      "sourceIds": [
+        "apartment-mesh-5728d47187b3"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-113-sm-philosopher",
+      "name": "Decorative bust",
+      "category": "Household & d\u00e9cor",
+      "hero": "/images/collections/furniture-bases/object-113-sm-philosopher-hero.webp",
+      "front": "/images/collections/furniture-bases/object-113-sm-philosopher-front.webp",
+      "sourceAssets": [
+        "/Game/CyberpunkBlock/Meshes/SM_Philosopher.SM_Philosopher"
+      ],
+      "sourceIds": [
+        "apartment-mesh-3f12e510a552"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-006-office-keyboard",
+      "name": "Desktop keyboard",
+      "category": "Household & d\u00e9cor",
+      "hero": "/images/collections/furniture-bases/object-006-office-keyboard-hero.webp",
+      "front": "/images/collections/furniture-bases/object-006-office-keyboard-front.webp",
+      "sourceAssets": [
+        "/Game/Tokyo_Back_Alleys/Meshes/Buildings/Office_Building/Office_Building_Parts/Interior/Office_Keyboard.Office_Keyboard"
+      ],
+      "sourceIds": [
+        "apartment-mesh-b4a15b06e392"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-099-sm-monitor",
+      "name": "Desktop monitor",
+      "category": "Household & d\u00e9cor",
+      "hero": "/images/collections/furniture-bases/object-099-sm-monitor-hero.webp",
+      "front": "/images/collections/furniture-bases/object-099-sm-monitor-front.webp",
+      "sourceAssets": [
+        "/Game/Tokyo_Back_Alleys/Meshes/Buildings/Office_Building/Office_Building_Parts/Interior/SM_Monitor.SM_Monitor"
+      ],
+      "sourceIds": [
+        "apartment-mesh-5c1a28f2b2b9"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-162-sm-straw-dispenser-01a",
+      "name": "Dispenser prop",
+      "category": "Household & d\u00e9cor",
+      "hero": "/images/collections/furniture-bases/object-162-sm-straw-dispenser-01a-hero.webp",
+      "front": "/images/collections/furniture-bases/object-162-sm-straw-dispenser-01a-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/Main/Props/SM_Straw_Dispenser_01a.SM_Straw_Dispenser_01a"
+      ],
+      "sourceIds": [
+        "apartment-mesh-670176df0988"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-004-firered-extinguisher",
+      "name": "Fire extinguisher",
+      "category": "Household & d\u00e9cor",
+      "hero": "/images/collections/furniture-bases/object-004-firered-extinguisher-hero.webp",
+      "front": "/images/collections/furniture-bases/object-004-firered-extinguisher-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/MetroWiami/Misc/fire_extinguisher/Firered_Extinguisher.Firered_Extinguisher"
+      ],
+      "sourceIds": [
+        "apartment-mesh-72ff8e4f599e",
+        "garage-mesh-72ff8e4f599e"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-196-sm-trashbin",
+      "name": "Open-top trash bin",
+      "category": "Household & d\u00e9cor",
+      "hero": "/images/collections/furniture-bases/object-196-sm-trashbin-hero.webp",
+      "front": "/images/collections/furniture-bases/object-196-sm-trashbin-front.webp",
+      "sourceAssets": [
+        "/Game/Props/Exterior/TrashBin/SM_TrashBin.SM_TrashBin"
+      ],
+      "sourceIds": [
+        "apartment-mesh-a54140e980be",
+        "garage-mesh-a54140e980be"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-114-sm-planter",
+      "name": "Rectangular planter",
+      "category": "Household & d\u00e9cor",
+      "hero": "/images/collections/furniture-bases/object-114-sm-planter-hero.webp",
+      "front": "/images/collections/furniture-bases/object-114-sm-planter-front.webp",
+      "sourceAssets": [
+        "/Game/Props/Exterior/Planter/SM_Planter.SM_Planter"
+      ],
+      "sourceIds": [
+        "apartment-mesh-b1e6d4b56a86"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-227-sm-trash02",
+      "name": "Recycling bin",
+      "category": "Household & d\u00e9cor",
+      "hero": "/images/collections/furniture-bases/object-227-sm-trash02-hero.webp",
+      "front": "/images/collections/furniture-bases/object-227-sm-trash02-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Shops/New_Shop_Assets/Trash_Pack/SM_Trash02.SM_Trash02"
+      ],
+      "sourceIds": [
+        "garage-mesh-8ad59bade803"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-201-sm-whiskey-bottle-01a",
+      "name": "Whiskey bottle prop",
+      "category": "Household & d\u00e9cor",
+      "hero": "/images/collections/furniture-bases/object-201-sm-whiskey-bottle-01a-hero.webp",
+      "front": "/images/collections/furniture-bases/object-201-sm-whiskey-bottle-01a-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Shops/New_Shop_Assets/Whiskey/SM_Whiskey_Bottle_01a.SM_Whiskey_Bottle_01a"
+      ],
+      "sourceIds": [
+        "apartment-mesh-2c725d7047aa"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-202-sm-wine-bottle-01a",
+      "name": "Wine bottle prop",
+      "category": "Household & d\u00e9cor",
+      "hero": "/images/collections/furniture-bases/object-202-sm-wine-bottle-01a-hero.webp",
+      "front": "/images/collections/furniture-bases/object-202-sm-wine-bottle-01a-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Shops/New_Shop_Assets/AramRat/SM_Wine_Bottle_01a.SM_Wine_Bottle_01a"
+      ],
+      "sourceIds": [
+        "apartment-mesh-6412af9c1ff1"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-018-sm-ammo-crate-01a",
+      "name": "Ammo Crate 01a",
+      "category": "Storage",
+      "hero": "/images/collections/furniture-bases/object-018-sm-ammo-crate-01a-hero.webp",
+      "front": "/images/collections/furniture-bases/object-018-sm-ammo-crate-01a-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/LegendKit/MilitaryFiringRange/FiringRange/Meshes/SM_Ammo_Crate_01a.SM_Ammo_Crate_01a"
+      ],
+      "sourceIds": [
+        "apartment-mesh-6519dd327721"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-034-sm-armory-crate-01",
+      "name": "Armory Crate 01",
+      "category": "Storage",
+      "hero": "/images/collections/furniture-bases/object-034-sm-armory-crate-01-hero.webp",
+      "front": "/images/collections/furniture-bases/object-034-sm-armory-crate-01-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Armory/Props/Crates/01/SM_Armory_Crate_01.SM_Armory_Crate_01"
+      ],
+      "sourceIds": [
+        "apartment-mesh-99c80b5a929e"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-035-sm-armory-crate-01-medkit",
+      "name": "Armory Crate 01 MedKit",
+      "category": "Storage",
+      "hero": "/images/collections/furniture-bases/object-035-sm-armory-crate-01-medkit-hero.webp",
+      "front": "/images/collections/furniture-bases/object-035-sm-armory-crate-01-medkit-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Armory/Props/Crates/01/SM_Armory_Crate_01_MedKit.SM_Armory_Crate_01_MedKit"
+      ],
+      "sourceIds": [
+        "apartment-mesh-e776d0dcf7a5"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-001-box",
+      "name": "Box",
+      "category": "Storage",
+      "hero": "/images/collections/furniture-bases/object-001-box-hero.webp",
+      "front": "/images/collections/furniture-bases/object-001-box-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Armory/Props/Box/Box.Box"
+      ],
+      "sourceIds": [
+        "apartment-mesh-a8fddaac2107"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-063-sm-constructioncrate",
+      "name": "ConstructionCrate",
+      "category": "Storage",
+      "hero": "/images/collections/furniture-bases/object-063-sm-constructioncrate-hero.webp",
+      "front": "/images/collections/furniture-bases/object-063-sm-constructioncrate-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Construction/Mesh/Part_II/Crate/SM_ConstructionCrate.SM_ConstructionCrate"
+      ],
+      "sourceIds": [
+        "apartment-mesh-b2fbc047a73e",
+        "garage-mesh-b2fbc047a73e"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-098-sm-militarybox",
+      "name": "Militarybox",
+      "category": "Storage",
+      "hero": "/images/collections/furniture-bases/object-098-sm-militarybox-hero.webp",
+      "front": "/images/collections/furniture-bases/object-098-sm-militarybox-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/HeroKit/Shops/Shop_07/SM_Militarybox.SM_Militarybox"
+      ],
+      "sourceIds": [
+        "apartment-mesh-fff25db1c3ae"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-102-sm-nftcrateclosed",
+      "name": "NFTCrateClosed",
+      "category": "Storage",
+      "hero": "/images/collections/furniture-bases/object-102-sm-nftcrateclosed-hero.webp",
+      "front": "/images/collections/furniture-bases/object-102-sm-nftcrateclosed-front.webp",
+      "sourceAssets": [
+        "/Game/Avatars/Shared/SkeletalMeshes/NFT_Crate/StaticMeshes/SM_NFTCrateClosed.SM_NFTCrateClosed"
+      ],
+      "sourceIds": [
+        "apartment-mesh-05789bd0286f",
+        "garage-mesh-05789bd0286f"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "object-103-sm-nftcrateopen",
+      "name": "NFTCrateOpen",
+      "category": "Storage",
+      "hero": "/images/collections/furniture-bases/object-103-sm-nftcrateopen-hero.webp",
+      "front": "/images/collections/furniture-bases/object-103-sm-nftcrateopen-front.webp",
+      "sourceAssets": [
+        "/Game/Avatars/Shared/SkeletalMeshes/NFT_Crate/StaticMeshes/SM_NFTCrateOpen.SM_NFTCrateOpen"
+      ],
+      "sourceIds": [
+        "apartment-mesh-98d6a5507470"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final."
+    },
+    {
+      "id": "assembled-cooker",
+      "name": "Cooker with captured alpha component",
+      "category": "Equipment",
+      "hero": "/images/collections/furniture-bases/assembled-cooker-hero.webp",
+      "front": "/images/collections/furniture-bases/assembled-cooker-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/Main/Props/Alpha/SM_Cooker_01a_Alpha.SM_Cooker_01a_Alpha",
+        "/Game/Architecture/Main/Props/SM_Cooker_01a.SM_Cooker_01a"
+      ],
+      "sourceIds": [
+        "apartment-mesh-bb8200c73563",
+        "apartment-mesh-a7acf1ca8d25"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final. Keep the exact captured bindings; neutral studio materials remain a reversible presentation pass."
+    },
+    {
+      "id": "assembled-corner-cooler",
+      "name": "Corner cooler, captured panel assembly",
+      "category": "Equipment",
+      "hero": "/images/collections/furniture-bases/assembled-corner-cooler-hero.webp",
+      "front": "/images/collections/furniture-bases/assembled-corner-cooler-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/Main/Kits/Alpha/SM_Store_Cooler_90_01a_Alpha.SM_Store_Cooler_90_01a_Alpha",
+        "/Game/Architecture/Main/Kits/SM_Store_Cooler_90_01a.SM_Store_Cooler_90_01a"
+      ],
+      "sourceIds": [
+        "apartment-mesh-2a0832dc9005",
+        "apartment-mesh-beccaab7bb26"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final. The Alpha-named component has a captured marble or metal-rubber override, not a verified glass binding. Preserve the opaque captured panel; Alpha in the source name is not proof of glazing."
+    },
+    {
+      "id": "assembled-glazed-counter",
+      "name": "Display counter, captured panel assembly",
+      "category": "Equipment",
+      "hero": "/images/collections/furniture-bases/assembled-glazed-counter-hero.webp",
+      "front": "/images/collections/furniture-bases/assembled-glazed-counter-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/Main/Kits/Alpha/SM_Store_Counter_2m_02a_Alpha.SM_Store_Counter_2m_02a_Alpha",
+        "/Game/Architecture/Main/Kits/SM_Store_Counter_2m_02a.SM_Store_Counter_2m_02a"
+      ],
+      "sourceIds": [
+        "apartment-mesh-ab381fe5d43d",
+        "apartment-mesh-830764ffd48b"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final. The Alpha-named component has a captured marble or metal-rubber override, not a verified glass binding. Preserve the opaque captured panel; Alpha in the source name is not proof of glazing."
+    },
+    {
+      "id": "assembled-straight-cooler",
+      "name": "Straight cooler, captured panel assembly",
+      "category": "Equipment",
+      "hero": "/images/collections/furniture-bases/assembled-straight-cooler-hero.webp",
+      "front": "/images/collections/furniture-bases/assembled-straight-cooler-front.webp",
+      "sourceAssets": [
+        "/Game/Architecture/Main/Kits/Alpha/SM_Store_Cooler_2m_01a_Alpha.SM_Store_Cooler_2m_01a_Alpha",
+        "/Game/Architecture/Main/Kits/SM_Store_Cooler_2m_01a.SM_Store_Cooler_2m_01a"
+      ],
+      "sourceIds": [
+        "apartment-mesh-af104be875a4",
+        "apartment-mesh-5e81a2ce3379"
+      ],
+      "notes": "Neutral geometry base from the saved original LOD0 export. Color, finish and styling are not final. The Alpha-named component has a captured marble or metal-rubber override, not a verified glass binding. Preserve the opaque captured panel; Alpha in the source name is not proof of glazing."
+    }
+  ],
+  "held": [
+    {
+      "name": "Cardboard_Box_Plane_251",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "fire_extinguisher",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "HDA_Signage_161747_163653_0_main_geo",
+      "reason": "Source role or standalone complete-object suitability remains unresolved; preserve evidence for a later selection."
+    },
+    {
+      "name": "RamenKitchen_01_Vert_001",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "RamenKitchen_01_Vert_004",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_ADboard_01",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_ADboard_07",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_ADboard_Base",
+      "reason": "Separate source component; a complete object boundary and/or exact complementary-part relationship is not yet established for this render set."
+    },
+    {
+      "name": "SM_AirWild_Box_Bottom",
+      "reason": "Separate source component; a complete object boundary and/or exact complementary-part relationship is not yet established for this render set."
+    },
+    {
+      "name": "SM_AirWild_Box_Pile_01a",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_AirWild_Box_Pile_02a",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_AirWild_Box_Row_01a",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_AirWild_Box_Top",
+      "reason": "Separate source component; a complete object boundary and/or exact complementary-part relationship is not yet established for this render set."
+    },
+    {
+      "name": "SM_Ammo_Cardboard_Boxes_01b",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Apartment_End_01b",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Apartment_Mid_Int_Window_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Apartment_Mid_Int_Window_4m_01a_Alpha",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Apartment_Mid_Int_Window_8m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Apartment_Mid_Int_Window_8m_01a_Alpha",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Apartment_Middle_01b",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Apartment_Start_01b",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Apartment_Start_Int_Window_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Apartment_Start_Int_Window_4m_01a_Alpha",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Apartment_Start_Int_Window_4m_02a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Apt_Base_01",
+      "reason": "Separate source component; a complete object boundary and/or exact complementary-part relationship is not yet established for this render set."
+    },
+    {
+      "name": "SM_Apt_Base_02",
+      "reason": "Separate source component; a complete object boundary and/or exact complementary-part relationship is not yet established for this render set."
+    },
+    {
+      "name": "SM_Apt_Base_03",
+      "reason": "Separate source component; a complete object boundary and/or exact complementary-part relationship is not yet established for this render set."
+    },
+    {
+      "name": "SM_Apt_Floor",
+      "reason": "Separate source component; a complete object boundary and/or exact complementary-part relationship is not yet established for this render set."
+    },
+    {
+      "name": "SM_Apt_Floor_001",
+      "reason": "Separate source component; a complete object boundary and/or exact complementary-part relationship is not yet established for this render set."
+    },
+    {
+      "name": "SM_Armory_GunRack_0004",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Armory_GunRack_02",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_BarCloth_01",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_BigPartition_Separate_01",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Billboard_16x9_8x4-5m_01a",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Bottles_2m_01a",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Boxes_Wrapped_03d",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_CAP",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Ceiling_Strip_Light_01a",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Ceiling_Strip_Light_02a",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Ceiling_Tube_Light_03a",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Ceiling_Tube_Light_04a",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Ceiling_Tube_Light_05a",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Cement_Bags_NN_01a",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_ClothesFolded",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Corner",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Curb_2m_01b",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Curb_2m_90_01b",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Curb_45_01b",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Curb_4m_01b",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Curb_Inv_45_01b",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Device",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_ElectricBox_01",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Floor_1x1m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Floor_2x2m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Floor_3x3m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Floor_4x4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Floor_Corner_45_2x2m_01b",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_FoamPanelLong_01",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_FoamPanelPyramid_01",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Gun_Display_02c",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_HANGER",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Helipad",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_JJACKET",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_JON_TSHIRT",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Keypad",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_KeyPad_01a",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Kit_04_Wall_1x2m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Kit_04_Wall_1x2m_02a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Kit_04_Wall_1x2m_05a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_MegaKit_Panel_09a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_MegaKit_Panel_13a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_MegaKit_Rail_5m_03a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_MegaKit_Railing_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_MW_Signage_10",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_MW_Signage_9",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_OW_Base_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_OW_Base_8m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_OW_Border_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_OW_Border_8m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_OW_Header_1m_02a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_OW_Header_2m_02a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Panel",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Paper_Targets_01b",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_PashaCoffee_Panel",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Planter1",
+      "reason": "Separate source component; a complete object boundary and/or exact complementary-part relationship is not yet established for this render set."
+    },
+    {
+      "name": "SM_Planter_Grass_07",
+      "reason": "Source role or standalone complete-object suitability remains unresolved; preserve evidence for a later selection."
+    },
+    {
+      "name": "SM_Road_Mark_1",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_RoboBob",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_RobotArm",
+      "reason": "Source role or standalone complete-object suitability remains unresolved; preserve evidence for a later selection."
+    },
+    {
+      "name": "SM_Roof_Accessory_03a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_RPG_Prop_01a",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Security_Camera_01",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_SHOE2",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_SHOE4",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_ShowerBottles01",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_ShowerBottles03",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_ShowerBottles04",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_ShowerCombined01",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Signage_Ethereum",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Signage_WiamiRecords",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_SL_Cable_03",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_SL_Cables_02",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_SL_Cables_03",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Slab_Beam_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Slab_Beam_Slim_4m_02a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Slab_Beam_Slim_90_02a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Slab_Insert_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Slab_Insert_Long_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_SLKit_Misc_07a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_SLKit_Misc_09a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_SLKit_Strut_1x2m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_SLKit_Wall_4x2m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Soda_Pulse_01a",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Stairs_3m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_StashTerminal",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Store_Cooler_8m_01a",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Store_Counter_2m_01a",
+      "reason": "Separate source component; a complete object boundary and/or exact complementary-part relationship is not yet established for this render set."
+    },
+    {
+      "name": "SM_Store_Counter_90_01a",
+      "reason": "Separate source component; a complete object boundary and/or exact complementary-part relationship is not yet established for this render set."
+    },
+    {
+      "name": "SM_Store_Floor_Railing_2m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Store_Floor_Railing_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Store_Floor_Railing_90_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Store_Stall_2m_02a",
+      "reason": "Separate source component; a complete object boundary and/or exact complementary-part relationship is not yet established for this render set."
+    },
+    {
+      "name": "SM_Store_Stall_90_02a",
+      "reason": "Separate source component; a complete object boundary and/or exact complementary-part relationship is not yet established for this render set."
+    },
+    {
+      "name": "SM_terminal_2",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_TicketMachine",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Tr_Arch_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Arch_6m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Catwalk_1m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Catwalk_2m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Catwalk_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Catwalk_In_Corner_45_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Doorframe_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Entrance_2m_Door_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Entrance_2m_Frame_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Entrance_4m_Door_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Entrance_4m_Frame_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Railing_1m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Railing_2m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Railing_3m_Angled_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Railing_3m_Angled_Cap_Base_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Railing_3m_Angled_Cap_Top_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Railing_3m_Angled_Extn_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Railing_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Railing_4m_01a_Alpha",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Railing_Cap_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Shop_Entrance_4m_02b",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Wall_2m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Wall_2m_06a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Wall_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Wall_8m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Wall_Corner_45_06a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Wall_Corner_90_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Wall_Corner_Inv_45_06a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Wall_Window_8m_03a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_TrainStation_Column_8m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_VerticalGarden",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Wall_Exhaust_01a",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Wall_Tube_Light_01a",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_WallLamp",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_BarrelCombined",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Boxes_Wrapped_03b",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Curb_2m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Curb_45_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Curb_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Curb_Inv_45_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Floor_Edge_1x1m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Floor_Edge_2x1m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_KB3D_CSZ_BldgMdSkyscraperFoundation_A_LadderA",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Kit_04_Beam_1m_01b",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_OW_Entrance_4m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_SL_Cable_02_Var",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_SM_CityCarWheel",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Stairs_2m_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Store_Counter_2m_01a_Dressing_01a",
+      "reason": "Non-furniture scene dressing, outside this base-render selection."
+    },
+    {
+      "name": "SM_Tr_Railing_Corner_45_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Railing_Corner_45_01a_Alpha",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Railing_Corner_Inv_45_01a",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Railing_Corner_Inv_45_01a_Alpha",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Tr_Shop_Entrance_4m_Frame_02b",
+      "reason": "Architectural geometry is retained in the inventory; it is outside the freestanding object base-render set."
+    },
+    {
+      "name": "SM_Utility_Wall_Arrangement_01a",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    },
+    {
+      "name": "SM_Utility_Wall_Arrangement_03a",
+      "reason": "Installed fixture, outside the selected complete furniture/decor/storage base-render set."
+    }
+  ]
+}

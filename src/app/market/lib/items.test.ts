@@ -6,6 +6,8 @@ import {
   filterByTraits,
   itemKey,
   shortId,
+  searchLoadedItems,
+  configuredTokenIdentity,
 } from './items';
 
 function nft(overrides: Partial<MarketNft> = {}): MarketNft {
@@ -23,8 +25,22 @@ function nft(overrides: Partial<MarketNft> = {}): MarketNft {
 }
 
 describe('itemKey', () => {
-  it('combines contract and identifier', () => {
-    expect(itemKey(nft({ contract: '0xdef', identifier: '9' }))).toBe('0xdef-9');
+  it('combines normalized chain, contract and identifier', () => {
+    expect(itemKey(nft({ contract: '0xDeF', identifier: '9' }))).toBe('ethereum:0xdef:9');
+  });
+});
+
+describe('configured token market identity', () => {
+  const wheels = nft({collectionSlug:'wilderworld',contract:'0xc2e9678A71e50E5AeD036e00e9c5caeb1aC5987D'});
+  it('retains a uint256 identifier with the configured chain and collection', () => {
+    const identifier=(BigInt(2)**BigInt(256)-BigInt(1)).toString();
+    expect(configuredTokenIdentity({...wheels,identifier})).toEqual({chainId:1,contract:wheels.contract,tokenId:identifier});
+  });
+  it('refuses mismatched collections, chains, overflow and concept identifiers', () => {
+    expect(configuredTokenIdentity({...wheels,chain:'zchain'})).toBeUndefined();
+    expect(configuredTokenIdentity({...wheels,contract:'0x0000000000000000000000000000000000000001'})).toBeUndefined();
+    expect(configuredTokenIdentity({...wheels,identifier:(BigInt(2)**BigInt(256)).toString()})).toBeUndefined();
+    expect(configuredTokenIdentity({...wheels,identifier:'MAT-rim-chrome'})).toBeUndefined();
   });
 });
 
@@ -39,6 +55,9 @@ describe('shortId', () => {
 });
 
 describe('dedupeItems', () => {
+  it('retains same token/contract on different chains and merges contract casing', () => {
+    expect(dedupeItems([nft(), nft({chain:'zchain'}), nft({contract:'0xABC'})])).toHaveLength(2);
+  });
   it('keeps the first occurrence of each token', () => {
     const list = [
       nft({ identifier: '1' }),
@@ -48,6 +67,16 @@ describe('dedupeItems', () => {
     const out = dedupeItems(list);
     expect(out).toHaveLength(2);
     expect(out.map((n) => n.identifier)).toEqual(['1', '2']);
+  });
+});
+
+describe('searchLoadedItems', () => {
+  it('matches all words across names, exact token text and trait values without inventing unloaded results', () => {
+    const loaded = [nft({name:'Wilder Wheels',identifier:'8822',traits:[{type:'Finish',value:'Chrome'}]}), nft({name:'Wilder Wheels',identifier:'22'})];
+    expect(searchLoadedItems(loaded,'WHEELS chrome')).toEqual([loaded[0]]);
+    expect(searchLoadedItems(loaded,'8822')).toEqual([loaded[0]]);
+    expect(searchLoadedItems(loaded,'gold')).toEqual([]);
+    expect(searchLoadedItems(loaded,'   ')).toHaveLength(2);
   });
 });
 

@@ -6,6 +6,8 @@
    missing key as an empty result rather than an error, mirroring the graceful
    fallback in the news route.
    --------------------------------------------------------------------------- */
+import type { OriginalDataProvenance } from './originals-data';
+
 const OPENSEA_BASE = 'https://api.opensea.io/api/v2';
 
 export const OPENSEA_REVALIDATE = 300;
@@ -102,6 +104,11 @@ type OpenSeaListing = {
 
 /** Normalized NFT shape returned to the client. */
 export type MarketNft = {
+  /** Source design ID and instance tag are kept distinct from the onchain ID. */
+  sourceAssetId?: string | null;
+  instanceTag?: string | null;
+  productGroup?: {id:string;editionCount:number;observedCount:number;observedAt:string;selectedEditionId?:string};
+  provenance?: OriginalDataProvenance;
   identifier: string;
   name: string;
   image: string | null;

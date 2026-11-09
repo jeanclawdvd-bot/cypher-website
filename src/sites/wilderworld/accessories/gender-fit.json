@@ -1,0 +1,1832 @@
+{
+  "BTWR_001": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / BTWR_001",
+    "confidence": "exact_game_row",
+    "source_sku": "BTWR_001",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "BTWR_001_A": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / BTWR_001_A",
+    "confidence": "exact_game_row",
+    "source_sku": "BTWR_001_A",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "BTWR_001_B": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / BTWR_001_B",
+    "confidence": "exact_game_row",
+    "source_sku": "BTWR_001_B",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "BTWR_001_F": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "BTWR_001_F",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "BTWR_002": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "BTWR_002",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "BTWR_002_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "BTWR_002_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "BTWR_002_A_F": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "BTWR_002_A_F",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "BTWR_002_F": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "BTWR_002_F",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "BTWR_004": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "BTWR_004",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "BTWR_004_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "BTWR_004_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "BTWR_004_A_F": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "BTWR_004_A_F",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "BTWR_004_F": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "BTWR_004_F",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "BTWR_006": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "BTWR_006",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "BTWR_007": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "BTWR_007",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "BTWR_010": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / BTWR_010",
+    "confidence": "exact_game_row",
+    "source_sku": "BTWR_010",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "BTWR_010_A": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / BTWR_010_A",
+    "confidence": "exact_game_row",
+    "source_sku": "BTWR_010_A",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "BTWR_010_B": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / BTWR_010_B",
+    "confidence": "exact_game_row",
+    "source_sku": "BTWR_010_B",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "BTWR_010_C": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / BTWR_010_C",
+    "confidence": "exact_game_row",
+    "source_sku": "BTWR_010_C",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "BTWR_010_D": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / BTWR_010_D",
+    "confidence": "exact_game_row",
+    "source_sku": "BTWR_010_D",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "BTWR_010_E": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / BTWR_010_E",
+    "confidence": "exact_game_row",
+    "source_sku": "BTWR_010_E",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "BTWR_010_F": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / BTWR_010_F",
+    "confidence": "exact_game_row",
+    "source_sku": "BTWR_010_F",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "BTWR_010_G": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / BTWR_010_G",
+    "confidence": "exact_game_row",
+    "source_sku": "BTWR_010_G",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "BTWR_N30": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "BTWR_N30",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_002": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_002",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_006": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_006",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_006_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_006_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_006_B": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_006_B",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_008": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_008",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_009": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_009",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_010": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_010",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_011": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_011",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_012": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_012",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_012_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_012_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_013": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_013",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_014": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_014",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_015": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_015",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_H01": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_H01",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "EYWR_H03": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "EYWR_H03",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "FTWR_001": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "FTWR_001",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "FTWR_003": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "FTWR_003",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "FTWR_004_A": {
+    "gender": "Women",
+    "basis": "User confirmed Grave Courtesy / 02 is the female style to retain.",
+    "source": "User confirmation in current conversation, 2026-11-06",
+    "confidence": "user_confirmed",
+    "source_sku": "FTWR_004_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "FTWR_005": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "FTWR_005",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "FTWR_005_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "FTWR_005_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "FTWR_010": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "FTWR_010",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "FTWR_N30": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "FTWR_N30",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_001_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_001_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_001_B": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_001_B",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_002": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_002",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_002_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_002_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_003_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_003_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_006_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_006_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_006_B": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_006_B",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_006_C": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_006_C",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_007": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_007",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_007_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_007_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_008": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_008",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_009": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_009",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_009_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_009_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_010": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_010",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_010_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_010_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_011": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_011",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_011_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_011_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_012": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_012",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_012_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_012_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_013": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_013",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_015": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_015",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_015_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_015_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_016": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_016",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "HDWR_FRD": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "HDWR_FRD",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_001": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_A": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_A",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_A",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_B": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_B",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_B",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_C": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_C",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_C",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_D": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_D",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_D",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_E": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_E",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_E",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_F": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_F",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_F",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_G": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_G",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_G",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_H": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_H",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_H",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_I": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_I",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_I",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_J": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_J",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_J",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_K": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_K",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_K",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_L": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_L",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_L",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_M": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_M",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_M",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_N": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_N",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_N",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_001_O": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_001_O",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_001_O",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_002": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_002",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_002",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_002_1": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_002_1",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_002_2": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_002_2",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_002_3": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_002_3",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_002_4": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_002_4",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_002_5": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_002_5",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_002_A": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_002_A",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_002_A",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_002_B": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_002_B",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_002_B",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_002_C": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_002_C",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_002_C",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_002_D": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_002_D",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_002_D",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_002_E": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_002_E",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_002_E",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_002_F": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_002_F",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_003": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_003",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_005": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_005",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_005_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_005_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_005_B": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_005_B",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_010": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_010",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_010",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_010_A": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_010_A",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_010_A",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_010_B": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_010_B",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_010_B",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_013": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_013",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_N30": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_N30",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_N30",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_N30_A": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_N30_A",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_N30_A",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_N30_B": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_N30_B",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_N30_B",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_N30_C": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_N30_C",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_N30_C",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_N30_D": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_N30_D",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_N30_D",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_N30_E": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_N30_E",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_N30_E",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_N30_F": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / JCKT_N30_F",
+    "confidence": "exact_game_row",
+    "source_sku": "JCKT_N30_F",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "JCKT_PNX_0": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_PNX_0",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_PNX_1": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_PNX_1",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_PNX_2": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_PNX_2",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_PNX_3": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_PNX_3",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_PNX_4": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_PNX_4",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_PNX_5": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_PNX_5",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_PNX_6": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_PNX_6",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JCKT_PNX_7": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JCKT_PNX_7",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JWLR_H03": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JWLR_H03",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JWLR_H06": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JWLR_H06",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JWLR_H07": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JWLR_H07",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "JWLR_H14": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "JWLR_H14",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "MASK_001_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "MASK_001_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "MASK_002": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "MASK_002",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "MASK_002_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "MASK_002_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "MASK_002_B": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "MASK_002_B",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "MASK_002_C": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "MASK_002_C",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "MASK_002_FE": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "MASK_002_FE",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "MASK_002_FRANK": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "MASK_002_FRANK",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "MASK_002_GP": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "MASK_002_GP",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "MASK_003": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "MASK_003",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "MASK_003_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "MASK_003_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "MASK_003_B": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "MASK_003_B",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "MASK_003_C": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "MASK_003_C",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "MASK_H01": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "MASK_H01",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "SUIT_001": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "SUIT_001",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "SUIT_001_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "SUIT_001_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "SUIT_002": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "SUIT_002",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "SUIT_002_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "SUIT_002_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "SUIT_003": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "SUIT_003",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "SUIT_003_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "SUIT_003_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "SUIT_004": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "SUIT_004",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "SUIT_004_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "SUIT_004_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "TPWR_001": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "TPWR_001",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "TPWR_002": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "TPWR_002",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "TPWR_002_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "TPWR_002_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "TPWR_002_A_F": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "TPWR_002_A_F",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "TPWR_002_F": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "TPWR_002_F",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "TPWR_003": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "TPWR_003",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "TPWR_003_A": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "TPWR_003_A",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "TPWR_003_F": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "TPWR_003_F",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "TPWR_004": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "TPWR_004",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "XTRA_002": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / XTRA_002",
+    "confidence": "exact_game_row",
+    "source_sku": "XTRA_002",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "XTRA_002_A": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / XTRA_002_A",
+    "confidence": "exact_game_row",
+    "source_sku": "XTRA_002_A",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "XTRA_003": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "XTRA_003",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  },
+  "XTRA_003_A": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / XTRA_003_A",
+    "confidence": "exact_game_row",
+    "source_sku": "XTRA_003_A",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "XTRA_004": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / XTRA_004",
+    "confidence": "exact_game_row",
+    "source_sku": "XTRA_004",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "XTRA_010_A": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / XTRA_010_A",
+    "confidence": "exact_game_row",
+    "source_sku": "XTRA_010_A",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "XTRA_010_C": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / XTRA_010_C",
+    "confidence": "exact_game_row",
+    "source_sku": "XTRA_010_C",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "XTRA_010_D": {
+    "gender": "Unisex",
+    "basis": "Exact exported SKU row permits HM and HF avatar types. Storefront Unisex label is derived from the two explicit compatibility flags.",
+    "source": "DT_AvatarBodyAccessories / XTRA_010_D",
+    "confidence": "exact_game_row",
+    "source_sku": "XTRA_010_D",
+    "source_gender": "Unisex",
+    "game_compatibility_confirmed": true,
+    "raw_avatar_compatibility": {
+      "HM": true,
+      "HF": true,
+      "WM": true
+    }
+  },
+  "XTRA_011": {
+    "gender": "Unisex",
+    "basis": "Proposed shared merchandising label. Exact Men/Women game fit is not established by available metadata; this is not a claim of game compatibility.",
+    "source": "Storefront merchandising default, 2026-11-06",
+    "confidence": "proposed_merchandising",
+    "source_sku": "XTRA_011",
+    "source_gender": null,
+    "game_compatibility_confirmed": false,
+    "raw_avatar_compatibility": null
+  }
+}

@@ -55,6 +55,8 @@ export type IndexerAsset = {
   balance: string;
   tokenUri: string | null;
   metadata: {
+    asset_id?: string;
+    tag?: string;
     name?: string;
     description?: string;
     image?: string;
@@ -114,11 +116,23 @@ export function hasMoreInventory(
  */
 export function resolveMediaUrl(uri: string | null | undefined): string | null {
   if (!uri) return null;
+  if (uri.startsWith('ar://')) {
+    const path = uri.slice(5);
+    return /^[A-Za-z0-9_-]{43}(?:\/[A-Za-z0-9_./-]*)?$/.test(path) && !path.split('/').includes('..') ? 'https://arweave.net/' + path : null;
+  }
   if (uri.startsWith('ipfs://')) {
     const rest = uri.slice('ipfs://'.length).replace(/^ipfs\//, '');
-    return `https://ipfs.io/ipfs/${rest}`;
+    return `https://ipfs.filebase.io/ipfs/${rest}`;
   }
-  if (uri.startsWith('http://') || uri.startsWith('https://')) return uri;
+  if (uri.startsWith('http://') || uri.startsWith('https://')) {
+    try {
+      const url = new URL(uri);
+      // The explorer's default dweb/ipfs.io gateway is rate-limiting artwork.
+      // Keep the immutable CID and use the verified public image gateway.
+      if (['dweb.link','ipfs.io','gateway.ipfs.io'].includes(url.hostname) && url.pathname.startsWith('/ipfs/')) return 'https://ipfs.filebase.io' + url.pathname;
+    } catch { return null; }
+    return uri;
+  }
   return null;
 }
 
@@ -131,6 +145,8 @@ export function normalizeIndexerAsset(
   const metadata = asset.metadata;
   return {
     identifier: asset.tokenId,
+    sourceAssetId: typeof metadata?.asset_id === 'string' ? metadata.asset_id : null,
+    instanceTag: typeof metadata?.tag === 'string' ? metadata.tag : null,
     name: metadata?.name || `#${asset.tokenId}`,
     image: resolveMediaUrl(metadata?.image),
     collectionSlug,

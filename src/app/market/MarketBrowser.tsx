@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useRef } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { WilderIndustry } from '@/lib/wilderCollections';
 import { getEntrySource } from '@/lib/wilderCollections';
 import { getStaticTraits } from '@/lib/wilderTraits';
@@ -14,7 +14,7 @@ import { useMarketTraitsQuery } from './hooks/useMarketTraitsQuery';
 import { useMediaQuery } from './hooks/useMediaQuery';
 import { useInfiniteScroll } from './hooks/useInfiniteScroll';
 import { useMarketUrlSync } from './hooks/useMarketUrlSync';
-import { countSelectedTraits, filterByTraits } from './lib/items';
+import { countSelectedTraits, filterByTraits, searchLoadedItems } from './lib/items';
 import type { Availability } from './types';
 import { CollectionNav } from './components/CollectionNav';
 import { MobileCollectionMenu } from './components/MobileCollectionMenu';
@@ -30,9 +30,16 @@ import { LoadMoreSentinel } from './components/LoadMoreSentinel';
 import { ItemModal } from './components/ItemModal';
 import styles from './market.module.css';
 
-type Props = { industries: WilderIndustry[] };
+type Props = { industries: WilderIndustry[]; embedded?: boolean; initialQuery?: string };
 
-export default function MarketBrowser({ industries }: Props) {
+export default function MarketBrowser({ industries, embedded = false, initialQuery = '' }: Props) {
+  const [query, setQuery] = useState(initialQuery);
+  useEffect(() => {
+    const readQuery = () => setQuery(new URLSearchParams(window.location.search).get('q') ?? '');
+    readQuery();
+    window.addEventListener('popstate', readQuery);
+    return () => window.removeEventListener('popstate', readQuery);
+  }, []);
   const allEntries = useMemo(
     () => industries.flatMap((i) => i.collections),
     [industries]
@@ -101,8 +108,8 @@ export default function MarketBrowser({ industries }: Props) {
   // loaded page client-side.
   const filtered = useMemo(
     () =>
-      isIndexerSource ? items : filterByTraits(items, selectedTraits),
-    [isIndexerSource, items, selectedTraits]
+      searchLoadedItems(isIndexerSource ? items : filterByTraits(items, selectedTraits), query),
+    [isIndexerSource, items, selectedTraits, query]
   );
   const selectedCount = countSelectedTraits(selectedTraits);
 
@@ -236,8 +243,11 @@ export default function MarketBrowser({ industries }: Props) {
     />
   );
 
-  const emptyCopy =
-    items.length === 0
+  const emptyCopy = query.trim()
+    ? { title: 'No matches in loaded items', body: 'Search matches names, token IDs and traits in this collection. Load more items or try another collection.' }
+    : isIndexerSource && items.length === 0
+    ? { title: 'No items to display', body: 'No collectible inventory was returned for this collection.' }
+    : items.length === 0
       ? availability === 'listed'
         ? {
             title: 'No items currently listed',
@@ -254,9 +264,9 @@ export default function MarketBrowser({ industries }: Props) {
 
   return (
     <>
-      <div className={styles.topbar}>
+      <div className={`${styles.topbar} ${embedded ? styles.embeddedTopbar : ''}`}>
         <div className={styles.titleRow}>
-          <h1 className={styles.headerTitle}>Wilder Market</h1>
+          <h1 className={styles.headerTitle}>{embedded ? 'Originals' : 'Wilder Market'}</h1>
           <MobileCollectionMenu
             industries={industries}
             entries={allEntries}
@@ -323,6 +333,7 @@ export default function MarketBrowser({ industries }: Props) {
         </aside>
 
         <div className={styles.main}>
+          {query.trim() && <div className={styles.searchScope}><span>“{query}” · {filtered.length} matches in {items.length} loaded items</span><span>Current collection only</span></div>}
           {showSkeleton ? (
             <MarketSkeleton viewMode={viewMode} gridSize={gridSize} />
           ) : showUnavailable ? (
@@ -331,7 +342,7 @@ export default function MarketBrowser({ industries }: Props) {
               body={
                 isIndexerSource
                   ? 'Live data is unavailable right now. Please try again shortly.'
-                  : 'Live NFT data is unavailable right now. Check that the OpenSea API key is configured, or view the collection directly on OpenSea.'
+                  : 'Collection data is unavailable right now. Please try again later, or view this collection on OpenSea.'
               }
               openseaSlug={isIndexerSource ? undefined : activeEntry?.slug}
             />
@@ -367,6 +378,7 @@ export default function MarketBrowser({ industries }: Props) {
               )}
             </>
           )}
+          {query.trim() && !showSkeleton && !showUnavailable && hasNextPage && filtered.length === 0 && <button className={styles.searchMore} onClick={loadMore} disabled={isFetchingNextPage}>{isFetchingNextPage ? 'Loading items…' : 'Load more items to search'}</button>}
         </div>
       </div>
 

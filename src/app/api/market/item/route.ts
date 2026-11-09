@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { fetchExplorerItem, explorerUrl, originalProvenance, type OriginalDataProvenance } from '@/lib/originals-data';
 import {
   getEntryBySlug,
   getEntrySource,
@@ -26,6 +27,13 @@ export const revalidate = 300;
 const MAX_PAGES = 50;
 
 export type MarketItem = {
+  contract?: string;
+  chain?: string;
+  ownerAddress?: string | null;
+  tokenStandard?: string | null;
+  tokenUri?: string | null;
+  explorerUrl?: string | null;
+  provenance?: OriginalDataProvenance;
   identifier: string;
   name: string;
   image: string | null;
@@ -59,7 +67,15 @@ export async function GET(request: Request) {
     return NextResponse.json({ item: null }, { status: 400 });
   }
 
-  if (getEntrySource(entry) === 'indexer') return handleIndexer(entry, identifier);
+  if ((contractParam && contractParam.toLowerCase() !== entry.contract?.toLowerCase()) || (chainParam && chainParam !== entry.chain)) {
+    return NextResponse.json({item:null},{status:400});
+  }
+  if (getEntrySource(entry) === 'indexer') {
+    const indexed = await handleIndexer(entry,identifier);
+    if (indexed.status === 200) return indexed;
+    const item = await fetchExplorerItem(entry,identifier);
+    return NextResponse.json({item},{status:item ? 200 : 404});
+  }
 
   const chain = chainParam || entry.chain;
   let contract = contractParam || entry.contract || null;
@@ -81,19 +97,23 @@ export async function GET(request: Request) {
 
   const nft: OpenSeaNft | null = await fetchNftByContract(chain, contract, identifier);
   if (!nft) {
-    return NextResponse.json({ item: null }, { status: 404 });
+    const item = await fetchExplorerItem(entry,identifier);
+    return NextResponse.json({item},{status:item ? 200 : 404});
   }
+  if (nft.identifier !== identifier || nft.contract.toLowerCase() !== entry.contract?.toLowerCase()) return NextResponse.json({item:null},{status:502});
 
   const priceMap = await fetchBestListingsMap(entry.slug);
 
   const item: MarketItem = {
+    contract:entry.contract,chain:entry.chain,explorerUrl:explorerUrl(entry,identifier),
+    provenance:originalProvenance('opensea'),
     identifier: nft.identifier,
     name: nft.name || `${entry.label ?? entry.slug} #${nft.identifier}`,
     image: nft.display_image_url || nft.image_url || null,
     animationUrl: nft.display_animation_url || nft.animation_url || null,
     description: nft.description ?? null,
     collectionSlug: entry.slug,
-    collectionName: detail?.name ?? entry.label ?? entry.slug,
+    collectionName: detail?.name ?? entry.name ?? entry.label ?? entry.slug,
     traits: (nft.traits ?? []).map((t) => ({
       type: t.trait_type,
       value: String(t.value),
@@ -133,6 +153,9 @@ async function handleIndexer(entry: WilderCollectionEntry, identifier: string) {
 
   const metadata = asset.metadata;
   const item: MarketItem = {
+    contract:entry.contract,chain:entry.chain,explorerUrl:explorerUrl(entry,identifier),
+    ownerAddress:asset.ownerAddress,tokenStandard:asset.tokenStandard,tokenUri:resolveMediaUrl(asset.tokenUri),
+    provenance:originalProvenance('indexer'),
     identifier: asset.tokenId,
     name: metadata?.name || `${entry.label ?? entry.slug} #${asset.tokenId}`,
     image: resolveMediaUrl(metadata?.image),

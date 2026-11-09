@@ -1,0 +1,151 @@
+{
+  "products": [
+    {
+      "id": "totem-chain-jwlr-002",
+      "name": "Chain Totem / 01",
+      "department": "totems",
+      "collectionId": "clothing",
+      "section": "totems",
+      "subcategory": "chain-totems",
+      "description": "The triangular Wilder World pendant, shown on its own in close-up finish studies. Its identified source model also contains a chain; game fit and its relationship to existing Trinity ownership remain unverified.",
+      "image": null,
+      "gallery": [],
+      "variants": [],
+      "status": "Source candidate",
+      "imageKind": "no_preview",
+      "sourceAssets": [
+        "/Game/Avatars/Shared/Customization/Accessories/Human/Male/JWLR/JWLR_002/SK_JWLR_002"
+      ],
+      "sourceIds": [
+        "JWLR_002",
+        "SK_JWLR_002"
+      ],
+      "priceCents": null,
+      "onchain": {
+        "chainId": null,
+        "contract": null,
+        "tokenId": null,
+        "editionId": null
+      },
+      "purchaseEnabled": false,
+      "mintPermission": null,
+      "sourceEvidence": {
+        "id": "totem-chain-jwlr-002",
+        "sku": "JWLR_002",
+        "sourceAsset": "/Game/Avatars/Shared/Customization/Accessories/Human/Male/JWLR/JWLR_002/SK_JWLR_002",
+        "sha256": "0ebcd8de4292afc5a9690d70fce4a60a8ca7422d2dc11c5c12beb2e2acd297d5",
+        "sizeBytes": 3811702,
+        "materials": [
+          "MI_JWLRY_002_Chain",
+          "MI_JWLRY_002_Totem"
+        ],
+        "originalImportFile": "G:/My Drive/Characters/Clothing/JWLRY/SK_JWLR_002.fbx",
+        "importFileAvailable": false,
+        "meshType": "SkeletalMesh",
+        "inspection": "Runtime geometry export confirms chain plus triangular pendant with separate chain and totem material slots.",
+        "legacyTrinityBindingVerified": false,
+        "imageStatus": "unrendered_source_reference",
+        "exclusionBoundary": "Remains excluded from the curated clothing catalog; admitted only as a separate totem source candidate at the user request.",
+        "runtimeInspection": {
+          "report": "outputs/ww-native-wearables-20261107/cpu-pilot-report.json",
+          "nativeGeometryExported": true,
+          "containsPendant": true,
+          "sourceUnchanged": true,
+          "legacyOwnershipBindingVerified": false
+        }
+      }
+    },
+    {
+      "id": "totem-chain-jwlr-002-a",
+      "name": "Chain / 02",
+      "department": "totems",
+      "collectionId": "clothing",
+      "section": "totems",
+      "subcategory": "chain-totems",
+      "description": "A standalone chain from the Wilder World wearable archive. Pendant not included. Game fit and edition binding remain unverified.",
+      "image": null,
+      "gallery": [],
+      "variants": [],
+      "status": "Source candidate",
+      "imageKind": "no_preview",
+      "sourceAssets": [
+        "/Game/Avatars/Shared/Customization/Accessories/Human/Male/JWLR/JWLR_002/SK_JWLR_002_A"
+      ],
+      "sourceIds": [
+        "JWLR_002_A",
+        "SK_JWLR_002_A"
+      ],
+      "priceCents": null,
+      "onchain": {
+        "chainId": null,
+        "contract": null,
+        "tokenId": null,
+        "editionId": null
+      },
+      "purchaseEnabled": false,
+      "mintPermission": null,
+      "sourceEvidence": {
+        "id": "totem-chain-jwlr-002-a",
+        "sku": "JWLR_002_A",
+        "sourceAsset": "/Game/Avatars/Shared/Customization/Accessories/Human/Male/JWLR/JWLR_002/SK_JWLR_002_A",
+        "sha256": "c32b1e6078324a0ee02ea1d17e5bceb0c8d325b1de6168d7877b40387db4f978",
+        "sizeBytes": 2515851,
+        "materials": [
+          "MI_JWLRY_002_Chain"
+        ],
+        "originalImportFile": "G:/My Drive/Characters/Clothing/JWLRY/SK_JWLR_002_A.fbx",
+        "importFileAvailable": false,
+        "meshType": "SkeletalMesh",
+        "inspection": "Runtime geometry export confirms a standalone chain with one chain material slot, without a pendant.",
+        "legacyTrinityBindingVerified": false,
+        "imageStatus": "unrendered_source_reference",
+        "exclusionBoundary": "Remains excluded from the curated clothing catalog; admitted only as a separate totem source candidate at the user request.",
+        "runtimeInspection": {
+          "report": "outputs/ww-native-wearables-20261107/cpu-pilot-report.json",
+          "nativeGeometryExported": true,
+          "containsPendant": false,
+          "sourceUnchanged": true,
+          "legacyOwnershipBindingVerified": false
+        }
+      }
+    }
+  ],
+  "provenance": [
+    {
+      "id": "totem-chain-jwlr-002",
+      "sku": "JWLR_002",
+      "sourceAsset": "/Game/Avatars/Shared/Customization/Accessories/Human/Male/JWLR/JWLR_002/SK_JWLR_002",
+      "sha256": "0ebcd8de4292afc5a9690d70fce4a60a8ca7422d2dc11c5c12beb2e2acd297d5",
+      "sizeBytes": 3811702,
+      "materials": [
+        "MI_JWLRY_002_Chain",
+        "MI_JWLRY_002_Totem"
+      ],
+      "originalImportFile": "G:/My Drive/Characters/Clothing/JWLRY/SK_JWLR_002.fbx",
+      "importFileAvailable": false,
+      "meshType": "SkeletalMesh",
+      "inspection": "Package references chain and totem materials. Existing thumbnail shows a chain on a base character with pendant below frame. Complete assembly geometry and fit remain unverified.",
+      "legacyTrinityBindingVerified": false,
+      "imageStatus": "unrendered_source_reference",
+      "exclusionBoundary": "Remains excluded from the curated clothing catalog; admitted only as a separate totem source candidate at the user request."
+    },
+    {
+      "id": "totem-chain-jwlr-002-a",
+      "sku": "JWLR_002_A",
+      "sourceAsset": "/Game/Avatars/Shared/Customization/Accessories/Human/Male/JWLR/JWLR_002/SK_JWLR_002_A",
+      "sha256": "c32b1e6078324a0ee02ea1d17e5bceb0c8d325b1de6168d7877b40387db4f978",
+      "sizeBytes": 2515851,
+      "materials": [
+        "MI_JWLRY_002_Chain",
+        "MI_JWLRY_002_Totem"
+      ],
+      "originalImportFile": "G:/My Drive/Characters/Clothing/JWLRY/SK_JWLR_002_A.fbx",
+      "importFileAvailable": false,
+      "meshType": "SkeletalMesh",
+      "inspection": "Package references chain and totem materials. Existing thumbnail shows a chain on a base character with pendant below frame. Complete assembly geometry and fit remain unverified.",
+      "legacyTrinityBindingVerified": false,
+      "imageStatus": "unrendered_source_reference",
+      "exclusionBoundary": "Remains excluded from the curated clothing catalog; admitted only as a separate totem source candidate at the user request."
+    }
+  ]
+}

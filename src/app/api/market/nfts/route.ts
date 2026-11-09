@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { fetchExplorerPage, originalProvenance } from '@/lib/originals-data';
 import {
   getEntryBySlug,
   getEntrySource,
@@ -38,7 +39,7 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const slug = searchParams.get('slug');
   const next = searchParams.get('next');
-  const status = searchParams.get('status') === 'unlisted' ? 'unlisted' : 'listed';
+  const status = searchParams.get('status') === 'all' ? 'all' : searchParams.get('status') === 'unlisted' ? 'unlisted' : 'listed';
 
   const empty: { items: MarketNft[]; next: string | null; error: boolean } = {
     items: [],
@@ -54,6 +55,34 @@ export async function GET(request: Request) {
 
   const entry = slug ? getEntryBySlug(slug) : undefined;
   if (!entry) return NextResponse.json(empty);
+
+  // Catalog browsing is independent from listings: public explorer metadata is
+  // safe to show when the marketplace API is not configured.
+  if (status === 'all') {
+    if (getEntrySource(entry) === 'indexer' && !next?.startsWith('bs:')) {
+      const indexed = await handleIndexer(entry, next, fetchFailed, searchParams.get('attributes'));
+      if (indexed.status === 200) return indexed;
+    } else if (entry.chain === 'ethereum' && !next?.startsWith('bs:')) {
+      const page = entry.contract ? await fetchNftsByContract(entry.chain,entry.contract,next) : null;
+      if (page) {
+        const provenance = originalProvenance('opensea');
+        return NextResponse.json({items:page.nfts.filter(nft=>nft.contract?.toLowerCase()===entry.contract?.toLowerCase()).map(nft=>({...normalizeNft(nft,entry.slug,entry.chain,null),collectionSlug:entry.slug,provenance})),next:page.next,error:false,provenance});
+      }
+      // Never change providers halfway through another provider's cursor.
+      if (next) return fetchFailed();
+    }
+    const page = await fetchExplorerPage(entry,next);
+    if (!page) return fetchFailed();
+    let items = page.items;
+    if (searchParams.get('attributes')) {
+      try {
+        const attributes = JSON.parse(searchParams.get('attributes')!);
+        if (!attributes || typeof attributes !== 'object' || Array.isArray(attributes)) return NextResponse.json({error:true},{status:400});
+        items = items.filter(item=>Object.entries(attributes).every(([type,values])=>Array.isArray(values) && (!values.length || item.traits.some(trait=>trait.type===type && values.includes(trait.value)))));
+      } catch { return NextResponse.json({error:true},{status:400}); }
+    }
+    return NextResponse.json({...page,items,error:false});
+  }
 
   // Z-Chain collections are indexer-backed and browse-only: no listings, no
   // prices, no listed/unlisted distinction. Paginated via a numeric offset
@@ -71,6 +100,7 @@ export async function GET(request: Request) {
     const seen = new Set<string>();
     const ordered: BestListing[] = [];
     for (const listing of page.listings) {
+      if (listing.contract && listing.contract.toLowerCase() !== entry.contract?.toLowerCase()) continue;
       if (seen.has(listing.identifier)) continue;
       seen.add(listing.identifier);
       ordered.push(listing);
@@ -102,7 +132,7 @@ export async function GET(request: Request) {
       };
     });
 
-    return NextResponse.json({ items, next: page.next, error: false });
+    return NextResponse.json({ items, next: page.next, error: false, provenance: originalProvenance('opensea','available') });
   }
 
   // status === 'unlisted'
@@ -133,7 +163,7 @@ export async function GET(request: Request) {
     .filter((nft) => priceMap[nft.identifier] == null)
     .map((nft) => normalizeNft(nft, entry.slug, entry.chain, null));
 
-  return NextResponse.json({ items, next: nextCursor, error: false });
+  return NextResponse.json({ items, next: nextCursor, error: false, provenance: originalProvenance('opensea','available') });
 }
 
 async function handleIndexer(

@@ -31,10 +31,13 @@
   grid-template-columns: 1.6fr 1fr;
   width: min(1600px, 96vw);
   height: 92vh;
-  overflow: hidden;
+  overflow-y: auto;
+  grid-template-rows: minmax(390px, 65vh) auto;
   background: #000;
   border: 1px solid #1c1c1f;
 }
+
+.marketSection{grid-column:1/-1;min-width:0;padding:28px;background:#090a0b;border-top:1px solid #242629}
 
 /* Left: full-bleed artwork, no padding/border. */
 .frame {
@@ -346,14 +349,17 @@
 @media (max-width: 820px) {
   .dialog {
     grid-template-columns: 1fr;
-    grid-template-rows: 55% 45%;
+    grid-template-rows: minmax(300px,50vh) auto auto;
     height: 94vh;
   }
 
   .details {
+    height:auto;
+    overflow:visible;
     border-left: none;
     border-top: 1px solid #1c1c1f;
   }
+  .marketSection{padding:14px}
 
   .nav {
     width: 2.5rem;

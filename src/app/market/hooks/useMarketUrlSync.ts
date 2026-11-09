@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef } from 'react';
 import { useMarketStore } from '../store/marketStore';
+import { marketNavigationSearch } from '../lib/store-links';
 
 type OpenModalOptions = { replace?: boolean };
 
@@ -55,7 +56,7 @@ export function useMarketUrlSync(
         window.scrollTo({ top: 0, behavior: 'smooth' });
         return;
       }
-      window.history.replaceState({}, '', `?c=${slug}`);
+      window.history.replaceState({}, '', marketNavigationSearch(window.location.search, slug));
       window.scrollTo({ top: 0, behavior: 'auto' });
     },
     [selectCollection]
@@ -65,7 +66,7 @@ export function useMarketUrlSync(
     (id: string, { replace = false }: OpenModalOptions = {}) => {
       setModalId(id);
       closingRef.current = false;
-      const url = `?c=${useMarketStore.getState().activeSlug}&token=${id}`;
+      const url = marketNavigationSearch(window.location.search, useMarketStore.getState().activeSlug, id);
       const state = { token: id };
       // Opening from the grid pushes a single history entry; navigating the
       // carousel replaces it so closing always returns straight to the grid.
@@ -82,7 +83,7 @@ export function useMarketUrlSync(
       window.history.back();
     } else {
       setModalId(null);
-      window.history.replaceState({}, '', `?c=${useMarketStore.getState().activeSlug}`);
+      window.history.replaceState({}, '', marketNavigationSearch(window.location.search, useMarketStore.getState().activeSlug));
     }
   }, [setModalId]);
 

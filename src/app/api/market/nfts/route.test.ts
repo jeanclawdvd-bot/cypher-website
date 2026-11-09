@@ -1,3 +1,4 @@
+vi.mock('@/lib/originals-data', async (importActual) => { const actual=await importActual<typeof import('@/lib/originals-data')>(); return {...actual,fetchExplorerPage:vi.fn().mockResolvedValue(null),fetchExplorerItem:vi.fn().mockResolvedValue(null),fetchExplorerCollection:vi.fn().mockResolvedValue(null)}; });
 import { beforeEach, describe, expect, it, vi, type MockedFunction } from 'vitest';
 import type { IndexerAsset, IndexerInventoryResponse } from '@/lib/indexer';
 
@@ -19,6 +20,12 @@ vi.mock('@/lib/opensea', async (importActual) => {
 
 import { indexerFetch } from '@/lib/indexer';
 import { GET } from './route';
+import { objectArray, readJsonObject } from '../testResponse';
+
+async function readNftsResponse(response: { json(): Promise<unknown> }) {
+  const body = await readJsonObject(response);
+  return { items: objectArray(body.items), next: body.next, error: body.error };
+}
 
 // `indexerFetch` is generic, so type the mock against a concrete signature.
 const mockedFetch = indexerFetch as MockedFunction<
@@ -69,7 +76,7 @@ describe('GET /api/market/nfts (indexer branch)', () => {
   it('returns the first page of 50 with next="50" when more remain', async () => {
     servePages(450);
     const res = await GET(request('slug=packs'));
-    const body = await res.json();
+    const body = await readNftsResponse(res);
     expect(body.error).toBe(false);
     expect(body.items).toHaveLength(50);
     expect(body.items[0].identifier).toBe('0');
@@ -81,11 +88,11 @@ describe('GET /api/market/nfts (indexer branch)', () => {
 
   it('walks subsequent pages via next and terminates with next=null', async () => {
     servePages(450);
-    const page2 = await (await GET(request('slug=packs&next=50'))).json();
+    const page2 = await readNftsResponse(await GET(request('slug=packs&next=50')));
     expect(page2.items[0].identifier).toBe('50');
     expect(page2.next).toBe('100');
 
-    const last = await (await GET(request('slug=packs&next=400'))).json();
+    const last = await readNftsResponse(await GET(request('slug=packs&next=400')));
     expect(last.items).toHaveLength(50);
     expect(last.next).toBeNull();
   });
@@ -94,23 +101,23 @@ describe('GET /api/market/nfts (indexer branch)', () => {
     mockedFetch.mockResolvedValueOnce({
       items: Array.from({ length: 50 }, (_, i) => makeAsset(String(i))),
     } satisfies IndexerInventoryResponse);
-    const body = await (await GET(request('slug=packs'))).json();
+    const body = await readNftsResponse(await GET(request('slug=packs')));
     expect(body.next).toBe('50');
 
     mockedFetch.mockResolvedValueOnce({
       items: [makeAsset('50')],
     } satisfies IndexerInventoryResponse);
-    const tail = await (await GET(request('slug=packs&next=50'))).json();
+    const tail = await readNftsResponse(await GET(request('slug=packs&next=50')));
     expect(tail.next).toBeNull();
   });
 
   it('treats a NaN or negative next cursor as offset 0', async () => {
     servePages(10);
-    const body = await (await GET(request('slug=packs&next=bogus'))).json();
+    const body = await readNftsResponse(await GET(request('slug=packs&next=bogus')));
     expect(body.items).toHaveLength(10);
     expect(mockedFetch.mock.calls[0][0]).toContain('offset=0');
 
-    const neg = await (await GET(request('slug=packs&next=-5'))).json();
+    const neg = await readNftsResponse(await GET(request('slug=packs&next=-5')));
     expect(neg.items).toHaveLength(10);
     expect(mockedFetch.mock.calls[1][0]).toContain('offset=0');
   });

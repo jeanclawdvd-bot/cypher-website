@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "evidence": "outputs/ww-clothing-fit-audit-20261108/clothing-fit-pairing-audit.json",
+  "policy": {
+    "presentation": "One style entry for matching designs; select a source-backed Men or Women cut on the product page.",
+    "purchase": "One selected fit and one selected color. It does not grant both fits or all colors.",
+    "identity": "Original fit-specific product/SKU and color concept IDs remain unchanged. A fit switch selects a different item and its own colors, bag, listings and market.",
+    "tokens": "Future approved fit+color editions remain distinct; each issued ERC-721 copy has its own token ID. No token IDs or mint rights are assigned here.",
+    "shared": "Single shared accessories are not duplicated into male/female stock. Only explicit source compatibility qualifies for both fit filters.",
+    "unknown": "Unconfirmed items remain in All fits. No inference from suffix, model appearance, family name or default Unisex label.",
+    "supply": "Grouping is presentation only. Existing per-SKU supply and pricing proposals are preserved; no extra stock or approved caps created.",
+    "colors": "Nine visual concepts per retained fit-specific SKU. Matching colors across fits require separate approval; do not copy an index or assume equal shaders."
+  },
+  "families": [
+    {
+      "styleId": "BTWR_001",
+      "name": "Undertow Ledger",
+      "fits": [
+        {
+          "label": "Men",
+          "productId": "BTWR_001"
+        },
+        {
+          "label": "Women",
+          "productId": "BTWR_001_F"
+        }
+      ],
+      "basis": "Matching utility trouser design and complete three-component assembly across explicit Male and Female source directories. Both sets have component triangle counts 21716, 5544, 7480.",
+      "caution": "BTWR_001_A and BTWR_001_B omit components 3 and 2+3 respectively. They are configuration variants, not alternate fits, and must not silently inherit the full female assembly.",
+      "gameCompatibilityValidated": false
+    },
+    {
+      "styleId": "BTWR_002",
+      "name": "Common Ground",
+      "fits": [
+        {
+          "label": "Men",
+          "productId": "BTWR_002"
+        },
+        {
+          "label": "Women",
+          "productId": "BTWR_002_F"
+        }
+      ],
+      "basis": "Matching five-pocket technical trouser silhouette with the same panel arrangements for the base and A artwork families. Explicit Female mesh is reused for its two authored material appearances; all fits have 23590 triangles.",
+      "caution": "A is an artwork/material distinction here, not a female suffix. Existing source aliases and native material overrides must be retained; do not collapse the two artworks merely because the female mesh is shared.",
+      "gameCompatibilityValidated": false
+    },
+    {
+      "styleId": "BTWR_002_A",
+      "name": "Common Ground / 02",
+      "fits": [
+        {
+          "label": "Men",
+          "productId": "BTWR_002_A"
+        },
+        {
+          "label": "Women",
+          "productId": "BTWR_002_A_F"
+        }
+      ],
+      "basis": "Matching five-pocket technical trouser silhouette with the same panel arrangements for the base and A artwork families. Explicit Female mesh is reused for its two authored material appearances; all fits have 23590 triangles.",
+      "caution": "A is an artwork/material distinction here, not a female suffix. Existing source aliases and native material overrides must be retained; do not collapse the two artworks merely because the female mesh is shared.",
+      "gameCompatibilityValidated": false
+    },
+    {
+      "styleId": "BTWR_004",
+      "name": "Wrong Exit",
+      "fits": [
+        {
+          "label": "Men",
+          "productId": "BTWR_004"
+        },
+        {
+          "label": "Women",
+          "productId": "BTWR_004_F"
+        }
+      ],
+      "basis": "Matching gathered-waist/cuff jogger design in explicit Male/Female meshes; 15126 triangles per source. Base and A source artwork match corresponding female thumbnails.",
+      "caution": "Base/A artwork and each fit remain separately identified even if displayed on one style page.",
+      "gameCompatibilityValidated": false
+    },
+    {
+      "styleId": "BTWR_004_A",
+      "name": "Wrong Exit / 02",
+      "fits": [
+        {
+          "label": "Men",
+          "productId": "BTWR_004_A"
+        },
+        {
+          "label": "Women",
+          "productId": "BTWR_004_A_F"
+        }
+      ],
+      "basis": "Matching gathered-waist/cuff jogger design in explicit Male/Female meshes; 15126 triangles per source. Base and A source artwork match corresponding female thumbnails.",
+      "caution": "Base/A artwork and each fit remain separately identified even if displayed on one style page.",
+      "gameCompatibilityValidated": false
+    },
+    {
+      "styleId": "FTWR_005",
+      "name": "Marble Debt",
+      "fits": [
+        {
+          "label": "Men",
+          "productId": "FTWR_005"
+        },
+        {
+          "label": "Women",
+          "productId": "FTWR_005_A"
+        }
+      ],
+      "basis": "Matching strapped high-top footwear construction in explicit Male/Female source meshes, both 15598 vertices and 29278 triangles.",
+      "caution": "Native source material bindings differ (MI_SUIT_003 versus MI_SUIT_002). Shared footwear design is supported; exact finish equivalence must not be inferred.",
+      "gameCompatibilityValidated": false
+    },
+    {
+      "styleId": "SUIT_001",
+      "name": "Borrowed Body",
+      "fits": [
+        {
+          "label": "Men",
+          "productId": "SUIT_001"
+        },
+        {
+          "label": "Women",
+          "productId": "SUIT_001_A"
+        }
+      ],
+      "basis": "Matching first suit design with female-shaped torso/hip fit; explicit Male/Female meshes each 16955 vertices and 32968 triangles.",
+      "caution": "Separate fit meshes are native render bindings, not proof that an existing NFT grants both fits. Current suit-only product previews intentionally exclude gloves and footwear.",
+      "gameCompatibilityValidated": false
+    },
+    {
+      "styleId": "SUIT_002",
+      "name": "Exit Velocity",
+      "fits": [
+        {
+          "label": "Men",
+          "productId": "SUIT_002"
+        },
+        {
+          "label": "Women",
+          "productId": "SUIT_002_A"
+        }
+      ],
+      "basis": "Matching second suit design in explicit Male/Female sources, each 18085 vertices and 35932 triangles.",
+      "caution": "Keep SUIT_002 distinct from SUIT_003/004: equal counts across those families do not establish the same design.",
+      "gameCompatibilityValidated": false
+    },
+    {
+      "styleId": "SUIT_003",
+      "name": "Duplicate Citizen",
+      "fits": [
+        {
+          "label": "Men",
+          "productId": "SUIT_003"
+        },
+        {
+          "label": "Women",
+          "productId": "SUIT_003_A"
+        }
+      ],
+      "basis": "Matching third suit design in explicit Male/Female sources, each 18085 vertices and 35932 triangles.",
+      "caution": "Keep SUIT_003 distinct from the other suit families; original paneling/collar and authored material design differ.",
+      "gameCompatibilityValidated": false
+    },
+    {
+      "styleId": "SUIT_004",
+      "name": "Permanent Guest",
+      "fits": [
+        {
+          "label": "Men",
+          "productId": "SUIT_004"
+        },
+        {
+          "label": "Women",
+          "productId": "SUIT_004_A"
+        }
+      ],
+      "basis": "Matching fourth suit design including the reinforced knee/panel treatment in explicit Male/Female sources, each 18085 vertices and 35932 triangles.",
+      "caution": "Keep SUIT_004 distinct from SUIT_002/003 despite equal mesh counts.",
+      "gameCompatibilityValidated": false
+    }
+  ],
+  "unresolvedProductIds": [
+    "BTWR_010_F",
+    "JCKT_001_F",
+    "JCKT_002_F",
+    "JCKT_N30_F",
+    "TPWR_002_A_F",
+    "TPWR_002_F"
+  ],
+  "keepSeparate": [
+    {
+      "products": [
+        "TPWR_005",
+        "TPWR_006"
+      ],
+      "reason": "Scoop-neck and V-neck crop top designs, distinct silhouettes and panels."
+    },
+    {
+      "products": [
+        "SUIT_001",
+        "SUIT_002",
+        "SUIT_003",
+        "SUIT_004"
+      ],
+      "reason": "Different suit designs; only corresponding male/female sources within each family are pairing candidates."
+    },
+    {
+      "products": [
+        "BTWR_001",
+        "BTWR_002",
+        "BTWR_003_F",
+        "BTWR_004"
+      ],
+      "reason": "Utility cargo, five-pocket technical, slim rolled-cuff and jogger constructions differ."
+    },
+    {
+      "products": [
+        "BTWR_001",
+        "BTWR_001_A",
+        "BTWR_001_B"
+      ],
+      "reason": "Complete versus reduced component configurations; not a fit axis."
+    }
+  ],
+  "conditionalFamilies": [
+    {
+      "familyId": "TPWR_003",
+      "decision": "Do not automatically merge these finished designs. Confirm whether the desired shared style includes these distinct artwork editions or requires genuinely matched fit+color images."
+    }
+  ],
+  "leggings": {
+    "status": "unverified",
+    "evidence": "outputs/ww-female-leggings-discovery-20261108/findings.json"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "sourceRelease": 27,
+  "sourceCommit": "f09dac634227f4711c64d571bc29c2ab1b21294c",
+  "branch": "codex/dom-store-handoff-20261109",
+  "upstreamBase": "c5d8b76a5bfcb1465b3bc728281f6028fb936629",
+  "filesImported": 7948,
+  "productPhotosChanged": false,
+  "lifestyleApproval": "pending; approvedImages is empty",
+  "contractTarget": [
+    "vehicles",
+    "clothing",
+    "furniture",
+    "statues",
+    "totems"
+  ],
+  "contractSourceStatus": "historical three-family local baseline; five-family implementation pending",
+  "productionEnabled": false,
+  "supersededUpstreamMediaRemoved": 267,
+  "validation": {
+    "build": "passed",
+    "typecheck": "passed",
+    "tests": {
+      "passed": 635,
+      "failed": 19
+    },
+    "localHttpRoutesPassed": 6,
+    "localMigrationsPassed": 6,
+    "mediaIdenticalToSource": 7201
+  }
+}

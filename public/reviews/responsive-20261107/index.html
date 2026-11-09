@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Wilder World responsive review</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#1c1d1e;color:#ddd;font:13px Arial,sans-serif}header{padding:20px;display:flex;gap:20px;align-items:center}a{color:#ff835c}.frames{display:flex;align-items:start;gap:24px;padding:0 20px 20px;overflow:auto}.frame{flex-shrink:0}h2{font-size:13px;font-weight:400}iframe{display:block;border:1px solid #444;background:#090a0b;height:950px}.mobile{width:390px}.tablet{width:768px}</style>
+<header><strong>Responsive review · local only</strong><a href="?page=home">Home</a><a href="?page=originals">Originals</a><a href="?page=product">Product</a><a href="?page=account">Account</a></header>
+<div class="frames"><section class="frame"><h2>390 px · phone</h2><iframe class="mobile" title="Phone preview"></iframe></section><section class="frame"><h2>768 px · tablet</h2><iframe class="tablet" title="Tablet preview"></iframe></section></div>
+<script>const pages={home:'/',originals:'/store/market?c=wilderworld',product:'/store/products/furniture-sofa',account:'/store/account'};const src=pages[new URLSearchParams(location.search).get('page')]||pages.home;document.querySelectorAll('iframe').forEach(frame=>frame.src=src);</script></html>

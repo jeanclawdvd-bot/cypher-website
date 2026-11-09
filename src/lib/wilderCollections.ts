@@ -22,6 +22,8 @@ export type WilderCollectionEntry = {
   id: string;
   /** Collection slug — OpenSea slug for ETH entries, indexer slug otherwise. */
   slug: string;
+  /** Customer-facing collection name; not the onchain contract name. */
+  name?: string;
   /** Optional sub-label when an industry has more than one collection. */
   label?: string;
   /** Chain the collection lives on. */
@@ -53,10 +55,13 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
     collections: [
       {
         id: 'land-the-island',
+        name: 'Wilder Land: The Island',
         slug: 'wilder-land-the-island',
         chain: 'ethereum',
         contract: '0xd396ca541F501f5D303166C509e2045848df356b',
-        launched: '2021',
+        // Genesis Land airdrop, distinct from the December 2025 playable preview.
+        // https://wiki.wilderworld.com/nfts-and-industries/intro-to-industries-nft-collections-and-mints/land/the-island-genesis-land
+        launched: 'Oct 2024',
         blurb: 'Onchain parcels across The Island — the foundation of mining and building.',
       },
     ],
@@ -70,6 +75,7 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
         // `wilderworld` (verified). NFTs are still fetched by contract; the
         // slug drives collection stats + the trait filter endpoint.
         id: 'wheels-genesis',
+        name: 'Wilder Wheels',
         slug: 'wilderworld',
         chain: 'ethereum',
         contract: '0xc2e9678A71e50E5AeD036e00e9c5caeb1aC5987D',
@@ -80,11 +86,30 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
     ],
   },
   {
+    id: 'lamborghini',
+    name: 'Lamborghini',
+    collections: [
+      {
+        id: 'lamborghini-temerario',
+        name: 'Lamborghini & Wilder World: The Temerario',
+        label: 'Temerario & Temerario GT3',
+        slug: 'wilder-lamborghini-temerario',
+        chain: 'ethereum',
+        // Verified against the collection and its Ethereum explorer record.
+        // https://opensea.io/collection/wilder-lamborghini-temerario
+        contract: '0x6b2cB4B806122fCf3dbeb042Bc1E39507c90f8B7',
+        launched: 'Jul 2025',
+        blurb: 'The Temerario and Temerario GT3 collection from Lamborghini and Wilder World.',
+      },
+    ],
+  },
+  {
     id: 'beasts',
     name: 'Beasts',
     collections: [
       {
         id: 'beasts-wolves',
+        name: 'Wilder Beasts: Wolf',
         slug: 'wilderbeasts-wolf',
         label: 'Wolves',
         chain: 'ethereum',
@@ -94,6 +119,7 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
       },
       {
         id: 'beasts-wapes',
+        name: 'Wilder Beasts: Wape',
         slug: 'wilderbeasts-wape',
         label: 'Wapes',
         chain: 'ethereum',
@@ -109,6 +135,7 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
     collections: [
       {
         id: 'moto-genesis',
+        name: 'Wilder Moto Genesis',
         slug: 'wilder-moto',
         chain: 'ethereum',
         contract: '0x51bd5948cf84a1041d2720f56dED5E173396fc95',
@@ -123,6 +150,7 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
     collections: [
       {
         id: 'pals-gen',
+        name: 'Wilder PALs: GEN',
         slug: 'wilderpals-gen',
         label: 'GEN',
         chain: 'ethereum',
@@ -139,6 +167,7 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
     collections: [
       {
         id: 'crafts-genesis',
+        name: 'Wilder Crafts Genesis',
         slug: 'wilder-crafts-genesis',
         chain: 'ethereum',
         contract: '0xE4954E4FB3C448f4eFBC1f8EC40eD54a2A1cc1f5',
@@ -153,6 +182,7 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
     collections: [
       {
         id: 'cribs-genesis',
+        name: 'Wilder Cribs Genesis',
         slug: 'wilder-cribs-genesis',
         chain: 'ethereum',
         contract: '0xfEA385B9E6e4fdfA3508aE6863d540c4a8Ccc0fE',
@@ -167,6 +197,7 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
     collections: [
       {
         id: 'kicks-season-0',
+        name: 'AIR WILD Season Zero',
         slug: 'aws0',
         label: 'AIRWILD Season 0',
         chain: 'ethereum',
@@ -176,6 +207,7 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
       },
       {
         id: 'kicks-season-1',
+        name: 'AIR WILD Season One',
         slug: 'aws1',
         label: 'AIRWILD Season 1',
         chain: 'ethereum',
@@ -185,6 +217,7 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
       },
       {
         id: 'kicks-season-2',
+        name: 'AIR WILD Season Two',
         slug: 'air-wild',
         label: 'AIRWILD Season 2',
         chain: 'ethereum',
@@ -200,6 +233,7 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
     collections: [
       {
         id: 'packs',
+        name: 'Wilder Packs',
         slug: 'packs',
         chain: 'zchain',
         chainId: 9369,
@@ -209,16 +243,18 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
       },
       {
         id: 'pack-weapons',
+        name: 'Wilder Pack Weapons',
         slug: 'pack-weapons',
         label: 'Weapons',
         chain: 'zchain',
         chainId: 9369,
         source: 'indexer',
         contract: '0x693de821fc5999ac3738720f53763fe8aafaf6ac',
-        blurb: 'Weapons revealed from Z-Chain packs.',
+        blurb: 'Weapons revealed from Wilder Packs.',
       },
       {
         id: 'pack-wheels',
+        name: 'Wilder Pack Wheels',
         slug: 'pack-wheels',
         label: 'Wheels',
         chain: 'zchain',
@@ -229,6 +265,7 @@ export const WILDER_INDUSTRIES: WilderIndustry[] = [
       },
       {
         id: 'pack-avatars',
+        name: 'Wilder Pack Avatars',
         slug: 'pack-avatars',
         label: 'Avatars',
         chain: 'zchain',

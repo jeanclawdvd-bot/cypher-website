@@ -299,6 +299,7 @@
 
 .topNavLink {
   display: inline-flex;
+  white-space: nowrap;
   align-items: center;
   gap: 5px;
   padding: 10px 16px;

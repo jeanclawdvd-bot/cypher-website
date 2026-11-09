@@ -1,0 +1,968 @@
+{
+  "MAT-JCKT_002_1-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_1-oxide.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_1.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_1-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_1-glacier.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_1.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_1-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_1-ultraviolet.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_1.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_1-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_1-moss.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_1.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_1-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_1-chrome.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_1.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_1-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_1-acid.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_1.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_2-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_2-oxide.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_2.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_2-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_2-glacier.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_2.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_2-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_2-ultraviolet.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_2.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_2-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_2-moss.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_2.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_2-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_2-chrome.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_2.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_2-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_2-acid.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_2.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_3-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_3-oxide.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_3.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_3-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_3-glacier.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_3.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_3-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_3-ultraviolet.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_3.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_3-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_3-moss.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_3.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_3-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_3-chrome.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_3.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_3-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_3-acid.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_3.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_4-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_4-oxide.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_4.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_4-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_4-glacier.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_4.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_4-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_4-ultraviolet.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_4.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_4-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_4-moss.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_4.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_4-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_4-chrome.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_4.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_4-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_4-acid.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_4.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_5-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_5-oxide.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_5.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_5-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_5-glacier.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_5.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_5-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_5-ultraviolet.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_5.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_5-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_5-moss.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_5.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_5-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_5-chrome.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_5.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_5-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_5-acid.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_5.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_F-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_F-oxide.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_F-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_F-glacier.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_F-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_F-ultraviolet.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_F-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_F-moss.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_F-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_F-chrome.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_002_F-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_002_F-acid.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_002_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005-oxide.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005-glacier.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005-ultraviolet.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005-moss.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005-chrome.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005-acid.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005_A-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005_A-oxide.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005_A.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005_A-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005_A-glacier.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005_A.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005_A-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005_A-ultraviolet.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005_A.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005_A-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005_A-moss.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005_A.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005_A-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005_A-chrome.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005_A.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005_A-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005_A-acid.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005_A.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005_B-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005_B-oxide.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005_B.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005_B-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005_B-glacier.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005_B.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005_B-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005_B-ultraviolet.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005_B.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005_B-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005_B-moss.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005_B.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005_B-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005_B-chrome.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005_B.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_005_B-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_005_B-acid.webp",
+    "sourceReference": "/images/accessories/isolated/JCKT_005_B.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_0-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_0-oxide.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_0-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_0-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_0-glacier.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_0-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_0-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_0-ultraviolet.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_0-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_0-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_0-moss.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_0-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_0-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_0-chrome.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_0-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_0-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_0-acid.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_0-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_1-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_1-oxide.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_1-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_1-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_1-glacier.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_1-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_1-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_1-ultraviolet.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_1-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_1-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_1-moss.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_1-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_1-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_1-chrome.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_1-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_1-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_1-acid.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_1-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_2-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_2-oxide.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_2-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_2-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_2-glacier.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_2-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_2-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_2-ultraviolet.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_2-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_2-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_2-moss.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_2-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_2-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_2-chrome.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_2-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_2-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_2-acid.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_2-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_3-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_3-oxide.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_3-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_3-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_3-glacier.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_3-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_3-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_3-ultraviolet.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_3-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_3-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_3-moss.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_3-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_3-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_3-chrome.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_3-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_3-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_3-acid.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_3-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_4-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_4-oxide.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_4-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_4-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_4-glacier.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_4-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_4-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_4-ultraviolet.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_4-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_4-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_4-moss.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_4-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_4-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_4-chrome.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_4-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_4-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_4-acid.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_4-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_5-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_5-oxide.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_5-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_5-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_5-glacier.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_5-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_5-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_5-ultraviolet.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_5-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_5-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_5-moss.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_5-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_5-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_5-chrome.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_5-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_5-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_5-acid.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_5-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_6-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_6-oxide.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_6-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_6-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_6-glacier.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_6-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_6-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_6-ultraviolet.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_6-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_6-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_6-moss.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_6-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_6-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_6-chrome.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_6-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_6-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_6-acid.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_6-01-lined-v2.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_7-oxide": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_7-oxide.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_7-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_7-glacier": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_7-glacier.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_7-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_7-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_7-ultraviolet.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_7-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_7-moss": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_7-moss.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_7-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_7-chrome": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_7-chrome.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_7-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-JCKT_PNX_7-acid": {
+    "image": "/images/marketplace/fashion-materials/JCKT_PNX_7-acid.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-JCKT_PNX_7-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-MASK_002_FE-oxide": {
+    "image": "/images/marketplace/fashion-materials/MASK_002_FE-oxide.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-MASK_002_FE-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-MASK_002_FE-glacier": {
+    "image": "/images/marketplace/fashion-materials/MASK_002_FE-glacier.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-MASK_002_FE-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-MASK_002_FE-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/MASK_002_FE-ultraviolet.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-MASK_002_FE-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-MASK_002_FE-moss": {
+    "image": "/images/marketplace/fashion-materials/MASK_002_FE-moss.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-MASK_002_FE-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-MASK_002_FE-chrome": {
+    "image": "/images/marketplace/fashion-materials/MASK_002_FE-chrome.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-MASK_002_FE-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-MASK_002_FE-acid": {
+    "image": "/images/marketplace/fashion-materials/MASK_002_FE-acid.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-MASK_002_FE-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-MASK_002_GP-oxide": {
+    "image": "/images/marketplace/fashion-materials/MASK_002_GP-oxide.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-MASK_002_GP-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-MASK_002_GP-glacier": {
+    "image": "/images/marketplace/fashion-materials/MASK_002_GP-glacier.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-MASK_002_GP-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-MASK_002_GP-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/MASK_002_GP-ultraviolet.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-MASK_002_GP-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-MASK_002_GP-moss": {
+    "image": "/images/marketplace/fashion-materials/MASK_002_GP-moss.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-MASK_002_GP-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-MASK_002_GP-chrome": {
+    "image": "/images/marketplace/fashion-materials/MASK_002_GP-chrome.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-MASK_002_GP-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-MASK_002_GP-acid": {
+    "image": "/images/marketplace/fashion-materials/MASK_002_GP-acid.webp",
+    "sourceReference": "/images/accessories/colors/CONCEPT-MASK_002_GP-01.webp",
+    "approvedReferenceKind": "original_three_colorway",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002-oxide": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002-oxide.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002-glacier": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002-glacier.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002-ultraviolet.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002-moss": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002-moss.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002-chrome": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002-chrome.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002-acid": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002-acid.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_A-oxide": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_A-oxide.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_A.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_A-glacier": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_A-glacier.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_A.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_A-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_A-ultraviolet.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_A.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_A-moss": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_A-moss.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_A.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_A-chrome": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_A-chrome.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_A.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_A-acid": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_A-acid.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_A.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_A_F-oxide": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_A_F-oxide.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_A_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_A_F-glacier": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_A_F-glacier.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_A_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_A_F-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_A_F-ultraviolet.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_A_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_A_F-moss": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_A_F-moss.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_A_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_A_F-chrome": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_A_F-chrome.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_A_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_A_F-acid": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_A_F-acid.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_A_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_F-oxide": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_F-oxide.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_F-glacier": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_F-glacier.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_F-ultraviolet": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_F-ultraviolet.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_F-moss": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_F-moss.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_F-chrome": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_F-chrome.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  },
+  "MAT-TPWR_002_F-acid": {
+    "image": "/images/marketplace/fashion-materials/TPWR_002_F-acid.webp",
+    "sourceReference": "/images/accessories/isolated/TPWR_002_F.webp",
+    "approvedReferenceKind": "original_catalog_product_photo",
+    "evidence": "outputs/ww-fashion-materials-20261107/image-generation-manifest.json; outputs/ww-fashion-materials-20261107/final-delivery-check.json",
+    "status": "reviewed_reference_edit"
+  }
+}

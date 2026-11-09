@@ -1,0 +1,716 @@
+{
+  "statues": [
+    {
+      "id": "chalk-marble",
+      "name": "Chalk marble",
+      "swatch": "#D9D5C9",
+      "materialSpec": {
+        "family": "Fine marble",
+        "baseColor": "#D9D5C9",
+        "roughness": 0.24,
+        "metallic": 0,
+        "pattern": "marble",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "swatch": "#191B1F",
+      "materialSpec": {
+        "family": "Polished volcanic glass",
+        "baseColor": "#191B1F",
+        "roughness": 0.14,
+        "metallic": 0,
+        "pattern": "stone",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "antique-bronze",
+      "name": "Antique bronze",
+      "swatch": "#71543A",
+      "materialSpec": {
+        "family": "Patinated bronze",
+        "baseColor": "#71543A",
+        "roughness": 0.31,
+        "metallic": 0.85,
+        "pattern": "patina",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "celadon",
+      "name": "Celadon",
+      "swatch": "#6B8B78",
+      "materialSpec": {
+        "family": "Glazed ceramic",
+        "baseColor": "#6B8B78",
+        "roughness": 0.18,
+        "metallic": 0,
+        "pattern": "ceramic",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "brushed-gold",
+      "name": "Brushed gold",
+      "swatch": "#B79B62",
+      "materialSpec": {
+        "family": "Brushed brass",
+        "baseColor": "#B79B62",
+        "roughness": 0.28,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "terracotta",
+      "name": "Terracotta",
+      "swatch": "#A05D45",
+      "materialSpec": {
+        "family": "Fired clay",
+        "baseColor": "#A05D45",
+        "roughness": 0.77,
+        "metallic": 0,
+        "pattern": "stone",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "polished-chrome",
+      "name": "Polished chrome",
+      "swatch": "#BDC5CB",
+      "materialSpec": {
+        "family": "Polished chrome",
+        "baseColor": "#BDC5CB",
+        "roughness": 0.14,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "oxidized-copper",
+      "name": "Oxidized copper",
+      "swatch": "#3F776D",
+      "materialSpec": {
+        "family": "Patinated copper",
+        "baseColor": "#3F776D",
+        "roughness": 0.39,
+        "metallic": 0.65,
+        "pattern": "patina",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "travertine",
+      "name": "Travertine",
+      "swatch": "#BCAE91",
+      "materialSpec": {
+        "family": "Honed limestone",
+        "baseColor": "#BCAE91",
+        "roughness": 0.64,
+        "metallic": 0,
+        "pattern": "stone",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    }
+  ],
+  "furniture": [
+    {
+      "id": "graphite",
+      "name": "Graphite",
+      "swatch": "#252729",
+      "materialSpec": {
+        "family": "Graphite woven textile",
+        "baseColor": "#252729",
+        "roughness": 0.82,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "chalk",
+      "name": "Chalk",
+      "swatch": "#D9D2C5",
+      "materialSpec": {
+        "family": "Ivory boucle textile",
+        "baseColor": "#D9D2C5",
+        "roughness": 0.84,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "cognac",
+      "name": "Cognac",
+      "swatch": "#8A5032",
+      "materialSpec": {
+        "family": "Cognac leather",
+        "baseColor": "#8A5032",
+        "roughness": 0.44,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "moss",
+      "name": "Moss",
+      "swatch": "#566149",
+      "materialSpec": {
+        "family": "Moss wool",
+        "baseColor": "#566149",
+        "roughness": 0.88,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "oxblood",
+      "name": "Oxblood",
+      "swatch": "#512A32",
+      "materialSpec": {
+        "family": "Oxblood velvet",
+        "baseColor": "#512A32",
+        "roughness": 0.65,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "sandstone",
+      "name": "Sandstone",
+      "swatch": "#B7A98C",
+      "materialSpec": {
+        "family": "Sand woven linen",
+        "baseColor": "#B7A98C",
+        "roughness": 0.86,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "midnight",
+      "name": "Midnight",
+      "swatch": "#243542",
+      "materialSpec": {
+        "family": "Midnight twill",
+        "baseColor": "#243542",
+        "roughness": 0.73,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "silver",
+      "name": "Silver",
+      "swatch": "#A6ABB0",
+      "materialSpec": {
+        "family": "Brushed aluminum",
+        "baseColor": "#A6ABB0",
+        "roughness": 0.27,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "walnut",
+      "name": "Walnut",
+      "swatch": "#5D3E2D",
+      "materialSpec": {
+        "family": "Oiled walnut",
+        "baseColor": "#5D3E2D",
+        "roughness": 0.39,
+        "metallic": 0,
+        "pattern": "wood",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    }
+  ],
+  "rims": [
+    {
+      "id": "machined-silver",
+      "name": "Machined silver",
+      "swatch": "#C2C7CE",
+      "materialSpec": {
+        "family": "Machined aluminum",
+        "baseColor": "#C2C7CE",
+        "roughness": 0.23,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "satin-graphite",
+      "name": "Satin graphite",
+      "swatch": "#30343A",
+      "materialSpec": {
+        "family": "Graphite powder coat",
+        "baseColor": "#30343A",
+        "roughness": 0.41,
+        "metallic": 0.6,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "ceramic-white",
+      "name": "Ceramic white",
+      "swatch": "#DADDD8",
+      "materialSpec": {
+        "family": "Ceramic coating",
+        "baseColor": "#DADDD8",
+        "roughness": 0.28,
+        "metallic": 0.25,
+        "pattern": "ceramic",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "champagne",
+      "name": "Champagne",
+      "swatch": "#B2A184",
+      "materialSpec": {
+        "family": "Champagne anodized aluminum",
+        "baseColor": "#B2A184",
+        "roughness": 0.25,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "burnished-bronze",
+      "name": "Burnished bronze",
+      "swatch": "#806044",
+      "materialSpec": {
+        "family": "Bronze alloy",
+        "baseColor": "#806044",
+        "roughness": 0.32,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "swatch": "#B46E4C",
+      "materialSpec": {
+        "family": "Brushed copper",
+        "baseColor": "#B46E4C",
+        "roughness": 0.25,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "midnight-blue",
+      "name": "Midnight blue",
+      "swatch": "#253E58",
+      "materialSpec": {
+        "family": "Blue anodized aluminum",
+        "baseColor": "#253E58",
+        "roughness": 0.25,
+        "metallic": 0.85,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "signal-orange",
+      "name": "Signal orange",
+      "swatch": "#D95626",
+      "materialSpec": {
+        "family": "Orange powder coat",
+        "baseColor": "#D95626",
+        "roughness": 0.34,
+        "metallic": 0.45,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "black-chrome",
+      "name": "Black chrome",
+      "swatch": "#191D24",
+      "materialSpec": {
+        "family": "Black chrome plating",
+        "baseColor": "#191D24",
+        "roughness": 0.16,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    }
+  ],
+  "cars": [
+    {
+      "id": "glacier-pearl",
+      "name": "Glacier pearl",
+      "swatch": "#D7E1E5",
+      "materialSpec": {
+        "family": "Pearlescent paint",
+        "baseColor": "#D7E1E5",
+        "roughness": 0.18,
+        "metallic": 0.55,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "liquid-silver",
+      "name": "Liquid silver",
+      "swatch": "#A7ADB4",
+      "materialSpec": {
+        "family": "Metallic silver paint",
+        "baseColor": "#A7ADB4",
+        "roughness": 0.2,
+        "metallic": 0.75,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "graphite-satin",
+      "name": "Graphite satin",
+      "swatch": "#282D33",
+      "materialSpec": {
+        "family": "Satin paint",
+        "baseColor": "#282D33",
+        "roughness": 0.38,
+        "metallic": 0.4,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "solar-orange",
+      "name": "Solar orange",
+      "swatch": "#D95626",
+      "materialSpec": {
+        "family": "Orange metallic paint",
+        "baseColor": "#D95626",
+        "roughness": 0.2,
+        "metallic": 0.5,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "oxblood",
+      "name": "Oxblood",
+      "swatch": "#531F2C",
+      "materialSpec": {
+        "family": "Deep red clearcoat",
+        "baseColor": "#531F2C",
+        "roughness": 0.17,
+        "metallic": 0.45,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "electric-cobalt",
+      "name": "Electric cobalt",
+      "swatch": "#214D8A",
+      "materialSpec": {
+        "family": "Cobalt metallic paint",
+        "baseColor": "#214D8A",
+        "roughness": 0.18,
+        "metallic": 0.65,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "sea-glass",
+      "name": "Sea glass",
+      "swatch": "#63958A",
+      "materialSpec": {
+        "family": "Sea glass pearl paint",
+        "baseColor": "#63958A",
+        "roughness": 0.22,
+        "metallic": 0.45,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "sandstorm",
+      "name": "Sandstorm",
+      "swatch": "#B3A489",
+      "materialSpec": {
+        "family": "Satin sand paint",
+        "baseColor": "#B3A489",
+        "roughness": 0.37,
+        "metallic": 0.25,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "plum-noir",
+      "name": "Plum noir",
+      "swatch": "#3F304D",
+      "materialSpec": {
+        "family": "Violet metallic paint",
+        "baseColor": "#3F304D",
+        "roughness": 0.19,
+        "metallic": 0.6,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    }
+  ],
+  "totems": [
+    {
+      "id": "sterling",
+      "name": "Sterling",
+      "swatch": "#CCD0D2",
+      "materialSpec": {
+        "family": "Polished sterling silver",
+        "baseColor": "#CCD0D2",
+        "roughness": 0.17,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "yellow-gold",
+      "name": "Yellow gold",
+      "swatch": "#C6A15C",
+      "materialSpec": {
+        "family": "Yellow gold",
+        "baseColor": "#C6A15C",
+        "roughness": 0.2,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "rose-gold",
+      "name": "Rose gold",
+      "swatch": "#BE8B77",
+      "materialSpec": {
+        "family": "Rose gold",
+        "baseColor": "#BE8B77",
+        "roughness": 0.2,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "black-rhodium",
+      "name": "Black rhodium",
+      "swatch": "#292C32",
+      "materialSpec": {
+        "family": "Black rhodium",
+        "baseColor": "#292C32",
+        "roughness": 0.18,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "platinum",
+      "name": "Platinum",
+      "swatch": "#C3C7C4",
+      "materialSpec": {
+        "family": "Brushed platinum",
+        "baseColor": "#C3C7C4",
+        "roughness": 0.3,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "titanium",
+      "name": "Titanium",
+      "swatch": "#777D85",
+      "materialSpec": {
+        "family": "Satin titanium",
+        "baseColor": "#777D85",
+        "roughness": 0.35,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "swatch": "#B57957",
+      "materialSpec": {
+        "family": "Oxide brushed copper",
+        "baseColor": "#B57957",
+        "roughness": 0.33,
+        "metallic": 1,
+        "pattern": "patina",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "ceramic-white",
+      "name": "Ceramic white",
+      "swatch": "#DDDCD6",
+      "materialSpec": {
+        "family": "White ceramic",
+        "baseColor": "#DDDCD6",
+        "roughness": 0.22,
+        "metallic": 0,
+        "pattern": "ceramic",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "cobalt",
+      "name": "Cobalt",
+      "swatch": "#284F75",
+      "materialSpec": {
+        "family": "Cobalt anodized metal",
+        "baseColor": "#284F75",
+        "roughness": 0.23,
+        "metallic": 1,
+        "pattern": "brushed",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    }
+  ],
+  "clothing": [
+    {
+      "id": "carbon",
+      "name": "Carbon",
+      "swatch": "#25272B",
+      "materialSpec": {
+        "family": "Matte technical weave",
+        "baseColor": "#25272B",
+        "roughness": 0.78,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "bone",
+      "name": "Bone",
+      "swatch": "#D9D2C3",
+      "materialSpec": {
+        "family": "Soft woven textile",
+        "baseColor": "#D9D2C3",
+        "roughness": 0.85,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "storm",
+      "name": "Storm",
+      "swatch": "#49535C",
+      "materialSpec": {
+        "family": "Technical twill",
+        "baseColor": "#49535C",
+        "roughness": 0.72,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "oxide",
+      "name": "Oxide",
+      "swatch": "#A34F36",
+      "materialSpec": {
+        "family": "Waxed technical weave",
+        "baseColor": "#A34F36",
+        "roughness": 0.5,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "glacier",
+      "name": "Glacier",
+      "swatch": "#90AFBC",
+      "materialSpec": {
+        "family": "Satin technical weave",
+        "baseColor": "#90AFBC",
+        "roughness": 0.42,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "ultraviolet",
+      "name": "Ultraviolet",
+      "swatch": "#62537D",
+      "materialSpec": {
+        "family": "Textured jacquard",
+        "baseColor": "#62537D",
+        "roughness": 0.65,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "moss",
+      "name": "Moss",
+      "swatch": "#526147",
+      "materialSpec": {
+        "family": "Woven ripstop",
+        "baseColor": "#526147",
+        "roughness": 0.8,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "chrome",
+      "name": "Chrome",
+      "swatch": "#ADB4BB",
+      "materialSpec": {
+        "family": "Reflective textile",
+        "baseColor": "#ADB4BB",
+        "roughness": 0.28,
+        "metallic": 0.55,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    },
+    {
+      "id": "acid",
+      "name": "Acid",
+      "swatch": "#BAC762",
+      "materialSpec": {
+        "family": "Coated technical weave",
+        "baseColor": "#BAC762",
+        "roughness": 0.45,
+        "metallic": 0,
+        "pattern": "micrograin",
+        "textureBasis": "Procedural material concept; not an authored game texture"
+      }
+    }
+  ]
+}
